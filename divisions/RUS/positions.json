@@ -1,0 +1,8 @@
+{
+  "$schema": "../../schema/positions.json",
+  "NWC": {
+    "callsign": "North Western Russia Control", 
+    "type": "FSS",
+    "prefix": "RU-NWC"
+  }
+}

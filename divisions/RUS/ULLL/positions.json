@@ -1,0 +1,72 @@
+{
+  "$schema": "../../../schema/positions.json",
+  "ULLL": {
+    "name": "Sankt-Peterburg ACC - Peterburg",
+    "callsign": "Peterburg Control",
+    "type": "CTR",
+    "prefix": "ULLL"
+  },
+  "ULLL-R": {
+    "name": "Sankt-Peterburg ACC, sector Peterburg - Peterburg",
+    "callsign": "Peterburg Control",
+    "type": "CTR",
+    "prefix": "ULLL_R"
+  },
+  "ULLL-R1": {
+    "name": "Sankt-Peterburg ACC, sector R1",
+    "callsign": "Peterburg Control",
+    "type": "CTR",
+    "prefix": "ULLL_R1"
+  },
+  "ULLL-R2": {
+    "name": "Sankt-Peterburg ACC, sector R2",
+    "callsign": "Peterburg Control",
+    "type": "CTR",
+    "prefix": "ULLL_R2"
+  },
+  "ULLL-R3": {
+    "name": "Sankt-Peterburg ACC, sector R3",
+    "callsign": "Peterburg Control",
+    "type": "CTR",
+    "prefix": "ULLL_R3"
+  },
+  "ULLL-R4": {
+    "name": "Sankt-Peterburg ACC, sector R4",
+    "callsign": "Peterburg Control",
+    "type": "CTR",
+    "prefix": "ULLL_R4"
+  },
+  "ULLL-R5": {
+    "name": "Sankt-Peterburg ACC, sector R5",
+    "callsign": "Peterburg Control",
+    "type": "CTR",
+    "prefix": "ULLL_R5"
+  },
+  "ULLL-R6": {
+    "name": "Sankt-Peterburg ACC, sector R6",
+    "callsign": "Peterburg Control",
+    "type": "CTR",
+    "prefix": "ULLL_R6"
+  },
+  "ULLL-APP": {
+    "name": "Peterburg",
+    "type": "APP",
+    "prefix": "ULLL"
+  },
+  "ULLI-APP": {
+    "callsign": "Pulkovo Radar",
+    "type": "APP",
+    "prefix": "ULLI_R"
+  },
+  "ULLL-SW": {
+    "name": "Sankt-Peterburg ACC, sector SW (R3+R4) South-West - Peterburg",
+    "callsign": "Peterburg Control",
+    "type": "CTR",
+    "prefix": "ULLL_SW"
+  },
+  "UMKK": {
+    "name": "Kaliningrad",
+    "type": "CTR",
+    "prefix": "UMKK"
+  }
+}

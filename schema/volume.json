@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "coordinate": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "prefixItems": [
+        {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        }
+      ]
+    },
+    "linearRing": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "$ref": "#/$defs/coordinate"
+      }
+    }
+  },
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string",
+      "enum": [
+        "Feature"
+      ]
+    },
+    "id": {
+      "description": "Identifier for the volume. Must be unique for current FIR",
+      "examples": [
+        "EDYYHL2_315_355"
+      ],
+      "type": "string"
+    },
+    "properties": {
+      "type": "object",
+      "properties": {
+        "floor": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 999,
+          "description": "FL of lower vertical border (inclusive). Set to 000 to have no lower level"
+        },
+        "ceiling": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 999,
+          "description": "FL of upper vertical border (exclusive). Set to 999 to have no upper level. With upper_level set to 999 and lower_level set to 000, enables this volume for legacy layer"
+        }
+      },
+      "required": [
+        "floor",
+        "ceiling"
+      ]
+    },
+    "geometry": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "MultiPolygon"
+            },
+            "coordinates": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "$ref": "#/$defs/linearRing"
+                }
+              }
+            }
+          },
+          "required": [
+            "type",
+            "coordinates"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "Polygon"
+            },
+            "coordinates": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/linearRing"
+              }
+            }
+          },
+          "required": [
+            "type",
+            "coordinates"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "type",
+    "properties",
+    "id",
+    "geometry"
+  ]
+}

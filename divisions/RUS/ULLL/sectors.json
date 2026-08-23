@@ -1,0 +1,70 @@
+{
+  "$schema": "../../../schema/sectors.json",
+  "R1": {
+    "volumes": [
+      "R1"
+    ],
+    "positions": [
+      "R1"
+    ]
+  },
+  "R2": {
+    "volumes": [
+      "R1"
+    ],
+    "positions": [
+      "R1"
+    ]
+  },
+  "R3": {
+    "volumes": [
+      "R1"
+    ],
+    "positions": [
+      "R1"
+    ]
+  },
+  "R4": {
+    "volumes": [
+      "R1"
+    ],
+    "positions": [
+      "R1"
+    ]
+  },
+  "R5": {
+    "volumes": [
+      "R1"
+    ],
+    "positions": [
+      "R1"
+    ]
+  },
+  "R6": {
+    "volumes": [
+      "R1"
+    ],
+    "positions": [
+      "R1"
+    ]
+  },
+  "ULLL-APP": {
+    "volumes": [
+      "ULLL-APP"
+    ],
+    "positions": [
+      "ULLL-APP",
+      "R4"
+    ]
+  },
+  "ULLI-APP": {
+    "volumes": [
+      "ULLI-APP"
+    ],
+    "positions": [
+      "ULLI-APP",
+      "ULLL-APP",
+      "R4"
+    ]
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "positionReference": {
+      "type": "object",
+      "properties": {
+        "fir": {
+          "type": "string",
+          "description": "Will lookup position from some other FIR"
+        },
+        "id": {
+          "type": "string",
+          "description": "Position ID. Defaults to current FIR"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  },
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "Airport name"
+      },
+      "iata": {
+        "type": "string",
+        "description": "IATA code"
+      },
+      "faaLid": {
+        "type": "string",
+        "description": "FAA LID"
+      },
+      "city": {
+        "type": "string"
+      },
+      "coordinate": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+          "type": "number"
+        }
+      },
+      "prefixes": {
+        "description": "Globally unique airport prefixes if different from ICAO code",
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "string"
+        }
+      },
+      "positions": {
+        "type": "array",
+        "description": "List of owning positions in descending order (first has the most priority to control this sector)",
+        "minItems": 1,
+          "items": {
+            "oneOf": [
+            {
+              "$ref": "#/$defs/positionReference"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "icao": {
+                  "type": "string",
+                  "description": "Will get positions order from another airport in case nothing before this entry matched positions order"
+                }
+              },
+              "required": [
+                "icao"
+              ]
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "callsigns": {
+        "type": "array",
+        "description": "Callsigns definitions for all matching positions in this airport, if different from division definition",
+        "items": {
+          "type": "object",
+          "properties": {
+            "prefixes": {
+              "type": "array",
+              "examples": [
+                "UL",
+                "UU"
+              ],
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            },
+            "suffixes": {
+              "type": "array",
+              "examples": [
+                "CTR",
+                "GND"
+              ],
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            },
+            "callsign": {
+              "type": "string",
+              "examples": [
+                "Radar",
+                "Apron"
+              ]
+            }
+          },
+          "required": [
+            "callsign",
+            "suffixes"
+          ]
+        }
+      },
+      "elevationFt": {
+        "type": "number"
+      },
+      "briefing": {
+        "type": "string",
+        "description": "Airport briefing link"
+      },
+      "ctaf": {
+        "type": "string",
+        "description": "Airport CTAF frequency"
+      },
+      "runways": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "similar": {
+                  "type": "string",
+                  "description": "Similar runway. 10L equals to 28R for example"
+                },
+                "course": {
+                  "type": "number"
+                },
+                "widthMeters": {
+                  "type": "number"
+                },
+                "lengthMeters": {
+                  "type": "number"
+                },
+                "approach": {
+                  "type": "string",
+                  "description": "Best approach available",
+                  "enum": [
+                    "VISUAL",
+                    "NDB",
+                    "VOR",
+                    "LOC",
+                    "LNAV",
+                    "LNAV_VNAV",
+                    "LPV",
+                    "RNP",
+                    "GLS",
+                    "ILS_CAT_I",
+                    "ILS_CAT_II",
+                    "ILS_CAT_IIIA",
+                    "ILS_CAT_IIIB",
+                    "ILS_CAT_IIIC"
+                  ]
+                },
+                "approachFrequency": {
+                  "type": "number",
+                  "description": "Approach frequency if present",
+                  "examples": [110500000]
+                }
+              },
+              "required": [
+                "name"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "required": [
+      "name",
+      "coordinate"
+    ]
+  }
+}

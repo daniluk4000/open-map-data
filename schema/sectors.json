@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "positionReference": {
+      "type": "object",
+      "properties": {
+        "fir": {
+          "type": "string",
+          "description": "Will lookup position from some other FIR"
+        },
+        "id": {
+          "type": "string",
+          "description": "Position ID. Defaults to current FIR"
+        }
+      },
+      "required": ["id"]
+    },
+    "timeConfigBoundary": {
+      "type": "object",
+      "properties": {
+        "dateIndex": {
+          "type": "integer",
+          "maximum": 7,
+          "minimum": 1,
+          "default": "All days of week",
+          "description": "Day of week starting from Monday"
+        },
+        "hour": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 23,
+          "description": "Hours in zulu with 24h time format"
+        },
+        "minute": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 59,
+          "description": "Minutes in zulu",
+          "default": 0
+        }
+      },
+      "required": ["hour"]
+    }
+  },
+  "type": "object",
+  "properties": {
+    "$schema": { "type": "string" }
+  },
+  "additionalProperties": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Optional - sector name"
+        },
+        "volumes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "positions": {
+          "type": "array",
+          "description": "List of owning positions in descending order (first has the most priority to control this sector)",
+          "minItems": 1,
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/$defs/positionReference"
+              },
+              {
+                "type": "string"
+              }
+            ]
+          }
+        },
+        "runwayConfig": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "description": "When no runway specified, this sector will only show if no runway is selected in this airport. If no such default sector is present, runway will be selected automatically (or sector not shown at all)",
+            "properties": {
+              "airport": {
+                "type": "string"
+              },
+              "runway": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "airport"
+            ]
+          }
+        },
+        "timeConfig": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "start": {
+                "$ref": "#/$defs/timeConfigBoundary"
+              },
+              "end": {
+                "$ref": "#/$defs/timeConfigBoundary"
+              }
+            },
+            "required": ["start", "end"]
+          }
+        },
+        "label": {
+          "type": "string",
+          "description": "Optional label, displayed on map. Defaults to sector ID"
+        },
+        "oceanic": {
+          "type": "boolean"
+        },
+        "labelCoordinate": {
+          "type": "array",
+          "description": "Optional label coordinate. Defaults to sector center",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": {
+            "type": "number"
+          }
+        }
+      },
+      "required": [
+        "volumes",
+        "positions"
+      ]
+    }
+  }

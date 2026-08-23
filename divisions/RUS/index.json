@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema/divisions.json",
+  "code": "RUS",
+  "name": "Russia",
+  "region": "EMEA"
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": {
+    "type": "object",
+    "properties": {
+      "owners": {
+        "type": "array",
+        "description": "List of owning positions in descending order (first has the most priority to control this group)",
+        "minItems": 1,
+        "items": {
+          "oneOf": [
+            {
+              "type": "object",
+              "properties": {
+                "fir": {
+                  "type": "string",
+                  "description": "Will lookup position from some other FIR"
+                },
+                "id": {
+                  "type": "string",
+                  "description": "Position ID. Defaults to current FIR or global division positions"
+                }
+              },
+              "required": ["id"]
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "positions": {
+        "type": "array",
+        "description": "Positions in current FIR that are owned by this group. Group is always on the last priority for each sector in specified positions. No position can have more than 2 groups",
+        "minItems": 1,
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": ["owners", "positions"]
+  }
+}

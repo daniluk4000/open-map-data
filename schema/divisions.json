@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "Division code. For example, EUD"
+    },
+    "name": {
+      "type": "string",
+      "description": "Division name. For example, Europe (except UK)"
+    },
+    "region": {
+      "type": "string",
+      "description": "Division region. For example, EMEA"
+    },
+    "briefing": {
+      "type": "string",
+      "description": "Division briefing link"
+    },
+    "subdivisions": {
+      "type": "object",
+      "description": "Subdivisions definitions. Filling this will enforce subdivisions folder structure, with each folder named as specific subdivision code",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Subdivision name. For example, Germany"
+          },
+          "briefing": {
+            "type": "string",
+            "description": "Subdivision briefing link"
+          }
+        },
+        "required": [
+          "name"
+        ]
+      }
+    },
+    "countries": {
+      "type": "array",
+      "description": "Countries prefixes definitions for airports in this division",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "prefixes": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "name",
+          "prefixes"
+        ]
+      }
+    },
+    "callsigns": {
+      "type": "array",
+      "description": "Callsigns definitions for all matching positions in this division",
+      "items": {
+        "type": "object",
+        "properties": {
+          "prefixes": {
+            "type": "array",
+            "examples": [
+              "UL",
+              "UU"
+            ],
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "suffixes": {
+            "type": "array",
+            "examples": [
+              "CTR",
+              "GND"
+            ],
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "callsign": {
+            "type": "string",
+            "examples": [
+              "Radar",
+              "Apron",
+              "Control"
+            ]
+          }
+        },
+        "required": [
+          "callsign"
+        ],
+        "anyOf": [
+          {
+            "required": [
+              "prefixes"
+            ]
+          },
+          {
+            "required": [
+              "suffixes"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "required": [
+    "code",
+    "name",
+    "region"
+  ]
+}

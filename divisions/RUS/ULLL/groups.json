@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../schema/groups.json",
+  "ULLL-FS": {
+    "owners": [
+      "NWC"
+    ],
+    "positions": [
+      "ULLL"
+    ]
+  },
+  "ULLL": {
+    "owners": [
+      "ULLL"
+    ],
+    "positions": [
+      "ULLL-R"
+    ]
+  },
+  "ULLL-R": {
+    "owners": [
+      "ULLL-R"
+    ],
+    "positions": [
+      "ULLL-SW",
+      "ULLL-R1",
+      "ULLL-R2",
+      "ULLL-R3",
+      "ULLL-R4",
+      "ULLL-R5",
+      "ULLL-R6"
+    ]
+  },
+  "ULLL-SW": {
+    "owners": [
+      "ULLL-SW"
+    ],
+    "positions": [
+      "ULLL-R3",
+      "ULLL-R4"
+    ]
+  }
+}

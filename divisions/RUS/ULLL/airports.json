@@ -1,0 +1,45 @@
+{
+  "$schema": "../../../schema/airports.json",
+  "ULLI": {
+    "name": "Pulkovo",
+    "iata": "LED",
+    "city": "St. Petersburg",
+    "coordinate": [59.8, 30.265],
+    "elevationFt": 79,
+    "briefing": "https://vatsim-petersburg.com",
+    "runways": [
+      {
+        "name": "10L",
+        "course": 95,
+        "widthMeters": 60,
+        "lengthMeters": 3397,
+        "similar": "28R",
+        "approach": "ILS_CAT_IIIA",
+        "approachFrequency": 110500000
+      },
+      {
+        "name": "28R",
+        "course": 275,
+        "similar": "10L",
+        "approach": "ILS_CAT_IIIA",
+        "approachFrequency": 111300000
+      },
+      {
+        "name": "10R",
+        "course": 95,
+        "widthMeters": 60,
+        "lengthMeters": 3780,
+        "similar": "28L",
+        "approach": "ILS_CAT_II",
+        "approachFrequency": 111900000
+      },
+      {
+        "name": "28L",
+        "course": 275,
+        "similar": "10R",
+        "approach": "ILS_CAT_I",
+        "approachFrequency": 108900000
+      }
+    ]
+  }
+}
