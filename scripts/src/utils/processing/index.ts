@@ -48,7 +48,6 @@ export function processPositions(positions: Positions, context: CompileContext) 
             ...position,
             positions: [],
             _positions: [],
-            owns: [],
             division: context.currentDivision,
             subdivision: context.currentSubdivision ?? undefined,
             fir: context.currentFir ?? undefined,

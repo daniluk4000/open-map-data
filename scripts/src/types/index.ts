@@ -120,7 +120,6 @@ export interface PositionDefinition {
 export interface PositionDefinitionCompiled extends Omit<PositionDefinition, 'positions'> {
     positions?: PositionReference[]
     _positions?: PositionReference[]
-    owns: string[];
     division: string;
     subdivision?: string;
     fir?: string;

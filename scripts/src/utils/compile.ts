@@ -3,7 +3,6 @@ import {existsSync, readdirSync, readFileSync, writeFileSync} from "node:fs";
 import type {
     AirportCompiled,
     Division,
-    PositionDefinition,
     PositionDefinitionCompiled, PositionReference,
     SectorCompiled,
     Volume
