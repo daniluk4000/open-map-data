@@ -4,7 +4,7 @@
   "features": [
     {
       "type": "Feature",
-      "id": "ULLL-R1",
+      "id": "R1",
       "properties": {
         "floor": 0,
         "ceiling": 999
@@ -73,7 +73,7 @@
     },
     {
       "type": "Feature",
-      "id": "ULLL-R2",
+      "id": "R2",
       "properties": {
         "floor": 0,
         "ceiling": 999
@@ -150,7 +150,7 @@
     },
     {
       "type": "Feature",
-      "id": "ULLL-R3",
+      "id": "R3",
       "properties": {
         "floor": 0,
         "ceiling": 999
@@ -431,7 +431,7 @@
     },
     {
       "type": "Feature",
-      "id": "ULLL-R4",
+      "id": "R4",
       "properties": {
         "floor": 0,
         "ceiling": 999
@@ -640,7 +640,7 @@
     },
     {
       "type": "Feature",
-      "id": "ULLL-R5",
+      "id": "R5",
       "properties": {
         "floor": 0,
         "ceiling": 999
@@ -945,7 +945,7 @@
     },
     {
       "type": "Feature",
-      "id": "ULLL-R6",
+      "id": "R6",
       "properties": {
         "floor": 0,
         "ceiling": 999

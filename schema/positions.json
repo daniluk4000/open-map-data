@@ -50,6 +50,21 @@
         "frequency": {
           "type": "number",
           "description": "Position primary frequency. When unspecified, any frequency will be valid for this position"
+        },
+        "positions": {
+          "type": "array",
+          "description": "List of positions that own all sectors this position has. Useful for giving access to this sector to a larger position",
+          "minItems": 1,
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "./common/position-reference.json"
+              },
+              {
+                "type": "string"
+              }
+            ]
+          }
         }
       },
       "required": [

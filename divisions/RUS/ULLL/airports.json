@@ -40,6 +40,7 @@
         "approach": "ILS_CAT_I",
         "approachFrequency": 108900000
       }
-    ]
+    ],
+    "positions": ["ULLI-APP"]
   }
 }

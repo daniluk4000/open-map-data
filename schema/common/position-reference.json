@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "common/position-reference.json",
+  "type": "object",
+  "properties": {
+    "fir": {
+      "type": "string",
+      "description": "Will lookup position from some other FIR"
+    },
+    "id": {
+      "type": "string",
+      "description": "Position ID. Defaults to current FIR"
+    }
+  },
+  "required": [
+    "id"
+  ]
+}

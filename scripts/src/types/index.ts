@@ -66,8 +66,12 @@ export interface Airport {
 }
 
 export interface AirportCompiled extends Omit<Airport, 'runways' | 'positions'> {
-    runways: RunwayDefinition[];
+    runways?: RunwayDefinition[];
     positions?: PositionReference[];
+
+    division: string;
+    subdivision?: string;
+    fir: string;
 
     /**
      * @description Positions before they got normalized
@@ -77,6 +81,7 @@ export interface AirportCompiled extends Omit<Airport, 'runways' | 'positions'> 
 
 export interface Airports {
     $schema?: string;
+
     [icao: string]: Airport | string | undefined;
 }
 
@@ -106,31 +111,25 @@ export interface PositionDefinition {
     prefix: string | string[];
     name?: string;
     callsign?: string;
+    positions?: Array<string | PositionReference>;
     label?: string;
     labelCoordinate?: Position;
     frequency?: number;
 }
 
-export interface PositionDefinitionCompiled extends PositionDefinition {
-    ownedBy?: string;
-    owns?: string[];
+export interface PositionDefinitionCompiled extends Omit<PositionDefinition, 'positions'> {
+    positions?: PositionReference[]
+    _positions?: PositionReference[]
+    owns: string[];
     division: string;
     subdivision?: string;
+    fir?: string;
 }
 
 export interface Positions {
     $schema?: string;
+
     [id: string]: PositionDefinition | string | undefined;
-}
-
-export interface Group {
-    owners: Array<string | PositionReference>;
-    positions: string[];
-}
-
-export interface Groups {
-    $schema?: string;
-    [id: string]: Group | string | undefined;
 }
 
 export interface RunwayConfiguration {
@@ -163,6 +162,10 @@ export interface Sector {
 export interface SectorCompiled extends Omit<Sector, 'positions'> {
     positions: PositionReference[];
 
+    division: string;
+    subdivision?: string;
+    fir: string;
+
     /**
      * @description Positions before extended with proper positions tree
      */
@@ -171,6 +174,7 @@ export interface SectorCompiled extends Omit<Sector, 'positions'> {
 
 export interface Sectors {
     $schema?: string;
+
     [id: string]: Sector | string | undefined;
 }
 
