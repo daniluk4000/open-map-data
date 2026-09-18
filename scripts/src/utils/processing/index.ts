@@ -13,10 +13,16 @@ import type {
     Volumes
 } from "../../types/index.ts";
 
-export function getId(id: string, context: CompileContext) {
-    if (context.currentFir) return `${context.currentFir}-${id}`
+export function getId(
+    id: string,
+    type: 'position' | 'sector' | 'volume',
+    context: CompileContext,
+    currentFir = context.currentFir,
+) {
+    if (currentFir) return `${type}:${context.currentDivision}/${currentFir}/${id}`
+    if (context.currentDivision) return `${type}:${context.currentDivision}/${id}`
 
-    return id
+    return `${type}:id`
 }
 
 export function getPosition(
@@ -26,12 +32,27 @@ export function getPosition(
 ): PositionDefinitionCompiled | undefined {
     if (typeof position === 'string') position = {id: position}
 
-    if (position.fir) {
-        return context.positions[`${position.fir}-${position.id}`]
+    const positionId = getPositionId(position, context, currentFir)
+    return positionId ? context.positions[positionId] : undefined
+}
+
+function getPositionId(
+    position: PositionReference,
+    context: CompileContext,
+    currentFir: string | null,
+): string | undefined {
+    if (context.positions[position.id]) return position.id
+
+    const positionId = getId(position.id, 'position', context, position.fir ?? currentFir)
+    if (context.positions[positionId]) return positionId
+
+    // A FIR-local reference may fall back to a division-level position.
+    if (!position.fir && currentFir) {
+        const divisionPositionId = getId(position.id, 'position', context, null)
+        if (context.positions[divisionPositionId]) return divisionPositionId
     }
 
-    return (currentFir ? context.positions[`${currentFir}-${position.id}`] : undefined)
-        ?? context.positions[position.id]
+    return undefined
 }
 
 export function processPositions(positions: Positions, context: CompileContext) {
@@ -40,29 +61,23 @@ export function processPositions(positions: Positions, context: CompileContext) 
 
         const position = positions[id] as PositionDefinition;
 
-        const positionId = getId(id, context);
+        const positionId = getId(id, 'position', context);
 
         if (context.positions[positionId]) throw new Error(`Duplicate position ${id} (${positionId})`);
 
         context.positions[positionId] = {
             ...position,
-            positions: [],
-            _positions: [],
             division: context.currentDivision,
             subdivision: context.currentSubdivision ?? undefined,
             fir: context.currentFir ?? undefined,
+            parent: typeof position.parent === 'string' ? {id: position.parent} : position.parent,
+            resolvedParent: [],
         }
 
-        for (let subPosition of position?.positions ?? []) {
-            if (typeof subPosition === 'string') subPosition = {id: subPosition}
-
-            context.positions[positionId].positions!.push(subPosition)
-            context.positions[positionId]._positions!.push(subPosition)
-            context.leftovers.push({
-                position: context.positions[positionId],
-                leftoverPosition: subPosition,
-            })
-        }
+        if (context.positions[positionId].parent) context.leftovers.push({
+            position: context.positions[positionId],
+            leftoverPosition: context.positions[positionId].parent
+        })
     }
 }
 
@@ -93,7 +108,7 @@ export function processAirports(airports: Airports, context: CompileContext) {
             fir: context.currentFir!,
             runways: airport.runways?.map(x => typeof x === 'string' ? {name: x} : x),
             positions: [],
-            _positions: [],
+            resolvedPositions: [],
         }
 
         for (let subPosition of airport?.positions ?? []) {
@@ -104,14 +119,14 @@ export function processAirports(airports: Airports, context: CompileContext) {
                     leftoverAirport: subPosition.icao
                 })
 
-                context.airports[icao].positions!.push({id: subPosition.icao, fir: 'airport'})
-                context.airports[icao]._positions!.push(subPosition)
+                context.airports[icao].resolvedPositions!.push({id: subPosition.icao, fir: 'airport'})
+                context.airports[icao].positions!.push(subPosition)
 
                 continue
             }
 
+            context.airports[icao].resolvedPositions!.push(subPosition)
             context.airports[icao].positions!.push(subPosition)
-            context.airports[icao]._positions!.push(subPosition)
 
             context.leftovers.push({
                 airport: context.airports[icao],
@@ -126,7 +141,7 @@ export function processSectors(sectors: Sectors, context: CompileContext) {
         if (id === '$schema') continue
         const sector = sectors[id] as Sector;
 
-        const sectorId = getId(id, context);
+        const sectorId = getId(id, 'sector', context);
 
         if (context.sectors[sectorId]) throw new Error(`Duplicate sector ${id} (${sectorId})`);
 
@@ -137,16 +152,16 @@ export function processSectors(sectors: Sectors, context: CompileContext) {
             subdivision: context.currentSubdivision ?? undefined,
             fir: context.currentFir!,
 
-            volumes: sector.volumes.map(x => getId(x, context)),
+            volumes: sector.volumes.map(x => getId(x, 'volume', context)),
             positions: [],
-            _positions: [],
+            resolvedPositions: [],
         }
 
         for (let subPosition of sector?.positions ?? []) {
             if (typeof subPosition === 'string') subPosition = {id: subPosition}
 
+            context.sectors[sectorId].resolvedPositions!.push(subPosition)
             context.sectors[sectorId].positions!.push(subPosition)
-            context.sectors[sectorId]._positions!.push(subPosition)
             context.leftovers.push({
                 sector: context.sectors[sectorId],
                 leftoverPosition: subPosition,
@@ -157,7 +172,7 @@ export function processSectors(sectors: Sectors, context: CompileContext) {
 
 export function processVolumes(volumes: Volumes, context: CompileContext) {
     for (const volume of volumes.features) {
-        const volumeId = getId(volume.id, context);
+        const volumeId = getId(volume.id, 'volume', context);
 
         if (context.volumes[volumeId]) throw new Error(`Duplicate volume ${volume.id} (${volumeId})`);
 
@@ -202,15 +217,17 @@ function findReferencesRecursive(
     if (visited.positions.has(foundPosition)) return []
 
     visited.positions.add(foundPosition)
+    const normalizedPosition = {
+        ...position,
+        id: getPositionId(position, context, currentFir)!,
+    }
 
-    if (foundPosition.positions?.length) {
+    if (foundPosition.parent) {
         return [
-            position,
-            ...foundPosition.positions.flatMap(additionalPosition =>
-                findReferencesRecursive(additionalPosition, context, visited, foundPosition.fir ?? null)
-            ),
+            normalizedPosition,
+            ...findReferencesRecursive(foundPosition.parent, context, visited, foundPosition.fir ?? null),
         ];
-    } else return [position];
+    } else return [normalizedPosition];
 }
 
 export function processLeftovers(context: CompileContext) {
@@ -243,9 +260,28 @@ export function processLeftovers(context: CompileContext) {
 
             // A position must never appear in its own expanded fallback list.
             if ('position' in leftover) visited.positions.add(leftover.position)
+            if (!('positions' in owner)) {
+                const position = owner as PositionDefinitionCompiled
+                if (!position.parent) continue
 
-            const originalPositions = owner._positions ?? owner.positions ?? [];
-            owner.positions = originalPositions.flatMap(position =>
+                if (!('icao' in position.parent)) {
+                    position.parent.id = getPositionId(position.parent, context, context.currentFir)!
+                    position.resolvedParent = findReferencesRecursive(position.parent, context, visited)
+                }
+
+                continue
+            }
+
+            const originalPositions = owner.positions ?? [];
+            owner.positions = originalPositions.map(position => {
+                if ('icao' in position) return position
+
+                return {
+                    ...position,
+                    id: getPositionId(position, context, context.currentFir)!,
+                }
+            });
+            owner.resolvedPositions = originalPositions.flatMap(position =>
                 findReferencesRecursive(position, context, visited)
             );
         }

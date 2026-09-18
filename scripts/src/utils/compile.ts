@@ -93,13 +93,18 @@ export function compileAllSet(settings: CompileSettings = {}) {
         airports: {},
         sectors: {},
         volumes: {},
-        leftovers: []
+        leftovers: [],
     }
 
+    settings.validate ??= true
     const {validate} = settings
+    context.validate = validate;
 
     for (const divisionCode of readdirSync(divisionsFolder)) {
         const division = checkSchema('divisions', JSON.parse(readFileSync(join(divisionsFolder, divisionCode, 'index.json'), 'utf-8')), validate);
+
+        delete division.$schema;
+        context.divisions[divisionCode] = division;
 
         divisions[division.code] = division
 

@@ -67,16 +67,13 @@ export interface Airport {
 
 export interface AirportCompiled extends Omit<Airport, 'runways' | 'positions'> {
     runways?: RunwayDefinition[];
-    positions?: PositionReference[];
+    resolvedPositions?: PositionReference[];
 
     division: string;
     subdivision?: string;
     fir: string;
 
-    /**
-     * @description Positions before they got normalized
-     */
-    _positions?: Array<PositionReference | { icao: string }>;
+    positions?: Array<PositionReference | { icao: string }>;
 }
 
 export interface Airports {
@@ -111,15 +108,15 @@ export interface PositionDefinition {
     prefix: string | string[];
     name?: string;
     callsign?: string;
-    positions?: Array<string | PositionReference>;
+    parent?: string;
     label?: string;
     labelCoordinate?: Position;
     frequency?: number;
 }
 
-export interface PositionDefinitionCompiled extends Omit<PositionDefinition, 'positions'> {
-    positions?: PositionReference[]
-    _positions?: PositionReference[]
+export interface PositionDefinitionCompiled extends Omit<PositionDefinition, 'parent'> {
+    parent?: PositionReference;
+    resolvedParent?: PositionReference[];
     division: string;
     subdivision?: string;
     fir?: string;
@@ -159,7 +156,7 @@ export interface Sector {
 }
 
 export interface SectorCompiled extends Omit<Sector, 'positions'> {
-    positions: PositionReference[];
+    resolvedPositions: PositionReference[];
 
     division: string;
     subdivision?: string;
@@ -168,7 +165,7 @@ export interface SectorCompiled extends Omit<Sector, 'positions'> {
     /**
      * @description Positions before extended with proper positions tree
      */
-    _positions: PositionReference[];
+    positions: PositionReference[];
 }
 
 export interface Sectors {

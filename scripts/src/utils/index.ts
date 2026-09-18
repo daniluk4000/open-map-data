@@ -15,7 +15,7 @@ export const utilsRoot = join(__dirname, '../../../../')
 export const schemaFolder = join(utilsRoot, 'schema')
 export const divisionsFolder = join(utilsRoot, 'divisions')
 
-export const ajv = new Ajv()
+export const ajv = new Ajv({strict: true, strictRequired: false})
 
 for (const file of readdirSync(join(schemaFolder, 'common'))) {
     if (file.endsWith('.json')) {
@@ -24,13 +24,13 @@ for (const file of readdirSync(join(schemaFolder, 'common'))) {
 }
 ajv.addSchema(JSON.parse(readFileSync(join(schemaFolder, 'volume.json'), 'utf-8')), 'volume.json')
 
-export function checkSchema(schema: 'volumes', data: Record<string, any>, skip?: boolean): Volumes
-export function checkSchema(schema: 'sectors', data: Record<string, any>, skip?: boolean): Sectors
-export function checkSchema(schema: 'positions', data: Record<string, any>, skip?: boolean): Positions
-export function checkSchema(schema: 'divisions', data: Record<string, any>, skip?: boolean): Division
-export function checkSchema(schema: 'airports', data: Record<string, any>, skip?: boolean): Airports
-export function checkSchema(schema: 'airports' | 'divisions' | 'groups' | 'positions' | 'sectors' | 'volumes', data: Record<string, any>, skip = false) {
-    if (skip) return data;
+export function checkSchema(schema: 'volumes', data: Record<string, any>, validate?: boolean): Volumes
+export function checkSchema(schema: 'sectors', data: Record<string, any>, validate?: boolean): Sectors
+export function checkSchema(schema: 'positions', data: Record<string, any>, validate?: boolean): Positions
+export function checkSchema(schema: 'divisions', data: Record<string, any>, validate?: boolean): Division
+export function checkSchema(schema: 'airports', data: Record<string, any>, validate?: boolean): Airports
+export function checkSchema(schema: 'airports' | 'divisions' | 'groups' | 'positions' | 'sectors' | 'volumes', data: Record<string, any>, validate = true) {
+    if (!validate) return data;
     const compiledSchema = ajv.compile(JSON.parse(readFileSync(join(schemaFolder, `${schema}.json`), 'utf-8')))
     const valid = compiledSchema(data)
 
