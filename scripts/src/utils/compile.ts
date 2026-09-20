@@ -213,6 +213,6 @@ export function compileAllSet(settings: CompileSettings = {}) {
             airports: context.airports,
             sectors: context.sectors,
             volumes: context.volumes,
-        }))
+        }, undefined, 2))
     }
 }
