@@ -1,5 +1,53 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "callsigns": {
+      "type": "array",
+      "description": "Callsigns definitions for all matching positions",
+      "items": {
+        "type": "object",
+        "properties": {
+          "prefixes": {
+            "type": "array",
+            "examples": [
+              "UL",
+              "UU"
+            ],
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "suffix": {
+            "type": "string"
+          },
+          "callsign": {
+            "type": "string",
+            "examples": [
+              "Radar",
+              "Apron",
+              "Control"
+            ]
+          }
+        },
+        "required": [
+          "callsign"
+        ],
+        "anyOf": [
+          {
+            "required": [
+              "prefixes"
+            ]
+          },
+          {
+            "required": [
+              "suffix"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "type": "object",
   "properties": {
     "code": {
@@ -31,6 +79,9 @@
           "briefing": {
             "type": "string",
             "description": "Subdivision briefing link"
+          },
+          "callsigns": {
+            "$ref": "#/$defs/callsigns"
           }
         },
         "required": [
@@ -62,58 +113,8 @@
       }
     },
     "callsigns": {
-      "type": "array",
-      "description": "Callsigns definitions for all matching positions in this division",
-      "items": {
-        "type": "object",
-        "properties": {
-          "prefixes": {
-            "type": "array",
-            "examples": [
-              "UL",
-              "UU"
-            ],
-            "minItems": 1,
-            "items": {
-              "type": "string"
-            }
-          },
-          "suffixes": {
-            "type": "array",
-            "examples": [
-              "CTR",
-              "GND"
-            ],
-            "minItems": 1,
-            "items": {
-              "type": "string"
-            }
-          },
-          "callsign": {
-            "type": "string",
-            "examples": [
-              "Radar",
-              "Apron",
-              "Control"
-            ]
-          }
-        },
-        "required": [
-          "callsign"
-        ],
-        "anyOf": [
-          {
-            "required": [
-              "prefixes"
-            ]
-          },
-          {
-            "required": [
-              "suffixes"
-            ]
-          }
-        ]
-      }
+      "$ref": "#/$defs/callsigns",
+      "description": "Callsigns definitions for all matching positions in this division"
     }
   },
   "required": [

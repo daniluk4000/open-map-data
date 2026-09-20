@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "common/sector-reference.json",
+  "type": "object",
+  "properties": {
+    "fir": {
+      "type": "string",
+      "description": "Will lookup sector from some other FIR"
+    },
+    "id": {
+      "type": "string",
+      "description": "Sector ID. Defaults to current FIR"
+    }
+  },
+  "required": [
+    "id"
+  ],
+  "additionalProperties": false
+}

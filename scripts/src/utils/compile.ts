@@ -1,14 +1,20 @@
 import {join} from "node:path";
-import {existsSync, readdirSync, readFileSync, writeFileSync} from "node:fs";
+import {Dirent, existsSync, readdirSync, readFileSync, writeFileSync} from "node:fs";
 import type {
-    AirportCompiled,
-    Division,
+    AirportCompiled, Configuration,
+    Division, ExtensionConfiguration, ExtensionMapping,
     PositionDefinitionCompiled, PositionReference,
     SectorCompiled,
     Volume
 } from "../types/index.ts";
 import {checkSchema, divisionsFolder, schemaFolder} from "./index.ts";
-import {processAirports, processLeftovers, processPositions, processSectors, processVolumes} from "./processing/index.ts";
+import {
+    processAirports,
+    processLeftovers,
+    processPositions,
+    processSectors,
+    processVolumes
+} from "./processing/index.ts";
 
 const divisions: Record<string, Division> = {}
 
@@ -22,6 +28,7 @@ export interface CompileContext extends CompileSettings {
     currentDivision: string
     currentSubdivision: string | null
     currentFir: string | null
+    firs: Set<string>
     airportIata: Set<string>,
     airportFaa: Set<string>,
     airportPrefixes: Set<string>,
@@ -44,15 +51,70 @@ export interface CompileContext extends CompileSettings {
     } | {
         sector: SectorCompiled
         leftoverPosition: PositionReference
+    } | {
+        config: ExtensionMapping
+
+        division: string;
+        subdivision?: string;
+        fir?: string;
     }>
 }
 
 export function compileDirectory(context: CompileContext) {
     const path = context.currentPath
 
-    for (const fir of readdirSync(path)) {
+    if (existsSync(join(context.currentPath, 'configuration.json'))) {
+        let config: Configuration | undefined
+
+        if (context.currentSubdivision) {
+            context.divisions[context.currentDivision]!.subdivisions![context.currentSubdivision]!.configuration = JSON.parse(readFileSync(join(context.currentPath, 'configuration.json'), 'utf-8'))
+            config = context.divisions[context.currentDivision]!.subdivisions![context.currentSubdivision]!.configuration
+        } else {
+            context.divisions[context.currentDivision]!.configuration = JSON.parse(readFileSync(join(context.currentPath, 'configuration.json'), 'utf-8'))
+            config = context.divisions[context.currentDivision]!.configuration
+        }
+
+        if (config && config.extensionsDefaults && config.extensions?.length) {
+            config.extensions!.forEach((x) => {
+                Object.assign(x, config.extensionsDefaults!)
+            })
+        }
+
+        for (const extension of config?.extensions ?? []) {
+            for (const mapping of extension.mapping ?? []) {
+                context.leftovers.push({
+                    config: mapping,
+                    division: context.currentDivision,
+                    subdivision: context.currentSubdivision ?? undefined,
+                    fir: context.currentFir ?? undefined,
+                })
+            }
+        }
+    }
+
+    for (const dir of readdirSync(path, {withFileTypes: true})) {
+        if (!dir.isDirectory()) continue
+        const fir = dir.name
+
+        if (context.firs.has(fir)) {
+            throw new Error(`Duplicate FIR ${fir} (${context.currentDivision}/${fir})`)
+        }
+        context.firs.add(fir)
+
         context.currentFir = fir;
         context.currentPath = join(path, fir);
+        context.divisions[context.currentDivision]!.firs ??= {}
+        context.divisions[context.currentDivision]!.firs[fir] = {configuration: {}}
+
+        if (existsSync(join(context.currentPath, 'configuration.json'))) {
+            context.divisions[context.currentDivision]!.firs[fir].configuration = JSON.parse(readFileSync(join(context.currentPath, 'positions.json'), 'utf-8'))
+
+            if (context.divisions[context.currentDivision]!.firs[fir].configuration.extensionsDefaults && context.divisions[context.currentDivision]!.firs[fir].configuration.extensions?.length) {
+                context.divisions[context.currentDivision]!.firs[fir].configuration.extensions!.forEach((x) => {
+                    Object.assign(x, context.divisions[context.currentDivision]!.firs[fir].configuration.extensionsDefaults!)
+                })
+            }
+        }
 
         if (existsSync(join(context.currentPath, 'positions.json'))) {
             const result = checkSchema('positions', JSON.parse(readFileSync(join(context.currentPath, 'positions.json'), 'utf-8')), context.validate);
@@ -88,6 +150,7 @@ export function compileAllSet(settings: CompileSettings = {}) {
         currentDivision: '',
         currentSubdivision: null,
         currentFir: null,
+        firs: new Set(),
         divisions: {},
         positions: {},
         airports: {},

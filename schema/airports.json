@@ -76,24 +76,19 @@
             "prefixes": {
               "type": "array",
               "examples": [
-                "UL",
-                "UU"
+                "EFHK_2"
               ],
               "minItems": 1,
               "items": {
                 "type": "string"
               }
             },
-            "suffixes": {
-              "type": "array",
+            "suffix": {
+              "type": "string",
               "examples": [
                 "CTR",
                 "GND"
-              ],
-              "minItems": 1,
-              "items": {
-                "type": "string"
-              }
+              ]
             },
             "callsign": {
               "type": "string",
@@ -105,7 +100,7 @@
           },
           "required": [
             "callsign",
-            "suffixes"
+            "suffix"
           ]
         }
       },

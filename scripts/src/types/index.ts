@@ -20,7 +20,7 @@ export interface CallsignDefinition {
 
 export interface AirportCallsignDefinition {
     prefixes?: string[];
-    suffixes: string[];
+    suffix?: string;
     callsign: string;
 }
 
@@ -85,6 +85,8 @@ export interface Airports {
 export interface Subdivision {
     name: string;
     briefing?: string;
+    callsigns?: CallsignDefinition[];
+    configuration?: Configuration
 }
 
 export interface Country {
@@ -101,6 +103,10 @@ export interface Division {
     subdivisions?: Record<string, Subdivision>;
     countries?: Country[];
     callsigns?: CallsignDefinition[];
+    configuration: Configuration;
+    firs: Record<string, {
+        configuration: Configuration
+    }>
 }
 
 export interface PositionDefinition {
@@ -120,6 +126,7 @@ export interface PositionDefinitionCompiled extends Omit<PositionDefinition, 'pa
     division: string;
     subdivision?: string;
     fir?: string;
+    sectors: string[];
 }
 
 export interface Positions {
@@ -143,6 +150,36 @@ export interface TimeConfigurationStart {
 export interface TimeConfiguration {
     start: TimeConfigurationStart;
     end: TimeConfigurationStart;
+}
+
+export type ShowExtensionFrequency = 'always' | 'when-in-atis' | 'never';
+
+export interface ExtensionDefaults {
+    showExtensionFrequency?: ShowExtensionFrequency;
+    frequencyRequired?: boolean;
+    prefixes?: string[];
+    suffixes?: Array<'CTR' | 'APP' | 'DEP'>;
+}
+
+export interface ExtensionMapping {
+    identifier: string;
+    frequency?: number;
+    sectors: Array<string | SectorReference>;
+}
+
+export interface SectorReference {
+    id: string;
+    fir?: string;
+}
+
+export interface ExtensionConfiguration extends ExtensionDefaults {
+    mapping?: ExtensionMapping[];
+}
+
+export interface Configuration {
+    $schema?: string;
+    extensionsDefaults?: ExtensionDefaults;
+    extensions?: ExtensionConfiguration[];
 }
 
 export interface Sector {

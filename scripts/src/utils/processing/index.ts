@@ -9,6 +9,7 @@ import type {
     Positions,
     Sector,
     SectorCompiled,
+    SectorReference,
     Sectors,
     Volumes
 } from "../../types/index.ts";
@@ -19,10 +20,19 @@ export function getId(
     context: CompileContext,
     currentFir = context.currentFir,
 ) {
-    if (currentFir) return `${type}:${context.currentDivision}/${currentFir}/${id}`
-    if (context.currentDivision) return `${type}:${context.currentDivision}/${id}`
+    if (currentFir) return `${type}:${currentFir}/${id}`
 
-    return `${type}:id`
+    return `${type}:${id}`
+}
+
+function getSectorId(
+    sector: string | SectorReference,
+    context: CompileContext,
+    currentFir = context.currentFir,
+) {
+    if (typeof sector === 'string') return getId(sector, 'sector', context, currentFir)
+
+    return getId(sector.id, 'sector', context, sector.fir ?? currentFir)
 }
 
 export function getPosition(
@@ -72,6 +82,7 @@ export function processPositions(positions: Positions, context: CompileContext) 
             fir: context.currentFir ?? undefined,
             parent: typeof position.parent === 'string' ? {id: position.parent} : position.parent,
             resolvedParent: [],
+            sectors: [],
         }
 
         if (context.positions[positionId].parent) context.leftovers.push({
@@ -109,6 +120,7 @@ export function processAirports(airports: Airports, context: CompileContext) {
             runways: airport.runways?.map(x => typeof x === 'string' ? {name: x} : x),
             positions: [],
             resolvedPositions: [],
+            callsigns: airport.callsigns ?? context.divisions[context.currentDivision]?.callsigns,
         }
 
         for (let subPosition of airport?.positions ?? []) {
@@ -240,6 +252,18 @@ export function processLeftovers(context: CompileContext) {
 
     try {
         for (const leftover of context.leftovers) {
+            if('config' in leftover) {
+                context.currentDivision = leftover.division;
+                context.currentSubdivision = leftover.subdivision ?? null;
+                context.currentFir = leftover.fir ?? null;
+
+                leftover.config.sectors = leftover.config.sectors.map(sector =>
+                    getSectorId(sector, context)
+                )
+
+                continue
+            }
+
             const owner = (
                 'airport' in leftover ? leftover.airport
                     : 'position' in leftover ? leftover.position
@@ -291,6 +315,12 @@ export function processLeftovers(context: CompileContext) {
         for (const sector in context.sectors) {
             for (const volume of context.sectors[sector]!.volumes) {
                 if (!context.volumes[volume]) throw new Error(`Was not able to find volume ${volume} for sector ${sector}`)
+            }
+
+            for (const position of context.sectors[sector]!.resolvedPositions) {
+                if (!context.positions[position.id]) throw new Error(`Was not able to find position ${position.id} for sector ${sector}`)
+
+                context.positions[position.id].sectors.push(sector);
             }
         }
     } finally {

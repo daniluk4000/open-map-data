@@ -33,14 +33,14 @@
     "callsign": "Peterburg Control",
     "type": "CTR",
     "prefix": "ULLL_R3",
-    "parent": "ULLL-R"
+    "parent": "ULLL-SW"
   },
   "ULLL-R4": {
     "name": "Sankt-Peterburg ACC, sector R4",
     "callsign": "Peterburg Control",
     "type": "CTR",
     "prefix": "ULLL_R4",
-    "parent": "ULLL-R"
+    "parent": "ULLL-SW"
   },
   "ULLL-R5": {
     "name": "Sankt-Peterburg ACC, sector R5",

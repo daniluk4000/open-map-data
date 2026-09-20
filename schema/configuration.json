@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "defaults": {
+      "type": "object",
+      "properties": {
+        "showExtensionFrequency": {
+          "description": "Changes frequency in case of extension. When when-in-atis selected, frequency will only be changed if correct sector frequency is in ATIS",
+          "type": "string",
+          "default": "never",
+          "enum": [
+            "always",
+            "when-in-atis",
+            "never"
+          ]
+        },
+        "frequencyRequired": {
+          "type": "boolean",
+          "description": "Makes frequency required in ATIS for extension to happen",
+          "default": false
+        },
+        "prefixes": {
+          "type": "array",
+          "description": "Prefixes of positions that are allowed to use extensions",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "suffixes": {
+          "type": "array",
+          "description": "Suffixes of positions that are allowed to use extensions",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "enum": [
+              "CTR",
+              "APP",
+              "DEP"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "extensionsDefaults": {
+      "$ref": "#/$defs/defaults"
+    },
+    "extensions": {
+      "type": "array",
+      "items": {
+        "allOf": [
+          {
+            "$ref": "#/$defs/defaults"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "mapping": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "identifier": {
+                      "type": "string",
+                      "description": "ID that should be in ATIS for extension to take place",
+                      "examples": [
+                        "ARL",
+                        "Area A"
+                      ]
+                    },
+                    "frequency": {
+                      "type": "number",
+                      "description": "Frequency that must follow identifier in ATIS. Example ATIS for frequency 127100000 would be Extending ARL 127.100"
+                    },
+                    "sectors": {
+                      "type": "array",
+                      "description": "Sectors in current FIR or Division to extend. Note that sector cannot be extended by more than one mapping rule, and is only extended if nobody else is owning this sector currently",
+                      "items": {
+                        "oneOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "$ref": "common/sector-reference.json"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "required": [
+                    "identifier",
+                    "sectors"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "mapping"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -43,6 +43,7 @@
     },
     "properties": {
       "type": "object",
+      "description": "With `floor` set to 999 and `ceiling` set to 000, enables this volume for combined display and VATSpy compatibility.",
       "properties": {
         "floor": {
           "type": "integer",
@@ -54,7 +55,7 @@
           "type": "integer",
           "minimum": 0,
           "maximum": 999,
-          "description": "FL of upper vertical border (exclusive). Set to 999 to have no upper level. With upper_level set to 999 and lower_level set to 000, enables this volume for legacy layer"
+          "description": "FL of upper vertical border (exclusive). Set to 999 to have no upper level"
         }
       },
       "required": [

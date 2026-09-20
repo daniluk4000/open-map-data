@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/configuration.json",
+  "extensions": [
+    {
+      "mapping": [
+        {
+          "identifier": "ASW",
+          "sectors": [
+            {
+              "fir": "ULLL",
+              "id": "ULLL-R"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

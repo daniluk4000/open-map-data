@@ -4,6 +4,7 @@ import Ajv from "ajv/dist/2020.js";
 import {fileURLToPath} from "url";
 import type {
     Airports,
+    Configuration,
     Division,
     Positions,
     Sectors,
@@ -29,7 +30,8 @@ export function checkSchema(schema: 'sectors', data: Record<string, any>, valida
 export function checkSchema(schema: 'positions', data: Record<string, any>, validate?: boolean): Positions
 export function checkSchema(schema: 'divisions', data: Record<string, any>, validate?: boolean): Division
 export function checkSchema(schema: 'airports', data: Record<string, any>, validate?: boolean): Airports
-export function checkSchema(schema: 'airports' | 'divisions' | 'groups' | 'positions' | 'sectors' | 'volumes', data: Record<string, any>, validate = true) {
+export function checkSchema(schema: 'configuration', data: Record<string, any>, validate?: boolean): Configuration
+export function checkSchema(schema: 'airports' | 'configuration' | 'divisions' | 'groups' | 'positions' | 'sectors' | 'volumes', data: Record<string, any>, validate = true) {
     if (!validate) return data;
     const compiledSchema = ajv.compile(JSON.parse(readFileSync(join(schemaFolder, `${schema}.json`), 'utf-8')))
     const valid = compiledSchema(data)
