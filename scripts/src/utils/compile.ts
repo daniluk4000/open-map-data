@@ -5,7 +5,7 @@ import type {
     Division, ExtensionConfiguration, ExtensionMapping,
     PositionDefinitionCompiled, PositionReference,
     SectorCompiled,
-    Volume
+    Volume, VolumeCompiled
 } from "../types/index.ts";
 import {checkSchema, divisionsFolder, schemaFolder} from "./index.ts";
 import {
@@ -38,7 +38,7 @@ export interface CompileContext extends CompileSettings {
     positions: Record<string, PositionDefinitionCompiled>
     airports: Record<string, AirportCompiled>
     sectors: Record<string, SectorCompiled>
-    volumes: Record<string, Volume>
+    volumes: Record<string, VolumeCompiled>
 
     // State enrichment after calculations
     leftovers: Array<{
@@ -57,6 +57,11 @@ export interface CompileContext extends CompileSettings {
         division: string;
         subdivision?: string;
         fir?: string;
+    } | {
+        ownership: Configuration['ownership'];
+        division: string;
+        subdivision?: string;
+        fir?: string;
     }>
 }
 
@@ -67,10 +72,10 @@ export function compileDirectory(context: CompileContext) {
         let config: Configuration | undefined
 
         if (context.currentSubdivision) {
-            context.divisions[context.currentDivision]!.subdivisions![context.currentSubdivision]!.configuration = JSON.parse(readFileSync(join(context.currentPath, 'configuration.json'), 'utf-8'))
+            context.divisions[context.currentDivision]!.subdivisions![context.currentSubdivision]!.configuration = checkSchema('configuration', JSON.parse(readFileSync(join(context.currentPath, 'configuration.json'), 'utf-8')), context.validate)
             config = context.divisions[context.currentDivision]!.subdivisions![context.currentSubdivision]!.configuration
         } else {
-            context.divisions[context.currentDivision]!.configuration = JSON.parse(readFileSync(join(context.currentPath, 'configuration.json'), 'utf-8'))
+            context.divisions[context.currentDivision]!.configuration = checkSchema('configuration', JSON.parse(readFileSync(join(context.currentPath, 'configuration.json'), 'utf-8')), context.validate)
             config = context.divisions[context.currentDivision]!.configuration
         }
 
@@ -90,6 +95,12 @@ export function compileDirectory(context: CompileContext) {
                 })
             }
         }
+        if (config?.ownership) context.leftovers.push({
+            ownership: config.ownership,
+            division: context.currentDivision,
+            subdivision: context.currentSubdivision ?? undefined,
+            fir: context.currentFir ?? undefined,
+        })
     }
 
     for (const dir of readdirSync(path, {withFileTypes: true})) {
@@ -107,13 +118,21 @@ export function compileDirectory(context: CompileContext) {
         context.divisions[context.currentDivision]!.firs[fir] = {configuration: {}}
 
         if (existsSync(join(context.currentPath, 'configuration.json'))) {
-            context.divisions[context.currentDivision]!.firs[fir].configuration = JSON.parse(readFileSync(join(context.currentPath, 'positions.json'), 'utf-8'))
+            context.divisions[context.currentDivision]!.firs[fir].configuration = checkSchema('configuration', JSON.parse(readFileSync(join(context.currentPath, 'configuration.json'), 'utf-8')), context.validate)
 
             if (context.divisions[context.currentDivision]!.firs[fir].configuration.extensionsDefaults && context.divisions[context.currentDivision]!.firs[fir].configuration.extensions?.length) {
                 context.divisions[context.currentDivision]!.firs[fir].configuration.extensions!.forEach((x) => {
                     Object.assign(x, context.divisions[context.currentDivision]!.firs[fir].configuration.extensionsDefaults!)
                 })
             }
+
+            const config = context.divisions[context.currentDivision]!.firs[fir].configuration
+            if (config.ownership) context.leftovers.push({
+                ownership: config.ownership,
+                division: context.currentDivision,
+                subdivision: context.currentSubdivision ?? undefined,
+                fir,
+            })
         }
 
         if (existsSync(join(context.currentPath, 'positions.json'))) {
@@ -164,7 +183,7 @@ export function compileAllSet(settings: CompileSettings = {}) {
     context.validate = validate;
 
     for (const divisionCode of readdirSync(divisionsFolder)) {
-        const division = checkSchema('divisions', JSON.parse(readFileSync(join(divisionsFolder, divisionCode, 'index.json'), 'utf-8')), validate);
+        const division = checkSchema('divisions', JSON.parse(readFileSync(join(divisionsFolder, divisionCode, 'division.json'), 'utf-8')), validate);
 
         delete division.$schema;
         context.divisions[divisionCode] = division;

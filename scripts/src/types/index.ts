@@ -66,6 +66,7 @@ export interface Airport {
 }
 
 export interface AirportCompiled extends Omit<Airport, 'runways' | 'positions'> {
+    icao: string;
     runways?: RunwayDefinition[];
     resolvedPositions?: PositionReference[];
 
@@ -121,6 +122,7 @@ export interface PositionDefinition {
 }
 
 export interface PositionDefinitionCompiled extends Omit<PositionDefinition, 'parent'> {
+    id: string;
     parent?: PositionReference;
     resolvedParent?: PositionReference[];
     division: string;
@@ -176,10 +178,27 @@ export interface ExtensionConfiguration extends ExtensionDefaults {
     mapping?: ExtensionMapping[];
 }
 
+export interface OwnershipRule {
+    volumes?: string[];
+    positions?: Array<string | PositionReference>;
+    resolvedPositions?: PositionReference[];
+}
+
+export interface AirportOwnershipRule {
+    positions?: Array<string | PositionReference | { icao: string }>;
+    resolvedPositions?: PositionReference[];
+}
+
+export interface OwnershipConfiguration {
+    sectors?: Record<string, OwnershipRule>;
+    airports?: Record<string, AirportOwnershipRule>;
+}
+
 export interface Configuration {
     $schema?: string;
     extensionsDefaults?: ExtensionDefaults;
     extensions?: ExtensionConfiguration[];
+    ownership?: Record<string, OwnershipConfiguration>;
 }
 
 export interface Sector {
@@ -193,6 +212,7 @@ export interface Sector {
 }
 
 export interface SectorCompiled extends Omit<Sector, 'positions'> {
+    id: string;
     resolvedPositions: PositionReference[];
 
     division: string;
@@ -211,12 +231,26 @@ export interface Sectors {
     [id: string]: Sector | string | undefined;
 }
 
+export interface VolumeUnitDefinition {
+    value: number;
+    unit: 'FL' | 'ft';
+}
+
 export interface VolumeProperties {
-    floor: number;
-    ceiling: number;
+    floor: VolumeUnitDefinition | number;
+    ceiling: VolumeUnitDefinition | number;
+}
+
+export interface VolumePropertiesCompiled extends Omit<VolumeProperties, 'floor' | 'ceiling'> {
+    floor: VolumeUnitDefinition;
+    ceiling: VolumeUnitDefinition;
 }
 
 export type Volume = Feature<Polygon | MultiPolygon, VolumeProperties> & {
+    id: string;
+};
+
+export type VolumeCompiled = Feature<Polygon | MultiPolygon, VolumePropertiesCompiled> & {
     id: string;
 };
 

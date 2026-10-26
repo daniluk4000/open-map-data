@@ -1,5 +1,4 @@
 {
-  "$schema": "../../schema/configuration.json",
   "extensions": [
     {
       "mapping": [
@@ -14,5 +13,25 @@
         }
       ]
     }
-  ]
+  ],
+  "ownership": {
+    "EVENT": {
+      "sectors": {
+        "R2": {
+          "positions": [{
+            "fir": "ULLL",
+            "id": "ULLL"
+          }]
+        }
+      },
+      "airports": {
+        "ULLI": {
+          "positions": [{
+            "fir": "ULLL",
+            "id": "ULLL"
+          }]
+        }
+      }
+    }
+  }
 }

@@ -7,6 +7,7 @@ import type {
     PositionDefinitionCompiled,
     PositionReference,
     Positions,
+    OwnershipConfiguration,
     Sector,
     SectorCompiled,
     SectorReference,
@@ -77,6 +78,7 @@ export function processPositions(positions: Positions, context: CompileContext) 
 
         context.positions[positionId] = {
             ...position,
+            id: positionId,
             division: context.currentDivision,
             subdivision: context.currentSubdivision ?? undefined,
             fir: context.currentFir ?? undefined,
@@ -114,6 +116,7 @@ export function processAirports(airports: Airports, context: CompileContext) {
 
         context.airports[icao] = {
             ...airport,
+            icao,
             division: context.currentDivision,
             subdivision: context.currentSubdivision ?? undefined,
             fir: context.currentFir!,
@@ -159,6 +162,7 @@ export function processSectors(sectors: Sectors, context: CompileContext) {
 
         context.sectors[sectorId] = {
             ...sector,
+            id: sectorId,
 
             division: context.currentDivision,
             subdivision: context.currentSubdivision ?? undefined,
@@ -188,7 +192,20 @@ export function processVolumes(volumes: Volumes, context: CompileContext) {
 
         if (context.volumes[volumeId]) throw new Error(`Duplicate volume ${volume.id} (${volumeId})`);
 
-        context.volumes[volumeId] = volume
+        context.volumes[volumeId] = {
+            ...volume,
+            properties: {
+                ...volume.properties,
+                floor: typeof volume.properties.floor === 'number' ? {
+                    unit: 'FL',
+                    value: volume.properties.floor,
+                } : volume.properties.floor,
+                ceiling: typeof volume.properties.ceiling === 'number' ? {
+                    unit: 'FL',
+                    value: volume.properties.ceiling,
+                } : volume.properties.ceiling,
+            }
+        }
     }
 }
 
@@ -252,6 +269,59 @@ export function processLeftovers(context: CompileContext) {
 
     try {
         for (const leftover of context.leftovers) {
+            if ('ownership' in leftover) {
+                context.currentDivision = leftover.division;
+                context.currentSubdivision = leftover.subdivision ?? null;
+                context.currentFir = leftover.fir ?? null;
+
+                for (const rule of Object.values(leftover.ownership ?? {}) as OwnershipConfiguration[]) {
+                    if (rule.sectors) {
+                        const sectors: NonNullable<OwnershipConfiguration['sectors']> = {};
+                        for (const [id, ownership] of Object.entries(rule.sectors)) {
+                            let sectorId = getId(id, 'sector', context);
+                            let sector = context.sectors[sectorId];
+                            if (!sector && !context.currentFir) {
+                                const matches = Object.entries(context.sectors).filter(([, candidate]) =>
+                                    candidate.id.endsWith(`/${id}`)
+                                );
+                                if (matches.length > 1) throw new Error(`Ambiguous sector ${id} in ownership configuration`);
+                                if (matches.length === 1) [sectorId, sector] = matches[0]!;
+                            }
+                            const sectorFir = sector?.fir ?? context.currentFir;
+                            sectors[sectorId] = {
+                                ...ownership,
+                                volumes: ownership.volumes?.map(volume => getId(volume, 'volume', context, sectorFir)),
+                                positions: ownership.positions?.map(position => {
+                                    const reference = typeof position === 'string' ? {id: position} : position;
+                                    return {...reference, id: getPositionId(reference, context, context.currentFir)!};
+                                }),
+                                resolvedPositions: (ownership.positions ?? []).flatMap(position =>
+                                    findReferencesRecursive(typeof position === 'string' ? {id: position} : position, context, {
+                                        airports: new Set(), positions: new Set(),
+                                    })
+                                ),
+                            };
+                        }
+                        rule.sectors = sectors;
+                    }
+
+                    if (rule.airports) {
+                        for (const ownership of Object.values(rule.airports)) {
+                            const positions = (ownership.positions ?? []).map(position => {
+                                if (typeof position === 'string') position = {id: position};
+                                if ('icao' in position) return position;
+                                return {...position, id: getPositionId(position, context, context.currentFir)!};
+                            });
+                            ownership.positions = positions;
+                            ownership.resolvedPositions = positions.flatMap(position =>
+                                findReferencesRecursive(position, context, {airports: new Set(), positions: new Set()})
+                            );
+                        }
+                    }
+                }
+
+                continue;
+            }
             if('config' in leftover) {
                 context.currentDivision = leftover.division;
                 context.currentSubdivision = leftover.subdivision ?? null;

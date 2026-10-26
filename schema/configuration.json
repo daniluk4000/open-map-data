@@ -106,6 +106,79 @@
           }
         ]
       }
+    },
+    "ownership": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "sectors": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "properties": {
+                "volumes": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "positions": {
+                  "type": "array",
+                  "description": "List of owning positions in descending order (first has the most priority to control this sector)",
+                  "minItems": 1,
+                  "items": {
+                    "oneOf": [
+                      {
+                        "$ref": "./common/position-reference.json"
+                      },
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "airports": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "properties": {
+                "positions": {
+                  "type": "array",
+                  "description": "List of owning positions in descending order (first has the most priority to control this sector)",
+                  "minItems": 1,
+                  "items": {
+                    "oneOf": [
+                      {
+                        "$ref": "./common/position-reference.json"
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "icao": {
+                            "type": "string",
+                            "description": "Will get positions order from another airport in case nothing before this entry matched positions order"
+                          }
+                        },
+                        "required": [
+                          "icao"
+                        ]
+                      },
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

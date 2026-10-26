@@ -106,6 +106,15 @@ Supported fields:
         - `sectors` (required): Sectors in current FIR or Division to extend. Note that sector cannot be extended by
           more than one mapping rule, and is only extended if nobody else is owning this sector currently. Can be an
           object that specifies which FIR to extend
+- `ownership`: conditional ownership definitions, keyed by an application-defined identifier (for example `EVENT`).
+  Each identifier can define `sectors` and/or `airports`:
+    - `sectors`: map of sector IDs to ownership settings. `positions` is an ordered list of owning positions (strings
+      or position references); `volumes` optionally limits the rule to the listed volumes.
+    - `airports`: map of airport ICAO codes to ownership settings with an ordered `positions` list. An airport can
+      inherit positions from another airport using `{ "icao": "..." }`.
+  During compilation, sector and volume IDs are qualified in the same way as regular data, and each rule gets
+  `resolvedPositions` containing the referenced positions and their parent hierarchy. These settings are kept under
+  `configuration.ownership`, so consumers can select the appropriate ownership rule at runtime.
 
 ### Positions (.json)
 

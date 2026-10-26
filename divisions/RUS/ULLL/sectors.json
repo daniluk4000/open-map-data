@@ -1,5 +1,4 @@
 {
-  "$schema": "../../../schema/sectors.json",
   "R1": {
     "volumes": [
       "R1"

@@ -5,7 +5,6 @@
       "name": "Russia",
       "region": "EMEA",
       "configuration": {
-        "$schema": "../../schema/configuration.json",
         "extensions": [
           {
             "mapping": [
@@ -17,7 +16,49 @@
               }
             ]
           }
-        ]
+        ],
+        "ownership": {
+          "EVENT": {
+            "sectors": {
+              "sector:ULLL/R2": {
+                "positions": [
+                  {
+                    "fir": "ULLL",
+                    "id": "position:ULLL/ULLL"
+                  }
+                ],
+                "resolvedPositions": [
+                  {
+                    "fir": "ULLL",
+                    "id": "position:ULLL/ULLL"
+                  },
+                  {
+                    "id": "position:NWC"
+                  }
+                ]
+              }
+            },
+            "airports": {
+              "ULLI": {
+                "positions": [
+                  {
+                    "fir": "ULLL",
+                    "id": "position:ULLL/ULLL"
+                  }
+                ],
+                "resolvedPositions": [
+                  {
+                    "fir": "ULLL",
+                    "id": "position:ULLL/ULLL"
+                  },
+                  {
+                    "id": "position:NWC"
+                  }
+                ]
+              }
+            }
+          }
+        }
       },
       "firs": {
         "ULLL": {
@@ -31,6 +72,7 @@
       "callsign": "North Western Russia Control",
       "type": "FSS",
       "prefix": "RU-NWC",
+      "id": "position:NWC",
       "division": "RUS",
       "resolvedParent": [],
       "sectors": [
@@ -52,6 +94,7 @@
       "parent": {
         "id": "position:NWC"
       },
+      "id": "position:ULLL/ULLL",
       "division": "RUS",
       "fir": "ULLL",
       "resolvedParent": [
@@ -78,6 +121,7 @@
       "parent": {
         "id": "position:ULLL/ULLL"
       },
+      "id": "position:ULLL/ULLL-R",
       "division": "RUS",
       "fir": "ULLL",
       "resolvedParent": [
@@ -107,6 +151,7 @@
       "parent": {
         "id": "position:ULLL/ULLL-R"
       },
+      "id": "position:ULLL/ULLL-R1",
       "division": "RUS",
       "fir": "ULLL",
       "resolvedParent": [
@@ -132,6 +177,7 @@
       "parent": {
         "id": "position:ULLL/ULLL-R"
       },
+      "id": "position:ULLL/ULLL-R2",
       "division": "RUS",
       "fir": "ULLL",
       "resolvedParent": [
@@ -157,6 +203,7 @@
       "parent": {
         "id": "position:ULLL/ULLL-SW"
       },
+      "id": "position:ULLL/ULLL-R3",
       "division": "RUS",
       "fir": "ULLL",
       "resolvedParent": [
@@ -187,6 +234,7 @@
       "parent": {
         "id": "position:ULLL/ULLL-SW"
       },
+      "id": "position:ULLL/ULLL-R4",
       "division": "RUS",
       "fir": "ULLL",
       "resolvedParent": [
@@ -217,6 +265,7 @@
       "parent": {
         "id": "position:ULLL/ULLL-R"
       },
+      "id": "position:ULLL/ULLL-R5",
       "division": "RUS",
       "fir": "ULLL",
       "resolvedParent": [
@@ -242,6 +291,7 @@
       "parent": {
         "id": "position:ULLL/ULLL-R"
       },
+      "id": "position:ULLL/ULLL-R6",
       "division": "RUS",
       "fir": "ULLL",
       "resolvedParent": [
@@ -266,6 +316,7 @@
       "parent": {
         "id": "position:ULLL/ULLL-R3"
       },
+      "id": "position:ULLL/ULLL-APP",
       "division": "RUS",
       "fir": "ULLL",
       "resolvedParent": [
@@ -297,6 +348,7 @@
       "parent": {
         "id": "position:ULLL/ULLL-APP"
       },
+      "id": "position:ULLL/ULLI-APP",
       "division": "RUS",
       "fir": "ULLL",
       "resolvedParent": [
@@ -331,6 +383,7 @@
       "parent": {
         "id": "position:ULLL/ULLL-R"
       },
+      "id": "position:ULLL/ULLL-SW",
       "division": "RUS",
       "fir": "ULLL",
       "resolvedParent": [
@@ -355,6 +408,7 @@
       "name": "Kaliningrad",
       "type": "CTR",
       "prefix": "UMKK",
+      "id": "position:ULLL/UMKK",
       "division": "RUS",
       "fir": "ULLL",
       "resolvedParent": [],
@@ -411,6 +465,7 @@
           "id": "position:ULLL/ULLI-APP"
         }
       ],
+      "icao": "ULLI",
       "division": "RUS",
       "fir": "ULLL",
       "resolvedPositions": [
@@ -448,6 +503,7 @@
           "id": "position:ULLL/ULLL-R1"
         }
       ],
+      "id": "sector:ULLL/R1",
       "division": "RUS",
       "fir": "ULLL",
       "resolvedPositions": [
@@ -474,6 +530,7 @@
           "id": "position:ULLL/ULLL-R2"
         }
       ],
+      "id": "sector:ULLL/R2",
       "division": "RUS",
       "fir": "ULLL",
       "resolvedPositions": [
@@ -500,6 +557,7 @@
           "id": "position:ULLL/ULLL-R3"
         }
       ],
+      "id": "sector:ULLL/R3",
       "division": "RUS",
       "fir": "ULLL",
       "resolvedPositions": [
@@ -529,6 +587,7 @@
           "id": "position:ULLL/ULLL-R4"
         }
       ],
+      "id": "sector:ULLL/R4",
       "division": "RUS",
       "fir": "ULLL",
       "resolvedPositions": [
@@ -558,6 +617,7 @@
           "id": "position:ULLL/ULLL-R5"
         }
       ],
+      "id": "sector:ULLL/R5",
       "division": "RUS",
       "fir": "ULLL",
       "resolvedPositions": [
@@ -584,6 +644,7 @@
           "id": "position:ULLL/ULLL-R6"
         }
       ],
+      "id": "sector:ULLL/R6",
       "division": "RUS",
       "fir": "ULLL",
       "resolvedPositions": [
@@ -613,6 +674,7 @@
           "id": "position:ULLL/ULLL-R4"
         }
       ],
+      "id": "sector:ULLL/ULLL-APP",
       "division": "RUS",
       "fir": "ULLL",
       "resolvedPositions": [
@@ -654,6 +716,7 @@
           "id": "position:ULLL/ULLL-R4"
         }
       ],
+      "id": "sector:ULLL/ULLI-APP",
       "division": "RUS",
       "fir": "ULLL",
       "resolvedPositions": [
@@ -689,8 +752,14 @@
       "type": "Feature",
       "id": "R1",
       "properties": {
-        "floor": 0,
-        "ceiling": 999
+        "floor": {
+          "unit": "FL",
+          "value": 0
+        },
+        "ceiling": {
+          "unit": "FL",
+          "value": 999
+        }
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -758,8 +827,14 @@
       "type": "Feature",
       "id": "R2",
       "properties": {
-        "floor": 0,
-        "ceiling": 999
+        "floor": {
+          "unit": "FL",
+          "value": 0
+        },
+        "ceiling": {
+          "unit": "FL",
+          "value": 999
+        }
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -835,8 +910,14 @@
       "type": "Feature",
       "id": "R3",
       "properties": {
-        "floor": 0,
-        "ceiling": 999
+        "floor": {
+          "unit": "FL",
+          "value": 0
+        },
+        "ceiling": {
+          "unit": "FL",
+          "value": 999
+        }
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1116,8 +1197,14 @@
       "type": "Feature",
       "id": "R4",
       "properties": {
-        "floor": 0,
-        "ceiling": 999
+        "floor": {
+          "unit": "FL",
+          "value": 0
+        },
+        "ceiling": {
+          "unit": "FL",
+          "value": 999
+        }
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1325,8 +1412,14 @@
       "type": "Feature",
       "id": "R5",
       "properties": {
-        "floor": 0,
-        "ceiling": 999
+        "floor": {
+          "unit": "FL",
+          "value": 0
+        },
+        "ceiling": {
+          "unit": "FL",
+          "value": 999
+        }
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1630,8 +1723,14 @@
       "type": "Feature",
       "id": "R6",
       "properties": {
-        "floor": 0,
-        "ceiling": 999
+        "floor": {
+          "unit": "FL",
+          "value": 0
+        },
+        "ceiling": {
+          "unit": "FL",
+          "value": 999
+        }
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2499,8 +2598,14 @@
       "type": "Feature",
       "id": "ULLL-APP",
       "properties": {
-        "floor": 40,
-        "ceiling": 140
+        "floor": {
+          "unit": "FL",
+          "value": 40
+        },
+        "ceiling": {
+          "unit": "FL",
+          "value": 140
+        }
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2568,8 +2673,14 @@
       "type": "Feature",
       "id": "ULLI-APP",
       "properties": {
-        "floor": 10,
-        "ceiling": 80
+        "floor": {
+          "unit": "FL",
+          "value": 10
+        },
+        "ceiling": {
+          "unit": "FL",
+          "value": 80
+        }
       },
       "geometry": {
         "type": "MultiPolygon",

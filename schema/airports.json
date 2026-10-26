@@ -129,9 +129,9 @@
                 "name": {
                   "type": "string"
                 },
-                "similar": {
+                "oppositeEndName": {
                   "type": "string",
-                  "description": "Similar runway. 10L equals to 28R for example"
+                  "description": "Opposite end runway. 10L equals to 28R for example"
                 },
                 "course": {
                   "type": "number"

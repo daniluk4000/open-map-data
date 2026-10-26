@@ -24,6 +24,59 @@
       "items": {
         "$ref": "#/$defs/coordinate"
       }
+    },
+    "verticalLimit": {
+      "oneOf": [
+        {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 999,
+          "description": "Flight Level. Numeric values are interpreted as FL by default."
+        },
+        {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "unit": {
+              "type": "string",
+              "enum": [
+                "FL",
+                "ft"
+              ]
+            }
+          },
+          "required": [
+            "value",
+            "unit"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "unit": {
+                    "const": "FL"
+                  }
+                },
+                "required": [
+                  "unit"
+                ]
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "integer",
+                    "maximum": 999
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
   },
   "type": "object",
@@ -43,19 +96,15 @@
     },
     "properties": {
       "type": "object",
-      "description": "With `floor` set to 999 and `ceiling` set to 000, enables this volume for combined display and VATSpy compatibility.",
+      "description": "Vertical limits can be specified either as a number, interpreted as Flight Level (FL) by default, or as an object with explicit `value` and `unit`. With `floor` set to 000 FL and `ceiling` set to 999 FL, enables this volume for combined display and VATSpy compatibility.",
       "properties": {
         "floor": {
-          "type": "integer",
-          "minimum": 0,
-          "maximum": 999,
-          "description": "FL of lower vertical border (inclusive). Set to 000 to have no lower level"
+          "$ref": "#/$defs/verticalLimit",
+          "description": "Lower vertical border (inclusive). A numeric value is interpreted as FL. Set to 000 FL to have no lower level."
         },
         "ceiling": {
-          "type": "integer",
-          "minimum": 0,
-          "maximum": 999,
-          "description": "FL of upper vertical border (exclusive). Set to 999 to have no upper level"
+          "$ref": "#/$defs/verticalLimit",
+          "description": "Upper vertical border (exclusive). A numeric value is interpreted as FL. Set to 999 FL to have no upper level."
         }
       },
       "required": [

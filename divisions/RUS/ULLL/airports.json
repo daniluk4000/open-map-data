@@ -1,5 +1,4 @@
 {
-  "$schema": "../../../schema/airports.json",
   "ULLI": {
     "name": "Pulkovo",
     "iata": "LED",

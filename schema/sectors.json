@@ -61,7 +61,7 @@
             ]
           }
         },
-        "runwayConfig": {
+        "runwayConfigs": {
           "type": "array",
           "minItems": 1,
           "items": {
@@ -80,7 +80,7 @@
             ]
           }
         },
-        "timeConfig": {
+        "timeConfigs": {
           "type": "array",
           "minItems": 1,
           "items": {
@@ -98,14 +98,14 @@
         },
         "label": {
           "type": "string",
-          "description": "Optional label, displayed on map. Defaults to sector ID"
+          "description": "Optional sector label"
         },
         "oceanic": {
           "type": "boolean"
         },
         "labelCoordinate": {
           "type": "array",
-          "description": "Optional label coordinate. Defaults to sector center",
+          "description": "Optional sector label coordinate",
           "minItems": 2,
           "maxItems": 2,
           "items": {

@@ -1,0 +1,40 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "/divisions/**/airports.json"
+      ],
+      "url": "./schema/airports.json"
+    },
+    {
+      "fileMatch": [
+        "/divisions/**/configuration.json"
+      ],
+      "url": "./schema/configuration.json"
+    },
+    {
+      "fileMatch": [
+        "/divisions/**/division.json"
+      ],
+      "url": "./schema/divisions.json"
+    },
+    {
+      "fileMatch": [
+        "/divisions/**/positions.json"
+      ],
+      "url": "./schema/positions.json"
+    },
+    {
+      "fileMatch": [
+        "/divisions/**/sectors.json"
+      ],
+      "url": "./schema/sectors.json"
+    },
+    {
+      "fileMatch": [
+        "/divisions/**/volumes.geojson"
+      ],
+      "url": "./schema/volumes.json"
+    }
+  ]
+}
