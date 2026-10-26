@@ -1,0 +1,50 @@
+{
+  "ZPPP": {
+    "volumes": [
+      "ZPPP"
+    ],
+    "positions": [
+      "ZPPP"
+    ]
+  },
+  "ZPPP-KME": {
+    "volumes": [
+      "ZPPP-KME"
+    ],
+    "positions": [
+      "ZPPP-KME"
+    ]
+  },
+  "ZPPP-KME1": {
+    "volumes": [
+      "ZPPP-KME1"
+    ],
+    "positions": [
+      "ZPPP-KME1"
+    ]
+  },
+  "ZPPP-KME2": {
+    "volumes": [
+      "ZPPP-KME2"
+    ],
+    "positions": [
+      "ZPPP-KME2"
+    ]
+  },
+  "ZPPP-KMW": {
+    "volumes": [
+      "ZPPP-KMW"
+    ],
+    "positions": [
+      "ZPPP-KMW"
+    ]
+  },
+  "ZPPP-KMW1": {
+    "volumes": [
+      "ZPPP-KMW1"
+    ],
+    "positions": [
+      "ZPPP-KMW1"
+    ]
+  }
+}

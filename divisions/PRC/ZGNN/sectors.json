@@ -1,0 +1,34 @@
+{
+  "ZGNN": {
+    "volumes": [
+      "ZGNN"
+    ],
+    "positions": [
+      "ZGNN"
+    ]
+  },
+  "ZGNN-NNE": {
+    "volumes": [
+      "ZGNN-NNE"
+    ],
+    "positions": [
+      "ZGNN-NNE"
+    ]
+  },
+  "ZGNN-NNS": {
+    "volumes": [
+      "ZGNN-NNS"
+    ],
+    "positions": [
+      "ZGNN-NNS"
+    ]
+  },
+  "ZGNN-NNW": {
+    "volumes": [
+      "ZGNN-NNW"
+    ],
+    "positions": [
+      "ZGNN-NNW"
+    ]
+  }
+}

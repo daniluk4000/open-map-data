@@ -77,8 +77,9 @@ Contains whole Division definition. Can only be present in root of division fold
 - `subdivisions`: an object with `name`, `briefing` and `callsigns` fields. Filling this will enforce subdivisions
   folder structure, with each folder named as specific subdivision code
 - `countries`: Countries prefixes definitions for airports in this division (array of `name` and `prefixes`)
-- `callsigns`: Callsigns definitions for all matching positions in this division. For example, you can set all Grounds
-  to be Aprons by default - etc
+- `callsigns`: Callsigns definitions for all matching positions in this division. Each definition requires `callsign`
+  and must specify at least one of `prefixes` or `suffixes`; both are arrays. `suffixes` can match multiple position
+  types in one definition. For example, you can set all Grounds to be Aprons by default - etc
 
 ### Configuration (.json)
 
@@ -127,8 +128,8 @@ Supported fields:
 - `label`: Optional label, displayed on map. Defaults to position ID
 - `labelCoordinate`: Optional label coordinate. Defaults to all (or each) sectors center. When specified, only one label
   will be displayed for this sector
-- `type` (required): Position type (suffix). For example, CTR
-- `prefix` (required): Position prefix, or prefixes
+- `suffixes` (required): Position suffixes, for example `CTR` or `APP`. Use an array to match multiple suffixes.
+- `prefixes` (required): Position prefixes. Use an array to match multiple prefixes.
 - `frequency`: Position primary frequency. When unspecified, any frequency will be valid for this position
 - `parent`: A larger parent position that fully includes this position
 
@@ -156,6 +157,9 @@ Geojson properties must also include:
 
 - `floor`: FL of lower vertical border (inclusive). Set to 000 to have no lower level
 - `ceiling`: FL of upper vertical border (exclusive). Set to 999 to have no upper level
+- `geometryFromVolume`: ID of another volume in the same FIR whose geometry should be reused. When set, this feature's
+  `geometry` must be `null`; the referenced volume must exist in the same `volumes.geojson` file. The compiler replaces
+  the reference with its qualified volume ID (for example, `volume:ULLL/R1`).
 
 With `floor` set to 999 and `ceiling` set to 000, enables this volume for combined display and VATSpy compatibility.
 
@@ -171,7 +175,8 @@ Airports definitions. An object (key = ICAO code)
 - `prefixes`: Globally unique airport prefixes if different from ICAO code
 - `positions`: List of owning positions in descending order (first has the most priority to control this sector). Can
   also inherit this from other airport
-- `callsigns`: Callsigns definitions for all matching positions in this airport, if different from division definition
+- `callsigns`: Callsigns definitions for matching positions in this airport, if different from division definition.
+  Each definition requires `callsign` and `suffixes` (an array); `prefixes` is optional.
 - `elevationFt`: Airport elevation in feets
 - `briefing`: This airport briefing link
 - `ctaf`: Airport CTAF frequency

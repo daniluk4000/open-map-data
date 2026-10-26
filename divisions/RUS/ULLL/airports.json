@@ -3,7 +3,7 @@
     "name": "Pulkovo",
     "iata": "LED",
     "city": "St. Petersburg",
-    "coordinate": [59.8, 30.265],
+    "coordinate": [30.265, 59.8],
     "elevationFt": 79,
     "briefing": "https://vatsim-petersburg.com",
     "runways": [

@@ -1,0 +1,20 @@
+{
+  "ZHCC-APP": {
+    "name": "Zhengzhou Approach",
+    "prefixes": [
+      "ZHCC"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZHHH-APP": {
+    "name": "Wuhan Approach",
+    "prefixes": [
+      "ZHHH"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  }
+}

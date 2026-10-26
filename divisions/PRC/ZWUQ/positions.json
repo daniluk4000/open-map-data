@@ -1,0 +1,20 @@
+{
+  "ZWAK-APP": {
+    "name": "Aksu Approach",
+    "prefixes": [
+      "ZWAK"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZWWW-APP": {
+    "name": "Urumqi Approach",
+    "prefixes": [
+      "ZWWW"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  }
+}

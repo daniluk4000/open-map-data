@@ -1,0 +1,67 @@
+{
+  "ZYTL": {
+    "name": "Dalian ACC - Shenyang FIR - Dalian",
+    "prefixes": [
+      "ZYTL"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      124.88621,
+      40.783005
+    ]
+  },
+  "ZYTL-DLE": {
+    "name": "Dalian ACC East Sector - Shenyang FIR - Dalian",
+    "prefixes": [
+      "ZYTL_E"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      123.343575,
+      40.223729
+    ]
+  },
+  "ZYTL-DLN": {
+    "name": "Dalian ACC North Sector - Shenyang FIR - Dalian",
+    "prefixes": [
+      "ZYTL_N"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      127.50883,
+      42.482863
+    ]
+  },
+  "ZYTL-DLS": {
+    "name": "Dalian ACC South Sector - Shenyang FIR - Dalian",
+    "prefixes": [
+      "ZYTL_S"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      123.361473,
+      37.910078
+    ]
+  },
+  "ZYTL-DLW": {
+    "name": "Dalian ACC West Sector - Shenyang FIR - Dalian",
+    "prefixes": [
+      "ZYTL_W"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      121.473983,
+      39.149753
+    ]
+  }
+}

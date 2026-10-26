@@ -1,0 +1,38 @@
+{
+  "ZYCC-APP": {
+    "name": "Changchun Approach",
+    "prefixes": [
+      "ZYCC"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZYHB-APP": {
+    "name": "Harbin Approach",
+    "prefixes": [
+      "ZYHB"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZYTL-APP": {
+    "name": "Dalian Approach",
+    "prefixes": [
+      "ZYTL"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZYTX-APP": {
+    "name": "Shenyang Approach",
+    "prefixes": [
+      "ZYTX"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  }
+}

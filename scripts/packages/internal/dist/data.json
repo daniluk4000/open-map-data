@@ -1,0 +1,8145 @@
+{
+  "divisions": {
+    "PRC": {
+      "code": "PRC",
+      "name": "People's Republic of China",
+      "region": "APAC",
+      "briefing": "https://www.vatprc.net/",
+      "countries": [
+        {
+          "name": "China",
+          "prefixes": [
+            "ZB",
+            "ZG",
+            "ZH",
+            "ZJ",
+            "ZL",
+            "ZP",
+            "ZS",
+            "ZU",
+            "ZW",
+            "ZY"
+          ]
+        }
+      ],
+      "callsigns": [
+        {
+          "suffixes": [
+            "CTR"
+          ],
+          "callsign": "Control"
+        }
+      ],
+      "configuration": {
+        "extensions": [
+          {
+            "frequencyRequired": true,
+            "showExtensionFrequency": "when-in-atis",
+            "suffixes": [
+              "CTR"
+            ],
+            "mapping": [
+              {
+                "identifier": "ZBAA",
+                "frequency": 128.3,
+                "sectors": [
+                  "sector:ZBAA"
+                ]
+              },
+              {
+                "identifier": "BJE",
+                "frequency": 120.35,
+                "sectors": [
+                  "sector:ZBAA-E"
+                ]
+              },
+              {
+                "identifier": "BJE1",
+                "frequency": 125.9,
+                "sectors": [
+                  "sector:ZBAA-E1"
+                ]
+              },
+              {
+                "identifier": "BJE2",
+                "frequency": 125.6,
+                "sectors": [
+                  "sector:ZBAA-E2"
+                ]
+              },
+              {
+                "identifier": "BJS",
+                "frequency": 127.35,
+                "sectors": [
+                  "sector:ZBAA-S"
+                ]
+              },
+              {
+                "identifier": "BJS1",
+                "frequency": 126.95,
+                "sectors": [
+                  "sector:ZBAA-S1"
+                ]
+              },
+              {
+                "identifier": "BJW",
+                "frequency": 128.1,
+                "sectors": [
+                  "sector:ZBAA-W"
+                ]
+              },
+              {
+                "identifier": "BJW1",
+                "frequency": 124.55,
+                "sectors": [
+                  "sector:ZBAA-W1"
+                ]
+              },
+              {
+                "identifier": "BJW2",
+                "frequency": 126.7,
+                "sectors": [
+                  "sector:ZBAA-W2"
+                ]
+              },
+              {
+                "identifier": "BJN",
+                "frequency": 133.025,
+                "sectors": [
+                  "sector:ZBAA-N"
+                ]
+              },
+              {
+                "identifier": "BJN1",
+                "frequency": 127.7,
+                "sectors": [
+                  "sector:ZBAA-N1"
+                ]
+              },
+              {
+                "identifier": "ZBHH",
+                "frequency": 133.7,
+                "sectors": [
+                  "sector:ZBHH"
+                ]
+              },
+              {
+                "identifier": "HHW",
+                "frequency": 119.325,
+                "sectors": [
+                  "sector:ZBHH-W"
+                ]
+              },
+              {
+                "identifier": "ZGGG",
+                "frequency": 118.95,
+                "sectors": [
+                  "sector:ZGGG"
+                ]
+              },
+              {
+                "identifier": "GZE",
+                "frequency": 133.475,
+                "sectors": [
+                  "sector:ZGGG-E"
+                ]
+              },
+              {
+                "identifier": "GZE1",
+                "frequency": 133.975,
+                "sectors": [
+                  "sector:ZGGG-E1"
+                ]
+              },
+              {
+                "identifier": "GZS",
+                "frequency": 124.45,
+                "sectors": [
+                  "sector:ZGGG-S"
+                ]
+              },
+              {
+                "identifier": "GZS1",
+                "frequency": 125.35,
+                "sectors": [
+                  "sector:ZGGG-S1"
+                ]
+              },
+              {
+                "identifier": "GZW",
+                "frequency": 133.525,
+                "sectors": [
+                  "sector:ZGGG-W"
+                ]
+              },
+              {
+                "identifier": "GZW1",
+                "frequency": 132.75,
+                "sectors": [
+                  "sector:ZGGG-W1"
+                ]
+              },
+              {
+                "identifier": "GZN",
+                "frequency": 118.9,
+                "sectors": [
+                  "sector:ZGGG-N"
+                ]
+              },
+              {
+                "identifier": "GZN1",
+                "frequency": 134.1,
+                "sectors": [
+                  "sector:ZGGG-N1"
+                ]
+              },
+              {
+                "identifier": "GZC",
+                "frequency": 126.15,
+                "sectors": [
+                  "sector:ZGGG-C"
+                ]
+              },
+              {
+                "identifier": "GZC1",
+                "frequency": 135.45,
+                "sectors": [
+                  "sector:ZGGG-C1"
+                ]
+              },
+              {
+                "identifier": "ZHCC",
+                "frequency": 119.35,
+                "sectors": [
+                  "sector:ZHCC"
+                ]
+              },
+              {
+                "identifier": "ZZW",
+                "frequency": 134.6,
+                "sectors": [
+                  "sector:ZHCC-W"
+                ]
+              },
+              {
+                "identifier": "ZHHH",
+                "frequency": 119.7,
+                "sectors": [
+                  "sector:ZHHH"
+                ]
+              },
+              {
+                "identifier": "WHW",
+                "frequency": 119.3,
+                "sectors": [
+                  "sector:ZHHH-W"
+                ]
+              },
+              {
+                "identifier": "ZLLL",
+                "frequency": 134.7,
+                "sectors": [
+                  "sector:ZLLL"
+                ]
+              },
+              {
+                "identifier": "LZS",
+                "frequency": 124.525,
+                "sectors": [
+                  "sector:ZLLL-S"
+                ]
+              },
+              {
+                "identifier": "LZS1",
+                "frequency": 120.525,
+                "sectors": [
+                  "sector:ZLLL-S1"
+                ]
+              },
+              {
+                "identifier": "LZS2",
+                "frequency": 132.8,
+                "sectors": [
+                  "sector:ZLLL-S2"
+                ]
+              },
+              {
+                "identifier": "LZN",
+                "frequency": 128.725,
+                "sectors": [
+                  "sector:ZLLL-N"
+                ]
+              },
+              {
+                "identifier": "LZN1",
+                "frequency": 133.35,
+                "sectors": [
+                  "sector:ZLLL-N1"
+                ]
+              },
+              {
+                "identifier": "LZC",
+                "frequency": 123.75,
+                "sectors": [
+                  "sector:ZLLL-C"
+                ]
+              },
+              {
+                "identifier": "ZLXY",
+                "frequency": 125.3,
+                "sectors": [
+                  "sector:ZLXY"
+                ]
+              },
+              {
+                "identifier": "XAS",
+                "frequency": 122.2,
+                "sectors": [
+                  "sector:ZLXY-S"
+                ]
+              },
+              {
+                "identifier": "ZMUB",
+                "frequency": 126.05,
+                "sectors": [
+                  "sector:ZMUB"
+                ]
+              },
+              {
+                "identifier": "ULD",
+                "frequency": 126.5,
+                "sectors": [
+                  "sector:ZMUB-D"
+                ]
+              },
+              {
+                "identifier": "ULG",
+                "frequency": 127,
+                "sectors": [
+                  "sector:ZMUB-G"
+                ]
+              },
+              {
+                "identifier": "ULB",
+                "frequency": 122.5,
+                "sectors": [
+                  "sector:ZMUB-B"
+                ]
+              },
+              {
+                "identifier": "ULA",
+                "frequency": 124,
+                "sectors": [
+                  "sector:ZMUB-A"
+                ]
+              },
+              {
+                "identifier": "ULC",
+                "frequency": 126,
+                "sectors": [
+                  "sector:ZMUB-C"
+                ]
+              },
+              {
+                "identifier": "ULM",
+                "frequency": 128,
+                "sectors": [
+                  "sector:ZMUB-M"
+                ]
+              },
+              {
+                "identifier": "ZSJN",
+                "frequency": 122.9,
+                "sectors": [
+                  "sector:ZSJN"
+                ]
+              },
+              {
+                "identifier": "JNE",
+                "frequency": 132.375,
+                "sectors": [
+                  "sector:ZSJN-E"
+                ]
+              },
+              {
+                "identifier": "ZSOF",
+                "frequency": 125.775,
+                "sectors": [
+                  "sector:ZSOF"
+                ]
+              },
+              {
+                "identifier": "HFN",
+                "frequency": 126.125,
+                "sectors": [
+                  "sector:ZSOF-N"
+                ]
+              },
+              {
+                "identifier": "ZSQD",
+                "frequency": 128.55,
+                "sectors": [
+                  "sector:ZSQD"
+                ]
+              },
+              {
+                "identifier": "QDH",
+                "frequency": 133.05,
+                "sectors": [
+                  "sector:ZSQD-H"
+                ]
+              },
+              {
+                "identifier": "ZSSS",
+                "frequency": 120.95,
+                "sectors": [
+                  "sector:ZSSS"
+                ]
+              },
+              {
+                "identifier": "SHE",
+                "frequency": 120.75,
+                "sectors": [
+                  "sector:ZSSS-E"
+                ]
+              },
+              {
+                "identifier": "SHE1",
+                "frequency": 135,
+                "sectors": [
+                  "sector:ZSSS-E1"
+                ]
+              },
+              {
+                "identifier": "SHS",
+                "frequency": 128.35,
+                "sectors": [
+                  "sector:ZSSS-S"
+                ]
+              },
+              {
+                "identifier": "SHS1",
+                "frequency": 128.15,
+                "sectors": [
+                  "sector:ZSSS-S1"
+                ]
+              },
+              {
+                "identifier": "SHS2",
+                "frequency": 128.7,
+                "sectors": [
+                  "sector:ZSSS-S2"
+                ]
+              },
+              {
+                "identifier": "SHW",
+                "frequency": 132.4,
+                "sectors": [
+                  "sector:ZSSS-W"
+                ]
+              },
+              {
+                "identifier": "SHW1",
+                "frequency": 134.25,
+                "sectors": [
+                  "sector:ZSSS-W1"
+                ]
+              },
+              {
+                "identifier": "SHW2",
+                "frequency": 120.1,
+                "sectors": [
+                  "sector:ZSSS-W2"
+                ]
+              },
+              {
+                "identifier": "SHC",
+                "frequency": 132.625,
+                "sectors": [
+                  "sector:ZSSS-C"
+                ]
+              },
+              {
+                "identifier": "SHC1",
+                "frequency": 135.75,
+                "sectors": [
+                  "sector:ZSSS-C1"
+                ]
+              },
+              {
+                "identifier": "ZYTL",
+                "frequency": 132.95,
+                "sectors": [
+                  "sector:ZYTL"
+                ]
+              },
+              {
+                "identifier": "DLE",
+                "frequency": 120.7,
+                "sectors": [
+                  "sector:ZYTL-E"
+                ]
+              },
+              {
+                "identifier": "DLS",
+                "frequency": 133.15,
+                "sectors": [
+                  "sector:ZYTL-S"
+                ]
+              },
+              {
+                "identifier": "DLW",
+                "frequency": 123.2,
+                "sectors": [
+                  "sector:ZYTL-W"
+                ]
+              },
+              {
+                "identifier": "DLN",
+                "frequency": 128.125,
+                "sectors": [
+                  "sector:ZYTL-N"
+                ]
+              },
+              {
+                "identifier": "ZYTX",
+                "frequency": 118.9,
+                "sectors": [
+                  "sector:ZYTX"
+                ]
+              },
+              {
+                "identifier": "SYS",
+                "frequency": 125.325,
+                "sectors": [
+                  "sector:ZYTX-S"
+                ]
+              },
+              {
+                "identifier": "SYW",
+                "frequency": 125.95,
+                "sectors": [
+                  "sector:ZYTX-W"
+                ]
+              },
+              {
+                "identifier": "SYN",
+                "frequency": 133.25,
+                "sectors": [
+                  "sector:ZYTX-N"
+                ]
+              },
+              {
+                "identifier": "SYN1",
+                "frequency": 120.975,
+                "sectors": [
+                  "sector:ZYTX-N1"
+                ]
+              },
+              {
+                "identifier": "ZGHA",
+                "frequency": 132.55,
+                "sectors": [
+                  "sector:ZGHA"
+                ]
+              },
+              {
+                "identifier": "CSW",
+                "frequency": 123.9,
+                "sectors": [
+                  "sector:ZGHA-W"
+                ]
+              },
+              {
+                "identifier": "ZGNN",
+                "frequency": 133.6,
+                "sectors": [
+                  "sector:ZGNN"
+                ]
+              },
+              {
+                "identifier": "NNE",
+                "frequency": 132.7,
+                "sectors": [
+                  "sector:ZGNN-E"
+                ]
+              },
+              {
+                "identifier": "NNS",
+                "frequency": 133.95,
+                "sectors": [
+                  "sector:ZGNN-S"
+                ]
+              },
+              {
+                "identifier": "NNW",
+                "frequency": 133.1,
+                "sectors": [
+                  "sector:ZGNN-W"
+                ]
+              },
+              {
+                "identifier": "ZJSY",
+                "frequency": 120.5,
+                "sectors": [
+                  "sector:ZJSY"
+                ]
+              },
+              {
+                "identifier": "SAN",
+                "frequency": 134.45,
+                "sectors": [
+                  "sector:ZJSY-N"
+                ]
+              },
+              {
+                "identifier": "SAL",
+                "frequency": 133.2,
+                "sectors": [
+                  "sector:ZJSY-L"
+                ]
+              },
+              {
+                "identifier": "SAO",
+                "frequency": 130.2,
+                "sectors": [
+                  "sector:ZJSY-O"
+                ]
+              },
+              {
+                "identifier": "ZPPP",
+                "frequency": 125.75,
+                "sectors": [
+                  "sector:ZPPP"
+                ]
+              },
+              {
+                "identifier": "KME",
+                "frequency": 120.975,
+                "sectors": [
+                  "sector:ZPPP-E"
+                ]
+              },
+              {
+                "identifier": "KME1",
+                "frequency": 134.35,
+                "sectors": [
+                  "sector:ZPPP-E1"
+                ]
+              },
+              {
+                "identifier": "KME2",
+                "frequency": 127.5,
+                "sectors": [
+                  "sector:ZPPP-E2"
+                ]
+              },
+              {
+                "identifier": "KMW",
+                "frequency": 132.425,
+                "sectors": [
+                  "sector:ZPPP-W"
+                ]
+              },
+              {
+                "identifier": "KMW1",
+                "frequency": 132.175,
+                "sectors": [
+                  "sector:ZPPP-W1"
+                ]
+              },
+              {
+                "identifier": "ZSAM",
+                "frequency": 125.7,
+                "sectors": [
+                  "sector:ZSAM"
+                ]
+              },
+              {
+                "identifier": "XMS",
+                "frequency": 133.175,
+                "sectors": [
+                  "sector:ZSAM-S"
+                ]
+              },
+              {
+                "identifier": "ZSCN",
+                "frequency": 124.15,
+                "sectors": [
+                  "sector:ZSCN"
+                ]
+              },
+              {
+                "identifier": "NCE",
+                "frequency": 125.375,
+                "sectors": [
+                  "sector:ZSCN-E"
+                ]
+              },
+              {
+                "identifier": "ZUGY",
+                "frequency": 132.85,
+                "sectors": [
+                  "sector:ZUGY"
+                ]
+              },
+              {
+                "identifier": "GYE",
+                "frequency": 120.7,
+                "sectors": [
+                  "sector:ZUGY-E"
+                ]
+              },
+              {
+                "identifier": "ZUUU",
+                "frequency": 120.9,
+                "sectors": [
+                  "sector:ZUUU"
+                ]
+              },
+              {
+                "identifier": "CDE",
+                "frequency": 134,
+                "sectors": [
+                  "sector:ZUUU-E"
+                ]
+              },
+              {
+                "identifier": "CDS",
+                "frequency": 133.125,
+                "sectors": [
+                  "sector:ZUUU-S"
+                ]
+              },
+              {
+                "identifier": "CDW",
+                "frequency": 133.8,
+                "sectors": [
+                  "sector:ZUUU-W"
+                ]
+              },
+              {
+                "identifier": "CDN",
+                "frequency": 132.3,
+                "sectors": [
+                  "sector:ZUUU-N"
+                ]
+              },
+              {
+                "identifier": "CDN1",
+                "frequency": 123.7,
+                "sectors": [
+                  "sector:ZUUU-N1"
+                ]
+              },
+              {
+                "identifier": "CDG",
+                "frequency": 124.95,
+                "sectors": [
+                  "sector:ZUUU-G"
+                ]
+              },
+              {
+                "identifier": "ZULS",
+                "frequency": 132.35,
+                "sectors": [
+                  "sector:ZULS"
+                ]
+              },
+              {
+                "identifier": "LSE",
+                "frequency": 119.375,
+                "sectors": [
+                  "sector:ZULS-E"
+                ]
+              },
+              {
+                "identifier": "ZWWW",
+                "frequency": 118.9,
+                "sectors": [
+                  "sector:ZWWW"
+                ]
+              },
+              {
+                "identifier": "WUE",
+                "frequency": 120.575,
+                "sectors": [
+                  "sector:ZWWW-E"
+                ]
+              },
+              {
+                "identifier": "WUS",
+                "frequency": 118.975,
+                "sectors": [
+                  "sector:ZWWW-S"
+                ]
+              },
+              {
+                "identifier": "WUS1",
+                "frequency": 125.325,
+                "sectors": [
+                  "sector:ZWWW-S1"
+                ]
+              },
+              {
+                "identifier": "WUW",
+                "frequency": 128.15,
+                "sectors": [
+                  "sector:ZWWW-W"
+                ]
+              },
+              {
+                "identifier": "WUW1",
+                "frequency": 119.3,
+                "sectors": [
+                  "sector:ZWWW-W1"
+                ]
+              },
+              {
+                "identifier": "ZYHB",
+                "frequency": 120.55,
+                "sectors": [
+                  "sector:ZYHB"
+                ]
+              },
+              {
+                "identifier": "HBE",
+                "frequency": 133.2,
+                "sectors": [
+                  "sector:ZYHB-E"
+                ]
+              },
+              {
+                "identifier": "HBE1",
+                "frequency": 128.75,
+                "sectors": [
+                  "sector:ZYHB-E1"
+                ]
+              },
+              {
+                "identifier": "HBE2",
+                "frequency": 118.95,
+                "sectors": [
+                  "sector:ZYHB-E2"
+                ]
+              },
+              {
+                "identifier": "HBW",
+                "frequency": 123.9,
+                "sectors": [
+                  "sector:ZYHB-W"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "firs": {
+        "ZBAA": {
+          "configuration": {}
+        },
+        "ZBHH": {
+          "configuration": {}
+        },
+        "ZBPE": {
+          "configuration": {}
+        },
+        "ZGGG": {
+          "configuration": {}
+        },
+        "ZGHA": {
+          "configuration": {}
+        },
+        "ZGNN": {
+          "configuration": {}
+        },
+        "ZGZU": {
+          "configuration": {}
+        },
+        "ZHCC": {
+          "configuration": {}
+        },
+        "ZHHH": {
+          "configuration": {}
+        },
+        "ZHWH": {
+          "configuration": {}
+        },
+        "ZJSA": {
+          "configuration": {}
+        },
+        "ZJSY": {
+          "configuration": {}
+        },
+        "ZLHW": {
+          "configuration": {}
+        },
+        "ZLLL": {
+          "configuration": {}
+        },
+        "ZLXY": {
+          "configuration": {}
+        },
+        "ZPKM": {
+          "configuration": {}
+        },
+        "ZPPP": {
+          "configuration": {}
+        },
+        "ZSAM": {
+          "configuration": {}
+        },
+        "ZSCN": {
+          "configuration": {}
+        },
+        "ZSHA": {
+          "configuration": {}
+        },
+        "ZSJN": {
+          "configuration": {}
+        },
+        "ZSOF": {
+          "configuration": {}
+        },
+        "ZSQD": {
+          "configuration": {}
+        },
+        "ZSSS": {
+          "configuration": {}
+        },
+        "ZUGY": {
+          "configuration": {}
+        },
+        "ZULS": {
+          "configuration": {}
+        },
+        "ZUUU": {
+          "configuration": {}
+        },
+        "ZWUQ": {
+          "configuration": {}
+        },
+        "ZWWW": {
+          "configuration": {}
+        },
+        "ZYHB": {
+          "configuration": {}
+        },
+        "ZYSH": {
+          "configuration": {}
+        },
+        "ZYTL": {
+          "configuration": {}
+        },
+        "ZYTX": {
+          "configuration": {}
+        }
+      }
+    },
+    "RUS": {
+      "code": "RUS",
+      "name": "Russia",
+      "region": "EMEA",
+      "countries": [
+        {
+          "name": "Russia",
+          "prefixes": [
+            "UL"
+          ]
+        }
+      ],
+      "callsigns": [
+        {
+          "prefixes": [
+            "UL"
+          ],
+          "suffixes": [
+            "CTR"
+          ],
+          "callsign": "Control"
+        }
+      ],
+      "configuration": {
+        "extensions": [
+          {
+            "mapping": [
+              {
+                "identifier": "ASW",
+                "sectors": [
+                  "sector:ULLL/ULLL-R"
+                ]
+              }
+            ]
+          }
+        ],
+        "ownership": {
+          "EVENT": {
+            "sectors": {
+              "sector:ULLL/R2": {
+                "positions": [
+                  {
+                    "fir": "ULLL",
+                    "id": "position:ULLL/ULLL"
+                  }
+                ],
+                "resolvedPositions": [
+                  {
+                    "fir": "ULLL",
+                    "id": "position:ULLL/ULLL"
+                  },
+                  {
+                    "id": "position:NWC"
+                  }
+                ]
+              }
+            },
+            "airports": {
+              "ULLI": {
+                "positions": [
+                  {
+                    "fir": "ULLL",
+                    "id": "position:ULLL/ULLL"
+                  }
+                ],
+                "resolvedPositions": [
+                  {
+                    "fir": "ULLL",
+                    "id": "position:ULLL/ULLL"
+                  },
+                  {
+                    "id": "position:NWC"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "firs": {
+        "ULLL": {
+          "configuration": {}
+        }
+      }
+    },
+    "VATUSA": {
+      "code": "VATUSA",
+      "name": "United States",
+      "region": "AMAS",
+      "countries": [
+        {
+          "name": "USA",
+          "prefixes": [
+            "KB"
+          ]
+        }
+      ],
+      "firs": {
+        "KZBW": {
+          "configuration": {}
+        }
+      }
+    }
+  },
+  "positions": {
+    "position:ZBAA/ZBAA": {
+      "name": "Beijing ACC - Beijing FIR - Beijing",
+      "prefixes": [
+        "ZBAA"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        114.046557,
+        39.223348
+      ],
+      "id": "position:ZBAA/ZBAA",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBAA/ZBAA",
+        "sector:ZBAA/ZBAA",
+        "sector:ZBAA/ZBAA"
+      ]
+    },
+    "position:ZBAA/ZBAA-BJE": {
+      "name": "Beijing ACC East Sector - Beijing FIR - Beijing",
+      "prefixes": [
+        "ZBAA_E"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        117.42331,
+        39.880692
+      ],
+      "id": "position:ZBAA/ZBAA-BJE",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBAA/ZBAA-BJE",
+        "sector:ZBAA/ZBAA-BJE",
+        "sector:ZBAA/ZBAA-BJE"
+      ]
+    },
+    "position:ZBAA/ZBAA-BJE1": {
+      "name": "Beijing ACC East 1 Sector - Beijing FIR - Beijing",
+      "prefixes": [
+        "ZBAA_E1"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        116.959359,
+        41.37898
+      ],
+      "id": "position:ZBAA/ZBAA-BJE1",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBAA/ZBAA-BJE1",
+        "sector:ZBAA/ZBAA-BJE1",
+        "sector:ZBAA/ZBAA-BJE1"
+      ]
+    },
+    "position:ZBAA/ZBAA-BJE2": {
+      "name": "Beijing ACC East 2 Sector - Beijing FIR - Beijing",
+      "prefixes": [
+        "ZBAA_E2"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        118.617963,
+        39.084003
+      ],
+      "id": "position:ZBAA/ZBAA-BJE2",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBAA/ZBAA-BJE2",
+        "sector:ZBAA/ZBAA-BJE2",
+        "sector:ZBAA/ZBAA-BJE2"
+      ]
+    },
+    "position:ZBAA/ZBAA-BJN": {
+      "name": "Beijing ACC North Sector - Beijing FIR - Beijing",
+      "prefixes": [
+        "ZBAA_N"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        111.574647,
+        42.067957
+      ],
+      "id": "position:ZBAA/ZBAA-BJN",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBAA/ZBAA-BJN",
+        "sector:ZBAA/ZBAA-BJN",
+        "sector:ZBAA/ZBAA-BJN"
+      ]
+    },
+    "position:ZBAA/ZBAA-BJN1": {
+      "name": "Beijing ACC North 1 Sector - Beijing FIR - Beijing",
+      "prefixes": [
+        "ZBAA_N1"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        109.530995,
+        41.024611
+      ],
+      "id": "position:ZBAA/ZBAA-BJN1",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBAA/ZBAA-BJN1",
+        "sector:ZBAA/ZBAA-BJN1",
+        "sector:ZBAA/ZBAA-BJN1"
+      ]
+    },
+    "position:ZBAA/ZBAA-BJS": {
+      "name": "Beijing ACC South Sector - Beijing FIR - Beijing",
+      "prefixes": [
+        "ZBAA_S"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        115.497536,
+        35.044628
+      ],
+      "id": "position:ZBAA/ZBAA-BJS",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBAA/ZBAA-BJS",
+        "sector:ZBAA/ZBAA-BJS",
+        "sector:ZBAA/ZBAA-BJS"
+      ]
+    },
+    "position:ZBAA/ZBAA-BJS1": {
+      "name": "Beijing ACC South 1 Sector - Beijing FIR - Beijing",
+      "prefixes": [
+        "ZBAA_S1"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        113.785575,
+        34.162572
+      ],
+      "id": "position:ZBAA/ZBAA-BJS1",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBAA/ZBAA-BJS1",
+        "sector:ZBAA/ZBAA-BJS1",
+        "sector:ZBAA/ZBAA-BJS1"
+      ]
+    },
+    "position:ZBAA/ZBAA-BJW": {
+      "name": "Beijing ACC West Sector - Beijing FIR - Beijing",
+      "prefixes": [
+        "ZBAA_W"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        113.826471,
+        38.671403
+      ],
+      "id": "position:ZBAA/ZBAA-BJW",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBAA/ZBAA-BJW",
+        "sector:ZBAA/ZBAA-BJW",
+        "sector:ZBAA/ZBAA-BJW"
+      ]
+    },
+    "position:ZBAA/ZBAA-BJW1": {
+      "name": "Beijing ACC West 1 Sector - Beijing FIR - Beijing",
+      "prefixes": [
+        "ZBAA_W1"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        113.775211,
+        39.901248
+      ],
+      "id": "position:ZBAA/ZBAA-BJW1",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBAA/ZBAA-BJW1",
+        "sector:ZBAA/ZBAA-BJW1",
+        "sector:ZBAA/ZBAA-BJW1"
+      ]
+    },
+    "position:ZBAA/ZBAA-BJW2": {
+      "name": "Beijing ACC West 2 Sector - Beijing FIR - Beijing",
+      "prefixes": [
+        "ZBAA_W2"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        113.040976,
+        37.171049
+      ],
+      "id": "position:ZBAA/ZBAA-BJW2",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBAA/ZBAA-BJW2",
+        "sector:ZBAA/ZBAA-BJW2",
+        "sector:ZBAA/ZBAA-BJW2"
+      ]
+    },
+    "position:ZBAA/VOK-APP": {
+      "name": "Volk Approach",
+      "prefixes": [
+        "VOK"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZBAA/VOK-APP",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBAA/VOK-APP",
+        "sector:ZBAA/VOK-APP",
+        "sector:ZBAA/VOK-APP"
+      ]
+    },
+    "position:ZBHH/ZBHH": {
+      "name": "Hohhot ACC - Beijing FIR - Hohhot",
+      "prefixes": [
+        "ZBHH"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        113.953371,
+        43.10609
+      ],
+      "id": "position:ZBHH/ZBHH",
+      "division": "PRC",
+      "fir": "ZBHH",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBHH/ZBHH",
+        "sector:ZBHH/ZBHH",
+        "sector:ZBHH/ZBHH"
+      ]
+    },
+    "position:ZBHH/ZBHH-HHW": {
+      "name": "Hohhot ACC West Sector - Beijing FIR - Hohhot",
+      "prefixes": [
+        "ZBHH_W"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        109.089494,
+        40.793561
+      ],
+      "id": "position:ZBHH/ZBHH-HHW",
+      "division": "PRC",
+      "fir": "ZBHH",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBHH/ZBHH-HHW",
+        "sector:ZBHH/ZBHH-HHW",
+        "sector:ZBHH/ZBHH-HHW"
+      ]
+    },
+    "position:ZBPE/ZBAA-APP": {
+      "name": "Beijing Approach",
+      "prefixes": [
+        "ZBAA"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZBPE/ZBAA-APP",
+      "division": "PRC",
+      "fir": "ZBPE",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBPE/ZBAA-APP",
+        "sector:ZBPE/ZBAA-APP",
+        "sector:ZBPE/ZBAA-APP"
+      ]
+    },
+    "position:ZBPE/ZBAA_AA-APP": {
+      "name": "Capital Approach",
+      "prefixes": [
+        "ZBAA_AA"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZBPE/ZBAA_AA-APP",
+      "division": "PRC",
+      "fir": "ZBPE",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBPE/ZBAA_AA-APP",
+        "sector:ZBPE/ZBAA_AA-APP",
+        "sector:ZBPE/ZBAA_AA-APP"
+      ]
+    },
+    "position:ZBPE/ZBAA_AD-APP": {
+      "name": "Daxing Approach",
+      "prefixes": [
+        "ZBAA_AD"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZBPE/ZBAA_AD-APP",
+      "division": "PRC",
+      "fir": "ZBPE",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBPE/ZBAA_AD-APP",
+        "sector:ZBPE/ZBAA_AD-APP",
+        "sector:ZBPE/ZBAA_AD-APP"
+      ]
+    },
+    "position:ZBPE/ZBAA_S-APP": {
+      "name": "Beijing Approach",
+      "prefixes": [
+        "ZBAA_S"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZBPE/ZBAA_S-APP",
+      "division": "PRC",
+      "fir": "ZBPE",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBPE/ZBAA_S-APP",
+        "sector:ZBPE/ZBAA_S-APP",
+        "sector:ZBPE/ZBAA_S-APP"
+      ]
+    },
+    "position:ZBPE/ZBAA_W-APP": {
+      "name": "Beijing Approach",
+      "prefixes": [
+        "ZBAA_W"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZBPE/ZBAA_W-APP",
+      "division": "PRC",
+      "fir": "ZBPE",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBPE/ZBAA_W-APP",
+        "sector:ZBPE/ZBAA_W-APP",
+        "sector:ZBPE/ZBAA_W-APP"
+      ]
+    },
+    "position:ZBPE/ZBHH-APP": {
+      "name": "Hohhot Approach",
+      "prefixes": [
+        "ZBHH"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZBPE/ZBHH-APP",
+      "division": "PRC",
+      "fir": "ZBPE",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBPE/ZBHH-APP",
+        "sector:ZBPE/ZBHH-APP",
+        "sector:ZBPE/ZBHH-APP"
+      ]
+    },
+    "position:ZBPE/ZBLA-APP": {
+      "name": "Hulunbuir Approach",
+      "prefixes": [
+        "ZBLA"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZBPE/ZBLA-APP",
+      "division": "PRC",
+      "fir": "ZBPE",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBPE/ZBLA-APP",
+        "sector:ZBPE/ZBLA-APP",
+        "sector:ZBPE/ZBLA-APP"
+      ]
+    },
+    "position:ZBPE/ZBSJ-APP": {
+      "name": "Shijiazhuang Approach",
+      "prefixes": [
+        "ZBSJ"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZBPE/ZBSJ-APP",
+      "division": "PRC",
+      "fir": "ZBPE",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBPE/ZBSJ-APP",
+        "sector:ZBPE/ZBSJ-APP",
+        "sector:ZBPE/ZBSJ-APP"
+      ]
+    },
+    "position:ZBPE/ZBTJ-APP": {
+      "name": "Tianjin Approach",
+      "prefixes": [
+        "ZBTJ"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZBPE/ZBTJ-APP",
+      "division": "PRC",
+      "fir": "ZBPE",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBPE/ZBTJ-APP",
+        "sector:ZBPE/ZBTJ-APP",
+        "sector:ZBPE/ZBTJ-APP"
+      ]
+    },
+    "position:ZBPE/ZBYN-APP": {
+      "name": "Taiyuan Approach",
+      "prefixes": [
+        "ZBYN"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZBPE/ZBYN-APP",
+      "division": "PRC",
+      "fir": "ZBPE",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZBPE/ZBYN-APP",
+        "sector:ZBPE/ZBYN-APP",
+        "sector:ZBPE/ZBYN-APP"
+      ]
+    },
+    "position:ZGGG/ZGGG": {
+      "name": "Guangzhou ACC - Guangzhou FIR - Guangzhou",
+      "prefixes": [
+        "ZGGG"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        112.466923,
+        27.521607
+      ],
+      "id": "position:ZGGG/ZGGG",
+      "division": "PRC",
+      "fir": "ZGGG",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGGG/ZGGG",
+        "sector:ZGGG/ZGGG",
+        "sector:ZGGG/ZGGG"
+      ]
+    },
+    "position:ZGGG/ZGGG-GZC": {
+      "name": "Guangzhou ACC Central Sector - Guangzhou FIR - Guangzhou",
+      "prefixes": [
+        "ZGGG_C"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        111.732024,
+        27.679363
+      ],
+      "id": "position:ZGGG/ZGGG-GZC",
+      "division": "PRC",
+      "fir": "ZGGG",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGGG/ZGGG-GZC",
+        "sector:ZGGG/ZGGG-GZC",
+        "sector:ZGGG/ZGGG-GZC"
+      ]
+    },
+    "position:ZGGG/ZGGG-GZC1": {
+      "name": "Guangzhou ACC Central 1 Sector - Guangzhou FIR - Guangzhou",
+      "prefixes": [
+        "ZGGG_C1"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        110.868236,
+        27.574433
+      ],
+      "id": "position:ZGGG/ZGGG-GZC1",
+      "division": "PRC",
+      "fir": "ZGGG",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGGG/ZGGG-GZC1",
+        "sector:ZGGG/ZGGG-GZC1",
+        "sector:ZGGG/ZGGG-GZC1"
+      ]
+    },
+    "position:ZGGG/ZGGG-GZE": {
+      "name": "Guangzhou ACC East Sector - Guangzhou FIR - Guangzhou",
+      "prefixes": [
+        "ZGGG_E"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        114.84582,
+        25.079841
+      ],
+      "id": "position:ZGGG/ZGGG-GZE",
+      "division": "PRC",
+      "fir": "ZGGG",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGGG/ZGGG-GZE",
+        "sector:ZGGG/ZGGG-GZE",
+        "sector:ZGGG/ZGGG-GZE"
+      ]
+    },
+    "position:ZGGG/ZGGG-GZE1": {
+      "name": "Guangzhou ACC East 1 Sector - Guangzhou FIR - Guangzhou",
+      "prefixes": [
+        "ZGGG_E1"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        115.141309,
+        23.856064
+      ],
+      "id": "position:ZGGG/ZGGG-GZE1",
+      "division": "PRC",
+      "fir": "ZGGG",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGGG/ZGGG-GZE1",
+        "sector:ZGGG/ZGGG-GZE1",
+        "sector:ZGGG/ZGGG-GZE1"
+      ]
+    },
+    "position:ZGGG/ZGGG-GZN": {
+      "name": "Guangzhou ACC North Sector - Guangzhou FIR - Guangzhou",
+      "prefixes": [
+        "ZGGG_N"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        112.559719,
+        31.097428
+      ],
+      "id": "position:ZGGG/ZGGG-GZN",
+      "division": "PRC",
+      "fir": "ZGGG",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGGG/ZGGG-GZN",
+        "sector:ZGGG/ZGGG-GZN",
+        "sector:ZGGG/ZGGG-GZN"
+      ]
+    },
+    "position:ZGGG/ZGGG-GZN1": {
+      "name": "Guangzhou ACC North 1 Sector - Guangzhou FIR - Guangzhou",
+      "prefixes": [
+        "ZGGG_N1"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        111.282345,
+        31.272152
+      ],
+      "id": "position:ZGGG/ZGGG-GZN1",
+      "division": "PRC",
+      "fir": "ZGGG",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGGG/ZGGG-GZN1",
+        "sector:ZGGG/ZGGG-GZN1",
+        "sector:ZGGG/ZGGG-GZN1"
+      ]
+    },
+    "position:ZGGG/ZGGG-GZS": {
+      "name": "Guangzhou ACC South Sector - Guangzhou FIR - Guangzhou",
+      "prefixes": [
+        "ZGGG_S"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        112.5051,
+        22.719041
+      ],
+      "id": "position:ZGGG/ZGGG-GZS",
+      "division": "PRC",
+      "fir": "ZGGG",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGGG/ZGGG-GZS",
+        "sector:ZGGG/ZGGG-GZS",
+        "sector:ZGGG/ZGGG-GZS"
+      ]
+    },
+    "position:ZGGG/ZGGG-GZS1": {
+      "name": "Guangzhou ACC South 1 Sector - Guangzhou FIR - Guangzhou",
+      "prefixes": [
+        "ZGGG_S1"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        113.488061,
+        22.875586
+      ],
+      "id": "position:ZGGG/ZGGG-GZS1",
+      "division": "PRC",
+      "fir": "ZGGG",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGGG/ZGGG-GZS1",
+        "sector:ZGGG/ZGGG-GZS1",
+        "sector:ZGGG/ZGGG-GZS1"
+      ]
+    },
+    "position:ZGGG/ZGGG-GZW": {
+      "name": "Guangzhou ACC West Sector - Guangzhou FIR - Guangzhou",
+      "prefixes": [
+        "ZGGG_W"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        111.197502,
+        24.993208
+      ],
+      "id": "position:ZGGG/ZGGG-GZW",
+      "division": "PRC",
+      "fir": "ZGGG",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGGG/ZGGG-GZW",
+        "sector:ZGGG/ZGGG-GZW",
+        "sector:ZGGG/ZGGG-GZW"
+      ]
+    },
+    "position:ZGGG/ZGGG-GZW1": {
+      "name": "Guangzhou ACC West 1 Sector - Guangzhou FIR - Guangzhou",
+      "prefixes": [
+        "ZGGG_W1"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        109.804022,
+        25.333447
+      ],
+      "id": "position:ZGGG/ZGGG-GZW1",
+      "division": "PRC",
+      "fir": "ZGGG",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGGG/ZGGG-GZW1",
+        "sector:ZGGG/ZGGG-GZW1",
+        "sector:ZGGG/ZGGG-GZW1"
+      ]
+    },
+    "position:ZGHA/ZGHA": {
+      "name": "Changsha ACC - Guangzhou FIR - Changsha",
+      "prefixes": [
+        "ZGHA"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        113.427433,
+        27.729492
+      ],
+      "id": "position:ZGHA/ZGHA",
+      "division": "PRC",
+      "fir": "ZGHA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGHA/ZGHA",
+        "sector:ZGHA/ZGHA",
+        "sector:ZGHA/ZGHA"
+      ]
+    },
+    "position:ZGHA/ZGHA-CSW": {
+      "name": "Changsha ACC West Sector - Guangzhou FIR - Changsha",
+      "prefixes": [
+        "ZGHA_W"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        111.101007,
+        27.628372
+      ],
+      "id": "position:ZGHA/ZGHA-CSW",
+      "division": "PRC",
+      "fir": "ZGHA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGHA/ZGHA-CSW",
+        "sector:ZGHA/ZGHA-CSW",
+        "sector:ZGHA/ZGHA-CSW"
+      ]
+    },
+    "position:ZGNN/ZGNN": {
+      "name": "Nanning ACC - Guangzhou FIR - Nanning",
+      "prefixes": [
+        "ZGNN"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        109.011175,
+        23.360061
+      ],
+      "id": "position:ZGNN/ZGNN",
+      "division": "PRC",
+      "fir": "ZGNN",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGNN/ZGNN",
+        "sector:ZGNN/ZGNN",
+        "sector:ZGNN/ZGNN"
+      ]
+    },
+    "position:ZGNN/ZGNN-NNE": {
+      "name": "Nanning ACC East Sector - Guangzhou FIR - Nanning",
+      "prefixes": [
+        "ZGNN_E"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        109.94127,
+        24.239357
+      ],
+      "id": "position:ZGNN/ZGNN-NNE",
+      "division": "PRC",
+      "fir": "ZGNN",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGNN/ZGNN-NNE",
+        "sector:ZGNN/ZGNN-NNE",
+        "sector:ZGNN/ZGNN-NNE"
+      ]
+    },
+    "position:ZGNN/ZGNN-NNS": {
+      "name": "Nanning ACC South Sector - Guangzhou FIR - Nanning",
+      "prefixes": [
+        "ZGNN_S"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        109.225319,
+        21.762466
+      ],
+      "id": "position:ZGNN/ZGNN-NNS",
+      "division": "PRC",
+      "fir": "ZGNN",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGNN/ZGNN-NNS",
+        "sector:ZGNN/ZGNN-NNS",
+        "sector:ZGNN/ZGNN-NNS"
+      ]
+    },
+    "position:ZGNN/ZGNN-NNW": {
+      "name": "Nanning ACC West Sector - Guangzhou FIR - Nanning",
+      "prefixes": [
+        "ZGNN_W"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        107.19327,
+        24.1978
+      ],
+      "id": "position:ZGNN/ZGNN-NNW",
+      "division": "PRC",
+      "fir": "ZGNN",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGNN/ZGNN-NNW",
+        "sector:ZGNN/ZGNN-NNW",
+        "sector:ZGNN/ZGNN-NNW"
+      ]
+    },
+    "position:ZGZU/ZGGG-APP": {
+      "name": "Guangzhou Approach",
+      "prefixes": [
+        "ZGGG"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZGZU/ZGGG-APP",
+      "division": "PRC",
+      "fir": "ZGZU",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGZU/ZGGG-APP",
+        "sector:ZGZU/ZGGG-APP",
+        "sector:ZGZU/ZGGG-APP"
+      ]
+    },
+    "position:ZGZU/ZGHA-APP": {
+      "name": "Changsha Approach",
+      "prefixes": [
+        "ZGHA"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZGZU/ZGHA-APP",
+      "division": "PRC",
+      "fir": "ZGZU",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGZU/ZGHA-APP",
+        "sector:ZGZU/ZGHA-APP",
+        "sector:ZGZU/ZGHA-APP"
+      ]
+    },
+    "position:ZGZU/ZGKL-APP": {
+      "name": "Guilin Approach",
+      "prefixes": [
+        "ZGKL"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZGZU/ZGKL-APP",
+      "division": "PRC",
+      "fir": "ZGZU",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGZU/ZGKL-APP",
+        "sector:ZGZU/ZGKL-APP",
+        "sector:ZGZU/ZGKL-APP"
+      ]
+    },
+    "position:ZGZU/ZGNN-APP": {
+      "name": "Nanning Approach",
+      "prefixes": [
+        "ZGNN"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZGZU/ZGNN-APP",
+      "division": "PRC",
+      "fir": "ZGZU",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGZU/ZGNN-APP",
+        "sector:ZGZU/ZGNN-APP",
+        "sector:ZGZU/ZGNN-APP"
+      ]
+    },
+    "position:ZGZU/ZGOW-APP": {
+      "name": "Shantou Approach",
+      "prefixes": [
+        "ZGOW"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZGZU/ZGOW-APP",
+      "division": "PRC",
+      "fir": "ZGZU",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGZU/ZGOW-APP",
+        "sector:ZGZU/ZGOW-APP",
+        "sector:ZGZU/ZGOW-APP"
+      ]
+    },
+    "position:ZGZU/ZGZJ-APP": {
+      "name": "Zhanjiang Approach",
+      "prefixes": [
+        "ZGZJ"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZGZU/ZGZJ-APP",
+      "division": "PRC",
+      "fir": "ZGZU",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZGZU/ZGZJ-APP",
+        "sector:ZGZU/ZGZJ-APP",
+        "sector:ZGZU/ZGZJ-APP"
+      ]
+    },
+    "position:ZHCC/ZHCC": {
+      "name": "Zhengzhou ACC - Wuhan FIR - Zhengzhou",
+      "prefixes": [
+        "ZHCC"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        114.531994,
+        34.309964
+      ],
+      "id": "position:ZHCC/ZHCC",
+      "division": "PRC",
+      "fir": "ZHCC",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZHCC/ZHCC",
+        "sector:ZHCC/ZHCC",
+        "sector:ZHCC/ZHCC"
+      ]
+    },
+    "position:ZHCC/ZHCC-ZZW": {
+      "name": "Zhengzhou ACC West Sector - Wuhan FIR - Zhengzhou",
+      "prefixes": [
+        "ZHCC_W"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        112.532796,
+        33.914624
+      ],
+      "id": "position:ZHCC/ZHCC-ZZW",
+      "division": "PRC",
+      "fir": "ZHCC",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZHCC/ZHCC-ZZW",
+        "sector:ZHCC/ZHCC-ZZW",
+        "sector:ZHCC/ZHCC-ZZW"
+      ]
+    },
+    "position:ZHHH/ZHHH": {
+      "name": "Wuhan ACC - Wuhan FIR - Wuhan",
+      "prefixes": [
+        "ZHHH"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        113.971276,
+        31.142468
+      ],
+      "id": "position:ZHHH/ZHHH",
+      "division": "PRC",
+      "fir": "ZHHH",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZHHH/ZHHH",
+        "sector:ZHHH/ZHHH",
+        "sector:ZHHH/ZHHH"
+      ]
+    },
+    "position:ZHHH/ZHHH-WHW": {
+      "name": "Wuhan ACC West Sector - Wuhan FIR - Wuhan",
+      "prefixes": [
+        "ZHHH_W"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        111.008775,
+        31.04794
+      ],
+      "id": "position:ZHHH/ZHHH-WHW",
+      "division": "PRC",
+      "fir": "ZHHH",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZHHH/ZHHH-WHW",
+        "sector:ZHHH/ZHHH-WHW",
+        "sector:ZHHH/ZHHH-WHW"
+      ]
+    },
+    "position:ZHWH/ZHCC-APP": {
+      "name": "Zhengzhou Approach",
+      "prefixes": [
+        "ZHCC"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZHWH/ZHCC-APP",
+      "division": "PRC",
+      "fir": "ZHWH",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZHWH/ZHCC-APP",
+        "sector:ZHWH/ZHCC-APP",
+        "sector:ZHWH/ZHCC-APP"
+      ]
+    },
+    "position:ZHWH/ZHHH-APP": {
+      "name": "Wuhan Approach",
+      "prefixes": [
+        "ZHHH"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZHWH/ZHHH-APP",
+      "division": "PRC",
+      "fir": "ZHWH",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZHWH/ZHHH-APP",
+        "sector:ZHWH/ZHHH-APP",
+        "sector:ZHWH/ZHHH-APP"
+      ]
+    },
+    "position:ZJSA/ZJHK-APP": {
+      "name": "Haikou Approach",
+      "prefixes": [
+        "ZJHK"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZJSA/ZJHK-APP",
+      "division": "PRC",
+      "fir": "ZJSA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZJSA/ZJHK-APP",
+        "sector:ZJSA/ZJHK-APP",
+        "sector:ZJSA/ZJHK-APP"
+      ]
+    },
+    "position:ZJSA/ZJSY-APP": {
+      "name": "Sanya Approach",
+      "prefixes": [
+        "ZJSY"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZJSA/ZJSY-APP",
+      "division": "PRC",
+      "fir": "ZJSA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZJSA/ZJSY-APP",
+        "sector:ZJSA/ZJSY-APP",
+        "sector:ZJSA/ZJSY-APP"
+      ]
+    },
+    "position:ZJSY/ZJSY": {
+      "name": "Sanya ACC - Sanya FIR - Sanya",
+      "prefixes": [
+        "ZJSY"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        110.71003,
+        18.382128
+      ],
+      "id": "position:ZJSY/ZJSY",
+      "division": "PRC",
+      "fir": "ZJSY",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZJSY/ZJSY",
+        "sector:ZJSY/ZJSY",
+        "sector:ZJSY/ZJSY"
+      ]
+    },
+    "position:ZJSY/ZJSY-SAL": {
+      "name": "Sanya ACC Land Sector - Sanya FIR - Sanya",
+      "prefixes": [
+        "ZJSY_L"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        109.356825,
+        19.245096
+      ],
+      "id": "position:ZJSY/ZJSY-SAL",
+      "division": "PRC",
+      "fir": "ZJSY",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZJSY/ZJSY-SAL",
+        "sector:ZJSY/ZJSY-SAL",
+        "sector:ZJSY/ZJSY-SAL"
+      ]
+    },
+    "position:ZJSY/ZJSY-SAN": {
+      "name": "Sanya ACC North Sector - Sanya FIR - Sanya",
+      "prefixes": [
+        "ZJSY_N"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        110.259806,
+        21.427247
+      ],
+      "id": "position:ZJSY/ZJSY-SAN",
+      "division": "PRC",
+      "fir": "ZJSY",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZJSY/ZJSY-SAN",
+        "sector:ZJSY/ZJSY-SAN",
+        "sector:ZJSY/ZJSY-SAN"
+      ]
+    },
+    "position:ZJSY/ZJSY-SAO": {
+      "name": "Sanya ACC Oceanic Sector - Sanya FIR - Sanya",
+      "prefixes": [
+        "ZJSY_O"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        111.732575,
+        16.798906
+      ],
+      "id": "position:ZJSY/ZJSY-SAO",
+      "division": "PRC",
+      "fir": "ZJSY",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZJSY/ZJSY-SAO",
+        "sector:ZJSY/ZJSY-SAO",
+        "sector:ZJSY/ZJSY-SAO"
+      ]
+    },
+    "position:ZLHW/ZLIC-APP": {
+      "name": "Yinchuan Approach",
+      "prefixes": [
+        "ZLIC"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZLHW/ZLIC-APP",
+      "division": "PRC",
+      "fir": "ZLHW",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZLHW/ZLIC-APP",
+        "sector:ZLHW/ZLIC-APP",
+        "sector:ZLHW/ZLIC-APP"
+      ]
+    },
+    "position:ZLHW/ZLLL-APP": {
+      "name": "Lanzhou Approach",
+      "prefixes": [
+        "ZLLL"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZLHW/ZLLL-APP",
+      "division": "PRC",
+      "fir": "ZLHW",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZLHW/ZLLL-APP",
+        "sector:ZLHW/ZLLL-APP",
+        "sector:ZLHW/ZLLL-APP"
+      ]
+    },
+    "position:ZLHW/ZLXN-APP": {
+      "name": "Xining Approach",
+      "prefixes": [
+        "ZLXN"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZLHW/ZLXN-APP",
+      "division": "PRC",
+      "fir": "ZLHW",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZLHW/ZLXN-APP",
+        "sector:ZLHW/ZLXN-APP",
+        "sector:ZLHW/ZLXN-APP"
+      ]
+    },
+    "position:ZLHW/ZLXY-APP": {
+      "name": "Xi'an Approach",
+      "prefixes": [
+        "ZLXY"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZLHW/ZLXY-APP",
+      "division": "PRC",
+      "fir": "ZLHW",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZLHW/ZLXY-APP",
+        "sector:ZLHW/ZLXY-APP",
+        "sector:ZLHW/ZLXY-APP"
+      ]
+    },
+    "position:ZLLL/ZLLL": {
+      "name": "Lanzhou ACC - Lanzhou FIR - Lanzhou",
+      "prefixes": [
+        "ZLLL"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        98.644363,
+        37.307422
+      ],
+      "id": "position:ZLLL/ZLLL",
+      "division": "PRC",
+      "fir": "ZLLL",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZLLL/ZLLL",
+        "sector:ZLLL/ZLLL",
+        "sector:ZLLL/ZLLL"
+      ]
+    },
+    "position:ZLLL/ZLLL-LZC": {
+      "name": "Lanzhou ACC Central Sector - Lanzhou FIR - Lanzhou",
+      "prefixes": [
+        "ZLLL_C"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        104.475535,
+        34.865518
+      ],
+      "id": "position:ZLLL/ZLLL-LZC",
+      "division": "PRC",
+      "fir": "ZLLL",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZLLL/ZLLL-LZC",
+        "sector:ZLLL/ZLLL-LZC",
+        "sector:ZLLL/ZLLL-LZC"
+      ]
+    },
+    "position:ZLLL/ZLLL-LZN": {
+      "name": "Lanzhou ACC North Sector - Lanzhou FIR - Lanzhou",
+      "prefixes": [
+        "ZLLL_N"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        101.893356,
+        40.066244
+      ],
+      "id": "position:ZLLL/ZLLL-LZN",
+      "division": "PRC",
+      "fir": "ZLLL",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZLLL/ZLLL-LZN",
+        "sector:ZLLL/ZLLL-LZN",
+        "sector:ZLLL/ZLLL-LZN"
+      ]
+    },
+    "position:ZLLL/ZLLL-LZN1": {
+      "name": "Lanzhou ACC North 1 Sector - Lanzhou FIR - Lanzhou",
+      "prefixes": [
+        "ZLLL_N1"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        99.805053,
+        40.841481
+      ],
+      "id": "position:ZLLL/ZLLL-LZN1",
+      "division": "PRC",
+      "fir": "ZLLL",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZLLL/ZLLL-LZN1",
+        "sector:ZLLL/ZLLL-LZN1",
+        "sector:ZLLL/ZLLL-LZN1"
+      ]
+    },
+    "position:ZLLL/ZLLL-LZS": {
+      "name": "Lanzhou ACC South Sector - Lanzhou FIR - Lanzhou",
+      "prefixes": [
+        "ZLLL_S"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        95.641328,
+        36.342894
+      ],
+      "id": "position:ZLLL/ZLLL-LZS",
+      "division": "PRC",
+      "fir": "ZLLL",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZLLL/ZLLL-LZS",
+        "sector:ZLLL/ZLLL-LZS",
+        "sector:ZLLL/ZLLL-LZS"
+      ]
+    },
+    "position:ZLLL/ZLLL-LZS1": {
+      "name": "Lanzhou ACC South 1 Sector - Lanzhou FIR - Lanzhou",
+      "prefixes": [
+        "ZLLL_S1"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        95.88729,
+        39.718613
+      ],
+      "id": "position:ZLLL/ZLLL-LZS1",
+      "division": "PRC",
+      "fir": "ZLLL",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZLLL/ZLLL-LZS1",
+        "sector:ZLLL/ZLLL-LZS1",
+        "sector:ZLLL/ZLLL-LZS1"
+      ]
+    },
+    "position:ZLLL/ZLLL-LZS2": {
+      "name": "Lanzhou ACC South 2 Sector - Lanzhou FIR - Lanzhou",
+      "prefixes": [
+        "ZLLL_S2"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        94.789504,
+        35.893115
+      ],
+      "id": "position:ZLLL/ZLLL-LZS2",
+      "division": "PRC",
+      "fir": "ZLLL",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZLLL/ZLLL-LZS2",
+        "sector:ZLLL/ZLLL-LZS2",
+        "sector:ZLLL/ZLLL-LZS2"
+      ]
+    },
+    "position:ZLXY/ZLXY": {
+      "name": "Xi'an ACC - Lanzhou FIR - Xi'an",
+      "prefixes": [
+        "ZLXY"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        110.009582,
+        36.896665
+      ],
+      "id": "position:ZLXY/ZLXY",
+      "division": "PRC",
+      "fir": "ZLXY",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZLXY/ZLXY",
+        "sector:ZLXY/ZLXY",
+        "sector:ZLXY/ZLXY"
+      ]
+    },
+    "position:ZLXY/ZLXY-XAS": {
+      "name": "Xi'an ACC South Sector - Lanzhou FIR - Xi'an",
+      "prefixes": [
+        "ZLXY_S"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        108.346829,
+        33.999409
+      ],
+      "id": "position:ZLXY/ZLXY-XAS",
+      "division": "PRC",
+      "fir": "ZLXY",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZLXY/ZLXY-XAS",
+        "sector:ZLXY/ZLXY-XAS",
+        "sector:ZLXY/ZLXY-XAS"
+      ]
+    },
+    "position:ZPKM/ZPJH-APP": {
+      "name": "Banna Approach",
+      "prefixes": [
+        "ZPJH"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZPKM/ZPJH-APP",
+      "division": "PRC",
+      "fir": "ZPKM",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZPKM/ZPJH-APP",
+        "sector:ZPKM/ZPJH-APP",
+        "sector:ZPKM/ZPJH-APP"
+      ]
+    },
+    "position:ZPKM/ZPLJ-APP": {
+      "name": "Lijiang Approach",
+      "prefixes": [
+        "ZPLJ"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZPKM/ZPLJ-APP",
+      "division": "PRC",
+      "fir": "ZPKM",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZPKM/ZPLJ-APP",
+        "sector:ZPKM/ZPLJ-APP",
+        "sector:ZPKM/ZPLJ-APP"
+      ]
+    },
+    "position:ZPKM/ZPPP-APP": {
+      "name": "Kunming Approach",
+      "prefixes": [
+        "ZPPP"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZPKM/ZPPP-APP",
+      "division": "PRC",
+      "fir": "ZPKM",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZPKM/ZPPP-APP",
+        "sector:ZPKM/ZPPP-APP",
+        "sector:ZPKM/ZPPP-APP"
+      ]
+    },
+    "position:ZPKM/ZUCK-APP": {
+      "name": "Chongqing Approach",
+      "prefixes": [
+        "ZUCK"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZPKM/ZUCK-APP",
+      "division": "PRC",
+      "fir": "ZPKM",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZPKM/ZUCK-APP",
+        "sector:ZPKM/ZUCK-APP",
+        "sector:ZPKM/ZUCK-APP"
+      ]
+    },
+    "position:ZPKM/ZUGY-APP": {
+      "name": "Guiyang Approach",
+      "prefixes": [
+        "ZUGY"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZPKM/ZUGY-APP",
+      "division": "PRC",
+      "fir": "ZPKM",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZPKM/ZUGY-APP",
+        "sector:ZPKM/ZUGY-APP",
+        "sector:ZPKM/ZUGY-APP"
+      ]
+    },
+    "position:ZPKM/ZULS-APP": {
+      "name": "Lhasa Approach",
+      "prefixes": [
+        "ZULS"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZPKM/ZULS-APP",
+      "division": "PRC",
+      "fir": "ZPKM",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZPKM/ZULS-APP",
+        "sector:ZPKM/ZULS-APP",
+        "sector:ZPKM/ZULS-APP"
+      ]
+    },
+    "position:ZPKM/ZULZ-APP": {
+      "name": "Chuannan Approach",
+      "prefixes": [
+        "ZULZ"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZPKM/ZULZ-APP",
+      "division": "PRC",
+      "fir": "ZPKM",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZPKM/ZULZ-APP",
+        "sector:ZPKM/ZULZ-APP",
+        "sector:ZPKM/ZULZ-APP"
+      ]
+    },
+    "position:ZPKM/ZUUU-APP": {
+      "name": "Chengdu Approach",
+      "prefixes": [
+        "ZUUU"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZPKM/ZUUU-APP",
+      "division": "PRC",
+      "fir": "ZPKM",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZPKM/ZUUU-APP",
+        "sector:ZPKM/ZUUU-APP",
+        "sector:ZPKM/ZUUU-APP"
+      ]
+    },
+    "position:ZPPP/ZPPP": {
+      "name": "Kunming ACC - Kunming FIR - Kunming",
+      "prefixes": [
+        "ZPPP"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        101.672716,
+        24.92467
+      ],
+      "id": "position:ZPPP/ZPPP",
+      "division": "PRC",
+      "fir": "ZPPP",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZPPP/ZPPP",
+        "sector:ZPPP/ZPPP",
+        "sector:ZPPP/ZPPP"
+      ]
+    },
+    "position:ZPPP/ZPPP-KME": {
+      "name": "Kunming ACC East Sector - Kunming FIR - Kunming",
+      "prefixes": [
+        "ZPPP_E"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        103.722635,
+        25.026973
+      ],
+      "id": "position:ZPPP/ZPPP-KME",
+      "division": "PRC",
+      "fir": "ZPPP",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZPPP/ZPPP-KME",
+        "sector:ZPPP/ZPPP-KME",
+        "sector:ZPPP/ZPPP-KME"
+      ]
+    },
+    "position:ZPPP/ZPPP-KME1": {
+      "name": "Kunming ACC East 1 Sector - Kunming FIR - Kunming",
+      "prefixes": [
+        "ZPPP_E1"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        103.915442,
+        26.305364
+      ],
+      "id": "position:ZPPP/ZPPP-KME1",
+      "division": "PRC",
+      "fir": "ZPPP",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZPPP/ZPPP-KME1",
+        "sector:ZPPP/ZPPP-KME1",
+        "sector:ZPPP/ZPPP-KME1"
+      ]
+    },
+    "position:ZPPP/ZPPP-KME2": {
+      "name": "Kunming ACC East 2 Sector - Kunming FIR - Kunming",
+      "prefixes": [
+        "ZPPP_E2"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        104.178689,
+        23.811954
+      ],
+      "id": "position:ZPPP/ZPPP-KME2",
+      "division": "PRC",
+      "fir": "ZPPP",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZPPP/ZPPP-KME2",
+        "sector:ZPPP/ZPPP-KME2",
+        "sector:ZPPP/ZPPP-KME2"
+      ]
+    },
+    "position:ZPPP/ZPPP-KMW": {
+      "name": "Kunming ACC West Sector - Kunming FIR - Kunming",
+      "prefixes": [
+        "ZPPP_W"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        100.233198,
+        24.852829
+      ],
+      "id": "position:ZPPP/ZPPP-KMW",
+      "division": "PRC",
+      "fir": "ZPPP",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZPPP/ZPPP-KMW",
+        "sector:ZPPP/ZPPP-KMW",
+        "sector:ZPPP/ZPPP-KMW"
+      ]
+    },
+    "position:ZPPP/ZPPP-KMW1": {
+      "name": "Kunming ACC West 1 Sector - Kunming FIR - Kunming",
+      "prefixes": [
+        "ZPPP_W1"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        99.896356,
+        25.657237
+      ],
+      "id": "position:ZPPP/ZPPP-KMW1",
+      "division": "PRC",
+      "fir": "ZPPP",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZPPP/ZPPP-KMW1",
+        "sector:ZPPP/ZPPP-KMW1",
+        "sector:ZPPP/ZPPP-KMW1"
+      ]
+    },
+    "position:ZSAM/ZSAM": {
+      "name": "Xiamen ACC - Shanghai FIR - Xiamen",
+      "prefixes": [
+        "ZSAM"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        118.994964,
+        25.984556
+      ],
+      "id": "position:ZSAM/ZSAM",
+      "division": "PRC",
+      "fir": "ZSAM",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSAM/ZSAM",
+        "sector:ZSAM/ZSAM",
+        "sector:ZSAM/ZSAM"
+      ]
+    },
+    "position:ZSAM/ZSAM-XMS": {
+      "name": "Xiamen ACC South Sector - Shanghai FIR - Xiamen",
+      "prefixes": [
+        "ZSAM_S"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        116.817582,
+        24.191132
+      ],
+      "id": "position:ZSAM/ZSAM-XMS",
+      "division": "PRC",
+      "fir": "ZSAM",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSAM/ZSAM-XMS",
+        "sector:ZSAM/ZSAM-XMS",
+        "sector:ZSAM/ZSAM-XMS"
+      ]
+    },
+    "position:ZSCN/ZSCN": {
+      "name": "Nanchang ACC - Shanghai FIR - Nanchang",
+      "prefixes": [
+        "ZSCN"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        115.887513,
+        28.637797
+      ],
+      "id": "position:ZSCN/ZSCN",
+      "division": "PRC",
+      "fir": "ZSCN",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSCN/ZSCN",
+        "sector:ZSCN/ZSCN",
+        "sector:ZSCN/ZSCN"
+      ]
+    },
+    "position:ZSCN/ZSCN-NCE": {
+      "name": "Nanchang ACC East Sector - Shanghai FIR - Nanchang",
+      "prefixes": [
+        "ZSCN_E"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        117.927437,
+        27.917124
+      ],
+      "id": "position:ZSCN/ZSCN-NCE",
+      "division": "PRC",
+      "fir": "ZSCN",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSCN/ZSCN-NCE",
+        "sector:ZSCN/ZSCN-NCE",
+        "sector:ZSCN/ZSCN-NCE"
+      ]
+    },
+    "position:ZSHA/ZSAM-APP": {
+      "name": "Xiamen Approach",
+      "prefixes": [
+        "ZSAM"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZSHA/ZSAM-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSHA/ZSAM-APP",
+        "sector:ZSHA/ZSAM-APP",
+        "sector:ZSHA/ZSAM-APP"
+      ]
+    },
+    "position:ZSHA/ZSCG-APP": {
+      "name": "Changzhou Approach",
+      "prefixes": [
+        "ZSCG"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZSHA/ZSCG-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSHA/ZSCG-APP",
+        "sector:ZSHA/ZSCG-APP",
+        "sector:ZSHA/ZSCG-APP"
+      ]
+    },
+    "position:ZSHA/ZSCN-APP": {
+      "name": "Nanchang Approach",
+      "prefixes": [
+        "ZSCN"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZSHA/ZSCN-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSHA/ZSCN-APP",
+        "sector:ZSHA/ZSCN-APP",
+        "sector:ZSHA/ZSCN-APP"
+      ]
+    },
+    "position:ZSHA/ZSFZ-APP": {
+      "name": "Fuzhou Approach",
+      "prefixes": [
+        "ZSFZ"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZSHA/ZSFZ-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSHA/ZSFZ-APP",
+        "sector:ZSHA/ZSFZ-APP",
+        "sector:ZSHA/ZSFZ-APP"
+      ]
+    },
+    "position:ZSHA/ZSHC-APP": {
+      "name": "Hangzhou Approach",
+      "prefixes": [
+        "ZSHC"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZSHA/ZSHC-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSHA/ZSHC-APP",
+        "sector:ZSHA/ZSHC-APP",
+        "sector:ZSHA/ZSHC-APP"
+      ]
+    },
+    "position:ZSHA/ZSJN-APP": {
+      "name": "Jinan Approach",
+      "prefixes": [
+        "ZSJN"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZSHA/ZSJN-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSHA/ZSJN-APP",
+        "sector:ZSHA/ZSJN-APP",
+        "sector:ZSHA/ZSJN-APP"
+      ]
+    },
+    "position:ZSHA/ZSNB-APP": {
+      "name": "Ningbo Approach",
+      "prefixes": [
+        "ZSNB"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZSHA/ZSNB-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSHA/ZSNB-APP",
+        "sector:ZSHA/ZSNB-APP",
+        "sector:ZSHA/ZSNB-APP"
+      ]
+    },
+    "position:ZSHA/ZSNJ-APP": {
+      "name": "Nanjing Approach",
+      "prefixes": [
+        "ZSNJ"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZSHA/ZSNJ-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSHA/ZSNJ-APP",
+        "sector:ZSHA/ZSNJ-APP",
+        "sector:ZSHA/ZSNJ-APP"
+      ]
+    },
+    "position:ZSHA/ZSOF-APP": {
+      "name": "Hefei Approach",
+      "prefixes": [
+        "ZSOF"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZSHA/ZSOF-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSHA/ZSOF-APP",
+        "sector:ZSHA/ZSOF-APP",
+        "sector:ZSHA/ZSOF-APP"
+      ]
+    },
+    "position:ZSHA/ZSQD-APP": {
+      "name": "Qingdao Approach",
+      "prefixes": [
+        "ZSQD"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZSHA/ZSQD-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSHA/ZSQD-APP",
+        "sector:ZSHA/ZSQD-APP",
+        "sector:ZSHA/ZSQD-APP"
+      ]
+    },
+    "position:ZSHA/ZSQZ-APP": {
+      "name": "Jinjiang Approach",
+      "prefixes": [
+        "ZSQZ"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZSHA/ZSQZ-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSHA/ZSQZ-APP",
+        "sector:ZSHA/ZSQZ-APP",
+        "sector:ZSHA/ZSQZ-APP"
+      ]
+    },
+    "position:ZSHA/ZSSS-APP": {
+      "name": "Shanghai Approach",
+      "prefixes": [
+        "ZSSS"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "labelCoordinate": [
+        121.517783,
+        31.222359
+      ],
+      "id": "position:ZSHA/ZSSS-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSHA/ZSSS-APP",
+        "sector:ZSHA/ZSSS-APP",
+        "sector:ZSHA/ZSSS-APP"
+      ]
+    },
+    "position:ZSHA/ZSSS_E-APP": {
+      "name": "Shanghai Approach",
+      "prefixes": [
+        "ZSSS_E"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZSHA/ZSSS_E-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSHA/ZSSS_E-APP",
+        "sector:ZSHA/ZSSS_E-APP",
+        "sector:ZSHA/ZSSS_E-APP"
+      ]
+    },
+    "position:ZSHA/ZSSS_F-APP": {
+      "name": "Shanghai Approach",
+      "prefixes": [
+        "ZSSS_F"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZSHA/ZSSS_F-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSHA/ZSSS_F-APP",
+        "sector:ZSHA/ZSSS_F-APP",
+        "sector:ZSHA/ZSSS_F-APP"
+      ]
+    },
+    "position:ZSHA/ZSSS_PF-APP": {
+      "name": "Shanghai Approach",
+      "prefixes": [
+        "ZSSS_PF"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZSHA/ZSSS_PF-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSHA/ZSSS_PF-APP",
+        "sector:ZSHA/ZSSS_PF-APP",
+        "sector:ZSHA/ZSSS_PF-APP"
+      ]
+    },
+    "position:ZSHA/ZSSS_S-APP": {
+      "name": "Shanghai Approach",
+      "prefixes": [
+        "ZSSS_S"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZSHA/ZSSS_S-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSHA/ZSSS_S-APP",
+        "sector:ZSHA/ZSSS_S-APP",
+        "sector:ZSHA/ZSSS_S-APP"
+      ]
+    },
+    "position:ZSHA/ZSSS_W-APP": {
+      "name": "Shanghai Approach",
+      "prefixes": [
+        "ZSSS_W"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZSHA/ZSSS_W-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSHA/ZSSS_W-APP",
+        "sector:ZSHA/ZSSS_W-APP",
+        "sector:ZSHA/ZSSS_W-APP"
+      ]
+    },
+    "position:ZSHA/ZSWX-APP": {
+      "name": "Wuxi Approach",
+      "prefixes": [
+        "ZSWX"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZSHA/ZSWX-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSHA/ZSWX-APP",
+        "sector:ZSHA/ZSWX-APP",
+        "sector:ZSHA/ZSWX-APP"
+      ]
+    },
+    "position:ZSHA/ZSWZ-APP": {
+      "name": "Wenzhou Approach",
+      "prefixes": [
+        "ZSWZ"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZSHA/ZSWZ-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSHA/ZSWZ-APP",
+        "sector:ZSHA/ZSWZ-APP",
+        "sector:ZSHA/ZSWZ-APP"
+      ]
+    },
+    "position:ZSHA/ZSYT-APP": {
+      "name": "Yantai Approach",
+      "prefixes": [
+        "ZSYT"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZSHA/ZSYT-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSHA/ZSYT-APP",
+        "sector:ZSHA/ZSYT-APP",
+        "sector:ZSHA/ZSYT-APP"
+      ]
+    },
+    "position:ZSJN/ZSJN": {
+      "name": "Jinan ACC - Shanghai FIR - Jinan",
+      "prefixes": [
+        "ZSJN"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        116.60828,
+        35.769984
+      ],
+      "id": "position:ZSJN/ZSJN",
+      "division": "PRC",
+      "fir": "ZSJN",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSJN/ZSJN",
+        "sector:ZSJN/ZSJN",
+        "sector:ZSJN/ZSJN"
+      ]
+    },
+    "position:ZSJN/ZSJN-JNE": {
+      "name": "Jinan ACC East Sector - Shanghai FIR - Jinan",
+      "prefixes": [
+        "ZSJN_E"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        118.730257,
+        36.515361
+      ],
+      "id": "position:ZSJN/ZSJN-JNE",
+      "division": "PRC",
+      "fir": "ZSJN",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSJN/ZSJN-JNE",
+        "sector:ZSJN/ZSJN-JNE",
+        "sector:ZSJN/ZSJN-JNE"
+      ]
+    },
+    "position:ZSOF/ZSOF": {
+      "name": "Hefei ACC - Shanghai FIR - Hefei",
+      "prefixes": [
+        "ZSOF"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        117.303853,
+        30.852252
+      ],
+      "id": "position:ZSOF/ZSOF",
+      "division": "PRC",
+      "fir": "ZSOF",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSOF/ZSOF",
+        "sector:ZSOF/ZSOF",
+        "sector:ZSOF/ZSOF"
+      ]
+    },
+    "position:ZSOF/ZSOF-HFN": {
+      "name": "Hefei ACC North Sector - Shanghai FIR - Hefei",
+      "prefixes": [
+        "ZSOF_N"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        116.765508,
+        33.176573
+      ],
+      "id": "position:ZSOF/ZSOF-HFN",
+      "division": "PRC",
+      "fir": "ZSOF",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSOF/ZSOF-HFN",
+        "sector:ZSOF/ZSOF-HFN",
+        "sector:ZSOF/ZSOF-HFN"
+      ]
+    },
+    "position:ZSQD/ZSQD": {
+      "name": "Qingdao ACC - Shanghai FIR - Qingdao",
+      "prefixes": [
+        "ZSQD"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        121.573367,
+        36.556561
+      ],
+      "id": "position:ZSQD/ZSQD",
+      "division": "PRC",
+      "fir": "ZSQD",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSQD/ZSQD",
+        "sector:ZSQD/ZSQD",
+        "sector:ZSQD/ZSQD"
+      ]
+    },
+    "position:ZSQD/ZSQD-QDH": {
+      "name": "Qingdao ACC High Sector - Shanghai FIR - Qingdao",
+      "prefixes": [
+        "ZSQD_H"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        121.573367,
+        36.556561
+      ],
+      "id": "position:ZSQD/ZSQD-QDH",
+      "division": "PRC",
+      "fir": "ZSQD",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSQD/ZSQD-QDH",
+        "sector:ZSQD/ZSQD-QDH",
+        "sector:ZSQD/ZSQD-QDH"
+      ]
+    },
+    "position:ZSSS/ZSSS": {
+      "name": "Shanghai ACC - Shanghai FIR - Shanghai",
+      "prefixes": [
+        "ZSSS"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        119.328298,
+        29.829852
+      ],
+      "id": "position:ZSSS/ZSSS",
+      "division": "PRC",
+      "fir": "ZSSS",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSSS/ZSSS",
+        "sector:ZSSS/ZSSS",
+        "sector:ZSSS/ZSSS"
+      ]
+    },
+    "position:ZSSS/ZSSS-SHC": {
+      "name": "Shanghai ACC Central Sector - Shanghai FIR - Shanghai",
+      "prefixes": [
+        "ZSSS_C"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        120.640848,
+        29.128805
+      ],
+      "id": "position:ZSSS/ZSSS-SHC",
+      "division": "PRC",
+      "fir": "ZSSS",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSSS/ZSSS-SHC",
+        "sector:ZSSS/ZSSS-SHC",
+        "sector:ZSSS/ZSSS-SHC"
+      ]
+    },
+    "position:ZSSS/ZSSS-SHC1": {
+      "name": "Shanghai ACC Central 1 Sector - Shanghai FIR - Shanghai",
+      "prefixes": [
+        "ZSSS_C1"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        119.216014,
+        29.545031
+      ],
+      "id": "position:ZSSS/ZSSS-SHC1",
+      "division": "PRC",
+      "fir": "ZSSS",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSSS/ZSSS-SHC1",
+        "sector:ZSSS/ZSSS-SHC1",
+        "sector:ZSSS/ZSSS-SHC1"
+      ]
+    },
+    "position:ZSSS/ZSSS-SHE": {
+      "name": "Shanghai ACC East Sector - Shanghai FIR - Shanghai",
+      "prefixes": [
+        "ZSSS_E"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        122.440272,
+        32.876376
+      ],
+      "id": "position:ZSSS/ZSSS-SHE",
+      "division": "PRC",
+      "fir": "ZSSS",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSSS/ZSSS-SHE",
+        "sector:ZSSS/ZSSS-SHE",
+        "sector:ZSSS/ZSSS-SHE"
+      ]
+    },
+    "position:ZSSS/ZSSS-SHE1": {
+      "name": "Shanghai ACC East 1 Sector - Shanghai FIR - Shanghai",
+      "prefixes": [
+        "ZSSS_E1"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        122.256184,
+        34.065272
+      ],
+      "id": "position:ZSSS/ZSSS-SHE1",
+      "division": "PRC",
+      "fir": "ZSSS",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSSS/ZSSS-SHE1",
+        "sector:ZSSS/ZSSS-SHE1",
+        "sector:ZSSS/ZSSS-SHE1"
+      ]
+    },
+    "position:ZSSS/ZSSS-SHS": {
+      "name": "Shanghai ACC South Sector - Shanghai FIR - Shanghai",
+      "prefixes": [
+        "ZSSS_S"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        117.532512,
+        26.469801
+      ],
+      "id": "position:ZSSS/ZSSS-SHS",
+      "division": "PRC",
+      "fir": "ZSSS",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSSS/ZSSS-SHS",
+        "sector:ZSSS/ZSSS-SHS",
+        "sector:ZSSS/ZSSS-SHS"
+      ]
+    },
+    "position:ZSSS/ZSSS-SHS1": {
+      "name": "Shanghai ACC South 1 Sector - Shanghai FIR - Shanghai",
+      "prefixes": [
+        "ZSSS_S1"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        119.190288,
+        26.488155
+      ],
+      "id": "position:ZSSS/ZSSS-SHS1",
+      "division": "PRC",
+      "fir": "ZSSS",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSSS/ZSSS-SHS1",
+        "sector:ZSSS/ZSSS-SHS1",
+        "sector:ZSSS/ZSSS-SHS1"
+      ]
+    },
+    "position:ZSSS/ZSSS-SHS2": {
+      "name": "Shanghai ACC South 2 Sector - Shanghai FIR - Shanghai",
+      "prefixes": [
+        "ZSSS_S2"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        116.21697,
+        28.413731
+      ],
+      "id": "position:ZSSS/ZSSS-SHS2",
+      "division": "PRC",
+      "fir": "ZSSS",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSSS/ZSSS-SHS2",
+        "sector:ZSSS/ZSSS-SHS2",
+        "sector:ZSSS/ZSSS-SHS2"
+      ]
+    },
+    "position:ZSSS/ZSSS-SHW": {
+      "name": "Shanghai ACC West Sector - Shanghai FIR - Shanghai",
+      "prefixes": [
+        "ZSSS_W"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        118.337447,
+        32.448201
+      ],
+      "id": "position:ZSSS/ZSSS-SHW",
+      "division": "PRC",
+      "fir": "ZSSS",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSSS/ZSSS-SHW",
+        "sector:ZSSS/ZSSS-SHW",
+        "sector:ZSSS/ZSSS-SHW"
+      ]
+    },
+    "position:ZSSS/ZSSS-SHW1": {
+      "name": "Shanghai ACC West 1 Sector - Shanghai FIR - Shanghai",
+      "prefixes": [
+        "ZSSS_W1"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        117.957875,
+        33.61501
+      ],
+      "id": "position:ZSSS/ZSSS-SHW1",
+      "division": "PRC",
+      "fir": "ZSSS",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSSS/ZSSS-SHW1",
+        "sector:ZSSS/ZSSS-SHW1",
+        "sector:ZSSS/ZSSS-SHW1"
+      ]
+    },
+    "position:ZSSS/ZSSS-SHW2": {
+      "name": "Shanghai ACC West 2 Sector - Shanghai FIR - Shanghai",
+      "prefixes": [
+        "ZSSS_W2"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        117.262356,
+        31.002682
+      ],
+      "id": "position:ZSSS/ZSSS-SHW2",
+      "division": "PRC",
+      "fir": "ZSSS",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZSSS/ZSSS-SHW2",
+        "sector:ZSSS/ZSSS-SHW2",
+        "sector:ZSSS/ZSSS-SHW2"
+      ]
+    },
+    "position:ZUGY/ZUGY": {
+      "name": "Guiyang ACC - Kunming FIR - Guiyang",
+      "prefixes": [
+        "ZUGY"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        106.350539,
+        26.507308
+      ],
+      "id": "position:ZUGY/ZUGY",
+      "division": "PRC",
+      "fir": "ZUGY",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZUGY/ZUGY",
+        "sector:ZUGY/ZUGY",
+        "sector:ZUGY/ZUGY"
+      ]
+    },
+    "position:ZUGY/ZUGY-GYE": {
+      "name": "Guiyang ACC East Sector - Kunming FIR - Guiyang",
+      "prefixes": [
+        "ZUGY_E"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        108.233087,
+        27.639079
+      ],
+      "id": "position:ZUGY/ZUGY-GYE",
+      "division": "PRC",
+      "fir": "ZUGY",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZUGY/ZUGY-GYE",
+        "sector:ZUGY/ZUGY-GYE",
+        "sector:ZUGY/ZUGY-GYE"
+      ]
+    },
+    "position:ZULS/ZULS": {
+      "name": "Lhasa ACC - Kunming FIR - Lhasa",
+      "prefixes": [
+        "ZULS"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        88.498721,
+        31.135477
+      ],
+      "id": "position:ZULS/ZULS",
+      "division": "PRC",
+      "fir": "ZULS",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZULS/ZULS",
+        "sector:ZULS/ZULS",
+        "sector:ZULS/ZULS"
+      ]
+    },
+    "position:ZULS/ZULS-LSE": {
+      "name": "Lhasa ACC East Sector - Kunming FIR - Lhasa",
+      "prefixes": [
+        "ZULS_E"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        95.579185,
+        31.269215
+      ],
+      "id": "position:ZULS/ZULS-LSE",
+      "division": "PRC",
+      "fir": "ZULS",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZULS/ZULS-LSE",
+        "sector:ZULS/ZULS-LSE",
+        "sector:ZULS/ZULS-LSE"
+      ]
+    },
+    "position:ZUUU/ZUUU": {
+      "name": "Chengdu ACC - Kunming FIR - Chengdu",
+      "prefixes": [
+        "ZUUU"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        104.074208,
+        29.600888
+      ],
+      "id": "position:ZUUU/ZUUU",
+      "division": "PRC",
+      "fir": "ZUUU",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZUUU/ZUUU",
+        "sector:ZUUU/ZUUU",
+        "sector:ZUUU/ZUUU"
+      ]
+    },
+    "position:ZUUU/ZUUU-CDE": {
+      "name": "Chengdu ACC East Sector - Kunming FIR - Chengdu",
+      "prefixes": [
+        "ZUUU_E"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        108.429628,
+        30.09581
+      ],
+      "id": "position:ZUUU/ZUUU-CDE",
+      "division": "PRC",
+      "fir": "ZUUU",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZUUU/ZUUU-CDE",
+        "sector:ZUUU/ZUUU-CDE",
+        "sector:ZUUU/ZUUU-CDE"
+      ]
+    },
+    "position:ZUUU/ZUUU-CDG": {
+      "name": "Chengdu ACC Guiyang Sector - Kunming FIR - Chengdu",
+      "prefixes": [
+        "ZUUU_G"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        107.083789,
+        26.948132
+      ],
+      "id": "position:ZUUU/ZUUU-CDG",
+      "division": "PRC",
+      "fir": "ZUUU",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZUUU/ZUUU-CDG",
+        "sector:ZUUU/ZUUU-CDG",
+        "sector:ZUUU/ZUUU-CDG"
+      ]
+    },
+    "position:ZUUU/ZUUU-CDN": {
+      "name": "Chengdu ACC North Sector - Kunming FIR - Chengdu",
+      "prefixes": [
+        "ZUUU_N"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        105.682552,
+        31.285087
+      ],
+      "id": "position:ZUUU/ZUUU-CDN",
+      "division": "PRC",
+      "fir": "ZUUU",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZUUU/ZUUU-CDN",
+        "sector:ZUUU/ZUUU-CDN",
+        "sector:ZUUU/ZUUU-CDN"
+      ]
+    },
+    "position:ZUUU/ZUUU-CDN1": {
+      "name": "Chengdu ACC North 1 Sector - Kunming FIR - Chengdu",
+      "prefixes": [
+        "ZUUU_N1"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        106.755451,
+        30.993166
+      ],
+      "id": "position:ZUUU/ZUUU-CDN1",
+      "division": "PRC",
+      "fir": "ZUUU",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZUUU/ZUUU-CDN1",
+        "sector:ZUUU/ZUUU-CDN1",
+        "sector:ZUUU/ZUUU-CDN1"
+      ]
+    },
+    "position:ZUUU/ZUUU-CDS": {
+      "name": "Chengdu ACC South Sector - Kunming FIR - Chengdu",
+      "prefixes": [
+        "ZUUU_S"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        105.185885,
+        28.834494
+      ],
+      "id": "position:ZUUU/ZUUU-CDS",
+      "division": "PRC",
+      "fir": "ZUUU",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZUUU/ZUUU-CDS",
+        "sector:ZUUU/ZUUU-CDS",
+        "sector:ZUUU/ZUUU-CDS"
+      ]
+    },
+    "position:ZUUU/ZUUU-CDW": {
+      "name": "Chengdu ACC West Sector - Kunming FIR - Chengdu",
+      "prefixes": [
+        "ZUUU_W"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        100.918732,
+        30.193473
+      ],
+      "id": "position:ZUUU/ZUUU-CDW",
+      "division": "PRC",
+      "fir": "ZUUU",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZUUU/ZUUU-CDW",
+        "sector:ZUUU/ZUUU-CDW",
+        "sector:ZUUU/ZUUU-CDW"
+      ]
+    },
+    "position:ZWUQ/ZWAK-APP": {
+      "name": "Aksu Approach",
+      "prefixes": [
+        "ZWAK"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZWUQ/ZWAK-APP",
+      "division": "PRC",
+      "fir": "ZWUQ",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZWUQ/ZWAK-APP",
+        "sector:ZWUQ/ZWAK-APP",
+        "sector:ZWUQ/ZWAK-APP"
+      ]
+    },
+    "position:ZWUQ/ZWWW-APP": {
+      "name": "Urumqi Approach",
+      "prefixes": [
+        "ZWWW"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZWUQ/ZWWW-APP",
+      "division": "PRC",
+      "fir": "ZWUQ",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZWUQ/ZWWW-APP",
+        "sector:ZWUQ/ZWWW-APP",
+        "sector:ZWUQ/ZWWW-APP"
+      ]
+    },
+    "position:ZWWW/ZWWW": {
+      "name": "Urumqi ACC - Urumqi FIR - Urumqi",
+      "prefixes": [
+        "ZWWW"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        84.611535,
+        40.171251
+      ],
+      "id": "position:ZWWW/ZWWW",
+      "division": "PRC",
+      "fir": "ZWWW",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZWWW/ZWWW",
+        "sector:ZWWW/ZWWW",
+        "sector:ZWWW/ZWWW"
+      ]
+    },
+    "position:ZWWW/ZWWW-WUE": {
+      "name": "Urumqi ACC East Sector - Urumqi FIR - Urumqi",
+      "prefixes": [
+        "ZWWW_E"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        91.166638,
+        42.841105
+      ],
+      "id": "position:ZWWW/ZWWW-WUE",
+      "division": "PRC",
+      "fir": "ZWWW",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZWWW/ZWWW-WUE",
+        "sector:ZWWW/ZWWW-WUE",
+        "sector:ZWWW/ZWWW-WUE"
+      ]
+    },
+    "position:ZWWW/ZWWW-WUS": {
+      "name": "Urumqi ACC South Sector - Urumqi FIR - Urumqi",
+      "prefixes": [
+        "ZWWW_S"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        82.233877,
+        37.088978
+      ],
+      "id": "position:ZWWW/ZWWW-WUS",
+      "division": "PRC",
+      "fir": "ZWWW",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZWWW/ZWWW-WUS",
+        "sector:ZWWW/ZWWW-WUS",
+        "sector:ZWWW/ZWWW-WUS"
+      ]
+    },
+    "position:ZWWW/ZWWW-WUS1": {
+      "name": "Urumqi ACC South 1 Sector - Urumqi FIR - Urumqi",
+      "prefixes": [
+        "ZWWW_S1"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        86.249138,
+        38.611923
+      ],
+      "id": "position:ZWWW/ZWWW-WUS1",
+      "division": "PRC",
+      "fir": "ZWWW",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZWWW/ZWWW-WUS1",
+        "sector:ZWWW/ZWWW-WUS1",
+        "sector:ZWWW/ZWWW-WUS1"
+      ]
+    },
+    "position:ZWWW/ZWWW-WUW": {
+      "name": "Urumqi ACC West Sector - Urumqi FIR - Urumqi",
+      "prefixes": [
+        "ZWWW_W"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        84.660069,
+        44.390165
+      ],
+      "id": "position:ZWWW/ZWWW-WUW",
+      "division": "PRC",
+      "fir": "ZWWW",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZWWW/ZWWW-WUW",
+        "sector:ZWWW/ZWWW-WUW",
+        "sector:ZWWW/ZWWW-WUW"
+      ]
+    },
+    "position:ZWWW/ZWWW-WUW1": {
+      "name": "Urumqi ACC West 1 Sector - Urumqi FIR - Urumqi",
+      "prefixes": [
+        "ZWWW_W1"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        85.923718,
+        46.022818
+      ],
+      "id": "position:ZWWW/ZWWW-WUW1",
+      "division": "PRC",
+      "fir": "ZWWW",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZWWW/ZWWW-WUW1",
+        "sector:ZWWW/ZWWW-WUW1",
+        "sector:ZWWW/ZWWW-WUW1"
+      ]
+    },
+    "position:ZYHB/ZYHB": {
+      "name": "Harbin ACC - Shenyang FIR - Harbin",
+      "prefixes": [
+        "ZYHB"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        125.203507,
+        48.181589
+      ],
+      "id": "position:ZYHB/ZYHB",
+      "division": "PRC",
+      "fir": "ZYHB",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZYHB/ZYHB",
+        "sector:ZYHB/ZYHB",
+        "sector:ZYHB/ZYHB"
+      ]
+    },
+    "position:ZYHB/ZYHB-HBE": {
+      "name": "Harbin ACC East Sector - Shenyang FIR - Harbin",
+      "prefixes": [
+        "ZYHB_E"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        127.106639,
+        47.683133
+      ],
+      "id": "position:ZYHB/ZYHB-HBE",
+      "division": "PRC",
+      "fir": "ZYHB",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZYHB/ZYHB-HBE",
+        "sector:ZYHB/ZYHB-HBE",
+        "sector:ZYHB/ZYHB-HBE"
+      ]
+    },
+    "position:ZYHB/ZYHB-HBE1": {
+      "name": "Harbin ACC East 1 Sector - Shenyang FIR - Harbin",
+      "prefixes": [
+        "ZYHB_E1"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        123.793324,
+        45.66986
+      ],
+      "id": "position:ZYHB/ZYHB-HBE1",
+      "division": "PRC",
+      "fir": "ZYHB",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZYHB/ZYHB-HBE1",
+        "sector:ZYHB/ZYHB-HBE1",
+        "sector:ZYHB/ZYHB-HBE1"
+      ]
+    },
+    "position:ZYHB/ZYHB-HBE2": {
+      "name": "Harbin ACC East 2 Sector - Shenyang FIR - Harbin",
+      "prefixes": [
+        "ZYHB_E2"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        128.374461,
+        44.396668
+      ],
+      "id": "position:ZYHB/ZYHB-HBE2",
+      "division": "PRC",
+      "fir": "ZYHB",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZYHB/ZYHB-HBE2",
+        "sector:ZYHB/ZYHB-HBE2",
+        "sector:ZYHB/ZYHB-HBE2"
+      ]
+    },
+    "position:ZYHB/ZYHB-HBW": {
+      "name": "Harbin ACC West Sector - Shenyang FIR - Harbin",
+      "prefixes": [
+        "ZYHB_W"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        120.412655,
+        49.436378
+      ],
+      "id": "position:ZYHB/ZYHB-HBW",
+      "division": "PRC",
+      "fir": "ZYHB",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZYHB/ZYHB-HBW",
+        "sector:ZYHB/ZYHB-HBW",
+        "sector:ZYHB/ZYHB-HBW"
+      ]
+    },
+    "position:ZYSH/ZYCC-APP": {
+      "name": "Changchun Approach",
+      "prefixes": [
+        "ZYCC"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZYSH/ZYCC-APP",
+      "division": "PRC",
+      "fir": "ZYSH",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZYSH/ZYCC-APP",
+        "sector:ZYSH/ZYCC-APP",
+        "sector:ZYSH/ZYCC-APP"
+      ]
+    },
+    "position:ZYSH/ZYHB-APP": {
+      "name": "Harbin Approach",
+      "prefixes": [
+        "ZYHB"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZYSH/ZYHB-APP",
+      "division": "PRC",
+      "fir": "ZYSH",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZYSH/ZYHB-APP",
+        "sector:ZYSH/ZYHB-APP",
+        "sector:ZYSH/ZYHB-APP"
+      ]
+    },
+    "position:ZYSH/ZYTL-APP": {
+      "name": "Dalian Approach",
+      "prefixes": [
+        "ZYTL"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZYSH/ZYTL-APP",
+      "division": "PRC",
+      "fir": "ZYSH",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZYSH/ZYTL-APP",
+        "sector:ZYSH/ZYTL-APP",
+        "sector:ZYSH/ZYTL-APP"
+      ]
+    },
+    "position:ZYSH/ZYTX-APP": {
+      "name": "Shenyang Approach",
+      "prefixes": [
+        "ZYTX"
+      ],
+      "suffixes": [
+        "APP"
+      ],
+      "id": "position:ZYSH/ZYTX-APP",
+      "division": "PRC",
+      "fir": "ZYSH",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZYSH/ZYTX-APP",
+        "sector:ZYSH/ZYTX-APP",
+        "sector:ZYSH/ZYTX-APP"
+      ]
+    },
+    "position:ZYTL/ZYTL": {
+      "name": "Dalian ACC - Shenyang FIR - Dalian",
+      "prefixes": [
+        "ZYTL"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        124.88621,
+        40.783005
+      ],
+      "id": "position:ZYTL/ZYTL",
+      "division": "PRC",
+      "fir": "ZYTL",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZYTL/ZYTL",
+        "sector:ZYTL/ZYTL",
+        "sector:ZYTL/ZYTL"
+      ]
+    },
+    "position:ZYTL/ZYTL-DLE": {
+      "name": "Dalian ACC East Sector - Shenyang FIR - Dalian",
+      "prefixes": [
+        "ZYTL_E"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        123.343575,
+        40.223729
+      ],
+      "id": "position:ZYTL/ZYTL-DLE",
+      "division": "PRC",
+      "fir": "ZYTL",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZYTL/ZYTL-DLE",
+        "sector:ZYTL/ZYTL-DLE",
+        "sector:ZYTL/ZYTL-DLE"
+      ]
+    },
+    "position:ZYTL/ZYTL-DLN": {
+      "name": "Dalian ACC North Sector - Shenyang FIR - Dalian",
+      "prefixes": [
+        "ZYTL_N"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        127.50883,
+        42.482863
+      ],
+      "id": "position:ZYTL/ZYTL-DLN",
+      "division": "PRC",
+      "fir": "ZYTL",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZYTL/ZYTL-DLN",
+        "sector:ZYTL/ZYTL-DLN",
+        "sector:ZYTL/ZYTL-DLN"
+      ]
+    },
+    "position:ZYTL/ZYTL-DLS": {
+      "name": "Dalian ACC South Sector - Shenyang FIR - Dalian",
+      "prefixes": [
+        "ZYTL_S"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        123.361473,
+        37.910078
+      ],
+      "id": "position:ZYTL/ZYTL-DLS",
+      "division": "PRC",
+      "fir": "ZYTL",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZYTL/ZYTL-DLS",
+        "sector:ZYTL/ZYTL-DLS",
+        "sector:ZYTL/ZYTL-DLS"
+      ]
+    },
+    "position:ZYTL/ZYTL-DLW": {
+      "name": "Dalian ACC West Sector - Shenyang FIR - Dalian",
+      "prefixes": [
+        "ZYTL_W"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        121.473983,
+        39.149753
+      ],
+      "id": "position:ZYTL/ZYTL-DLW",
+      "division": "PRC",
+      "fir": "ZYTL",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZYTL/ZYTL-DLW",
+        "sector:ZYTL/ZYTL-DLW",
+        "sector:ZYTL/ZYTL-DLW"
+      ]
+    },
+    "position:ZYTX/ZYTX": {
+      "name": "Shenyang ACC - Shenyang FIR - Shenyang",
+      "prefixes": [
+        "ZYTX"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        120.759602,
+        43.505895
+      ],
+      "id": "position:ZYTX/ZYTX",
+      "division": "PRC",
+      "fir": "ZYTX",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZYTX/ZYTX",
+        "sector:ZYTX/ZYTX",
+        "sector:ZYTX/ZYTX"
+      ]
+    },
+    "position:ZYTX/ZYTX-SYN": {
+      "name": "Shenyang ACC North Sector - Shenyang FIR - Shenyang",
+      "prefixes": [
+        "ZYTX_N"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        119.931974,
+        44.221777
+      ],
+      "id": "position:ZYTX/ZYTX-SYN",
+      "division": "PRC",
+      "fir": "ZYTX",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZYTX/ZYTX-SYN",
+        "sector:ZYTX/ZYTX-SYN",
+        "sector:ZYTX/ZYTX-SYN"
+      ]
+    },
+    "position:ZYTX/ZYTX-SYN1": {
+      "name": "Shenyang ACC North 1 Sector - Shenyang FIR - Shenyang",
+      "prefixes": [
+        "ZYTX_N1"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        119.021586,
+        44.516216
+      ],
+      "id": "position:ZYTX/ZYTX-SYN1",
+      "division": "PRC",
+      "fir": "ZYTX",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZYTX/ZYTX-SYN1",
+        "sector:ZYTX/ZYTX-SYN1",
+        "sector:ZYTX/ZYTX-SYN1"
+      ]
+    },
+    "position:ZYTX/ZYTX-SYS": {
+      "name": "Shenyang ACC South Sector - Shenyang FIR - Shenyang",
+      "prefixes": [
+        "ZYTX_S"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        124.605917,
+        42.614071
+      ],
+      "id": "position:ZYTX/ZYTX-SYS",
+      "division": "PRC",
+      "fir": "ZYTX",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZYTX/ZYTX-SYS",
+        "sector:ZYTX/ZYTX-SYS",
+        "sector:ZYTX/ZYTX-SYS"
+      ]
+    },
+    "position:ZYTX/ZYTX-SYW": {
+      "name": "Shenyang ACC West Sector - Shenyang FIR - Shenyang",
+      "prefixes": [
+        "ZYTX_W"
+      ],
+      "suffixes": [
+        "CTR"
+      ],
+      "labelCoordinate": [
+        120.933075,
+        41.074588
+      ],
+      "id": "position:ZYTX/ZYTX-SYW",
+      "division": "PRC",
+      "fir": "ZYTX",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ZYTX/ZYTX-SYW",
+        "sector:ZYTX/ZYTX-SYW",
+        "sector:ZYTX/ZYTX-SYW"
+      ]
+    },
+    "position:NWC": {
+      "callsign": "North Western Russia Control",
+      "suffixes": [
+        "FSS"
+      ],
+      "prefixes": [
+        "RU-NWC"
+      ],
+      "id": "position:NWC",
+      "division": "RUS",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:ULLL/R1",
+        "sector:ULLL/R2",
+        "sector:ULLL/R3",
+        "sector:ULLL/R4",
+        "sector:ULLL/R5",
+        "sector:ULLL/R6",
+        "sector:ULLL/ULLL-APP",
+        "sector:ULLL/ULLI-APP",
+        "sector:ULLL/R1",
+        "sector:ULLL/R2",
+        "sector:ULLL/R3",
+        "sector:ULLL/R4",
+        "sector:ULLL/R5",
+        "sector:ULLL/R6",
+        "sector:ULLL/ULLL-APP",
+        "sector:ULLL/ULLI-APP"
+      ]
+    },
+    "position:ULLL/ULLL": {
+      "name": "Sankt-Peterburg ACC - Peterburg",
+      "callsign": "Peterburg Control",
+      "suffixes": [
+        "CTR"
+      ],
+      "prefixes": [
+        "ULLL"
+      ],
+      "parent": {
+        "id": "position:NWC"
+      },
+      "id": "position:ULLL/ULLL",
+      "division": "RUS",
+      "fir": "ULLL",
+      "resolvedParent": [
+        {
+          "id": "position:NWC"
+        }
+      ],
+      "sectors": [
+        "sector:ULLL/R1",
+        "sector:ULLL/R2",
+        "sector:ULLL/R3",
+        "sector:ULLL/R4",
+        "sector:ULLL/R5",
+        "sector:ULLL/R6",
+        "sector:ULLL/ULLL-APP",
+        "sector:ULLL/ULLI-APP",
+        "sector:ULLL/R1",
+        "sector:ULLL/R2",
+        "sector:ULLL/R3",
+        "sector:ULLL/R4",
+        "sector:ULLL/R5",
+        "sector:ULLL/R6",
+        "sector:ULLL/ULLL-APP",
+        "sector:ULLL/ULLI-APP"
+      ]
+    },
+    "position:ULLL/ULLL-R": {
+      "name": "Sankt-Peterburg ACC, sector Peterburg - Peterburg",
+      "callsign": "Peterburg Control",
+      "suffixes": [
+        "CTR"
+      ],
+      "prefixes": [
+        "ULLL_R"
+      ],
+      "parent": {
+        "id": "position:ULLL/ULLL"
+      },
+      "id": "position:ULLL/ULLL-R",
+      "division": "RUS",
+      "fir": "ULLL",
+      "resolvedParent": [
+        {
+          "id": "position:ULLL/ULLL"
+        },
+        {
+          "id": "position:NWC"
+        }
+      ],
+      "sectors": [
+        "sector:ULLL/R1",
+        "sector:ULLL/R2",
+        "sector:ULLL/R3",
+        "sector:ULLL/R4",
+        "sector:ULLL/R5",
+        "sector:ULLL/R6",
+        "sector:ULLL/ULLL-APP",
+        "sector:ULLL/ULLI-APP",
+        "sector:ULLL/R1",
+        "sector:ULLL/R2",
+        "sector:ULLL/R3",
+        "sector:ULLL/R4",
+        "sector:ULLL/R5",
+        "sector:ULLL/R6",
+        "sector:ULLL/ULLL-APP",
+        "sector:ULLL/ULLI-APP"
+      ]
+    },
+    "position:ULLL/ULLL-R1": {
+      "name": "Sankt-Peterburg ACC, sector R1 North - Peterburg",
+      "callsign": "Peterburg Control",
+      "suffixes": [
+        "CTR"
+      ],
+      "prefixes": [
+        "ULLL_R1"
+      ],
+      "parent": {
+        "id": "position:ULLL/ULLL-R"
+      },
+      "id": "position:ULLL/ULLL-R1",
+      "division": "RUS",
+      "fir": "ULLL",
+      "resolvedParent": [
+        {
+          "id": "position:ULLL/ULLL-R"
+        },
+        {
+          "id": "position:ULLL/ULLL"
+        },
+        {
+          "id": "position:NWC"
+        }
+      ],
+      "sectors": [
+        "sector:ULLL/R1",
+        "sector:ULLL/R1"
+      ]
+    },
+    "position:ULLL/ULLL-R2": {
+      "name": "Sankt-Peterburg ACC, sector R2",
+      "callsign": "Peterburg Control",
+      "suffixes": [
+        "CTR"
+      ],
+      "prefixes": [
+        "ULLL_R2"
+      ],
+      "parent": {
+        "id": "position:ULLL/ULLL-R"
+      },
+      "id": "position:ULLL/ULLL-R2",
+      "division": "RUS",
+      "fir": "ULLL",
+      "resolvedParent": [
+        {
+          "id": "position:ULLL/ULLL-R"
+        },
+        {
+          "id": "position:ULLL/ULLL"
+        },
+        {
+          "id": "position:NWC"
+        }
+      ],
+      "sectors": [
+        "sector:ULLL/R2",
+        "sector:ULLL/R2"
+      ]
+    },
+    "position:ULLL/ULLL-R3": {
+      "name": "Sankt-Peterburg ACC, sector R3",
+      "callsign": "Peterburg Control",
+      "suffixes": [
+        "CTR"
+      ],
+      "prefixes": [
+        "ULLL_R3"
+      ],
+      "parent": {
+        "id": "position:ULLL/ULLL-SW"
+      },
+      "id": "position:ULLL/ULLL-R3",
+      "division": "RUS",
+      "fir": "ULLL",
+      "resolvedParent": [
+        {
+          "id": "position:ULLL/ULLL-SW"
+        },
+        {
+          "id": "position:ULLL/ULLL-R"
+        },
+        {
+          "id": "position:ULLL/ULLL"
+        },
+        {
+          "id": "position:NWC"
+        }
+      ],
+      "sectors": [
+        "sector:ULLL/R3",
+        "sector:ULLL/ULLL-APP",
+        "sector:ULLL/ULLI-APP",
+        "sector:ULLL/R3",
+        "sector:ULLL/ULLL-APP",
+        "sector:ULLL/ULLI-APP"
+      ]
+    },
+    "position:ULLL/ULLL-R4": {
+      "name": "Sankt-Peterburg ACC, sector R4",
+      "callsign": "Peterburg Control",
+      "suffixes": [
+        "CTR"
+      ],
+      "prefixes": [
+        "ULLL_R4"
+      ],
+      "parent": {
+        "id": "position:ULLL/ULLL-SW"
+      },
+      "id": "position:ULLL/ULLL-R4",
+      "division": "RUS",
+      "fir": "ULLL",
+      "resolvedParent": [
+        {
+          "id": "position:ULLL/ULLL-SW"
+        },
+        {
+          "id": "position:ULLL/ULLL-R"
+        },
+        {
+          "id": "position:ULLL/ULLL"
+        },
+        {
+          "id": "position:NWC"
+        }
+      ],
+      "sectors": [
+        "sector:ULLL/R4",
+        "sector:ULLL/ULLL-APP",
+        "sector:ULLL/ULLI-APP",
+        "sector:ULLL/R4",
+        "sector:ULLL/ULLL-APP",
+        "sector:ULLL/ULLI-APP"
+      ]
+    },
+    "position:ULLL/ULLL-R5": {
+      "name": "Sankt-Peterburg ACC, sector R5",
+      "callsign": "Peterburg Control",
+      "suffixes": [
+        "CTR"
+      ],
+      "prefixes": [
+        "ULLL_R5"
+      ],
+      "parent": {
+        "id": "position:ULLL/ULLL-R"
+      },
+      "id": "position:ULLL/ULLL-R5",
+      "division": "RUS",
+      "fir": "ULLL",
+      "resolvedParent": [
+        {
+          "id": "position:ULLL/ULLL-R"
+        },
+        {
+          "id": "position:ULLL/ULLL"
+        },
+        {
+          "id": "position:NWC"
+        }
+      ],
+      "sectors": [
+        "sector:ULLL/R5",
+        "sector:ULLL/R5"
+      ]
+    },
+    "position:ULLL/ULLL-R6": {
+      "name": "Sankt-Peterburg ACC, sector R6",
+      "callsign": "Peterburg Control",
+      "suffixes": [
+        "CTR"
+      ],
+      "prefixes": [
+        "ULLL_R6"
+      ],
+      "parent": {
+        "id": "position:ULLL/ULLL-R"
+      },
+      "id": "position:ULLL/ULLL-R6",
+      "division": "RUS",
+      "fir": "ULLL",
+      "resolvedParent": [
+        {
+          "id": "position:ULLL/ULLL-R"
+        },
+        {
+          "id": "position:ULLL/ULLL"
+        },
+        {
+          "id": "position:NWC"
+        }
+      ],
+      "sectors": [
+        "sector:ULLL/R6",
+        "sector:ULLL/R6"
+      ]
+    },
+    "position:ULLL/ULLL-APP": {
+      "name": "Peterburg",
+      "suffixes": [
+        "APP"
+      ],
+      "prefixes": [
+        "ULLL"
+      ],
+      "parent": {
+        "id": "position:ULLL/ULLL-R3"
+      },
+      "id": "position:ULLL/ULLL-APP",
+      "division": "RUS",
+      "fir": "ULLL",
+      "resolvedParent": [
+        {
+          "id": "position:ULLL/ULLL-R3"
+        },
+        {
+          "id": "position:ULLL/ULLL-SW"
+        },
+        {
+          "id": "position:ULLL/ULLL-R"
+        },
+        {
+          "id": "position:ULLL/ULLL"
+        },
+        {
+          "id": "position:NWC"
+        }
+      ],
+      "sectors": [
+        "sector:ULLL/ULLL-APP",
+        "sector:ULLL/ULLI-APP",
+        "sector:ULLL/ULLL-APP",
+        "sector:ULLL/ULLI-APP"
+      ]
+    },
+    "position:ULLL/ULLI-APP": {
+      "callsign": "Pulkovo Radar",
+      "suffixes": [
+        "APP"
+      ],
+      "prefixes": [
+        "ULLI_R"
+      ],
+      "parent": {
+        "id": "position:ULLL/ULLL-APP"
+      },
+      "id": "position:ULLL/ULLI-APP",
+      "division": "RUS",
+      "fir": "ULLL",
+      "resolvedParent": [
+        {
+          "id": "position:ULLL/ULLL-APP"
+        },
+        {
+          "id": "position:ULLL/ULLL-R3"
+        },
+        {
+          "id": "position:ULLL/ULLL-SW"
+        },
+        {
+          "id": "position:ULLL/ULLL-R"
+        },
+        {
+          "id": "position:ULLL/ULLL"
+        },
+        {
+          "id": "position:NWC"
+        }
+      ],
+      "sectors": [
+        "sector:ULLL/ULLI-APP",
+        "sector:ULLL/ULLI-APP"
+      ]
+    },
+    "position:ULLL/ULLL-SW": {
+      "name": "Sankt-Peterburg ACC, sector SW (R3+R4) South-West - Peterburg",
+      "callsign": "Peterburg Control",
+      "suffixes": [
+        "CTR"
+      ],
+      "prefixes": [
+        "ULLL_SW"
+      ],
+      "parent": {
+        "id": "position:ULLL/ULLL-R"
+      },
+      "id": "position:ULLL/ULLL-SW",
+      "division": "RUS",
+      "fir": "ULLL",
+      "resolvedParent": [
+        {
+          "id": "position:ULLL/ULLL-R"
+        },
+        {
+          "id": "position:ULLL/ULLL"
+        },
+        {
+          "id": "position:NWC"
+        }
+      ],
+      "sectors": [
+        "sector:ULLL/R3",
+        "sector:ULLL/R4",
+        "sector:ULLL/ULLL-APP",
+        "sector:ULLL/ULLI-APP",
+        "sector:ULLL/R3",
+        "sector:ULLL/R4",
+        "sector:ULLL/ULLL-APP",
+        "sector:ULLL/ULLI-APP"
+      ]
+    },
+    "position:ULLL/UMKK": {
+      "name": "Kaliningrad",
+      "suffixes": [
+        "CTR"
+      ],
+      "prefixes": [
+        "UMKK"
+      ],
+      "id": "position:ULLL/UMKK",
+      "division": "RUS",
+      "fir": "ULLL",
+      "resolvedParent": [],
+      "sectors": []
+    },
+    "position:KZBW/KZBW": {
+      "name": "Boston",
+      "callsign": "Boston Center",
+      "suffixes": [
+        "CTR"
+      ],
+      "prefixes": [
+        "BOS"
+      ],
+      "labelCoordinate": [
+        -71.895834,
+        43.80125
+      ],
+      "id": "position:KZBW/KZBW",
+      "division": "VATUSA",
+      "fir": "KZBW",
+      "resolvedParent": [],
+      "sectors": [
+        "sector:KZBW/KZBW"
+      ]
+    }
+  },
+  "sectors": {
+    "sector:ZBAA/ZBAA": {
+      "volumes": [
+        "volume:ZBAA/ZBAA"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBAA/ZBAA"
+        }
+      ],
+      "id": "sector:ZBAA/ZBAA",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBAA/ZBAA"
+        }
+      ]
+    },
+    "sector:ZBAA/ZBAA-BJE": {
+      "volumes": [
+        "volume:ZBAA/ZBAA-BJE"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBAA/ZBAA-BJE"
+        }
+      ],
+      "id": "sector:ZBAA/ZBAA-BJE",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBAA/ZBAA-BJE"
+        }
+      ]
+    },
+    "sector:ZBAA/ZBAA-BJE1": {
+      "volumes": [
+        "volume:ZBAA/ZBAA-BJE1"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBAA/ZBAA-BJE1"
+        }
+      ],
+      "id": "sector:ZBAA/ZBAA-BJE1",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBAA/ZBAA-BJE1"
+        }
+      ]
+    },
+    "sector:ZBAA/ZBAA-BJE2": {
+      "volumes": [
+        "volume:ZBAA/ZBAA-BJE2"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBAA/ZBAA-BJE2"
+        }
+      ],
+      "id": "sector:ZBAA/ZBAA-BJE2",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBAA/ZBAA-BJE2"
+        }
+      ]
+    },
+    "sector:ZBAA/ZBAA-BJN": {
+      "volumes": [
+        "volume:ZBAA/ZBAA-BJN"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBAA/ZBAA-BJN"
+        }
+      ],
+      "id": "sector:ZBAA/ZBAA-BJN",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBAA/ZBAA-BJN"
+        }
+      ]
+    },
+    "sector:ZBAA/ZBAA-BJN1": {
+      "volumes": [
+        "volume:ZBAA/ZBAA-BJN1"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBAA/ZBAA-BJN1"
+        }
+      ],
+      "id": "sector:ZBAA/ZBAA-BJN1",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBAA/ZBAA-BJN1"
+        }
+      ]
+    },
+    "sector:ZBAA/ZBAA-BJS": {
+      "volumes": [
+        "volume:ZBAA/ZBAA-BJS"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBAA/ZBAA-BJS"
+        }
+      ],
+      "id": "sector:ZBAA/ZBAA-BJS",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBAA/ZBAA-BJS"
+        }
+      ]
+    },
+    "sector:ZBAA/ZBAA-BJS1": {
+      "volumes": [
+        "volume:ZBAA/ZBAA-BJS1"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBAA/ZBAA-BJS1"
+        }
+      ],
+      "id": "sector:ZBAA/ZBAA-BJS1",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBAA/ZBAA-BJS1"
+        }
+      ]
+    },
+    "sector:ZBAA/ZBAA-BJW": {
+      "volumes": [
+        "volume:ZBAA/ZBAA-BJW"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBAA/ZBAA-BJW"
+        }
+      ],
+      "id": "sector:ZBAA/ZBAA-BJW",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBAA/ZBAA-BJW"
+        }
+      ]
+    },
+    "sector:ZBAA/ZBAA-BJW1": {
+      "volumes": [
+        "volume:ZBAA/ZBAA-BJW1"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBAA/ZBAA-BJW1"
+        }
+      ],
+      "id": "sector:ZBAA/ZBAA-BJW1",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBAA/ZBAA-BJW1"
+        }
+      ]
+    },
+    "sector:ZBAA/ZBAA-BJW2": {
+      "volumes": [
+        "volume:ZBAA/ZBAA-BJW2"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBAA/ZBAA-BJW2"
+        }
+      ],
+      "id": "sector:ZBAA/ZBAA-BJW2",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBAA/ZBAA-BJW2"
+        }
+      ]
+    },
+    "sector:ZBAA/VOK-APP": {
+      "volumes": [
+        "volume:ZBAA/VOK-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBAA/VOK-APP"
+        }
+      ],
+      "id": "sector:ZBAA/VOK-APP",
+      "division": "PRC",
+      "fir": "ZBAA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBAA/VOK-APP"
+        }
+      ]
+    },
+    "sector:ZBHH/ZBHH": {
+      "volumes": [
+        "volume:ZBHH/ZBHH"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBHH/ZBHH"
+        }
+      ],
+      "id": "sector:ZBHH/ZBHH",
+      "division": "PRC",
+      "fir": "ZBHH",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBHH/ZBHH"
+        }
+      ]
+    },
+    "sector:ZBHH/ZBHH-HHW": {
+      "volumes": [
+        "volume:ZBHH/ZBHH-HHW"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBHH/ZBHH-HHW"
+        }
+      ],
+      "id": "sector:ZBHH/ZBHH-HHW",
+      "division": "PRC",
+      "fir": "ZBHH",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBHH/ZBHH-HHW"
+        }
+      ]
+    },
+    "sector:ZBPE/ZBAA-APP": {
+      "volumes": [
+        "volume:ZBPE/ZBAA-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBPE/ZBAA-APP"
+        }
+      ],
+      "id": "sector:ZBPE/ZBAA-APP",
+      "division": "PRC",
+      "fir": "ZBPE",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBPE/ZBAA-APP"
+        }
+      ]
+    },
+    "sector:ZBPE/ZBAA_AA-APP": {
+      "volumes": [
+        "volume:ZBPE/ZBAA_AA-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBPE/ZBAA_AA-APP"
+        }
+      ],
+      "id": "sector:ZBPE/ZBAA_AA-APP",
+      "division": "PRC",
+      "fir": "ZBPE",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBPE/ZBAA_AA-APP"
+        }
+      ]
+    },
+    "sector:ZBPE/ZBAA_AD-APP": {
+      "volumes": [
+        "volume:ZBPE/ZBAA_AD-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBPE/ZBAA_AD-APP"
+        }
+      ],
+      "id": "sector:ZBPE/ZBAA_AD-APP",
+      "division": "PRC",
+      "fir": "ZBPE",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBPE/ZBAA_AD-APP"
+        }
+      ]
+    },
+    "sector:ZBPE/ZBAA_S-APP": {
+      "volumes": [
+        "volume:ZBPE/ZBAA_S-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBPE/ZBAA_S-APP"
+        }
+      ],
+      "id": "sector:ZBPE/ZBAA_S-APP",
+      "division": "PRC",
+      "fir": "ZBPE",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBPE/ZBAA_S-APP"
+        }
+      ]
+    },
+    "sector:ZBPE/ZBAA_W-APP": {
+      "volumes": [
+        "volume:ZBPE/ZBAA_W-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBPE/ZBAA_W-APP"
+        }
+      ],
+      "id": "sector:ZBPE/ZBAA_W-APP",
+      "division": "PRC",
+      "fir": "ZBPE",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBPE/ZBAA_W-APP"
+        }
+      ]
+    },
+    "sector:ZBPE/ZBHH-APP": {
+      "volumes": [
+        "volume:ZBPE/ZBHH-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBPE/ZBHH-APP"
+        }
+      ],
+      "id": "sector:ZBPE/ZBHH-APP",
+      "division": "PRC",
+      "fir": "ZBPE",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBPE/ZBHH-APP"
+        }
+      ]
+    },
+    "sector:ZBPE/ZBLA-APP": {
+      "volumes": [
+        "volume:ZBPE/ZBLA-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBPE/ZBLA-APP"
+        }
+      ],
+      "id": "sector:ZBPE/ZBLA-APP",
+      "division": "PRC",
+      "fir": "ZBPE",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBPE/ZBLA-APP"
+        }
+      ]
+    },
+    "sector:ZBPE/ZBSJ-APP": {
+      "volumes": [
+        "volume:ZBPE/ZBSJ-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBPE/ZBSJ-APP"
+        }
+      ],
+      "id": "sector:ZBPE/ZBSJ-APP",
+      "division": "PRC",
+      "fir": "ZBPE",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBPE/ZBSJ-APP"
+        }
+      ]
+    },
+    "sector:ZBPE/ZBTJ-APP": {
+      "volumes": [
+        "volume:ZBPE/ZBTJ-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBPE/ZBTJ-APP"
+        }
+      ],
+      "id": "sector:ZBPE/ZBTJ-APP",
+      "division": "PRC",
+      "fir": "ZBPE",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBPE/ZBTJ-APP"
+        }
+      ]
+    },
+    "sector:ZBPE/ZBYN-APP": {
+      "volumes": [
+        "volume:ZBPE/ZBYN-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZBPE/ZBYN-APP"
+        }
+      ],
+      "id": "sector:ZBPE/ZBYN-APP",
+      "division": "PRC",
+      "fir": "ZBPE",
+      "resolvedPositions": [
+        {
+          "id": "position:ZBPE/ZBYN-APP"
+        }
+      ]
+    },
+    "sector:ZGGG/ZGGG": {
+      "volumes": [
+        "volume:ZGGG/ZGGG"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGGG/ZGGG"
+        }
+      ],
+      "id": "sector:ZGGG/ZGGG",
+      "division": "PRC",
+      "fir": "ZGGG",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGGG/ZGGG"
+        }
+      ]
+    },
+    "sector:ZGGG/ZGGG-GZC": {
+      "volumes": [
+        "volume:ZGGG/ZGGG-GZC"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGGG/ZGGG-GZC"
+        }
+      ],
+      "id": "sector:ZGGG/ZGGG-GZC",
+      "division": "PRC",
+      "fir": "ZGGG",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGGG/ZGGG-GZC"
+        }
+      ]
+    },
+    "sector:ZGGG/ZGGG-GZC1": {
+      "volumes": [
+        "volume:ZGGG/ZGGG-GZC1"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGGG/ZGGG-GZC1"
+        }
+      ],
+      "id": "sector:ZGGG/ZGGG-GZC1",
+      "division": "PRC",
+      "fir": "ZGGG",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGGG/ZGGG-GZC1"
+        }
+      ]
+    },
+    "sector:ZGGG/ZGGG-GZE": {
+      "volumes": [
+        "volume:ZGGG/ZGGG-GZE"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGGG/ZGGG-GZE"
+        }
+      ],
+      "id": "sector:ZGGG/ZGGG-GZE",
+      "division": "PRC",
+      "fir": "ZGGG",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGGG/ZGGG-GZE"
+        }
+      ]
+    },
+    "sector:ZGGG/ZGGG-GZE1": {
+      "volumes": [
+        "volume:ZGGG/ZGGG-GZE1"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGGG/ZGGG-GZE1"
+        }
+      ],
+      "id": "sector:ZGGG/ZGGG-GZE1",
+      "division": "PRC",
+      "fir": "ZGGG",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGGG/ZGGG-GZE1"
+        }
+      ]
+    },
+    "sector:ZGGG/ZGGG-GZN": {
+      "volumes": [
+        "volume:ZGGG/ZGGG-GZN"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGGG/ZGGG-GZN"
+        }
+      ],
+      "id": "sector:ZGGG/ZGGG-GZN",
+      "division": "PRC",
+      "fir": "ZGGG",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGGG/ZGGG-GZN"
+        }
+      ]
+    },
+    "sector:ZGGG/ZGGG-GZN1": {
+      "volumes": [
+        "volume:ZGGG/ZGGG-GZN1"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGGG/ZGGG-GZN1"
+        }
+      ],
+      "id": "sector:ZGGG/ZGGG-GZN1",
+      "division": "PRC",
+      "fir": "ZGGG",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGGG/ZGGG-GZN1"
+        }
+      ]
+    },
+    "sector:ZGGG/ZGGG-GZS": {
+      "volumes": [
+        "volume:ZGGG/ZGGG-GZS"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGGG/ZGGG-GZS"
+        }
+      ],
+      "id": "sector:ZGGG/ZGGG-GZS",
+      "division": "PRC",
+      "fir": "ZGGG",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGGG/ZGGG-GZS"
+        }
+      ]
+    },
+    "sector:ZGGG/ZGGG-GZS1": {
+      "volumes": [
+        "volume:ZGGG/ZGGG-GZS1"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGGG/ZGGG-GZS1"
+        }
+      ],
+      "id": "sector:ZGGG/ZGGG-GZS1",
+      "division": "PRC",
+      "fir": "ZGGG",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGGG/ZGGG-GZS1"
+        }
+      ]
+    },
+    "sector:ZGGG/ZGGG-GZW": {
+      "volumes": [
+        "volume:ZGGG/ZGGG-GZW"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGGG/ZGGG-GZW"
+        }
+      ],
+      "id": "sector:ZGGG/ZGGG-GZW",
+      "division": "PRC",
+      "fir": "ZGGG",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGGG/ZGGG-GZW"
+        }
+      ]
+    },
+    "sector:ZGGG/ZGGG-GZW1": {
+      "volumes": [
+        "volume:ZGGG/ZGGG-GZW1"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGGG/ZGGG-GZW1"
+        }
+      ],
+      "id": "sector:ZGGG/ZGGG-GZW1",
+      "division": "PRC",
+      "fir": "ZGGG",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGGG/ZGGG-GZW1"
+        }
+      ]
+    },
+    "sector:ZGHA/ZGHA": {
+      "volumes": [
+        "volume:ZGHA/ZGHA"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGHA/ZGHA"
+        }
+      ],
+      "id": "sector:ZGHA/ZGHA",
+      "division": "PRC",
+      "fir": "ZGHA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGHA/ZGHA"
+        }
+      ]
+    },
+    "sector:ZGHA/ZGHA-CSW": {
+      "volumes": [
+        "volume:ZGHA/ZGHA-CSW"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGHA/ZGHA-CSW"
+        }
+      ],
+      "id": "sector:ZGHA/ZGHA-CSW",
+      "division": "PRC",
+      "fir": "ZGHA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGHA/ZGHA-CSW"
+        }
+      ]
+    },
+    "sector:ZGNN/ZGNN": {
+      "volumes": [
+        "volume:ZGNN/ZGNN"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGNN/ZGNN"
+        }
+      ],
+      "id": "sector:ZGNN/ZGNN",
+      "division": "PRC",
+      "fir": "ZGNN",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGNN/ZGNN"
+        }
+      ]
+    },
+    "sector:ZGNN/ZGNN-NNE": {
+      "volumes": [
+        "volume:ZGNN/ZGNN-NNE"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGNN/ZGNN-NNE"
+        }
+      ],
+      "id": "sector:ZGNN/ZGNN-NNE",
+      "division": "PRC",
+      "fir": "ZGNN",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGNN/ZGNN-NNE"
+        }
+      ]
+    },
+    "sector:ZGNN/ZGNN-NNS": {
+      "volumes": [
+        "volume:ZGNN/ZGNN-NNS"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGNN/ZGNN-NNS"
+        }
+      ],
+      "id": "sector:ZGNN/ZGNN-NNS",
+      "division": "PRC",
+      "fir": "ZGNN",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGNN/ZGNN-NNS"
+        }
+      ]
+    },
+    "sector:ZGNN/ZGNN-NNW": {
+      "volumes": [
+        "volume:ZGNN/ZGNN-NNW"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGNN/ZGNN-NNW"
+        }
+      ],
+      "id": "sector:ZGNN/ZGNN-NNW",
+      "division": "PRC",
+      "fir": "ZGNN",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGNN/ZGNN-NNW"
+        }
+      ]
+    },
+    "sector:ZGZU/ZGGG-APP": {
+      "volumes": [
+        "volume:ZGZU/ZGGG-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGZU/ZGGG-APP"
+        }
+      ],
+      "id": "sector:ZGZU/ZGGG-APP",
+      "division": "PRC",
+      "fir": "ZGZU",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGZU/ZGGG-APP"
+        }
+      ]
+    },
+    "sector:ZGZU/ZGHA-APP": {
+      "volumes": [
+        "volume:ZGZU/ZGHA-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGZU/ZGHA-APP"
+        }
+      ],
+      "id": "sector:ZGZU/ZGHA-APP",
+      "division": "PRC",
+      "fir": "ZGZU",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGZU/ZGHA-APP"
+        }
+      ]
+    },
+    "sector:ZGZU/ZGKL-APP": {
+      "volumes": [
+        "volume:ZGZU/ZGKL-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGZU/ZGKL-APP"
+        }
+      ],
+      "id": "sector:ZGZU/ZGKL-APP",
+      "division": "PRC",
+      "fir": "ZGZU",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGZU/ZGKL-APP"
+        }
+      ]
+    },
+    "sector:ZGZU/ZGNN-APP": {
+      "volumes": [
+        "volume:ZGZU/ZGNN-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGZU/ZGNN-APP"
+        }
+      ],
+      "id": "sector:ZGZU/ZGNN-APP",
+      "division": "PRC",
+      "fir": "ZGZU",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGZU/ZGNN-APP"
+        }
+      ]
+    },
+    "sector:ZGZU/ZGOW-APP": {
+      "volumes": [
+        "volume:ZGZU/ZGOW-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGZU/ZGOW-APP"
+        }
+      ],
+      "id": "sector:ZGZU/ZGOW-APP",
+      "division": "PRC",
+      "fir": "ZGZU",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGZU/ZGOW-APP"
+        }
+      ]
+    },
+    "sector:ZGZU/ZGZJ-APP": {
+      "volumes": [
+        "volume:ZGZU/ZGZJ-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZGZU/ZGZJ-APP"
+        }
+      ],
+      "id": "sector:ZGZU/ZGZJ-APP",
+      "division": "PRC",
+      "fir": "ZGZU",
+      "resolvedPositions": [
+        {
+          "id": "position:ZGZU/ZGZJ-APP"
+        }
+      ]
+    },
+    "sector:ZHCC/ZHCC": {
+      "volumes": [
+        "volume:ZHCC/ZHCC"
+      ],
+      "positions": [
+        {
+          "id": "position:ZHCC/ZHCC"
+        }
+      ],
+      "id": "sector:ZHCC/ZHCC",
+      "division": "PRC",
+      "fir": "ZHCC",
+      "resolvedPositions": [
+        {
+          "id": "position:ZHCC/ZHCC"
+        }
+      ]
+    },
+    "sector:ZHCC/ZHCC-ZZW": {
+      "volumes": [
+        "volume:ZHCC/ZHCC-ZZW"
+      ],
+      "positions": [
+        {
+          "id": "position:ZHCC/ZHCC-ZZW"
+        }
+      ],
+      "id": "sector:ZHCC/ZHCC-ZZW",
+      "division": "PRC",
+      "fir": "ZHCC",
+      "resolvedPositions": [
+        {
+          "id": "position:ZHCC/ZHCC-ZZW"
+        }
+      ]
+    },
+    "sector:ZHHH/ZHHH": {
+      "volumes": [
+        "volume:ZHHH/ZHHH"
+      ],
+      "positions": [
+        {
+          "id": "position:ZHHH/ZHHH"
+        }
+      ],
+      "id": "sector:ZHHH/ZHHH",
+      "division": "PRC",
+      "fir": "ZHHH",
+      "resolvedPositions": [
+        {
+          "id": "position:ZHHH/ZHHH"
+        }
+      ]
+    },
+    "sector:ZHHH/ZHHH-WHW": {
+      "volumes": [
+        "volume:ZHHH/ZHHH-WHW"
+      ],
+      "positions": [
+        {
+          "id": "position:ZHHH/ZHHH-WHW"
+        }
+      ],
+      "id": "sector:ZHHH/ZHHH-WHW",
+      "division": "PRC",
+      "fir": "ZHHH",
+      "resolvedPositions": [
+        {
+          "id": "position:ZHHH/ZHHH-WHW"
+        }
+      ]
+    },
+    "sector:ZHWH/ZHCC-APP": {
+      "volumes": [
+        "volume:ZHWH/ZHCC-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZHWH/ZHCC-APP"
+        }
+      ],
+      "id": "sector:ZHWH/ZHCC-APP",
+      "division": "PRC",
+      "fir": "ZHWH",
+      "resolvedPositions": [
+        {
+          "id": "position:ZHWH/ZHCC-APP"
+        }
+      ]
+    },
+    "sector:ZHWH/ZHHH-APP": {
+      "volumes": [
+        "volume:ZHWH/ZHHH-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZHWH/ZHHH-APP"
+        }
+      ],
+      "id": "sector:ZHWH/ZHHH-APP",
+      "division": "PRC",
+      "fir": "ZHWH",
+      "resolvedPositions": [
+        {
+          "id": "position:ZHWH/ZHHH-APP"
+        }
+      ]
+    },
+    "sector:ZJSA/ZJHK-APP": {
+      "volumes": [
+        "volume:ZJSA/ZJHK-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZJSA/ZJHK-APP"
+        }
+      ],
+      "id": "sector:ZJSA/ZJHK-APP",
+      "division": "PRC",
+      "fir": "ZJSA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZJSA/ZJHK-APP"
+        }
+      ]
+    },
+    "sector:ZJSA/ZJSY-APP": {
+      "volumes": [
+        "volume:ZJSA/ZJSY-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZJSA/ZJSY-APP"
+        }
+      ],
+      "id": "sector:ZJSA/ZJSY-APP",
+      "division": "PRC",
+      "fir": "ZJSA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZJSA/ZJSY-APP"
+        }
+      ]
+    },
+    "sector:ZJSY/ZJSY": {
+      "volumes": [
+        "volume:ZJSY/ZJSY"
+      ],
+      "positions": [
+        {
+          "id": "position:ZJSY/ZJSY"
+        }
+      ],
+      "id": "sector:ZJSY/ZJSY",
+      "division": "PRC",
+      "fir": "ZJSY",
+      "resolvedPositions": [
+        {
+          "id": "position:ZJSY/ZJSY"
+        }
+      ]
+    },
+    "sector:ZJSY/ZJSY-SAL": {
+      "volumes": [
+        "volume:ZJSY/ZJSY-SAL"
+      ],
+      "positions": [
+        {
+          "id": "position:ZJSY/ZJSY-SAL"
+        }
+      ],
+      "id": "sector:ZJSY/ZJSY-SAL",
+      "division": "PRC",
+      "fir": "ZJSY",
+      "resolvedPositions": [
+        {
+          "id": "position:ZJSY/ZJSY-SAL"
+        }
+      ]
+    },
+    "sector:ZJSY/ZJSY-SAN": {
+      "volumes": [
+        "volume:ZJSY/ZJSY-SAN"
+      ],
+      "positions": [
+        {
+          "id": "position:ZJSY/ZJSY-SAN"
+        }
+      ],
+      "id": "sector:ZJSY/ZJSY-SAN",
+      "division": "PRC",
+      "fir": "ZJSY",
+      "resolvedPositions": [
+        {
+          "id": "position:ZJSY/ZJSY-SAN"
+        }
+      ]
+    },
+    "sector:ZJSY/ZJSY-SAO": {
+      "volumes": [
+        "volume:ZJSY/ZJSY-SAO"
+      ],
+      "positions": [
+        {
+          "id": "position:ZJSY/ZJSY-SAO"
+        }
+      ],
+      "id": "sector:ZJSY/ZJSY-SAO",
+      "division": "PRC",
+      "fir": "ZJSY",
+      "resolvedPositions": [
+        {
+          "id": "position:ZJSY/ZJSY-SAO"
+        }
+      ]
+    },
+    "sector:ZLHW/ZLIC-APP": {
+      "volumes": [
+        "volume:ZLHW/ZLIC-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZLHW/ZLIC-APP"
+        }
+      ],
+      "id": "sector:ZLHW/ZLIC-APP",
+      "division": "PRC",
+      "fir": "ZLHW",
+      "resolvedPositions": [
+        {
+          "id": "position:ZLHW/ZLIC-APP"
+        }
+      ]
+    },
+    "sector:ZLHW/ZLLL-APP": {
+      "volumes": [
+        "volume:ZLHW/ZLLL-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZLHW/ZLLL-APP"
+        }
+      ],
+      "id": "sector:ZLHW/ZLLL-APP",
+      "division": "PRC",
+      "fir": "ZLHW",
+      "resolvedPositions": [
+        {
+          "id": "position:ZLHW/ZLLL-APP"
+        }
+      ]
+    },
+    "sector:ZLHW/ZLXN-APP": {
+      "volumes": [
+        "volume:ZLHW/ZLXN-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZLHW/ZLXN-APP"
+        }
+      ],
+      "id": "sector:ZLHW/ZLXN-APP",
+      "division": "PRC",
+      "fir": "ZLHW",
+      "resolvedPositions": [
+        {
+          "id": "position:ZLHW/ZLXN-APP"
+        }
+      ]
+    },
+    "sector:ZLHW/ZLXY-APP": {
+      "volumes": [
+        "volume:ZLHW/ZLXY-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZLHW/ZLXY-APP"
+        }
+      ],
+      "id": "sector:ZLHW/ZLXY-APP",
+      "division": "PRC",
+      "fir": "ZLHW",
+      "resolvedPositions": [
+        {
+          "id": "position:ZLHW/ZLXY-APP"
+        }
+      ]
+    },
+    "sector:ZLLL/ZLLL": {
+      "volumes": [
+        "volume:ZLLL/ZLLL"
+      ],
+      "positions": [
+        {
+          "id": "position:ZLLL/ZLLL"
+        }
+      ],
+      "id": "sector:ZLLL/ZLLL",
+      "division": "PRC",
+      "fir": "ZLLL",
+      "resolvedPositions": [
+        {
+          "id": "position:ZLLL/ZLLL"
+        }
+      ]
+    },
+    "sector:ZLLL/ZLLL-LZC": {
+      "volumes": [
+        "volume:ZLLL/ZLLL-LZC"
+      ],
+      "positions": [
+        {
+          "id": "position:ZLLL/ZLLL-LZC"
+        }
+      ],
+      "id": "sector:ZLLL/ZLLL-LZC",
+      "division": "PRC",
+      "fir": "ZLLL",
+      "resolvedPositions": [
+        {
+          "id": "position:ZLLL/ZLLL-LZC"
+        }
+      ]
+    },
+    "sector:ZLLL/ZLLL-LZN": {
+      "volumes": [
+        "volume:ZLLL/ZLLL-LZN"
+      ],
+      "positions": [
+        {
+          "id": "position:ZLLL/ZLLL-LZN"
+        }
+      ],
+      "id": "sector:ZLLL/ZLLL-LZN",
+      "division": "PRC",
+      "fir": "ZLLL",
+      "resolvedPositions": [
+        {
+          "id": "position:ZLLL/ZLLL-LZN"
+        }
+      ]
+    },
+    "sector:ZLLL/ZLLL-LZN1": {
+      "volumes": [
+        "volume:ZLLL/ZLLL-LZN1"
+      ],
+      "positions": [
+        {
+          "id": "position:ZLLL/ZLLL-LZN1"
+        }
+      ],
+      "id": "sector:ZLLL/ZLLL-LZN1",
+      "division": "PRC",
+      "fir": "ZLLL",
+      "resolvedPositions": [
+        {
+          "id": "position:ZLLL/ZLLL-LZN1"
+        }
+      ]
+    },
+    "sector:ZLLL/ZLLL-LZS": {
+      "volumes": [
+        "volume:ZLLL/ZLLL-LZS"
+      ],
+      "positions": [
+        {
+          "id": "position:ZLLL/ZLLL-LZS"
+        }
+      ],
+      "id": "sector:ZLLL/ZLLL-LZS",
+      "division": "PRC",
+      "fir": "ZLLL",
+      "resolvedPositions": [
+        {
+          "id": "position:ZLLL/ZLLL-LZS"
+        }
+      ]
+    },
+    "sector:ZLLL/ZLLL-LZS1": {
+      "volumes": [
+        "volume:ZLLL/ZLLL-LZS1"
+      ],
+      "positions": [
+        {
+          "id": "position:ZLLL/ZLLL-LZS1"
+        }
+      ],
+      "id": "sector:ZLLL/ZLLL-LZS1",
+      "division": "PRC",
+      "fir": "ZLLL",
+      "resolvedPositions": [
+        {
+          "id": "position:ZLLL/ZLLL-LZS1"
+        }
+      ]
+    },
+    "sector:ZLLL/ZLLL-LZS2": {
+      "volumes": [
+        "volume:ZLLL/ZLLL-LZS2"
+      ],
+      "positions": [
+        {
+          "id": "position:ZLLL/ZLLL-LZS2"
+        }
+      ],
+      "id": "sector:ZLLL/ZLLL-LZS2",
+      "division": "PRC",
+      "fir": "ZLLL",
+      "resolvedPositions": [
+        {
+          "id": "position:ZLLL/ZLLL-LZS2"
+        }
+      ]
+    },
+    "sector:ZLXY/ZLXY": {
+      "volumes": [
+        "volume:ZLXY/ZLXY"
+      ],
+      "positions": [
+        {
+          "id": "position:ZLXY/ZLXY"
+        }
+      ],
+      "id": "sector:ZLXY/ZLXY",
+      "division": "PRC",
+      "fir": "ZLXY",
+      "resolvedPositions": [
+        {
+          "id": "position:ZLXY/ZLXY"
+        }
+      ]
+    },
+    "sector:ZLXY/ZLXY-XAS": {
+      "volumes": [
+        "volume:ZLXY/ZLXY-XAS"
+      ],
+      "positions": [
+        {
+          "id": "position:ZLXY/ZLXY-XAS"
+        }
+      ],
+      "id": "sector:ZLXY/ZLXY-XAS",
+      "division": "PRC",
+      "fir": "ZLXY",
+      "resolvedPositions": [
+        {
+          "id": "position:ZLXY/ZLXY-XAS"
+        }
+      ]
+    },
+    "sector:ZPKM/ZPJH-APP": {
+      "volumes": [
+        "volume:ZPKM/ZPJH-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZPKM/ZPJH-APP"
+        }
+      ],
+      "id": "sector:ZPKM/ZPJH-APP",
+      "division": "PRC",
+      "fir": "ZPKM",
+      "resolvedPositions": [
+        {
+          "id": "position:ZPKM/ZPJH-APP"
+        }
+      ]
+    },
+    "sector:ZPKM/ZPLJ-APP": {
+      "volumes": [
+        "volume:ZPKM/ZPLJ-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZPKM/ZPLJ-APP"
+        }
+      ],
+      "id": "sector:ZPKM/ZPLJ-APP",
+      "division": "PRC",
+      "fir": "ZPKM",
+      "resolvedPositions": [
+        {
+          "id": "position:ZPKM/ZPLJ-APP"
+        }
+      ]
+    },
+    "sector:ZPKM/ZPPP-APP": {
+      "volumes": [
+        "volume:ZPKM/ZPPP-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZPKM/ZPPP-APP"
+        }
+      ],
+      "id": "sector:ZPKM/ZPPP-APP",
+      "division": "PRC",
+      "fir": "ZPKM",
+      "resolvedPositions": [
+        {
+          "id": "position:ZPKM/ZPPP-APP"
+        }
+      ]
+    },
+    "sector:ZPKM/ZUCK-APP": {
+      "volumes": [
+        "volume:ZPKM/ZUCK-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZPKM/ZUCK-APP"
+        }
+      ],
+      "id": "sector:ZPKM/ZUCK-APP",
+      "division": "PRC",
+      "fir": "ZPKM",
+      "resolvedPositions": [
+        {
+          "id": "position:ZPKM/ZUCK-APP"
+        }
+      ]
+    },
+    "sector:ZPKM/ZUGY-APP": {
+      "volumes": [
+        "volume:ZPKM/ZUGY-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZPKM/ZUGY-APP"
+        }
+      ],
+      "id": "sector:ZPKM/ZUGY-APP",
+      "division": "PRC",
+      "fir": "ZPKM",
+      "resolvedPositions": [
+        {
+          "id": "position:ZPKM/ZUGY-APP"
+        }
+      ]
+    },
+    "sector:ZPKM/ZULS-APP": {
+      "volumes": [
+        "volume:ZPKM/ZULS-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZPKM/ZULS-APP"
+        }
+      ],
+      "id": "sector:ZPKM/ZULS-APP",
+      "division": "PRC",
+      "fir": "ZPKM",
+      "resolvedPositions": [
+        {
+          "id": "position:ZPKM/ZULS-APP"
+        }
+      ]
+    },
+    "sector:ZPKM/ZULZ-APP": {
+      "volumes": [
+        "volume:ZPKM/ZULZ-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZPKM/ZULZ-APP"
+        }
+      ],
+      "id": "sector:ZPKM/ZULZ-APP",
+      "division": "PRC",
+      "fir": "ZPKM",
+      "resolvedPositions": [
+        {
+          "id": "position:ZPKM/ZULZ-APP"
+        }
+      ]
+    },
+    "sector:ZPKM/ZUUU-APP": {
+      "volumes": [
+        "volume:ZPKM/ZUUU-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZPKM/ZUUU-APP"
+        }
+      ],
+      "id": "sector:ZPKM/ZUUU-APP",
+      "division": "PRC",
+      "fir": "ZPKM",
+      "resolvedPositions": [
+        {
+          "id": "position:ZPKM/ZUUU-APP"
+        }
+      ]
+    },
+    "sector:ZPPP/ZPPP": {
+      "volumes": [
+        "volume:ZPPP/ZPPP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZPPP/ZPPP"
+        }
+      ],
+      "id": "sector:ZPPP/ZPPP",
+      "division": "PRC",
+      "fir": "ZPPP",
+      "resolvedPositions": [
+        {
+          "id": "position:ZPPP/ZPPP"
+        }
+      ]
+    },
+    "sector:ZPPP/ZPPP-KME": {
+      "volumes": [
+        "volume:ZPPP/ZPPP-KME"
+      ],
+      "positions": [
+        {
+          "id": "position:ZPPP/ZPPP-KME"
+        }
+      ],
+      "id": "sector:ZPPP/ZPPP-KME",
+      "division": "PRC",
+      "fir": "ZPPP",
+      "resolvedPositions": [
+        {
+          "id": "position:ZPPP/ZPPP-KME"
+        }
+      ]
+    },
+    "sector:ZPPP/ZPPP-KME1": {
+      "volumes": [
+        "volume:ZPPP/ZPPP-KME1"
+      ],
+      "positions": [
+        {
+          "id": "position:ZPPP/ZPPP-KME1"
+        }
+      ],
+      "id": "sector:ZPPP/ZPPP-KME1",
+      "division": "PRC",
+      "fir": "ZPPP",
+      "resolvedPositions": [
+        {
+          "id": "position:ZPPP/ZPPP-KME1"
+        }
+      ]
+    },
+    "sector:ZPPP/ZPPP-KME2": {
+      "volumes": [
+        "volume:ZPPP/ZPPP-KME2"
+      ],
+      "positions": [
+        {
+          "id": "position:ZPPP/ZPPP-KME2"
+        }
+      ],
+      "id": "sector:ZPPP/ZPPP-KME2",
+      "division": "PRC",
+      "fir": "ZPPP",
+      "resolvedPositions": [
+        {
+          "id": "position:ZPPP/ZPPP-KME2"
+        }
+      ]
+    },
+    "sector:ZPPP/ZPPP-KMW": {
+      "volumes": [
+        "volume:ZPPP/ZPPP-KMW"
+      ],
+      "positions": [
+        {
+          "id": "position:ZPPP/ZPPP-KMW"
+        }
+      ],
+      "id": "sector:ZPPP/ZPPP-KMW",
+      "division": "PRC",
+      "fir": "ZPPP",
+      "resolvedPositions": [
+        {
+          "id": "position:ZPPP/ZPPP-KMW"
+        }
+      ]
+    },
+    "sector:ZPPP/ZPPP-KMW1": {
+      "volumes": [
+        "volume:ZPPP/ZPPP-KMW1"
+      ],
+      "positions": [
+        {
+          "id": "position:ZPPP/ZPPP-KMW1"
+        }
+      ],
+      "id": "sector:ZPPP/ZPPP-KMW1",
+      "division": "PRC",
+      "fir": "ZPPP",
+      "resolvedPositions": [
+        {
+          "id": "position:ZPPP/ZPPP-KMW1"
+        }
+      ]
+    },
+    "sector:ZSAM/ZSAM": {
+      "volumes": [
+        "volume:ZSAM/ZSAM"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSAM/ZSAM"
+        }
+      ],
+      "id": "sector:ZSAM/ZSAM",
+      "division": "PRC",
+      "fir": "ZSAM",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSAM/ZSAM"
+        }
+      ]
+    },
+    "sector:ZSAM/ZSAM-XMS": {
+      "volumes": [
+        "volume:ZSAM/ZSAM-XMS"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSAM/ZSAM-XMS"
+        }
+      ],
+      "id": "sector:ZSAM/ZSAM-XMS",
+      "division": "PRC",
+      "fir": "ZSAM",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSAM/ZSAM-XMS"
+        }
+      ]
+    },
+    "sector:ZSCN/ZSCN": {
+      "volumes": [
+        "volume:ZSCN/ZSCN"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSCN/ZSCN"
+        }
+      ],
+      "id": "sector:ZSCN/ZSCN",
+      "division": "PRC",
+      "fir": "ZSCN",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSCN/ZSCN"
+        }
+      ]
+    },
+    "sector:ZSCN/ZSCN-NCE": {
+      "volumes": [
+        "volume:ZSCN/ZSCN-NCE"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSCN/ZSCN-NCE"
+        }
+      ],
+      "id": "sector:ZSCN/ZSCN-NCE",
+      "division": "PRC",
+      "fir": "ZSCN",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSCN/ZSCN-NCE"
+        }
+      ]
+    },
+    "sector:ZSHA/ZSAM-APP": {
+      "volumes": [
+        "volume:ZSHA/ZSAM-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSHA/ZSAM-APP"
+        }
+      ],
+      "id": "sector:ZSHA/ZSAM-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSHA/ZSAM-APP"
+        }
+      ]
+    },
+    "sector:ZSHA/ZSCG-APP": {
+      "volumes": [
+        "volume:ZSHA/ZSCG-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSHA/ZSCG-APP"
+        }
+      ],
+      "id": "sector:ZSHA/ZSCG-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSHA/ZSCG-APP"
+        }
+      ]
+    },
+    "sector:ZSHA/ZSCN-APP": {
+      "volumes": [
+        "volume:ZSHA/ZSCN-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSHA/ZSCN-APP"
+        }
+      ],
+      "id": "sector:ZSHA/ZSCN-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSHA/ZSCN-APP"
+        }
+      ]
+    },
+    "sector:ZSHA/ZSFZ-APP": {
+      "volumes": [
+        "volume:ZSHA/ZSFZ-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSHA/ZSFZ-APP"
+        }
+      ],
+      "id": "sector:ZSHA/ZSFZ-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSHA/ZSFZ-APP"
+        }
+      ]
+    },
+    "sector:ZSHA/ZSHC-APP": {
+      "volumes": [
+        "volume:ZSHA/ZSHC-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSHA/ZSHC-APP"
+        }
+      ],
+      "id": "sector:ZSHA/ZSHC-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSHA/ZSHC-APP"
+        }
+      ]
+    },
+    "sector:ZSHA/ZSJN-APP": {
+      "volumes": [
+        "volume:ZSHA/ZSJN-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSHA/ZSJN-APP"
+        }
+      ],
+      "id": "sector:ZSHA/ZSJN-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSHA/ZSJN-APP"
+        }
+      ]
+    },
+    "sector:ZSHA/ZSNB-APP": {
+      "volumes": [
+        "volume:ZSHA/ZSNB-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSHA/ZSNB-APP"
+        }
+      ],
+      "id": "sector:ZSHA/ZSNB-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSHA/ZSNB-APP"
+        }
+      ]
+    },
+    "sector:ZSHA/ZSNJ-APP": {
+      "volumes": [
+        "volume:ZSHA/ZSNJ-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSHA/ZSNJ-APP"
+        }
+      ],
+      "id": "sector:ZSHA/ZSNJ-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSHA/ZSNJ-APP"
+        }
+      ]
+    },
+    "sector:ZSHA/ZSOF-APP": {
+      "volumes": [
+        "volume:ZSHA/ZSOF-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSHA/ZSOF-APP"
+        }
+      ],
+      "id": "sector:ZSHA/ZSOF-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSHA/ZSOF-APP"
+        }
+      ]
+    },
+    "sector:ZSHA/ZSQD-APP": {
+      "volumes": [
+        "volume:ZSHA/ZSQD-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSHA/ZSQD-APP"
+        }
+      ],
+      "id": "sector:ZSHA/ZSQD-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSHA/ZSQD-APP"
+        }
+      ]
+    },
+    "sector:ZSHA/ZSQZ-APP": {
+      "volumes": [
+        "volume:ZSHA/ZSQZ-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSHA/ZSQZ-APP"
+        }
+      ],
+      "id": "sector:ZSHA/ZSQZ-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSHA/ZSQZ-APP"
+        }
+      ]
+    },
+    "sector:ZSHA/ZSSS-APP": {
+      "volumes": [
+        "volume:ZSHA/ZSSS-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSHA/ZSSS-APP"
+        }
+      ],
+      "id": "sector:ZSHA/ZSSS-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSHA/ZSSS-APP"
+        }
+      ]
+    },
+    "sector:ZSHA/ZSSS_E-APP": {
+      "volumes": [
+        "volume:ZSHA/ZSSS_E-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSHA/ZSSS_E-APP"
+        }
+      ],
+      "id": "sector:ZSHA/ZSSS_E-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSHA/ZSSS_E-APP"
+        }
+      ]
+    },
+    "sector:ZSHA/ZSSS_F-APP": {
+      "volumes": [
+        "volume:ZSHA/ZSSS_F-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSHA/ZSSS_F-APP"
+        }
+      ],
+      "id": "sector:ZSHA/ZSSS_F-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSHA/ZSSS_F-APP"
+        }
+      ]
+    },
+    "sector:ZSHA/ZSSS_PF-APP": {
+      "volumes": [
+        "volume:ZSHA/ZSSS_PF-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSHA/ZSSS_PF-APP"
+        }
+      ],
+      "id": "sector:ZSHA/ZSSS_PF-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSHA/ZSSS_PF-APP"
+        }
+      ]
+    },
+    "sector:ZSHA/ZSSS_S-APP": {
+      "volumes": [
+        "volume:ZSHA/ZSSS_S-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSHA/ZSSS_S-APP"
+        }
+      ],
+      "id": "sector:ZSHA/ZSSS_S-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSHA/ZSSS_S-APP"
+        }
+      ]
+    },
+    "sector:ZSHA/ZSSS_W-APP": {
+      "volumes": [
+        "volume:ZSHA/ZSSS_W-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSHA/ZSSS_W-APP"
+        }
+      ],
+      "id": "sector:ZSHA/ZSSS_W-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSHA/ZSSS_W-APP"
+        }
+      ]
+    },
+    "sector:ZSHA/ZSWX-APP": {
+      "volumes": [
+        "volume:ZSHA/ZSWX-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSHA/ZSWX-APP"
+        }
+      ],
+      "id": "sector:ZSHA/ZSWX-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSHA/ZSWX-APP"
+        }
+      ]
+    },
+    "sector:ZSHA/ZSWZ-APP": {
+      "volumes": [
+        "volume:ZSHA/ZSWZ-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSHA/ZSWZ-APP"
+        }
+      ],
+      "id": "sector:ZSHA/ZSWZ-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSHA/ZSWZ-APP"
+        }
+      ]
+    },
+    "sector:ZSHA/ZSYT-APP": {
+      "volumes": [
+        "volume:ZSHA/ZSYT-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSHA/ZSYT-APP"
+        }
+      ],
+      "id": "sector:ZSHA/ZSYT-APP",
+      "division": "PRC",
+      "fir": "ZSHA",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSHA/ZSYT-APP"
+        }
+      ]
+    },
+    "sector:ZSJN/ZSJN": {
+      "volumes": [
+        "volume:ZSJN/ZSJN"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSJN/ZSJN"
+        }
+      ],
+      "id": "sector:ZSJN/ZSJN",
+      "division": "PRC",
+      "fir": "ZSJN",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSJN/ZSJN"
+        }
+      ]
+    },
+    "sector:ZSJN/ZSJN-JNE": {
+      "volumes": [
+        "volume:ZSJN/ZSJN-JNE"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSJN/ZSJN-JNE"
+        }
+      ],
+      "id": "sector:ZSJN/ZSJN-JNE",
+      "division": "PRC",
+      "fir": "ZSJN",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSJN/ZSJN-JNE"
+        }
+      ]
+    },
+    "sector:ZSOF/ZSOF": {
+      "volumes": [
+        "volume:ZSOF/ZSOF"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSOF/ZSOF"
+        }
+      ],
+      "id": "sector:ZSOF/ZSOF",
+      "division": "PRC",
+      "fir": "ZSOF",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSOF/ZSOF"
+        }
+      ]
+    },
+    "sector:ZSOF/ZSOF-HFN": {
+      "volumes": [
+        "volume:ZSOF/ZSOF-HFN"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSOF/ZSOF-HFN"
+        }
+      ],
+      "id": "sector:ZSOF/ZSOF-HFN",
+      "division": "PRC",
+      "fir": "ZSOF",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSOF/ZSOF-HFN"
+        }
+      ]
+    },
+    "sector:ZSQD/ZSQD": {
+      "volumes": [
+        "volume:ZSQD/ZSQD"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSQD/ZSQD"
+        }
+      ],
+      "id": "sector:ZSQD/ZSQD",
+      "division": "PRC",
+      "fir": "ZSQD",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSQD/ZSQD"
+        }
+      ]
+    },
+    "sector:ZSQD/ZSQD-QDH": {
+      "volumes": [
+        "volume:ZSQD/ZSQD-QDH"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSQD/ZSQD-QDH"
+        }
+      ],
+      "id": "sector:ZSQD/ZSQD-QDH",
+      "division": "PRC",
+      "fir": "ZSQD",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSQD/ZSQD-QDH"
+        }
+      ]
+    },
+    "sector:ZSSS/ZSSS": {
+      "volumes": [
+        "volume:ZSSS/ZSSS"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSSS/ZSSS"
+        }
+      ],
+      "id": "sector:ZSSS/ZSSS",
+      "division": "PRC",
+      "fir": "ZSSS",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSSS/ZSSS"
+        }
+      ]
+    },
+    "sector:ZSSS/ZSSS-SHC": {
+      "volumes": [
+        "volume:ZSSS/ZSSS-SHC"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSSS/ZSSS-SHC"
+        }
+      ],
+      "id": "sector:ZSSS/ZSSS-SHC",
+      "division": "PRC",
+      "fir": "ZSSS",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSSS/ZSSS-SHC"
+        }
+      ]
+    },
+    "sector:ZSSS/ZSSS-SHC1": {
+      "volumes": [
+        "volume:ZSSS/ZSSS-SHC1"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSSS/ZSSS-SHC1"
+        }
+      ],
+      "id": "sector:ZSSS/ZSSS-SHC1",
+      "division": "PRC",
+      "fir": "ZSSS",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSSS/ZSSS-SHC1"
+        }
+      ]
+    },
+    "sector:ZSSS/ZSSS-SHE": {
+      "volumes": [
+        "volume:ZSSS/ZSSS-SHE"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSSS/ZSSS-SHE"
+        }
+      ],
+      "id": "sector:ZSSS/ZSSS-SHE",
+      "division": "PRC",
+      "fir": "ZSSS",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSSS/ZSSS-SHE"
+        }
+      ]
+    },
+    "sector:ZSSS/ZSSS-SHE1": {
+      "volumes": [
+        "volume:ZSSS/ZSSS-SHE1"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSSS/ZSSS-SHE1"
+        }
+      ],
+      "id": "sector:ZSSS/ZSSS-SHE1",
+      "division": "PRC",
+      "fir": "ZSSS",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSSS/ZSSS-SHE1"
+        }
+      ]
+    },
+    "sector:ZSSS/ZSSS-SHS": {
+      "volumes": [
+        "volume:ZSSS/ZSSS-SHS"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSSS/ZSSS-SHS"
+        }
+      ],
+      "id": "sector:ZSSS/ZSSS-SHS",
+      "division": "PRC",
+      "fir": "ZSSS",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSSS/ZSSS-SHS"
+        }
+      ]
+    },
+    "sector:ZSSS/ZSSS-SHS1": {
+      "volumes": [
+        "volume:ZSSS/ZSSS-SHS1"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSSS/ZSSS-SHS1"
+        }
+      ],
+      "id": "sector:ZSSS/ZSSS-SHS1",
+      "division": "PRC",
+      "fir": "ZSSS",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSSS/ZSSS-SHS1"
+        }
+      ]
+    },
+    "sector:ZSSS/ZSSS-SHS2": {
+      "volumes": [
+        "volume:ZSSS/ZSSS-SHS2"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSSS/ZSSS-SHS2"
+        }
+      ],
+      "id": "sector:ZSSS/ZSSS-SHS2",
+      "division": "PRC",
+      "fir": "ZSSS",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSSS/ZSSS-SHS2"
+        }
+      ]
+    },
+    "sector:ZSSS/ZSSS-SHW": {
+      "volumes": [
+        "volume:ZSSS/ZSSS-SHW"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSSS/ZSSS-SHW"
+        }
+      ],
+      "id": "sector:ZSSS/ZSSS-SHW",
+      "division": "PRC",
+      "fir": "ZSSS",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSSS/ZSSS-SHW"
+        }
+      ]
+    },
+    "sector:ZSSS/ZSSS-SHW1": {
+      "volumes": [
+        "volume:ZSSS/ZSSS-SHW1"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSSS/ZSSS-SHW1"
+        }
+      ],
+      "id": "sector:ZSSS/ZSSS-SHW1",
+      "division": "PRC",
+      "fir": "ZSSS",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSSS/ZSSS-SHW1"
+        }
+      ]
+    },
+    "sector:ZSSS/ZSSS-SHW2": {
+      "volumes": [
+        "volume:ZSSS/ZSSS-SHW2"
+      ],
+      "positions": [
+        {
+          "id": "position:ZSSS/ZSSS-SHW2"
+        }
+      ],
+      "id": "sector:ZSSS/ZSSS-SHW2",
+      "division": "PRC",
+      "fir": "ZSSS",
+      "resolvedPositions": [
+        {
+          "id": "position:ZSSS/ZSSS-SHW2"
+        }
+      ]
+    },
+    "sector:ZUGY/ZUGY": {
+      "volumes": [
+        "volume:ZUGY/ZUGY"
+      ],
+      "positions": [
+        {
+          "id": "position:ZUGY/ZUGY"
+        }
+      ],
+      "id": "sector:ZUGY/ZUGY",
+      "division": "PRC",
+      "fir": "ZUGY",
+      "resolvedPositions": [
+        {
+          "id": "position:ZUGY/ZUGY"
+        }
+      ]
+    },
+    "sector:ZUGY/ZUGY-GYE": {
+      "volumes": [
+        "volume:ZUGY/ZUGY-GYE"
+      ],
+      "positions": [
+        {
+          "id": "position:ZUGY/ZUGY-GYE"
+        }
+      ],
+      "id": "sector:ZUGY/ZUGY-GYE",
+      "division": "PRC",
+      "fir": "ZUGY",
+      "resolvedPositions": [
+        {
+          "id": "position:ZUGY/ZUGY-GYE"
+        }
+      ]
+    },
+    "sector:ZULS/ZULS": {
+      "volumes": [
+        "volume:ZULS/ZULS"
+      ],
+      "positions": [
+        {
+          "id": "position:ZULS/ZULS"
+        }
+      ],
+      "id": "sector:ZULS/ZULS",
+      "division": "PRC",
+      "fir": "ZULS",
+      "resolvedPositions": [
+        {
+          "id": "position:ZULS/ZULS"
+        }
+      ]
+    },
+    "sector:ZULS/ZULS-LSE": {
+      "volumes": [
+        "volume:ZULS/ZULS-LSE"
+      ],
+      "positions": [
+        {
+          "id": "position:ZULS/ZULS-LSE"
+        }
+      ],
+      "id": "sector:ZULS/ZULS-LSE",
+      "division": "PRC",
+      "fir": "ZULS",
+      "resolvedPositions": [
+        {
+          "id": "position:ZULS/ZULS-LSE"
+        }
+      ]
+    },
+    "sector:ZUUU/ZUUU": {
+      "volumes": [
+        "volume:ZUUU/ZUUU"
+      ],
+      "positions": [
+        {
+          "id": "position:ZUUU/ZUUU"
+        }
+      ],
+      "id": "sector:ZUUU/ZUUU",
+      "division": "PRC",
+      "fir": "ZUUU",
+      "resolvedPositions": [
+        {
+          "id": "position:ZUUU/ZUUU"
+        }
+      ]
+    },
+    "sector:ZUUU/ZUUU-CDE": {
+      "volumes": [
+        "volume:ZUUU/ZUUU-CDE"
+      ],
+      "positions": [
+        {
+          "id": "position:ZUUU/ZUUU-CDE"
+        }
+      ],
+      "id": "sector:ZUUU/ZUUU-CDE",
+      "division": "PRC",
+      "fir": "ZUUU",
+      "resolvedPositions": [
+        {
+          "id": "position:ZUUU/ZUUU-CDE"
+        }
+      ]
+    },
+    "sector:ZUUU/ZUUU-CDG": {
+      "volumes": [
+        "volume:ZUUU/ZUUU-CDG"
+      ],
+      "positions": [
+        {
+          "id": "position:ZUUU/ZUUU-CDG"
+        }
+      ],
+      "id": "sector:ZUUU/ZUUU-CDG",
+      "division": "PRC",
+      "fir": "ZUUU",
+      "resolvedPositions": [
+        {
+          "id": "position:ZUUU/ZUUU-CDG"
+        }
+      ]
+    },
+    "sector:ZUUU/ZUUU-CDN": {
+      "volumes": [
+        "volume:ZUUU/ZUUU-CDN"
+      ],
+      "positions": [
+        {
+          "id": "position:ZUUU/ZUUU-CDN"
+        }
+      ],
+      "id": "sector:ZUUU/ZUUU-CDN",
+      "division": "PRC",
+      "fir": "ZUUU",
+      "resolvedPositions": [
+        {
+          "id": "position:ZUUU/ZUUU-CDN"
+        }
+      ]
+    },
+    "sector:ZUUU/ZUUU-CDN1": {
+      "volumes": [
+        "volume:ZUUU/ZUUU-CDN1"
+      ],
+      "positions": [
+        {
+          "id": "position:ZUUU/ZUUU-CDN1"
+        }
+      ],
+      "id": "sector:ZUUU/ZUUU-CDN1",
+      "division": "PRC",
+      "fir": "ZUUU",
+      "resolvedPositions": [
+        {
+          "id": "position:ZUUU/ZUUU-CDN1"
+        }
+      ]
+    },
+    "sector:ZUUU/ZUUU-CDS": {
+      "volumes": [
+        "volume:ZUUU/ZUUU-CDS"
+      ],
+      "positions": [
+        {
+          "id": "position:ZUUU/ZUUU-CDS"
+        }
+      ],
+      "id": "sector:ZUUU/ZUUU-CDS",
+      "division": "PRC",
+      "fir": "ZUUU",
+      "resolvedPositions": [
+        {
+          "id": "position:ZUUU/ZUUU-CDS"
+        }
+      ]
+    },
+    "sector:ZUUU/ZUUU-CDW": {
+      "volumes": [
+        "volume:ZUUU/ZUUU-CDW"
+      ],
+      "positions": [
+        {
+          "id": "position:ZUUU/ZUUU-CDW"
+        }
+      ],
+      "id": "sector:ZUUU/ZUUU-CDW",
+      "division": "PRC",
+      "fir": "ZUUU",
+      "resolvedPositions": [
+        {
+          "id": "position:ZUUU/ZUUU-CDW"
+        }
+      ]
+    },
+    "sector:ZWUQ/ZWAK-APP": {
+      "volumes": [
+        "volume:ZWUQ/ZWAK-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZWUQ/ZWAK-APP"
+        }
+      ],
+      "id": "sector:ZWUQ/ZWAK-APP",
+      "division": "PRC",
+      "fir": "ZWUQ",
+      "resolvedPositions": [
+        {
+          "id": "position:ZWUQ/ZWAK-APP"
+        }
+      ]
+    },
+    "sector:ZWUQ/ZWWW-APP": {
+      "volumes": [
+        "volume:ZWUQ/ZWWW-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZWUQ/ZWWW-APP"
+        }
+      ],
+      "id": "sector:ZWUQ/ZWWW-APP",
+      "division": "PRC",
+      "fir": "ZWUQ",
+      "resolvedPositions": [
+        {
+          "id": "position:ZWUQ/ZWWW-APP"
+        }
+      ]
+    },
+    "sector:ZWWW/ZWWW": {
+      "volumes": [
+        "volume:ZWWW/ZWWW"
+      ],
+      "positions": [
+        {
+          "id": "position:ZWWW/ZWWW"
+        }
+      ],
+      "id": "sector:ZWWW/ZWWW",
+      "division": "PRC",
+      "fir": "ZWWW",
+      "resolvedPositions": [
+        {
+          "id": "position:ZWWW/ZWWW"
+        }
+      ]
+    },
+    "sector:ZWWW/ZWWW-WUE": {
+      "volumes": [
+        "volume:ZWWW/ZWWW-WUE"
+      ],
+      "positions": [
+        {
+          "id": "position:ZWWW/ZWWW-WUE"
+        }
+      ],
+      "id": "sector:ZWWW/ZWWW-WUE",
+      "division": "PRC",
+      "fir": "ZWWW",
+      "resolvedPositions": [
+        {
+          "id": "position:ZWWW/ZWWW-WUE"
+        }
+      ]
+    },
+    "sector:ZWWW/ZWWW-WUS": {
+      "volumes": [
+        "volume:ZWWW/ZWWW-WUS"
+      ],
+      "positions": [
+        {
+          "id": "position:ZWWW/ZWWW-WUS"
+        }
+      ],
+      "id": "sector:ZWWW/ZWWW-WUS",
+      "division": "PRC",
+      "fir": "ZWWW",
+      "resolvedPositions": [
+        {
+          "id": "position:ZWWW/ZWWW-WUS"
+        }
+      ]
+    },
+    "sector:ZWWW/ZWWW-WUS1": {
+      "volumes": [
+        "volume:ZWWW/ZWWW-WUS1"
+      ],
+      "positions": [
+        {
+          "id": "position:ZWWW/ZWWW-WUS1"
+        }
+      ],
+      "id": "sector:ZWWW/ZWWW-WUS1",
+      "division": "PRC",
+      "fir": "ZWWW",
+      "resolvedPositions": [
+        {
+          "id": "position:ZWWW/ZWWW-WUS1"
+        }
+      ]
+    },
+    "sector:ZWWW/ZWWW-WUW": {
+      "volumes": [
+        "volume:ZWWW/ZWWW-WUW"
+      ],
+      "positions": [
+        {
+          "id": "position:ZWWW/ZWWW-WUW"
+        }
+      ],
+      "id": "sector:ZWWW/ZWWW-WUW",
+      "division": "PRC",
+      "fir": "ZWWW",
+      "resolvedPositions": [
+        {
+          "id": "position:ZWWW/ZWWW-WUW"
+        }
+      ]
+    },
+    "sector:ZWWW/ZWWW-WUW1": {
+      "volumes": [
+        "volume:ZWWW/ZWWW-WUW1"
+      ],
+      "positions": [
+        {
+          "id": "position:ZWWW/ZWWW-WUW1"
+        }
+      ],
+      "id": "sector:ZWWW/ZWWW-WUW1",
+      "division": "PRC",
+      "fir": "ZWWW",
+      "resolvedPositions": [
+        {
+          "id": "position:ZWWW/ZWWW-WUW1"
+        }
+      ]
+    },
+    "sector:ZYHB/ZYHB": {
+      "volumes": [
+        "volume:ZYHB/ZYHB"
+      ],
+      "positions": [
+        {
+          "id": "position:ZYHB/ZYHB"
+        }
+      ],
+      "id": "sector:ZYHB/ZYHB",
+      "division": "PRC",
+      "fir": "ZYHB",
+      "resolvedPositions": [
+        {
+          "id": "position:ZYHB/ZYHB"
+        }
+      ]
+    },
+    "sector:ZYHB/ZYHB-HBE": {
+      "volumes": [
+        "volume:ZYHB/ZYHB-HBE"
+      ],
+      "positions": [
+        {
+          "id": "position:ZYHB/ZYHB-HBE"
+        }
+      ],
+      "id": "sector:ZYHB/ZYHB-HBE",
+      "division": "PRC",
+      "fir": "ZYHB",
+      "resolvedPositions": [
+        {
+          "id": "position:ZYHB/ZYHB-HBE"
+        }
+      ]
+    },
+    "sector:ZYHB/ZYHB-HBE1": {
+      "volumes": [
+        "volume:ZYHB/ZYHB-HBE1"
+      ],
+      "positions": [
+        {
+          "id": "position:ZYHB/ZYHB-HBE1"
+        }
+      ],
+      "id": "sector:ZYHB/ZYHB-HBE1",
+      "division": "PRC",
+      "fir": "ZYHB",
+      "resolvedPositions": [
+        {
+          "id": "position:ZYHB/ZYHB-HBE1"
+        }
+      ]
+    },
+    "sector:ZYHB/ZYHB-HBE2": {
+      "volumes": [
+        "volume:ZYHB/ZYHB-HBE2"
+      ],
+      "positions": [
+        {
+          "id": "position:ZYHB/ZYHB-HBE2"
+        }
+      ],
+      "id": "sector:ZYHB/ZYHB-HBE2",
+      "division": "PRC",
+      "fir": "ZYHB",
+      "resolvedPositions": [
+        {
+          "id": "position:ZYHB/ZYHB-HBE2"
+        }
+      ]
+    },
+    "sector:ZYHB/ZYHB-HBW": {
+      "volumes": [
+        "volume:ZYHB/ZYHB-HBW"
+      ],
+      "positions": [
+        {
+          "id": "position:ZYHB/ZYHB-HBW"
+        }
+      ],
+      "id": "sector:ZYHB/ZYHB-HBW",
+      "division": "PRC",
+      "fir": "ZYHB",
+      "resolvedPositions": [
+        {
+          "id": "position:ZYHB/ZYHB-HBW"
+        }
+      ]
+    },
+    "sector:ZYSH/ZYCC-APP": {
+      "volumes": [
+        "volume:ZYSH/ZYCC-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZYSH/ZYCC-APP"
+        }
+      ],
+      "id": "sector:ZYSH/ZYCC-APP",
+      "division": "PRC",
+      "fir": "ZYSH",
+      "resolvedPositions": [
+        {
+          "id": "position:ZYSH/ZYCC-APP"
+        }
+      ]
+    },
+    "sector:ZYSH/ZYHB-APP": {
+      "volumes": [
+        "volume:ZYSH/ZYHB-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZYSH/ZYHB-APP"
+        }
+      ],
+      "id": "sector:ZYSH/ZYHB-APP",
+      "division": "PRC",
+      "fir": "ZYSH",
+      "resolvedPositions": [
+        {
+          "id": "position:ZYSH/ZYHB-APP"
+        }
+      ]
+    },
+    "sector:ZYSH/ZYTL-APP": {
+      "volumes": [
+        "volume:ZYSH/ZYTL-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZYSH/ZYTL-APP"
+        }
+      ],
+      "id": "sector:ZYSH/ZYTL-APP",
+      "division": "PRC",
+      "fir": "ZYSH",
+      "resolvedPositions": [
+        {
+          "id": "position:ZYSH/ZYTL-APP"
+        }
+      ]
+    },
+    "sector:ZYSH/ZYTX-APP": {
+      "volumes": [
+        "volume:ZYSH/ZYTX-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ZYSH/ZYTX-APP"
+        }
+      ],
+      "id": "sector:ZYSH/ZYTX-APP",
+      "division": "PRC",
+      "fir": "ZYSH",
+      "resolvedPositions": [
+        {
+          "id": "position:ZYSH/ZYTX-APP"
+        }
+      ]
+    },
+    "sector:ZYTL/ZYTL": {
+      "volumes": [
+        "volume:ZYTL/ZYTL"
+      ],
+      "positions": [
+        {
+          "id": "position:ZYTL/ZYTL"
+        }
+      ],
+      "id": "sector:ZYTL/ZYTL",
+      "division": "PRC",
+      "fir": "ZYTL",
+      "resolvedPositions": [
+        {
+          "id": "position:ZYTL/ZYTL"
+        }
+      ]
+    },
+    "sector:ZYTL/ZYTL-DLE": {
+      "volumes": [
+        "volume:ZYTL/ZYTL-DLE"
+      ],
+      "positions": [
+        {
+          "id": "position:ZYTL/ZYTL-DLE"
+        }
+      ],
+      "id": "sector:ZYTL/ZYTL-DLE",
+      "division": "PRC",
+      "fir": "ZYTL",
+      "resolvedPositions": [
+        {
+          "id": "position:ZYTL/ZYTL-DLE"
+        }
+      ]
+    },
+    "sector:ZYTL/ZYTL-DLN": {
+      "volumes": [
+        "volume:ZYTL/ZYTL-DLN"
+      ],
+      "positions": [
+        {
+          "id": "position:ZYTL/ZYTL-DLN"
+        }
+      ],
+      "id": "sector:ZYTL/ZYTL-DLN",
+      "division": "PRC",
+      "fir": "ZYTL",
+      "resolvedPositions": [
+        {
+          "id": "position:ZYTL/ZYTL-DLN"
+        }
+      ]
+    },
+    "sector:ZYTL/ZYTL-DLS": {
+      "volumes": [
+        "volume:ZYTL/ZYTL-DLS"
+      ],
+      "positions": [
+        {
+          "id": "position:ZYTL/ZYTL-DLS"
+        }
+      ],
+      "id": "sector:ZYTL/ZYTL-DLS",
+      "division": "PRC",
+      "fir": "ZYTL",
+      "resolvedPositions": [
+        {
+          "id": "position:ZYTL/ZYTL-DLS"
+        }
+      ]
+    },
+    "sector:ZYTL/ZYTL-DLW": {
+      "volumes": [
+        "volume:ZYTL/ZYTL-DLW"
+      ],
+      "positions": [
+        {
+          "id": "position:ZYTL/ZYTL-DLW"
+        }
+      ],
+      "id": "sector:ZYTL/ZYTL-DLW",
+      "division": "PRC",
+      "fir": "ZYTL",
+      "resolvedPositions": [
+        {
+          "id": "position:ZYTL/ZYTL-DLW"
+        }
+      ]
+    },
+    "sector:ZYTX/ZYTX": {
+      "volumes": [
+        "volume:ZYTX/ZYTX"
+      ],
+      "positions": [
+        {
+          "id": "position:ZYTX/ZYTX"
+        }
+      ],
+      "id": "sector:ZYTX/ZYTX",
+      "division": "PRC",
+      "fir": "ZYTX",
+      "resolvedPositions": [
+        {
+          "id": "position:ZYTX/ZYTX"
+        }
+      ]
+    },
+    "sector:ZYTX/ZYTX-SYN": {
+      "volumes": [
+        "volume:ZYTX/ZYTX-SYN"
+      ],
+      "positions": [
+        {
+          "id": "position:ZYTX/ZYTX-SYN"
+        }
+      ],
+      "id": "sector:ZYTX/ZYTX-SYN",
+      "division": "PRC",
+      "fir": "ZYTX",
+      "resolvedPositions": [
+        {
+          "id": "position:ZYTX/ZYTX-SYN"
+        }
+      ]
+    },
+    "sector:ZYTX/ZYTX-SYN1": {
+      "volumes": [
+        "volume:ZYTX/ZYTX-SYN1"
+      ],
+      "positions": [
+        {
+          "id": "position:ZYTX/ZYTX-SYN1"
+        }
+      ],
+      "id": "sector:ZYTX/ZYTX-SYN1",
+      "division": "PRC",
+      "fir": "ZYTX",
+      "resolvedPositions": [
+        {
+          "id": "position:ZYTX/ZYTX-SYN1"
+        }
+      ]
+    },
+    "sector:ZYTX/ZYTX-SYS": {
+      "volumes": [
+        "volume:ZYTX/ZYTX-SYS"
+      ],
+      "positions": [
+        {
+          "id": "position:ZYTX/ZYTX-SYS"
+        }
+      ],
+      "id": "sector:ZYTX/ZYTX-SYS",
+      "division": "PRC",
+      "fir": "ZYTX",
+      "resolvedPositions": [
+        {
+          "id": "position:ZYTX/ZYTX-SYS"
+        }
+      ]
+    },
+    "sector:ZYTX/ZYTX-SYW": {
+      "volumes": [
+        "volume:ZYTX/ZYTX-SYW"
+      ],
+      "positions": [
+        {
+          "id": "position:ZYTX/ZYTX-SYW"
+        }
+      ],
+      "id": "sector:ZYTX/ZYTX-SYW",
+      "division": "PRC",
+      "fir": "ZYTX",
+      "resolvedPositions": [
+        {
+          "id": "position:ZYTX/ZYTX-SYW"
+        }
+      ]
+    },
+    "sector:ULLL/R1": {
+      "volumes": [
+        "volume:ULLL/R1"
+      ],
+      "positions": [
+        {
+          "id": "position:ULLL/ULLL-R1"
+        }
+      ],
+      "id": "sector:ULLL/R1",
+      "division": "RUS",
+      "fir": "ULLL",
+      "resolvedPositions": [
+        {
+          "id": "position:ULLL/ULLL-R1"
+        },
+        {
+          "id": "position:ULLL/ULLL-R"
+        },
+        {
+          "id": "position:ULLL/ULLL"
+        },
+        {
+          "id": "position:NWC"
+        }
+      ]
+    },
+    "sector:ULLL/R2": {
+      "volumes": [
+        "volume:ULLL/R2"
+      ],
+      "positions": [
+        {
+          "id": "position:ULLL/ULLL-R2"
+        }
+      ],
+      "id": "sector:ULLL/R2",
+      "division": "RUS",
+      "fir": "ULLL",
+      "resolvedPositions": [
+        {
+          "id": "position:ULLL/ULLL-R2"
+        },
+        {
+          "id": "position:ULLL/ULLL-R"
+        },
+        {
+          "id": "position:ULLL/ULLL"
+        },
+        {
+          "id": "position:NWC"
+        }
+      ]
+    },
+    "sector:ULLL/R3": {
+      "volumes": [
+        "volume:ULLL/R3"
+      ],
+      "positions": [
+        {
+          "id": "position:ULLL/ULLL-R3"
+        }
+      ],
+      "id": "sector:ULLL/R3",
+      "division": "RUS",
+      "fir": "ULLL",
+      "resolvedPositions": [
+        {
+          "id": "position:ULLL/ULLL-R3"
+        },
+        {
+          "id": "position:ULLL/ULLL-SW"
+        },
+        {
+          "id": "position:ULLL/ULLL-R"
+        },
+        {
+          "id": "position:ULLL/ULLL"
+        },
+        {
+          "id": "position:NWC"
+        }
+      ]
+    },
+    "sector:ULLL/R4": {
+      "volumes": [
+        "volume:ULLL/R4"
+      ],
+      "positions": [
+        {
+          "id": "position:ULLL/ULLL-R4"
+        }
+      ],
+      "id": "sector:ULLL/R4",
+      "division": "RUS",
+      "fir": "ULLL",
+      "resolvedPositions": [
+        {
+          "id": "position:ULLL/ULLL-R4"
+        },
+        {
+          "id": "position:ULLL/ULLL-SW"
+        },
+        {
+          "id": "position:ULLL/ULLL-R"
+        },
+        {
+          "id": "position:ULLL/ULLL"
+        },
+        {
+          "id": "position:NWC"
+        }
+      ]
+    },
+    "sector:ULLL/R5": {
+      "volumes": [
+        "volume:ULLL/R5"
+      ],
+      "positions": [
+        {
+          "id": "position:ULLL/ULLL-R5"
+        }
+      ],
+      "id": "sector:ULLL/R5",
+      "division": "RUS",
+      "fir": "ULLL",
+      "resolvedPositions": [
+        {
+          "id": "position:ULLL/ULLL-R5"
+        },
+        {
+          "id": "position:ULLL/ULLL-R"
+        },
+        {
+          "id": "position:ULLL/ULLL"
+        },
+        {
+          "id": "position:NWC"
+        }
+      ]
+    },
+    "sector:ULLL/R6": {
+      "volumes": [
+        "volume:ULLL/R6"
+      ],
+      "positions": [
+        {
+          "id": "position:ULLL/ULLL-R6"
+        }
+      ],
+      "id": "sector:ULLL/R6",
+      "division": "RUS",
+      "fir": "ULLL",
+      "resolvedPositions": [
+        {
+          "id": "position:ULLL/ULLL-R6"
+        },
+        {
+          "id": "position:ULLL/ULLL-R"
+        },
+        {
+          "id": "position:ULLL/ULLL"
+        },
+        {
+          "id": "position:NWC"
+        }
+      ]
+    },
+    "sector:ULLL/ULLL-APP": {
+      "volumes": [
+        "volume:ULLL/ULLL-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ULLL/ULLL-APP"
+        },
+        {
+          "id": "position:ULLL/ULLL-R4"
+        }
+      ],
+      "id": "sector:ULLL/ULLL-APP",
+      "division": "RUS",
+      "fir": "ULLL",
+      "resolvedPositions": [
+        {
+          "id": "position:ULLL/ULLL-APP"
+        },
+        {
+          "id": "position:ULLL/ULLL-R3"
+        },
+        {
+          "id": "position:ULLL/ULLL-SW"
+        },
+        {
+          "id": "position:ULLL/ULLL-R"
+        },
+        {
+          "id": "position:ULLL/ULLL"
+        },
+        {
+          "id": "position:NWC"
+        },
+        {
+          "id": "position:ULLL/ULLL-R4"
+        }
+      ]
+    },
+    "sector:ULLL/ULLI-APP": {
+      "volumes": [
+        "volume:ULLL/ULLI-APP"
+      ],
+      "positions": [
+        {
+          "id": "position:ULLL/ULLI-APP"
+        },
+        {
+          "id": "position:ULLL/ULLL-APP"
+        },
+        {
+          "id": "position:ULLL/ULLL-R4"
+        }
+      ],
+      "id": "sector:ULLL/ULLI-APP",
+      "division": "RUS",
+      "fir": "ULLL",
+      "resolvedPositions": [
+        {
+          "id": "position:ULLL/ULLI-APP"
+        },
+        {
+          "id": "position:ULLL/ULLL-APP"
+        },
+        {
+          "id": "position:ULLL/ULLL-R3"
+        },
+        {
+          "id": "position:ULLL/ULLL-SW"
+        },
+        {
+          "id": "position:ULLL/ULLL-R"
+        },
+        {
+          "id": "position:ULLL/ULLL"
+        },
+        {
+          "id": "position:NWC"
+        },
+        {
+          "id": "position:ULLL/ULLL-R4"
+        }
+      ]
+    },
+    "sector:KZBW/KZBW": {
+      "volumes": [
+        "volume:KZBW/KZBW"
+      ],
+      "positions": [
+        {
+          "id": "position:KZBW/KZBW"
+        }
+      ],
+      "id": "sector:KZBW/KZBW",
+      "division": "VATUSA",
+      "fir": "KZBW",
+      "resolvedPositions": [
+        {
+          "id": "position:KZBW/KZBW"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "ZLLL": {
+    "name": "Lanzhou ACC - Lanzhou FIR - Lanzhou",
+    "prefixes": [
+      "ZLLL"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      98.644363,
+      37.307422
+    ]
+  },
+  "ZLLL-LZC": {
+    "name": "Lanzhou ACC Central Sector - Lanzhou FIR - Lanzhou",
+    "prefixes": [
+      "ZLLL_C"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      104.475535,
+      34.865518
+    ]
+  },
+  "ZLLL-LZN": {
+    "name": "Lanzhou ACC North Sector - Lanzhou FIR - Lanzhou",
+    "prefixes": [
+      "ZLLL_N"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      101.893356,
+      40.066244
+    ]
+  },
+  "ZLLL-LZN1": {
+    "name": "Lanzhou ACC North 1 Sector - Lanzhou FIR - Lanzhou",
+    "prefixes": [
+      "ZLLL_N1"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      99.805053,
+      40.841481
+    ]
+  },
+  "ZLLL-LZS": {
+    "name": "Lanzhou ACC South Sector - Lanzhou FIR - Lanzhou",
+    "prefixes": [
+      "ZLLL_S"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      95.641328,
+      36.342894
+    ]
+  },
+  "ZLLL-LZS1": {
+    "name": "Lanzhou ACC South 1 Sector - Lanzhou FIR - Lanzhou",
+    "prefixes": [
+      "ZLLL_S1"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      95.88729,
+      39.718613
+    ]
+  },
+  "ZLLL-LZS2": {
+    "name": "Lanzhou ACC South 2 Sector - Lanzhou FIR - Lanzhou",
+    "prefixes": [
+      "ZLLL_S2"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      94.789504,
+      35.893115
+    ]
+  }
+}

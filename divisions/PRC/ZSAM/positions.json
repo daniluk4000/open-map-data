@@ -1,0 +1,28 @@
+{
+  "ZSAM": {
+    "name": "Xiamen ACC - Shanghai FIR - Xiamen",
+    "prefixes": [
+      "ZSAM"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      118.994964,
+      25.984556
+    ]
+  },
+  "ZSAM-XMS": {
+    "name": "Xiamen ACC South Sector - Shanghai FIR - Xiamen",
+    "prefixes": [
+      "ZSAM_S"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      116.817582,
+      24.191132
+    ]
+  }
+}

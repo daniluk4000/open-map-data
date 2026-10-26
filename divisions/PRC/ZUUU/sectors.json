@@ -1,0 +1,58 @@
+{
+  "ZUUU": {
+    "volumes": [
+      "ZUUU"
+    ],
+    "positions": [
+      "ZUUU"
+    ]
+  },
+  "ZUUU-CDE": {
+    "volumes": [
+      "ZUUU-CDE"
+    ],
+    "positions": [
+      "ZUUU-CDE"
+    ]
+  },
+  "ZUUU-CDG": {
+    "volumes": [
+      "ZUUU-CDG"
+    ],
+    "positions": [
+      "ZUUU-CDG"
+    ]
+  },
+  "ZUUU-CDN": {
+    "volumes": [
+      "ZUUU-CDN"
+    ],
+    "positions": [
+      "ZUUU-CDN"
+    ]
+  },
+  "ZUUU-CDN1": {
+    "volumes": [
+      "ZUUU-CDN1"
+    ],
+    "positions": [
+      "ZUUU-CDN1"
+    ]
+  },
+  "ZUUU-CDS": {
+    "volumes": [
+      "ZUUU-CDS"
+    ],
+    "positions": [
+      "ZUUU-CDS"
+    ]
+  },
+  "ZUUU-CDW": {
+    "volumes": [
+      "ZUUU-CDW"
+    ],
+    "positions": [
+      "ZUUU-CDW"
+    ]
+  }
+}

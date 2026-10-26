@@ -1,5 +1,4 @@
 {
-  "$schema": "../../../schema/volumes.json",
   "type": "FeatureCollection",
   "features": [
     {

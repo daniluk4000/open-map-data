@@ -1,0 +1,38 @@
+{
+  "ZLIC-APP": {
+    "name": "Yinchuan Approach",
+    "prefixes": [
+      "ZLIC"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZLLL-APP": {
+    "name": "Lanzhou Approach",
+    "prefixes": [
+      "ZLLL"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZLXN-APP": {
+    "name": "Xining Approach",
+    "prefixes": [
+      "ZLXN"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZLXY-APP": {
+    "name": "Xi'an Approach",
+    "prefixes": [
+      "ZLXY"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "ZBAA": {
+    "name": "Beijing ACC - Beijing FIR - Beijing",
+    "prefixes": [
+      "ZBAA"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      114.046557,
+      39.223348
+    ]
+  },
+  "ZBAA-BJE": {
+    "name": "Beijing ACC East Sector - Beijing FIR - Beijing",
+    "prefixes": [
+      "ZBAA_E"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      117.42331,
+      39.880692
+    ]
+  },
+  "ZBAA-BJE1": {
+    "name": "Beijing ACC East 1 Sector - Beijing FIR - Beijing",
+    "prefixes": [
+      "ZBAA_E1"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      116.959359,
+      41.37898
+    ]
+  },
+  "ZBAA-BJE2": {
+    "name": "Beijing ACC East 2 Sector - Beijing FIR - Beijing",
+    "prefixes": [
+      "ZBAA_E2"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      118.617963,
+      39.084003
+    ]
+  },
+  "ZBAA-BJN": {
+    "name": "Beijing ACC North Sector - Beijing FIR - Beijing",
+    "prefixes": [
+      "ZBAA_N"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      111.574647,
+      42.067957
+    ]
+  },
+  "ZBAA-BJN1": {
+    "name": "Beijing ACC North 1 Sector - Beijing FIR - Beijing",
+    "prefixes": [
+      "ZBAA_N1"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      109.530995,
+      41.024611
+    ]
+  },
+  "ZBAA-BJS": {
+    "name": "Beijing ACC South Sector - Beijing FIR - Beijing",
+    "prefixes": [
+      "ZBAA_S"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      115.497536,
+      35.044628
+    ]
+  },
+  "ZBAA-BJS1": {
+    "name": "Beijing ACC South 1 Sector - Beijing FIR - Beijing",
+    "prefixes": [
+      "ZBAA_S1"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      113.785575,
+      34.162572
+    ]
+  },
+  "ZBAA-BJW": {
+    "name": "Beijing ACC West Sector - Beijing FIR - Beijing",
+    "prefixes": [
+      "ZBAA_W"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      113.826471,
+      38.671403
+    ]
+  },
+  "ZBAA-BJW1": {
+    "name": "Beijing ACC West 1 Sector - Beijing FIR - Beijing",
+    "prefixes": [
+      "ZBAA_W1"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      113.775211,
+      39.901248
+    ]
+  },
+  "ZBAA-BJW2": {
+    "name": "Beijing ACC West 2 Sector - Beijing FIR - Beijing",
+    "prefixes": [
+      "ZBAA_W2"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      113.040976,
+      37.171049
+    ]
+  },
+  "VOK-APP": {
+    "name": "Volk Approach",
+    "prefixes": [
+      "VOK"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  }
+}

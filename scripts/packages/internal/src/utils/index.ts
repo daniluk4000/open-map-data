@@ -1,0 +1,39 @@
+import {join} from "node:path";
+import {readdirSync, readFileSync} from "node:fs";
+import Ajv from "ajv/dist/2020.js";
+import {fileURLToPath} from "url";
+import type {Airports, Configuration, Division, Positions, Sectors, Volumes} from "shared/types";
+
+const __dirname = fileURLToPath(new URL(import.meta.url).toString());
+export const internalRoot = join(__dirname, '../../../');
+export const utilsRoot = join(__dirname, '../../../../../../')
+export const schemaFolder = join(utilsRoot, 'schema')
+export const divisionsFolder = join(utilsRoot, 'divisions')
+
+export const ajv = new Ajv({strict: true, strictRequired: false})
+
+for (const file of readdirSync(join(schemaFolder, 'common'))) {
+    if (file.endsWith('.json')) {
+        ajv.addSchema(JSON.parse(readFileSync(join(schemaFolder, 'common', file), 'utf-8')))
+    }
+}
+ajv.addSchema(JSON.parse(readFileSync(join(schemaFolder, 'volume.json'), 'utf-8')), 'volume.json')
+
+export function checkSchema(schema: 'volumes', data: Record<string, any>, validate?: boolean): Volumes
+export function checkSchema(schema: 'sectors', data: Record<string, any>, validate?: boolean): Sectors
+export function checkSchema(schema: 'positions', data: Record<string, any>, validate?: boolean): Positions
+export function checkSchema(schema: 'divisions', data: Record<string, any>, validate?: boolean): Division
+export function checkSchema(schema: 'airports', data: Record<string, any>, validate?: boolean): Airports
+export function checkSchema(schema: 'configuration', data: Record<string, any>, validate?: boolean): Configuration
+export function checkSchema(schema: 'airports' | 'configuration' | 'divisions' | 'groups' | 'positions' | 'sectors' | 'volumes', data: Record<string, any>, validate = true) {
+    if (!validate) return data;
+    const compiledSchema = ajv.compile(JSON.parse(readFileSync(join(schemaFolder, `${schema}.json`), 'utf-8')))
+    const valid = compiledSchema(data)
+
+    if (!valid) {
+        console.log(data)
+        throw compiledSchema.errors;
+    }
+
+    return data;
+}

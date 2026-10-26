@@ -1,0 +1,34 @@
+{
+  "ZLIC-APP": {
+    "volumes": [
+      "ZLIC-APP"
+    ],
+    "positions": [
+      "ZLIC-APP"
+    ]
+  },
+  "ZLLL-APP": {
+    "volumes": [
+      "ZLLL-APP"
+    ],
+    "positions": [
+      "ZLLL-APP"
+    ]
+  },
+  "ZLXN-APP": {
+    "volumes": [
+      "ZLXN-APP"
+    ],
+    "positions": [
+      "ZLXN-APP"
+    ]
+  },
+  "ZLXY-APP": {
+    "volumes": [
+      "ZLXY-APP"
+    ],
+    "positions": [
+      "ZLXY-APP"
+    ]
+  }
+}

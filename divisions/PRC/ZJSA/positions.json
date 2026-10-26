@@ -1,0 +1,20 @@
+{
+  "ZJHK-APP": {
+    "name": "Haikou Approach",
+    "prefixes": [
+      "ZJHK"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZJSY-APP": {
+    "name": "Sanya Approach",
+    "prefixes": [
+      "ZJSY"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  }
+}

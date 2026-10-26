@@ -1,4 +1,4 @@
-import {compileAllSet} from "../src/utils/compile.ts";
+import {compileAllSet} from "internal/src/utils/compile.ts";
 
 compileAllSet({
     validate: true

@@ -1,0 +1,28 @@
+{
+  "ZHHH": {
+    "name": "Wuhan ACC - Wuhan FIR - Wuhan",
+    "prefixes": [
+      "ZHHH"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      113.971276,
+      31.142468
+    ]
+  },
+  "ZHHH-WHW": {
+    "name": "Wuhan ACC West Sector - Wuhan FIR - Wuhan",
+    "prefixes": [
+      "ZHHH_W"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      111.008775,
+      31.04794
+    ]
+  }
+}

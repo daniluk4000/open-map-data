@@ -1,0 +1,162 @@
+{
+  "ZSAM-APP": {
+    "volumes": [
+      "ZSAM-APP"
+    ],
+    "positions": [
+      "ZSAM-APP"
+    ]
+  },
+  "ZSCG-APP": {
+    "volumes": [
+      "ZSCG-APP"
+    ],
+    "positions": [
+      "ZSCG-APP"
+    ]
+  },
+  "ZSCN-APP": {
+    "volumes": [
+      "ZSCN-APP"
+    ],
+    "positions": [
+      "ZSCN-APP"
+    ]
+  },
+  "ZSFZ-APP": {
+    "volumes": [
+      "ZSFZ-APP"
+    ],
+    "positions": [
+      "ZSFZ-APP"
+    ]
+  },
+  "ZSHC-APP": {
+    "volumes": [
+      "ZSHC-APP"
+    ],
+    "positions": [
+      "ZSHC-APP"
+    ]
+  },
+  "ZSJN-APP": {
+    "volumes": [
+      "ZSJN-APP"
+    ],
+    "positions": [
+      "ZSJN-APP"
+    ]
+  },
+  "ZSNB-APP": {
+    "volumes": [
+      "ZSNB-APP"
+    ],
+    "positions": [
+      "ZSNB-APP"
+    ]
+  },
+  "ZSNJ-APP": {
+    "volumes": [
+      "ZSNJ-APP"
+    ],
+    "positions": [
+      "ZSNJ-APP"
+    ]
+  },
+  "ZSOF-APP": {
+    "volumes": [
+      "ZSOF-APP"
+    ],
+    "positions": [
+      "ZSOF-APP"
+    ]
+  },
+  "ZSQD-APP": {
+    "volumes": [
+      "ZSQD-APP"
+    ],
+    "positions": [
+      "ZSQD-APP"
+    ]
+  },
+  "ZSQZ-APP": {
+    "volumes": [
+      "ZSQZ-APP"
+    ],
+    "positions": [
+      "ZSQZ-APP"
+    ]
+  },
+  "ZSSS-APP": {
+    "volumes": [
+      "ZSSS-APP"
+    ],
+    "positions": [
+      "ZSSS-APP"
+    ]
+  },
+  "ZSSS_E-APP": {
+    "volumes": [
+      "ZSSS_E-APP"
+    ],
+    "positions": [
+      "ZSSS_E-APP"
+    ]
+  },
+  "ZSSS_F-APP": {
+    "volumes": [
+      "ZSSS_F-APP"
+    ],
+    "positions": [
+      "ZSSS_F-APP"
+    ]
+  },
+  "ZSSS_PF-APP": {
+    "volumes": [
+      "ZSSS_PF-APP"
+    ],
+    "positions": [
+      "ZSSS_PF-APP"
+    ]
+  },
+  "ZSSS_S-APP": {
+    "volumes": [
+      "ZSSS_S-APP"
+    ],
+    "positions": [
+      "ZSSS_S-APP"
+    ]
+  },
+  "ZSSS_W-APP": {
+    "volumes": [
+      "ZSSS_W-APP"
+    ],
+    "positions": [
+      "ZSSS_W-APP"
+    ]
+  },
+  "ZSWX-APP": {
+    "volumes": [
+      "ZSWX-APP"
+    ],
+    "positions": [
+      "ZSWX-APP"
+    ]
+  },
+  "ZSWZ-APP": {
+    "volumes": [
+      "ZSWZ-APP"
+    ],
+    "positions": [
+      "ZSWZ-APP"
+    ]
+  },
+  "ZSYT-APP": {
+    "volumes": [
+      "ZSYT-APP"
+    ],
+    "positions": [
+      "ZSYT-APP"
+    ]
+  }
+}

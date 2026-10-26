@@ -1,0 +1,28 @@
+{
+  "ZSOF": {
+    "name": "Hefei ACC - Shanghai FIR - Hefei",
+    "prefixes": [
+      "ZSOF"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      117.303853,
+      30.852252
+    ]
+  },
+  "ZSOF-HFN": {
+    "name": "Hefei ACC North Sector - Shanghai FIR - Hefei",
+    "prefixes": [
+      "ZSOF_N"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      116.765508,
+      33.176573
+    ]
+  }
+}

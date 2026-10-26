@@ -1,0 +1,373 @@
+{
+  "ZSAM": {
+    "name": "Xiamen Gaoqi",
+    "coordinate": [
+      118.124364,
+      24.542761
+    ]
+  },
+  "ZSAQ": {
+    "name": "Anqing",
+    "coordinate": [
+      117.051157,
+      30.583338
+    ]
+  },
+  "ZSBA": {
+    "name": "Bengbu Tenghu",
+    "coordinate": [
+      117.059578,
+      33.163756
+    ]
+  },
+  "ZSBO": {
+    "name": "Bozhou",
+    "coordinate": [
+      115.911089,
+      33.561658
+    ]
+  },
+  "ZSCG": {
+    "name": "Changzhou Benniu",
+    "coordinate": [
+      119.770633,
+      31.918874
+    ]
+  },
+  "ZSCN": {
+    "name": "Nanchang Changbei",
+    "coordinate": [
+      115.901443,
+      28.862813
+    ]
+  },
+  "ZSDY": {
+    "name": "Dongying Shengli",
+    "coordinate": [
+      118.789134,
+      37.50846
+    ]
+  },
+  "ZSFY": {
+    "name": "Fuyang",
+    "coordinate": [
+      115.734224,
+      32.882169
+    ]
+  },
+  "ZSFZ": {
+    "name": "Fuzhou Changle",
+    "coordinate": [
+      119.662432,
+      25.9341
+    ]
+  },
+  "ZSGS": {
+    "name": "Jinggangshan",
+    "coordinate": [
+      114.737993,
+      26.857715
+    ]
+  },
+  "ZSGZ": {
+    "name": "Ganzhou Huangjin",
+    "coordinate": [
+      114.779597,
+      25.848389
+    ]
+  },
+  "ZSHC": {
+    "name": "Hangzhou Xiaoshan",
+    "coordinate": [
+      120.432376,
+      30.228632
+    ]
+  },
+  "ZSHZ": {
+    "name": "Heze Mudan",
+    "coordinate": [
+      115.736845,
+      35.214354
+    ]
+  },
+  "ZSJD": {
+    "name": "Jingdezhen Luojia",
+    "coordinate": [
+      117.175486,
+      29.338084
+    ]
+  },
+  "ZSJG": {
+    "name": "Jining Da'an",
+    "coordinate": [
+      116.742222,
+      35.647222
+    ]
+  },
+  "ZSJH": {
+    "name": "Chizhou Jiuhuashan",
+    "coordinate": [
+      117.688418,
+      30.739751
+    ]
+  },
+  "ZSJJ": {
+    "name": "Jiujiang Lushan",
+    "coordinate": [
+      115.801354,
+      29.477139
+    ]
+  },
+  "ZSJN": {
+    "name": "Jinan Yaoqiang",
+    "coordinate": [
+      117.216384,
+      36.857213
+    ]
+  },
+  "ZSJU": {
+    "name": "Quzhou",
+    "coordinate": [
+      118.898365,
+      28.966316
+    ]
+  },
+  "ZSJX": {
+    "name": "Jiaxing Nanhu",
+    "coordinate": [
+      120.66365,
+      30.699358
+    ]
+  },
+  "ZSLG": {
+    "name": "Lianyungang Huaguoshan",
+    "coordinate": [
+      119.178221,
+      34.413691
+    ]
+  },
+  "ZSLI": {
+    "name": "Lishui",
+    "coordinate": [
+      119.835278,
+      28.370833
+    ]
+  },
+  "ZSLO": {
+    "name": "Liancheng Guanzhaishan",
+    "coordinate": [
+      116.746189,
+      25.675845
+    ]
+  },
+  "ZSLQ": {
+    "name": "Taizhou Luqiao",
+    "coordinate": [
+      121.429503,
+      28.56301
+    ]
+  },
+  "ZSLY": {
+    "name": "Linyi Qiyang",
+    "coordinate": [
+      118.412483,
+      35.045523
+    ]
+  },
+  "ZSNB": {
+    "name": "Ningbo Lishe",
+    "coordinate": [
+      121.461039,
+      29.826424
+    ]
+  },
+  "ZSNJ": {
+    "name": "Nanjing Lukou",
+    "coordinate": [
+      118.860779,
+      31.740106
+    ]
+  },
+  "ZSNT": {
+    "name": "Nantong Xingdong",
+    "coordinate": [
+      120.974957,
+      32.071513
+    ]
+  },
+  "ZSOF": {
+    "name": "Hefei Xinqiao",
+    "coordinate": [
+      116.976634,
+      31.987384
+    ]
+  },
+  "ZSPD": {
+    "name": "Shanghai Pudong",
+    "coordinate": [
+      121.790844,
+      31.142333
+    ]
+  },
+  "ZSQD": {
+    "name": "Qingdao Jiaodong",
+    "coordinate": [
+      120.098729,
+      36.366526
+    ]
+  },
+  "ZSQZ": {
+    "name": "Quanzhou Jinjiang",
+    "coordinate": [
+      118.591113,
+      24.799411
+    ]
+  },
+  "ZSRJ": {
+    "name": "Ganzhou Ruijin",
+    "coordinate": [
+      116.08,
+      25.96
+    ]
+  },
+  "ZSRZ": {
+    "name": "Rizhao Shanzihe",
+    "coordinate": [
+      119.323218,
+      35.404764
+    ]
+  },
+  "ZSSH": {
+    "name": "Huai'an Lianshui",
+    "coordinate": [
+      119.147299,
+      33.777701
+    ]
+  },
+  "ZSSL": {
+    "name": "Shanghai Longhua",
+    "coordinate": [
+      121.459722,
+      31.167222
+    ]
+  },
+  "ZSSM": {
+    "name": "Sanming Shaxian",
+    "coordinate": [
+      117.834513,
+      26.427323
+    ]
+  },
+  "ZSSR": {
+    "name": "Shangrao Sanqingshan",
+    "coordinate": [
+      117.964941,
+      28.378986
+    ]
+  },
+  "ZSSS": {
+    "name": "Shanghai Hongqiao",
+    "coordinate": [
+      121.335754,
+      31.198609
+    ]
+  },
+  "ZSTX": {
+    "name": "Huangshan Tunxi",
+    "coordinate": [
+      118.254883,
+      29.733965
+    ]
+  },
+  "ZSWA": {
+    "name": "Wuhu Xuanzhou",
+    "coordinate": [
+      118.6661,
+      31.103844
+    ]
+  },
+  "ZSWF": {
+    "name": "Weifang",
+    "coordinate": [
+      119.117708,
+      36.64756
+    ]
+  },
+  "ZSWH": {
+    "name": "Weihai Dashuipo",
+    "coordinate": [
+      122.229636,
+      37.186769
+    ]
+  },
+  "ZSWX": {
+    "name": "Wuxi Shuofang",
+    "coordinate": [
+      120.430034,
+      31.494545
+    ]
+  },
+  "ZSWY": {
+    "name": "Wuyishan",
+    "coordinate": [
+      118.001284,
+      27.702564
+    ]
+  },
+  "ZSWZ": {
+    "name": "Wenzhou Longwan",
+    "coordinate": [
+      120.852564,
+      27.911669
+    ]
+  },
+  "ZSXZ": {
+    "name": "Xuzhou Guanyin",
+    "coordinate": [
+      117.556774,
+      34.058989
+    ]
+  },
+  "ZSYA": {
+    "name": "Yangzhou Taizhou",
+    "coordinate": [
+      119.720582,
+      32.563414
+    ]
+  },
+  "ZSYC": {
+    "name": "Yichun Mingyueshan",
+    "coordinate": [
+      114.30653,
+      27.802472
+    ]
+  },
+  "ZSYN": {
+    "name": "Yancheng Nanyang",
+    "coordinate": [
+      120.202074,
+      33.425875
+    ]
+  },
+  "ZSYT": {
+    "name": "Yantai Penglai",
+    "coordinate": [
+      120.978319,
+      37.660803
+    ]
+  },
+  "ZSYW": {
+    "name": "Yiwu",
+    "coordinate": [
+      120.032007,
+      29.344877
+    ]
+  },
+  "ZSZS": {
+    "name": "Zhoushan Putuoshan",
+    "coordinate": [
+      122.361562,
+      29.933783
+    ]
+  }
+}

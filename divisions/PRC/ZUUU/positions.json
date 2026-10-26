@@ -1,0 +1,93 @@
+{
+  "ZUUU": {
+    "name": "Chengdu ACC - Kunming FIR - Chengdu",
+    "prefixes": [
+      "ZUUU"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      104.074208,
+      29.600888
+    ]
+  },
+  "ZUUU-CDE": {
+    "name": "Chengdu ACC East Sector - Kunming FIR - Chengdu",
+    "prefixes": [
+      "ZUUU_E"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      108.429628,
+      30.09581
+    ]
+  },
+  "ZUUU-CDG": {
+    "name": "Chengdu ACC Guiyang Sector - Kunming FIR - Chengdu",
+    "prefixes": [
+      "ZUUU_G"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      107.083789,
+      26.948132
+    ]
+  },
+  "ZUUU-CDN": {
+    "name": "Chengdu ACC North Sector - Kunming FIR - Chengdu",
+    "prefixes": [
+      "ZUUU_N"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      105.682552,
+      31.285087
+    ]
+  },
+  "ZUUU-CDN1": {
+    "name": "Chengdu ACC North 1 Sector - Kunming FIR - Chengdu",
+    "prefixes": [
+      "ZUUU_N1"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      106.755451,
+      30.993166
+    ]
+  },
+  "ZUUU-CDS": {
+    "name": "Chengdu ACC South Sector - Kunming FIR - Chengdu",
+    "prefixes": [
+      "ZUUU_S"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      105.185885,
+      28.834494
+    ]
+  },
+  "ZUUU-CDW": {
+    "name": "Chengdu ACC West Sector - Kunming FIR - Chengdu",
+    "prefixes": [
+      "ZUUU_W"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      100.918732,
+      30.193473
+    ]
+  }
+}

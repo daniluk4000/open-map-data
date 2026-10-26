@@ -1,0 +1,220 @@
+{
+  "ZGBH": {
+    "name": "Beihai Fucheng",
+    "coordinate": [
+      109.294584,
+      21.539938
+    ]
+  },
+  "ZGBS": {
+    "name": "Baise Bama",
+    "coordinate": [
+      106.959725,
+      23.720054
+    ]
+  },
+  "ZGCD": {
+    "name": "Changde Taohuayuan",
+    "coordinate": [
+      111.639759,
+      28.919624
+    ]
+  },
+  "ZGCJ": {
+    "name": "Huaihua Zhijiang",
+    "coordinate": [
+      109.699764,
+      27.442357
+    ]
+  },
+  "ZGCZ": {
+    "name": "Chenzhou Beihu",
+    "coordinate": [
+      112.845555,
+      25.754255
+    ]
+  },
+  "ZGDY": {
+    "name": "Zhangjiajie Hehua",
+    "coordinate": [
+      110.443932,
+      29.101879
+    ]
+  },
+  "ZGFS": {
+    "name": "Foshan Shadi",
+    "coordinate": [
+      113.071541,
+      23.083455
+    ]
+  },
+  "ZGGG": {
+    "name": "Guangzhou Baiyun",
+    "coordinate": [
+      113.298764,
+      23.393217
+    ]
+  },
+  "ZGHA": {
+    "name": "Changsha Huanghua",
+    "coordinate": [
+      113.221163,
+      28.197546
+    ]
+  },
+  "ZGHC": {
+    "name": "Hechi Jinchengjiang",
+    "coordinate": [
+      107.710966,
+      24.80586
+    ]
+  },
+  "ZGHY": {
+    "name": "Hengyang Nanyue",
+    "coordinate": [
+      112.618634,
+      26.722411
+    ]
+  },
+  "ZGHZ": {
+    "name": "Huizhou Pingtan",
+    "coordinate": [
+      114.601026,
+      23.049379
+    ]
+  },
+  "ZGKL": {
+    "name": "Guilin Liangjiang",
+    "coordinate": [
+      110.03982,
+      25.216865
+    ]
+  },
+  "ZGLD": {
+    "name": "Luoding",
+    "coordinate": [
+      111.600645,
+      22.71144
+    ]
+  },
+  "ZGLG": {
+    "name": "Yongzhou Lingling",
+    "coordinate": [
+      111.609798,
+      26.339321
+    ]
+  },
+  "ZGMX": {
+    "name": "Meizhou Meixian",
+    "coordinate": [
+      116.099079,
+      24.264718
+    ]
+  },
+  "ZGNN": {
+    "name": "Nanning Wuxu",
+    "coordinate": [
+      108.183823,
+      22.616451
+    ]
+  },
+  "ZGNT": {
+    "name": "Shenzhen Nantou",
+    "coordinate": [
+      113.957107,
+      22.594091
+    ]
+  },
+  "ZGOW": {
+    "name": "Jieyang Chaoshan",
+    "coordinate": [
+      116.500703,
+      23.552376
+    ]
+  },
+  "ZGSD": {
+    "name": "Zhuhai Jinwan",
+    "coordinate": [
+      113.377799,
+      22.039409
+    ]
+  },
+  "ZGSG": {
+    "name": "Shaoguan Danxia",
+    "coordinate": [
+      113.420989,
+      24.975256
+    ]
+  },
+  "ZGSY": {
+    "name": "Shaoyang Wugang",
+    "coordinate": [
+      110.641026,
+      26.805287
+    ]
+  },
+  "ZGSZ": {
+    "name": "Shenzhen Bao'an",
+    "coordinate": [
+      113.81199,
+      22.638927
+    ],
+    "iata": "ZGJD"
+  },
+  "ZGUH": {
+    "name": "Zhuhai Jiuzhou",
+    "coordinate": [
+      113.590535,
+      22.252097
+    ]
+  },
+  "ZGWZ": {
+    "name": "Wuzhou Xijiang",
+    "coordinate": [
+      111.099351,
+      23.402656
+    ]
+  },
+  "ZGXX": {
+    "name": "Xiangxi Biancheng",
+    "coordinate": [
+      109.519722,
+      28.495278
+    ]
+  },
+  "ZGYJ": {
+    "name": "Yangjiang Heshan",
+    "coordinate": [
+      112.102364,
+      21.960816
+    ]
+  },
+  "ZGYL": {
+    "name": "Yulin Fumian",
+    "coordinate": [
+      110.119638,
+      22.433647
+    ]
+  },
+  "ZGYY": {
+    "name": "Yueyang Sanhe",
+    "coordinate": [
+      113.281633,
+      29.313677
+    ]
+  },
+  "ZGZH": {
+    "name": "Liuzhou Bailian",
+    "coordinate": [
+      109.391927,
+      24.208303
+    ]
+  },
+  "ZGZJ": {
+    "name": "Zhanjiang Wuchuan",
+    "coordinate": [
+      110.59375,
+      21.483525
+    ]
+  }
+}

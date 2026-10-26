@@ -1,0 +1,67 @@
+{
+  "ZYHB": {
+    "name": "Harbin ACC - Shenyang FIR - Harbin",
+    "prefixes": [
+      "ZYHB"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      125.203507,
+      48.181589
+    ]
+  },
+  "ZYHB-HBE": {
+    "name": "Harbin ACC East Sector - Shenyang FIR - Harbin",
+    "prefixes": [
+      "ZYHB_E"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      127.106639,
+      47.683133
+    ]
+  },
+  "ZYHB-HBE1": {
+    "name": "Harbin ACC East 1 Sector - Shenyang FIR - Harbin",
+    "prefixes": [
+      "ZYHB_E1"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      123.793324,
+      45.66986
+    ]
+  },
+  "ZYHB-HBE2": {
+    "name": "Harbin ACC East 2 Sector - Shenyang FIR - Harbin",
+    "prefixes": [
+      "ZYHB_E2"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      128.374461,
+      44.396668
+    ]
+  },
+  "ZYHB-HBW": {
+    "name": "Harbin ACC West Sector - Shenyang FIR - Harbin",
+    "prefixes": [
+      "ZYHB_W"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      120.412655,
+      49.436378
+    ]
+  }
+}

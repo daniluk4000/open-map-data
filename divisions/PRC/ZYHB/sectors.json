@@ -1,0 +1,42 @@
+{
+  "ZYHB": {
+    "volumes": [
+      "ZYHB"
+    ],
+    "positions": [
+      "ZYHB"
+    ]
+  },
+  "ZYHB-HBE": {
+    "volumes": [
+      "ZYHB-HBE"
+    ],
+    "positions": [
+      "ZYHB-HBE"
+    ]
+  },
+  "ZYHB-HBE1": {
+    "volumes": [
+      "ZYHB-HBE1"
+    ],
+    "positions": [
+      "ZYHB-HBE1"
+    ]
+  },
+  "ZYHB-HBE2": {
+    "volumes": [
+      "ZYHB-HBE2"
+    ],
+    "positions": [
+      "ZYHB-HBE2"
+    ]
+  },
+  "ZYHB-HBW": {
+    "volumes": [
+      "ZYHB-HBW"
+    ],
+    "positions": [
+      "ZYHB-HBW"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "ZUGY": {
+    "name": "Guiyang ACC - Kunming FIR - Guiyang",
+    "prefixes": [
+      "ZUGY"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      106.350539,
+      26.507308
+    ]
+  },
+  "ZUGY-GYE": {
+    "name": "Guiyang ACC East Sector - Kunming FIR - Guiyang",
+    "prefixes": [
+      "ZUGY_E"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      108.233087,
+      27.639079
+    ]
+  }
+}

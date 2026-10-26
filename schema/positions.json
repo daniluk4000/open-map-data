@@ -56,8 +56,8 @@
       }
     },
     "required": [
-      "type",
-      "prefix"
+      "suffixes",
+      "prefixes"
     ],
     "anyOf": [
       {

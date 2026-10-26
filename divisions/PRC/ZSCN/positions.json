@@ -1,0 +1,28 @@
+{
+  "ZSCN": {
+    "name": "Nanchang ACC - Shanghai FIR - Nanchang",
+    "prefixes": [
+      "ZSCN"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      115.887513,
+      28.637797
+    ]
+  },
+  "ZSCN-NCE": {
+    "name": "Nanchang ACC East Sector - Shanghai FIR - Nanchang",
+    "prefixes": [
+      "ZSCN_E"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      117.927437,
+      27.917124
+    ]
+  }
+}

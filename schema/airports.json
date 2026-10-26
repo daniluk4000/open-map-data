@@ -83,8 +83,12 @@
                 "type": "string"
               }
             },
-            "suffix": {
-              "type": "string",
+            "suffixes": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              },
               "examples": [
                 "CTR",
                 "GND"
@@ -100,7 +104,7 @@
           },
           "required": [
             "callsign",
-            "suffix"
+            "suffixes"
           ]
         }
       },

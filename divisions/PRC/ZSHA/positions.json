@@ -1,0 +1,186 @@
+{
+  "ZSAM-APP": {
+    "name": "Xiamen Approach",
+    "prefixes": [
+      "ZSAM"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZSCG-APP": {
+    "name": "Changzhou Approach",
+    "prefixes": [
+      "ZSCG"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZSCN-APP": {
+    "name": "Nanchang Approach",
+    "prefixes": [
+      "ZSCN"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZSFZ-APP": {
+    "name": "Fuzhou Approach",
+    "prefixes": [
+      "ZSFZ"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZSHC-APP": {
+    "name": "Hangzhou Approach",
+    "prefixes": [
+      "ZSHC"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZSJN-APP": {
+    "name": "Jinan Approach",
+    "prefixes": [
+      "ZSJN"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZSNB-APP": {
+    "name": "Ningbo Approach",
+    "prefixes": [
+      "ZSNB"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZSNJ-APP": {
+    "name": "Nanjing Approach",
+    "prefixes": [
+      "ZSNJ"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZSOF-APP": {
+    "name": "Hefei Approach",
+    "prefixes": [
+      "ZSOF"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZSQD-APP": {
+    "name": "Qingdao Approach",
+    "prefixes": [
+      "ZSQD"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZSQZ-APP": {
+    "name": "Jinjiang Approach",
+    "prefixes": [
+      "ZSQZ"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZSSS-APP": {
+    "name": "Shanghai Approach",
+    "prefixes": [
+      "ZSSS"
+    ],
+    "suffixes": [
+      "APP"
+    ],
+    "labelCoordinate": [
+      121.517783,
+      31.222359
+    ]
+  },
+  "ZSSS_E-APP": {
+    "name": "Shanghai Approach",
+    "prefixes": [
+      "ZSSS_E"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZSSS_F-APP": {
+    "name": "Shanghai Approach",
+    "prefixes": [
+      "ZSSS_F"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZSSS_PF-APP": {
+    "name": "Shanghai Approach",
+    "prefixes": [
+      "ZSSS_PF"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZSSS_S-APP": {
+    "name": "Shanghai Approach",
+    "prefixes": [
+      "ZSSS_S"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZSSS_W-APP": {
+    "name": "Shanghai Approach",
+    "prefixes": [
+      "ZSSS_W"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZSWX-APP": {
+    "name": "Wuxi Approach",
+    "prefixes": [
+      "ZSWX"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZSWZ-APP": {
+    "name": "Wenzhou Approach",
+    "prefixes": [
+      "ZSWZ"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZSYT-APP": {
+    "name": "Yantai Approach",
+    "prefixes": [
+      "ZSYT"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  }
+}

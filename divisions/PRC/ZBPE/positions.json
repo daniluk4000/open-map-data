@@ -1,0 +1,92 @@
+{
+  "ZBAA-APP": {
+    "name": "Beijing Approach",
+    "prefixes": [
+      "ZBAA"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZBAA_AA-APP": {
+    "name": "Capital Approach",
+    "prefixes": [
+      "ZBAA_AA"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZBAA_AD-APP": {
+    "name": "Daxing Approach",
+    "prefixes": [
+      "ZBAA_AD"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZBAA_S-APP": {
+    "name": "Beijing Approach",
+    "prefixes": [
+      "ZBAA_S"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZBAA_W-APP": {
+    "name": "Beijing Approach",
+    "prefixes": [
+      "ZBAA_W"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZBHH-APP": {
+    "name": "Hohhot Approach",
+    "prefixes": [
+      "ZBHH"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZBLA-APP": {
+    "name": "Hulunbuir Approach",
+    "prefixes": [
+      "ZBLA"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZBSJ-APP": {
+    "name": "Shijiazhuang Approach",
+    "prefixes": [
+      "ZBSJ"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZBTJ-APP": {
+    "name": "Tianjin Approach",
+    "prefixes": [
+      "ZBTJ"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZBYN-APP": {
+    "name": "Taiyuan Approach",
+    "prefixes": [
+      "ZBYN"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  }
+}

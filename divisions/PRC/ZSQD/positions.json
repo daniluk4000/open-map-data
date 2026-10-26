@@ -1,0 +1,28 @@
+{
+  "ZSQD": {
+    "name": "Qingdao ACC - Shanghai FIR - Qingdao",
+    "prefixes": [
+      "ZSQD"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      121.573367,
+      36.556561
+    ]
+  },
+  "ZSQD-QDH": {
+    "name": "Qingdao ACC High Sector - Shanghai FIR - Qingdao",
+    "prefixes": [
+      "ZSQD_H"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      121.573367,
+      36.556561
+    ]
+  }
+}

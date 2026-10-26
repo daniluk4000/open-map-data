@@ -1,0 +1,54 @@
+{
+  "ZJSY": {
+    "name": "Sanya ACC - Sanya FIR - Sanya",
+    "prefixes": [
+      "ZJSY"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      110.71003,
+      18.382128
+    ]
+  },
+  "ZJSY-SAL": {
+    "name": "Sanya ACC Land Sector - Sanya FIR - Sanya",
+    "prefixes": [
+      "ZJSY_L"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      109.356825,
+      19.245096
+    ]
+  },
+  "ZJSY-SAN": {
+    "name": "Sanya ACC North Sector - Sanya FIR - Sanya",
+    "prefixes": [
+      "ZJSY_N"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      110.259806,
+      21.427247
+    ]
+  },
+  "ZJSY-SAO": {
+    "name": "Sanya ACC Oceanic Sector - Sanya FIR - Sanya",
+    "prefixes": [
+      "ZJSY_O"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      111.732575,
+      16.798906
+    ]
+  }
+}

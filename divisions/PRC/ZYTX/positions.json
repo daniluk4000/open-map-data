@@ -1,0 +1,67 @@
+{
+  "ZYTX": {
+    "name": "Shenyang ACC - Shenyang FIR - Shenyang",
+    "prefixes": [
+      "ZYTX"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      120.759602,
+      43.505895
+    ]
+  },
+  "ZYTX-SYN": {
+    "name": "Shenyang ACC North Sector - Shenyang FIR - Shenyang",
+    "prefixes": [
+      "ZYTX_N"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      119.931974,
+      44.221777
+    ]
+  },
+  "ZYTX-SYN1": {
+    "name": "Shenyang ACC North 1 Sector - Shenyang FIR - Shenyang",
+    "prefixes": [
+      "ZYTX_N1"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      119.021586,
+      44.516216
+    ]
+  },
+  "ZYTX-SYS": {
+    "name": "Shenyang ACC South Sector - Shenyang FIR - Shenyang",
+    "prefixes": [
+      "ZYTX_S"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      124.605917,
+      42.614071
+    ]
+  },
+  "ZYTX-SYW": {
+    "name": "Shenyang ACC West Sector - Shenyang FIR - Shenyang",
+    "prefixes": [
+      "ZYTX_W"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      120.933075,
+      41.074588
+    ]
+  }
+}

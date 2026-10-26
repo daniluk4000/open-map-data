@@ -1,0 +1,145 @@
+{
+  "ZSSS": {
+    "name": "Shanghai ACC - Shanghai FIR - Shanghai",
+    "prefixes": [
+      "ZSSS"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      119.328298,
+      29.829852
+    ]
+  },
+  "ZSSS-SHC": {
+    "name": "Shanghai ACC Central Sector - Shanghai FIR - Shanghai",
+    "prefixes": [
+      "ZSSS_C"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      120.640848,
+      29.128805
+    ]
+  },
+  "ZSSS-SHC1": {
+    "name": "Shanghai ACC Central 1 Sector - Shanghai FIR - Shanghai",
+    "prefixes": [
+      "ZSSS_C1"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      119.216014,
+      29.545031
+    ]
+  },
+  "ZSSS-SHE": {
+    "name": "Shanghai ACC East Sector - Shanghai FIR - Shanghai",
+    "prefixes": [
+      "ZSSS_E"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      122.440272,
+      32.876376
+    ]
+  },
+  "ZSSS-SHE1": {
+    "name": "Shanghai ACC East 1 Sector - Shanghai FIR - Shanghai",
+    "prefixes": [
+      "ZSSS_E1"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      122.256184,
+      34.065272
+    ]
+  },
+  "ZSSS-SHS": {
+    "name": "Shanghai ACC South Sector - Shanghai FIR - Shanghai",
+    "prefixes": [
+      "ZSSS_S"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      117.532512,
+      26.469801
+    ]
+  },
+  "ZSSS-SHS1": {
+    "name": "Shanghai ACC South 1 Sector - Shanghai FIR - Shanghai",
+    "prefixes": [
+      "ZSSS_S1"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      119.190288,
+      26.488155
+    ]
+  },
+  "ZSSS-SHS2": {
+    "name": "Shanghai ACC South 2 Sector - Shanghai FIR - Shanghai",
+    "prefixes": [
+      "ZSSS_S2"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      116.21697,
+      28.413731
+    ]
+  },
+  "ZSSS-SHW": {
+    "name": "Shanghai ACC West Sector - Shanghai FIR - Shanghai",
+    "prefixes": [
+      "ZSSS_W"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      118.337447,
+      32.448201
+    ]
+  },
+  "ZSSS-SHW1": {
+    "name": "Shanghai ACC West 1 Sector - Shanghai FIR - Shanghai",
+    "prefixes": [
+      "ZSSS_W1"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      117.957875,
+      33.61501
+    ]
+  },
+  "ZSSS-SHW2": {
+    "name": "Shanghai ACC West 2 Sector - Shanghai FIR - Shanghai",
+    "prefixes": [
+      "ZSSS_W2"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      117.262356,
+      31.002682
+    ]
+  }
+}

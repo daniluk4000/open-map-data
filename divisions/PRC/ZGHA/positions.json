@@ -1,0 +1,28 @@
+{
+  "ZGHA": {
+    "name": "Changsha ACC - Guangzhou FIR - Changsha",
+    "prefixes": [
+      "ZGHA"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      113.427433,
+      27.729492
+    ]
+  },
+  "ZGHA-CSW": {
+    "name": "Changsha ACC West Sector - Guangzhou FIR - Changsha",
+    "prefixes": [
+      "ZGHA_W"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      111.101007,
+      27.628372
+    ]
+  }
+}

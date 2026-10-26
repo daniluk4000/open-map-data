@@ -1,0 +1,262 @@
+{
+  "ZBAA": {
+    "name": "Beijing Capital",
+    "coordinate": [
+      116.5908,
+      40.074069
+    ],
+    "iata": "PEK"
+  },
+  "ZBAD": {
+    "name": "Beijing Daxing",
+    "coordinate": [
+      116.398586,
+      39.500895
+    ]
+  },
+  "ZBAL": {
+    "name": "Alxa Left Banner Bayanhot",
+    "coordinate": [
+      105.583644,
+      38.748871
+    ]
+  },
+  "ZBAR": {
+    "name": "Alxa Right Banner Badain Jaran",
+    "coordinate": [
+      101.549451,
+      39.225828
+    ]
+  },
+  "ZBCD": {
+    "name": "Chengde Puning",
+    "coordinate": [
+      118.076224,
+      41.121105
+    ]
+  },
+  "ZBCF": {
+    "name": "Chifeng Yulong",
+    "coordinate": [
+      118.839868,
+      42.160613
+    ]
+  },
+  "ZBCZ": {
+    "name": "Changzhi Wangcun",
+    "coordinate": [
+      113.12634,
+      36.246642
+    ]
+  },
+  "ZBDH": {
+    "name": "Qinhuangdao Beidaihe",
+    "coordinate": [
+      119.061484,
+      39.666382
+    ]
+  },
+  "ZBDS": {
+    "name": "Ordos Ejinhoro",
+    "coordinate": [
+      109.862978,
+      39.492435
+    ]
+  },
+  "ZBDT": {
+    "name": "Datong Yungang",
+    "coordinate": [
+      113.48313,
+      40.060176
+    ]
+  },
+  "ZBEN": {
+    "name": "Ejinaqi Taolai",
+    "coordinate": [
+      101.001439,
+      42.015035
+    ]
+  },
+  "ZBER": {
+    "name": "Erenhot Saiwusu",
+    "coordinate": [
+      112.092534,
+      43.42351
+    ]
+  },
+  "ZBES": {
+    "name": "Arxan Yirshi",
+    "coordinate": [
+      119.912265,
+      47.311371
+    ]
+  },
+  "ZBHD": {
+    "name": "Handan",
+    "coordinate": [
+      114.429592,
+      36.523759
+    ]
+  },
+  "ZBHH": {
+    "name": "Hohhot Baita",
+    "coordinate": [
+      111.824071,
+      40.849706
+    ]
+  },
+  "ZBHZ": {
+    "name": "Holingol Huolinhe",
+    "coordinate": [
+      119.406808,
+      45.487297
+    ]
+  },
+  "ZBLA": {
+    "name": "Hulunbuir Hailar",
+    "coordinate": [
+      119.825537,
+      49.205281
+    ]
+  },
+  "ZBLF": {
+    "name": "Linfen Yaodu",
+    "coordinate": [
+      111.641645,
+      36.134085
+    ]
+  },
+  "ZBLL": {
+    "name": "Lyuliang Dawu",
+    "coordinate": [
+      111.142345,
+      37.682588
+    ]
+  },
+  "ZBMZ": {
+    "name": "Manzhouli Xijiao",
+    "coordinate": [
+      117.329042,
+      49.567614
+    ]
+  },
+  "ZBOW": {
+    "name": "Baotou Donghe",
+    "coordinate": [
+      109.996548,
+      40.55988
+    ]
+  },
+  "ZBSG": {
+    "name": "Shuozhou Zirun",
+    "coordinate": [
+      112.596944,
+      39.474722
+    ]
+  },
+  "ZBSJ": {
+    "name": "Shijiazhuang Zhengding",
+    "coordinate": [
+      114.697105,
+      38.281594
+    ]
+  },
+  "ZBSN": {
+    "name": "Tangshan Sannyuhe",
+    "coordinate": [
+      118.003397,
+      39.717489
+    ]
+  },
+  "ZBTJ": {
+    "name": "Tianjin Binhai",
+    "coordinate": [
+      117.350487,
+      39.116923
+    ]
+  },
+  "ZBTL": {
+    "name": "Tongliao",
+    "coordinate": [
+      122.198849,
+      43.556151
+    ]
+  },
+  "ZBUC": {
+    "name": "Ulanqab Jining",
+    "coordinate": [
+      113.107413,
+      41.130837
+    ]
+  },
+  "ZBUH": {
+    "name": "Wuhai",
+    "coordinate": [
+      106.798528,
+      39.793867
+    ]
+  },
+  "ZBUL": {
+    "name": "Ulanhot Yilelite",
+    "coordinate": [
+      122.007778,
+      46.193682
+    ]
+  },
+  "ZBXH": {
+    "name": "Xilinhot",
+    "coordinate": [
+      115.963831,
+      43.914985
+    ]
+  },
+  "ZBXT": {
+    "name": "Xingtai Dalian",
+    "coordinate": [
+      114.429167,
+      36.882778
+    ]
+  },
+  "ZBXZ": {
+    "name": "Xinzhou Wutaishan",
+    "coordinate": [
+      112.96866,
+      38.596337
+    ]
+  },
+  "ZBYC": {
+    "name": "Yuncheng Yanhu",
+    "coordinate": [
+      111.034386,
+      35.118001
+    ]
+  },
+  "ZBYN": {
+    "name": "Taiyuan Wusu",
+    "coordinate": [
+      112.629125,
+      37.748422
+    ]
+  },
+  "ZBYZ": {
+    "name": "Bayannur Tianjitai",
+    "coordinate": [
+      107.73913,
+      40.9264
+    ]
+  },
+  "ZBZJ": {
+    "name": "Zhangjiakou Ningyuan",
+    "coordinate": [
+      114.931071,
+      40.739298
+    ]
+  },
+  "ZBZL": {
+    "name": "Zhalantun Genghiskhan",
+    "coordinate": [
+      122.768587,
+      47.865845
+    ]
+  }
+}

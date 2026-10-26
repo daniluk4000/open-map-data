@@ -1,0 +1,50 @@
+{
+  "ZWWW": {
+    "volumes": [
+      "ZWWW"
+    ],
+    "positions": [
+      "ZWWW"
+    ]
+  },
+  "ZWWW-WUE": {
+    "volumes": [
+      "ZWWW-WUE"
+    ],
+    "positions": [
+      "ZWWW-WUE"
+    ]
+  },
+  "ZWWW-WUS": {
+    "volumes": [
+      "ZWWW-WUS"
+    ],
+    "positions": [
+      "ZWWW-WUS"
+    ]
+  },
+  "ZWWW-WUS1": {
+    "volumes": [
+      "ZWWW-WUS1"
+    ],
+    "positions": [
+      "ZWWW-WUS1"
+    ]
+  },
+  "ZWWW-WUW": {
+    "volumes": [
+      "ZWWW-WUW"
+    ],
+    "positions": [
+      "ZWWW-WUW"
+    ]
+  },
+  "ZWWW-WUW1": {
+    "volumes": [
+      "ZWWW-WUW1"
+    ],
+    "positions": [
+      "ZWWW-WUW1"
+    ]
+  }
+}

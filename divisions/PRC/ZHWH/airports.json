@@ -1,0 +1,93 @@
+{
+  "ZHCC": {
+    "name": "Zhengzhou Xinzheng",
+    "coordinate": [
+      113.841712,
+      34.517497
+    ]
+  },
+  "ZHEC": {
+    "name": "Ezhou Huahu",
+    "coordinate": [
+      115.0296884,
+      30.342675
+    ]
+  },
+  "ZHES": {
+    "name": "Enshi Xujiaping",
+    "coordinate": [
+      109.48565,
+      30.320812
+    ]
+  },
+  "ZHHH": {
+    "name": "Wuhan Tianhe",
+    "coordinate": [
+      114.210629,
+      30.785399
+    ]
+  },
+  "ZHJZ": {
+    "name": "Jingzhou Shashi",
+    "coordinate": [
+      112.447524,
+      30.293012
+    ]
+  },
+  "ZHLY": {
+    "name": "Luoyang",
+    "coordinate": [
+      112.388898,
+      34.741131
+    ]
+  },
+  "ZHNY": {
+    "name": "Nanyang Jiangying",
+    "coordinate": [
+      112.616091,
+      32.980059
+    ]
+  },
+  "ZHQQ": {
+    "name": "Anyang Hongqiqu",
+    "coordinate": [
+      114.461944,
+      35.870833
+    ]
+  },
+  "ZHSN": {
+    "name": "Shennongjia Hongping",
+    "coordinate": [
+      110.339973,
+      31.625522
+    ]
+  },
+  "ZHSY": {
+    "name": "Shiyan Wudangshan",
+    "coordinate": [
+      110.907064,
+      32.594162
+    ]
+  },
+  "ZHXF": {
+    "name": "Xiangyang Liuji",
+    "coordinate": [
+      112.290592,
+      32.151495
+    ]
+  },
+  "ZHXY": {
+    "name": "Xinyang Minggang",
+    "coordinate": [
+      114.078247,
+      32.540312
+    ]
+  },
+  "ZHYC": {
+    "name": "Yichang Sanxia",
+    "coordinate": [
+      111.480109,
+      30.55664
+    ]
+  }
+}

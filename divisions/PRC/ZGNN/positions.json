@@ -1,0 +1,54 @@
+{
+  "ZGNN": {
+    "name": "Nanning ACC - Guangzhou FIR - Nanning",
+    "prefixes": [
+      "ZGNN"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      109.011175,
+      23.360061
+    ]
+  },
+  "ZGNN-NNE": {
+    "name": "Nanning ACC East Sector - Guangzhou FIR - Nanning",
+    "prefixes": [
+      "ZGNN_E"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      109.94127,
+      24.239357
+    ]
+  },
+  "ZGNN-NNS": {
+    "name": "Nanning ACC South Sector - Guangzhou FIR - Nanning",
+    "prefixes": [
+      "ZGNN_S"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      109.225319,
+      21.762466
+    ]
+  },
+  "ZGNN-NNW": {
+    "name": "Nanning ACC West Sector - Guangzhou FIR - Nanning",
+    "prefixes": [
+      "ZGNN_W"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      107.19327,
+      24.1978
+    ]
+  }
+}

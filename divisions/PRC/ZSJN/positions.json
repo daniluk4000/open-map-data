@@ -1,0 +1,28 @@
+{
+  "ZSJN": {
+    "name": "Jinan ACC - Shanghai FIR - Jinan",
+    "prefixes": [
+      "ZSJN"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      116.60828,
+      35.769984
+    ]
+  },
+  "ZSJN-JNE": {
+    "name": "Jinan ACC East Sector - Shanghai FIR - Jinan",
+    "prefixes": [
+      "ZSJN_E"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      118.730257,
+      36.515361
+    ]
+  }
+}

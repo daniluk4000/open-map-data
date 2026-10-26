@@ -1,0 +1,31 @@
+{
+  "code": "PRC",
+  "name": "People's Republic of China",
+  "region": "APAC",
+  "briefing": "https://www.vatprc.net/",
+  "countries": [
+    {
+      "name": "China",
+      "prefixes": [
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZL",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ]
+    }
+  ],
+  "callsigns": [
+    {
+      "suffixes": [
+        "CTR"
+      ],
+      "callsign": "Control"
+    }
+  ]
+}

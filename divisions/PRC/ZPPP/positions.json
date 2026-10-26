@@ -1,0 +1,80 @@
+{
+  "ZPPP": {
+    "name": "Kunming ACC - Kunming FIR - Kunming",
+    "prefixes": [
+      "ZPPP"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      101.672716,
+      24.92467
+    ]
+  },
+  "ZPPP-KME": {
+    "name": "Kunming ACC East Sector - Kunming FIR - Kunming",
+    "prefixes": [
+      "ZPPP_E"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      103.722635,
+      25.026973
+    ]
+  },
+  "ZPPP-KME1": {
+    "name": "Kunming ACC East 1 Sector - Kunming FIR - Kunming",
+    "prefixes": [
+      "ZPPP_E1"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      103.915442,
+      26.305364
+    ]
+  },
+  "ZPPP-KME2": {
+    "name": "Kunming ACC East 2 Sector - Kunming FIR - Kunming",
+    "prefixes": [
+      "ZPPP_E2"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      104.178689,
+      23.811954
+    ]
+  },
+  "ZPPP-KMW": {
+    "name": "Kunming ACC West Sector - Kunming FIR - Kunming",
+    "prefixes": [
+      "ZPPP_W"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      100.233198,
+      24.852829
+    ]
+  },
+  "ZPPP-KMW1": {
+    "name": "Kunming ACC West 1 Sector - Kunming FIR - Kunming",
+    "prefixes": [
+      "ZPPP_W1"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      99.896356,
+      25.657237
+    ]
+  }
+}

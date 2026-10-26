@@ -1,0 +1,11 @@
+{
+  "code": "VATUSA",
+  "name": "United States",
+  "region": "AMAS",
+  "countries": [
+    {
+      "name": "USA",
+      "prefixes": ["KB"]
+    }
+  ]
+}

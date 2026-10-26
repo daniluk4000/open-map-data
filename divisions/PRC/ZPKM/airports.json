@@ -1,0 +1,478 @@
+{
+  "ZPBS": {
+    "name": "Baoshan Yunrui",
+    "coordinate": [
+      99.167322,
+      25.051137
+    ]
+  },
+  "ZPCW": {
+    "name": "Cangyuan Washan",
+    "coordinate": [
+      99.374001,
+      23.277076
+    ]
+  },
+  "ZPDL": {
+    "name": "Dali Fengyi",
+    "coordinate": [
+      100.319907,
+      25.650323
+    ]
+  },
+  "ZPDQ": {
+    "name": "Diqing Shangrila",
+    "coordinate": [
+      99.677209,
+      27.79274
+    ]
+  },
+  "ZPJH": {
+    "name": "Xishuangbanna Gasa",
+    "coordinate": [
+      100.759071,
+      21.974448
+    ]
+  },
+  "ZPJM": {
+    "name": "Lancang Jingmai",
+    "coordinate": [
+      99.785148,
+      22.417467
+    ]
+  },
+  "ZPLC": {
+    "name": "Lincang Boshang",
+    "coordinate": [
+      100.024088,
+      23.739582
+    ]
+  },
+  "ZPLJ": {
+    "name": "Lijiang Sanyi",
+    "coordinate": [
+      100.245738,
+      26.679824
+    ]
+  },
+  "ZPMS": {
+    "name": "Dehong Mangshi",
+    "coordinate": [
+      98.531706,
+      24.401106
+    ]
+  },
+  "ZPNL": {
+    "name": "Ninglang Luguhu",
+    "coordinate": [
+      100.760239,
+      27.541023
+    ]
+  },
+  "ZPPP": {
+    "name": "Kunming Changshui",
+    "coordinate": [
+      102.929247,
+      25.10123
+    ]
+  },
+  "ZPSM": {
+    "name": "Pu'er Simao",
+    "coordinate": [
+      100.959645,
+      22.792678
+    ]
+  },
+  "ZPTC": {
+    "name": "Tengchong Tuofeng",
+    "coordinate": [
+      98.486587,
+      24.938991
+    ]
+  },
+  "ZPWS": {
+    "name": "Wenshan Yanshan",
+    "coordinate": [
+      104.324957,
+      23.558069
+    ]
+  },
+  "ZPZT": {
+    "name": "Zhaotong",
+    "coordinate": [
+      103.757055,
+      27.328585
+    ]
+  },
+  "ZUAL": {
+    "name": "Ali Kunsha",
+    "coordinate": [
+      80.05338,
+      32.109406
+    ]
+  },
+  "ZUAS": {
+    "name": "Anshun Huangguoshu",
+    "coordinate": [
+      105.87379,
+      26.26134
+    ]
+  },
+  "ZUBC": {
+    "name": "Beichuan",
+    "coordinate": [
+      104.459163,
+      31.581794
+    ]
+  },
+  "ZUBD": {
+    "name": "Changdu Bangda",
+    "coordinate": [
+      97.107461,
+      30.553751
+    ]
+  },
+  "ZUBJ": {
+    "name": "Bijie Feixiong",
+    "coordinate": [
+      105.472241,
+      27.266908
+    ]
+  },
+  "ZUBZ": {
+    "name": "Bazhong Enyang",
+    "coordinate": [
+      106.643283,
+      31.73761
+    ]
+  },
+  "ZUCK": {
+    "name": "Chongqing Jiangbei",
+    "coordinate": [
+      106.639012,
+      29.717113
+    ]
+  },
+  "ZUDA": {
+    "name": "Dazhou Jinya",
+    "coordinate": [
+      107.437111,
+      31.047611
+    ]
+  },
+  "ZUDC": {
+    "name": "Daocheng Yading",
+    "coordinate": [
+      100.052875,
+      29.323175
+    ]
+  },
+  "ZUDG": {
+    "name": "Daguo",
+    "coordinate": [
+      104.080277,
+      30.197222
+    ]
+  },
+  "ZUDJ": {
+    "name": "Tongren Dejiang",
+    "coordinate": [
+      108.1615,
+      28.138314
+    ]
+  },
+  "ZUDR": {
+    "name": "Rikaze Dingri",
+    "coordinate": [
+      86.8103,
+      28.6025
+    ]
+  },
+  "ZUFM": {
+    "name": "Zigong Fengming",
+    "coordinate": [
+      104.625425,
+      29.37593
+    ]
+  },
+  "ZUGH": {
+    "name": "Guanghan",
+    "coordinate": [
+      104.32987,
+      30.948446
+    ]
+  },
+  "ZUGU": {
+    "name": "Guangyuan Panlong",
+    "coordinate": [
+      105.693709,
+      32.38935
+    ]
+  },
+  "ZUGY": {
+    "name": "Guiyang Longdongbao",
+    "coordinate": [
+      106.799047,
+      26.537507
+    ]
+  },
+  "ZUGZ": {
+    "name": "Ganzi Gesaer",
+    "coordinate": [
+      99.557675,
+      31.755788
+    ]
+  },
+  "ZUHA": {
+    "name": "Chongzhou Haoyun",
+    "coordinate": [
+      103.647875,
+      30.65785
+    ]
+  },
+  "ZUHY": {
+    "name": "A'Ba Hongyuan",
+    "coordinate": [
+      102.351893,
+      32.531566
+    ]
+  },
+  "ZUHZ": {
+    "name": "Jintang Huaizhou",
+    "coordinate": [
+      104.529456,
+      30.677339
+    ]
+  },
+  "ZUJZ": {
+    "name": "Jiuzhai Huanglong",
+    "coordinate": [
+      103.68314,
+      32.85661
+    ]
+  },
+  "ZUKD": {
+    "name": "Kangding",
+    "coordinate": [
+      101.738668,
+      30.142979
+    ]
+  },
+  "ZUKJ": {
+    "name": "Kaili Huangping",
+    "coordinate": [
+      107.98724,
+      26.971613
+    ]
+  },
+  "ZULA": {
+    "name": "Langzhong Gucheng",
+    "coordinate": [
+      106.03535,
+      31.50366
+    ]
+  },
+  "ZULB": {
+    "name": "Qiannan Libo",
+    "coordinate": [
+      107.962642,
+      25.451927
+    ]
+  },
+  "ZULD": {
+    "name": "Luodai",
+    "coordinate": [
+      104.319586,
+      30.651411
+    ]
+  },
+  "ZULS": {
+    "name": "Lhasa Konggar",
+    "coordinate": [
+      90.91267,
+      29.297854
+    ]
+  },
+  "ZULZ": {
+    "name": "Luzhou Yunlong",
+    "coordinate": [
+      105.469248,
+      29.029897
+    ]
+  },
+  "ZUMT": {
+    "name": "Zunyi Maotai",
+    "coordinate": [
+      106.434921,
+      27.9626
+    ]
+  },
+  "ZUMY": {
+    "name": "Mianyang Nanjiao",
+    "coordinate": [
+      104.740824,
+      31.42878
+    ]
+  },
+  "ZUNC": {
+    "name": "Nanchong Gaoping",
+    "coordinate": [
+      106.164896,
+      30.797596
+    ]
+  },
+  "ZUNP": {
+    "name": "Liping",
+    "coordinate": [
+      109.150448,
+      26.3226
+    ]
+  },
+  "ZUNZ": {
+    "name": "Linzhi Milin",
+    "coordinate": [
+      94.334629,
+      29.303185
+    ]
+  },
+  "ZUPL": {
+    "name": "Ali Pulan",
+    "coordinate": [
+      81.13747,
+      30.39145
+    ]
+  },
+  "ZUPS": {
+    "name": "Liupanshui Yuezhao",
+    "coordinate": [
+      104.978306,
+      26.609063
+    ]
+  },
+  "ZUQC": {
+    "name": "Qingchengshan Anlong",
+    "coordinate": [
+      103.610278,
+      30.844722
+    ]
+  },
+  "ZUQJ": {
+    "name": "Qianjiang Wulingshan",
+    "coordinate": [
+      108.832636,
+      29.515665
+    ]
+  },
+  "ZURK": {
+    "name": "Rikaze Heping",
+    "coordinate": [
+      89.309806,
+      29.351402
+    ]
+  },
+  "ZUSH": {
+    "name": "Shannan Lhunze",
+    "coordinate": [
+      92.351,
+      28.4315
+    ]
+  },
+  "ZUTE": {
+    "name": "Jiezi",
+    "coordinate": [
+      103.575416,
+      30.816583
+    ]
+  },
+  "ZUTF": {
+    "name": "Chengdu Tianfu",
+    "coordinate": [
+      104.445258,
+      30.291841
+    ]
+  },
+  "ZUTK": {
+    "name": "Pengshan Jiangkou",
+    "coordinate": [
+      103.940486,
+      30.210013
+    ]
+  },
+  "ZUTR": {
+    "name": "Tongren Fenghuang",
+    "coordinate": [
+      109.309443,
+      27.884386
+    ]
+  },
+  "ZUUU": {
+    "name": "Chengdu Shuangliu",
+    "coordinate": [
+      103.947811,
+      30.579437
+    ]
+  },
+  "ZUWL": {
+    "name": "Chongqing Xiannyushan",
+    "coordinate": [
+      107.693088,
+      29.462899
+    ]
+  },
+  "ZUWS": {
+    "name": "Chongqing Wushan",
+    "coordinate": [
+      109.708511,
+      31.067964
+    ]
+  },
+  "ZUWX": {
+    "name": "Wanzhou Wuqiao",
+    "coordinate": [
+      108.433727,
+      30.800927
+    ]
+  },
+  "ZUXC": {
+    "name": "Xichang Qingshan",
+    "coordinate": [
+      102.183507,
+      27.989355
+    ]
+  },
+  "ZUXJ": {
+    "name": "Xinjin",
+    "coordinate": [
+      103.845687,
+      30.422519
+    ]
+  },
+  "ZUYB": {
+    "name": "Yibin Wuliangye",
+    "coordinate": [
+      104.526424,
+      28.858818
+    ]
+  },
+  "ZUYI": {
+    "name": "Xingyi Wanfenglin",
+    "coordinate": [
+      104.959506,
+      25.087464
+    ]
+  },
+  "ZUZH": {
+    "name": "Panzhihua Bao'anying",
+    "coordinate": [
+      101.798464,
+      26.539443
+    ]
+  },
+  "ZUZY": {
+    "name": "Zunyi Xinzhou",
+    "coordinate": [
+      107.246047,
+      27.810504
+    ]
+  }
+}

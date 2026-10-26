@@ -1,0 +1,9 @@
+{
+  "KZBW": {
+    "name": "Boston",
+    "callsign": "Boston Center",
+    "suffixes": ["CTR"],
+    "prefixes": ["BOS"],
+    "labelCoordinate": [-71.895834, 43.80125]
+  }
+}

@@ -105,6 +105,10 @@
         "ceiling": {
           "$ref": "#/$defs/verticalLimit",
           "description": "Upper vertical border (exclusive). A numeric value is interpreted as FL. Set to 999 FL to have no upper level."
+        },
+        "geometryFromVolume": {
+          "type": "string",
+          "description": "Will take geometry from a specific volume. In that case, geometry should be null. Useful for class g airspace when volumes have different owners depending on altitude"
         }
       },
       "required": [
@@ -155,6 +159,9 @@
             "type",
             "coordinates"
           ]
+        },
+        {
+          "type": "null"
         }
       ]
     }
@@ -164,5 +171,23 @@
     "properties",
     "id",
     "geometry"
+  ],
+  "allOf": [
+    {
+      "if": {
+          "properties": {
+            "properties": {
+              "type": "object",
+              "required": ["geometryFromVolume"]
+            }
+        },
+        "required": ["properties"]
+      },
+      "then": {
+        "properties": {
+          "geometry": {"type": "null"}
+        }
+      }
+    }
   ]
 }

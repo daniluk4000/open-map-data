@@ -1,0 +1,145 @@
+{
+  "ZGGG": {
+    "name": "Guangzhou ACC - Guangzhou FIR - Guangzhou",
+    "prefixes": [
+      "ZGGG"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      112.466923,
+      27.521607
+    ]
+  },
+  "ZGGG-GZC": {
+    "name": "Guangzhou ACC Central Sector - Guangzhou FIR - Guangzhou",
+    "prefixes": [
+      "ZGGG_C"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      111.732024,
+      27.679363
+    ]
+  },
+  "ZGGG-GZC1": {
+    "name": "Guangzhou ACC Central 1 Sector - Guangzhou FIR - Guangzhou",
+    "prefixes": [
+      "ZGGG_C1"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      110.868236,
+      27.574433
+    ]
+  },
+  "ZGGG-GZE": {
+    "name": "Guangzhou ACC East Sector - Guangzhou FIR - Guangzhou",
+    "prefixes": [
+      "ZGGG_E"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      114.84582,
+      25.079841
+    ]
+  },
+  "ZGGG-GZE1": {
+    "name": "Guangzhou ACC East 1 Sector - Guangzhou FIR - Guangzhou",
+    "prefixes": [
+      "ZGGG_E1"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      115.141309,
+      23.856064
+    ]
+  },
+  "ZGGG-GZN": {
+    "name": "Guangzhou ACC North Sector - Guangzhou FIR - Guangzhou",
+    "prefixes": [
+      "ZGGG_N"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      112.559719,
+      31.097428
+    ]
+  },
+  "ZGGG-GZN1": {
+    "name": "Guangzhou ACC North 1 Sector - Guangzhou FIR - Guangzhou",
+    "prefixes": [
+      "ZGGG_N1"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      111.282345,
+      31.272152
+    ]
+  },
+  "ZGGG-GZS": {
+    "name": "Guangzhou ACC South Sector - Guangzhou FIR - Guangzhou",
+    "prefixes": [
+      "ZGGG_S"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      112.5051,
+      22.719041
+    ]
+  },
+  "ZGGG-GZS1": {
+    "name": "Guangzhou ACC South 1 Sector - Guangzhou FIR - Guangzhou",
+    "prefixes": [
+      "ZGGG_S1"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      113.488061,
+      22.875586
+    ]
+  },
+  "ZGGG-GZW": {
+    "name": "Guangzhou ACC West Sector - Guangzhou FIR - Guangzhou",
+    "prefixes": [
+      "ZGGG_W"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      111.197502,
+      24.993208
+    ]
+  },
+  "ZGGG-GZW1": {
+    "name": "Guangzhou ACC West 1 Sector - Guangzhou FIR - Guangzhou",
+    "prefixes": [
+      "ZGGG_W1"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      109.804022,
+      25.333447
+    ]
+  }
+}

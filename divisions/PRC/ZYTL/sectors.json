@@ -1,0 +1,42 @@
+{
+  "ZYTL": {
+    "volumes": [
+      "ZYTL"
+    ],
+    "positions": [
+      "ZYTL"
+    ]
+  },
+  "ZYTL-DLE": {
+    "volumes": [
+      "ZYTL-DLE"
+    ],
+    "positions": [
+      "ZYTL-DLE"
+    ]
+  },
+  "ZYTL-DLN": {
+    "volumes": [
+      "ZYTL-DLN"
+    ],
+    "positions": [
+      "ZYTL-DLN"
+    ]
+  },
+  "ZYTL-DLS": {
+    "volumes": [
+      "ZYTL-DLS"
+    ],
+    "positions": [
+      "ZYTL-DLS"
+    ]
+  },
+  "ZYTL-DLW": {
+    "volumes": [
+      "ZYTL-DLW"
+    ],
+    "positions": [
+      "ZYTL-DLW"
+    ]
+  }
+}

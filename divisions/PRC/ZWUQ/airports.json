@@ -1,0 +1,205 @@
+{
+  "ZWAK": {
+    "name": "Akesu Hongqipo",
+    "coordinate": [
+      80.289491,
+      41.263224
+    ]
+  },
+  "ZWAL": {
+    "name": "Alae Talimu",
+    "coordinate": [
+      81.264179,
+      40.435818
+    ]
+  },
+  "ZWAT": {
+    "name": "Aletai Xuedu",
+    "coordinate": [
+      88.084709,
+      47.750615
+    ]
+  },
+  "ZWBL": {
+    "name": "Bole Alashankou",
+    "coordinate": [
+      82.30042,
+      44.895052
+    ]
+  },
+  "ZWCM": {
+    "name": "Qiemo Yudu",
+    "coordinate": [
+      85.463559,
+      38.234302
+    ]
+  },
+  "ZWFY": {
+    "name": "Fuyun Keketuohai",
+    "coordinate": [
+      89.51158,
+      46.804803
+    ]
+  },
+  "ZWHJ": {
+    "name": "Hejing Bayinbuluke",
+    "coordinate": [
+      83.9856667,
+      42.965444
+    ]
+  },
+  "ZWHM": {
+    "name": "Hami Yizhou",
+    "coordinate": [
+      93.668973,
+      42.841018
+    ]
+  },
+  "ZWHZ": {
+    "name": "Shihezi Huayuan",
+    "coordinate": [
+      85.89013,
+      44.241603
+    ]
+  },
+  "ZWKC": {
+    "name": "Kuqa Qiuci",
+    "coordinate": [
+      82.871927,
+      41.677386
+    ]
+  },
+  "ZWKL": {
+    "name": "Korla Licheng",
+    "coordinate": [
+      86.142151,
+      41.615245
+    ]
+  },
+  "ZWKM": {
+    "name": "Kelamayi Guhai",
+    "coordinate": [
+      84.953191,
+      45.465683
+    ]
+  },
+  "ZWKN": {
+    "name": "Bu'erjin Kanas",
+    "coordinate": [
+      86.99656,
+      48.222634
+    ]
+  },
+  "ZWLK": {
+    "name": "Balikun Dahe",
+    "coordinate": [
+      93.138056,
+      43.756111
+    ]
+  },
+  "ZWLT": {
+    "name": "Bayinguoleng Luntai",
+    "coordinate": [
+      84.281742,
+      41.583308
+    ]
+  },
+  "ZWNL": {
+    "name": "Xinyuan Nalati",
+    "coordinate": [
+      83.376524,
+      43.432276
+    ]
+  },
+  "ZWQT": {
+    "name": "Qitai Jiangbulake",
+    "coordinate": [
+      89.558333,
+      44.160556
+    ]
+  },
+  "ZWRQ": {
+    "name": "Ruoqiang Loulan",
+    "coordinate": [
+      88.008889,
+      38.974349
+    ]
+  },
+  "ZWSC": {
+    "name": "Shache Ye'erqiang",
+    "coordinate": [
+      77.056924,
+      38.243812
+    ]
+  },
+  "ZWSH": {
+    "name": "Kashi Laining",
+    "coordinate": [
+      76.021193,
+      39.54273
+    ]
+  },
+  "ZWTC": {
+    "name": "Tacheng Qianquan",
+    "coordinate": [
+      83.340693,
+      46.672369
+    ]
+  },
+  "ZWTK": {
+    "name": "Tashiku'ergan Hongqilafu",
+    "coordinate": [
+      75.288024,
+      37.663519
+    ]
+  },
+  "ZWTL": {
+    "name": "Turpan Jiaohe",
+    "coordinate": [
+      89.098922,
+      43.03183
+    ]
+  },
+  "ZWTN": {
+    "name": "Hetian Kungang",
+    "coordinate": [
+      79.865872,
+      37.032448
+    ]
+  },
+  "ZWTS": {
+    "name": "Tumushuke Tangwangcheng",
+    "coordinate": [
+      79.234757,
+      39.889269
+    ]
+  },
+  "ZWWW": {
+    "name": "Urumqi Tianshan",
+    "coordinate": [
+      87.47623,
+      43.904836
+    ]
+  },
+  "ZWYN": {
+    "name": "Yining",
+    "coordinate": [
+      81.33305,
+      43.95062
+    ]
+  },
+  "ZWYT": {
+    "name": "Yutian Wanfang",
+    "coordinate": [
+      81.783636,
+      36.809145
+    ]
+  },
+  "ZWZS": {
+    "name": "Zhaosu Tianma",
+    "coordinate": [
+      81.225104,
+      43.087156
+    ]
+  }
+}

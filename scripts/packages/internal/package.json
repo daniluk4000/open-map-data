@@ -1,0 +1,23 @@
+{
+  "name": "internal",
+  "type": "module",
+  "engines": {
+    "node": ">22"
+  },
+  "scripts": {
+    "compile": "node --experimental-strip-types ./src/compile.ts",
+    "migration": "node --experimental-strip-types ./src/migration.ts"
+  },
+  "dependencies": {
+    "ajv": "^8.20.0",
+    "shared": "workspace:^"
+  },
+  "devDependencies": {
+    "@turf/turf": "^7.4.0",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^26.6.4",
+    "geojson": "^0.5.0",
+    "tsc": "^2.0.4",
+    "typescript": "^7.0.2"
+  }
+}

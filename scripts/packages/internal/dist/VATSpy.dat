@@ -1,0 +1,456 @@
+[Countries]
+China|ZB|
+China|ZG|
+China|ZH|
+China|ZJ|
+China|ZL|
+China|ZP|
+China|ZS|
+China|ZU|
+China|ZW|
+China|ZY|
+Russia|UL|Control
+USA|KB|
+
+[Airports]
+;ICAO|Airport Name|Latitude Decimal|Longitude Decimal|IATA/LID|FIR|IsPseudo
+KBOS|Boston Logan Intl MA|42.364347|-71.005189|BOS|KZBW|0
+ULLI|Pulkovo|59.8|30.265|LED|ULLL|0
+ULLL|Peterburg|59.6693055|30.413333|ULLL|ULLL|1
+VOK|Volk Approach|43.858335|-90.08583|VOK|ZBAA|1
+ZBAA|Beijing Capital|40.074069|116.5908|PEK|ZBPE|0
+ZBAD|Beijing Daxing|39.500895|116.398586||ZBPE|0
+ZBAL|Alxa Left Banner Bayanhot|38.748871|105.583644||ZBPE|0
+ZBAR|Alxa Right Banner Badain Jaran|39.225828|101.549451||ZBPE|0
+ZBCD|Chengde Puning|41.121105|118.076224||ZBPE|0
+ZBCF|Chifeng Yulong|42.160613|118.839868||ZBPE|0
+ZBCZ|Changzhi Wangcun|36.246642|113.12634||ZBPE|0
+ZBDH|Qinhuangdao Beidaihe|39.666382|119.061484||ZBPE|0
+ZBDS|Ordos Ejinhoro|39.492435|109.862978||ZBPE|0
+ZBDT|Datong Yungang|40.060176|113.48313||ZBPE|0
+ZBEN|Ejinaqi Taolai|42.015035|101.001439||ZBPE|0
+ZBER|Erenhot Saiwusu|43.42351|112.092534||ZBPE|0
+ZBES|Arxan Yirshi|47.311371|119.912265||ZBPE|0
+ZBHD|Handan|36.523759|114.429592||ZBPE|0
+ZBHH|Hohhot Baita|40.849706|111.824071||ZBPE|0
+ZBHZ|Holingol Huolinhe|45.487297|119.406808||ZBPE|0
+ZBLA|Hulunbuir Hailar|49.205281|119.825537||ZBPE|0
+ZBLF|Linfen Yaodu|36.134085|111.641645||ZBPE|0
+ZBLL|Lyuliang Dawu|37.682588|111.142345||ZBPE|0
+ZBMZ|Manzhouli Xijiao|49.567614|117.329042||ZBPE|0
+ZBOW|Baotou Donghe|40.55988|109.996548||ZBPE|0
+ZBSG|Shuozhou Zirun|39.474722|112.596944||ZBPE|0
+ZBSJ|Shijiazhuang Zhengding|38.281594|114.697105||ZBPE|0
+ZBSN|Tangshan Sannyuhe|39.717489|118.003397||ZBPE|0
+ZBTJ|Tianjin Binhai|39.116923|117.350487||ZBPE|0
+ZBTL|Tongliao|43.556151|122.198849||ZBPE|0
+ZBUC|Ulanqab Jining|41.130837|113.107413||ZBPE|0
+ZBUH|Wuhai|39.793867|106.798528||ZBPE|0
+ZBUL|Ulanhot Yilelite|46.193682|122.007778||ZBPE|0
+ZBXH|Xilinhot|43.914985|115.963831||ZBPE|0
+ZBXT|Xingtai Dalian|36.882778|114.429167||ZBPE|0
+ZBXZ|Xinzhou Wutaishan|38.596337|112.96866||ZBPE|0
+ZBYC|Yuncheng Yanhu|35.118001|111.034386||ZBPE|0
+ZBYN|Taiyuan Wusu|37.748422|112.629125||ZBPE|0
+ZBYZ|Bayannur Tianjitai|40.9264|107.73913||ZBPE|0
+ZBZJ|Zhangjiakou Ningyuan|40.739298|114.931071||ZBPE|0
+ZBZL|Zhalantun Genghiskhan|47.865845|122.768587||ZBPE|0
+ZGBH|Beihai Fucheng|21.539938|109.294584||ZGZU|0
+ZGBS|Baise Bama|23.720054|106.959725||ZGZU|0
+ZGCD|Changde Taohuayuan|28.919624|111.639759||ZGZU|0
+ZGCJ|Huaihua Zhijiang|27.442357|109.699764||ZGZU|0
+ZGCZ|Chenzhou Beihu|25.754255|112.845555||ZGZU|0
+ZGDY|Zhangjiajie Hehua|29.101879|110.443932||ZGZU|0
+ZGFS|Foshan Shadi|23.083455|113.071541||ZGZU|0
+ZGGG|Guangzhou Baiyun|23.393217|113.298764||ZGZU|0
+ZGHA|Changsha Huanghua|28.197546|113.221163||ZGZU|0
+ZGHC|Hechi Jinchengjiang|24.80586|107.710966||ZGZU|0
+ZGHY|Hengyang Nanyue|26.722411|112.618634||ZGZU|0
+ZGHZ|Huizhou Pingtan|23.049379|114.601026||ZGZU|0
+ZGKL|Guilin Liangjiang|25.216865|110.03982||ZGZU|0
+ZGLD|Luoding|22.71144|111.600645||ZGZU|0
+ZGLG|Yongzhou Lingling|26.339321|111.609798||ZGZU|0
+ZGMX|Meizhou Meixian|24.264718|116.099079||ZGZU|0
+ZGNN|Nanning Wuxu|22.616451|108.183823||ZGZU|0
+ZGNT|Shenzhen Nantou|22.594091|113.957107||ZGZU|0
+ZGOW|Jieyang Chaoshan|23.552376|116.500703||ZGZU|0
+ZGSD|Zhuhai Jinwan|22.039409|113.377799||ZGZU|0
+ZGSG|Shaoguan Danxia|24.975256|113.420989||ZGZU|0
+ZGSY|Shaoyang Wugang|26.805287|110.641026||ZGZU|0
+ZGSZ|Shenzhen Bao'an|22.638927|113.81199|ZGJD|ZGZU|0
+ZGUH|Zhuhai Jiuzhou|22.252097|113.590535||ZGZU|0
+ZGWZ|Wuzhou Xijiang|23.402656|111.099351||ZGZU|0
+ZGXX|Xiangxi Biancheng|28.495278|109.519722||ZGZU|0
+ZGYJ|Yangjiang Heshan|21.960816|112.102364||ZGZU|0
+ZGYL|Yulin Fumian|22.433647|110.119638||ZGZU|0
+ZGYY|Yueyang Sanhe|29.313677|113.281633||ZGZU|0
+ZGZH|Liuzhou Bailian|24.208303|109.391927||ZGZU|0
+ZGZJ|Zhanjiang Wuchuan|21.483525|110.59375||ZGZU|0
+ZHCC|Zhengzhou Xinzheng|34.517497|113.841712||ZHWH|0
+ZHEC|Ezhou Huahu|30.342675|115.0296884||ZHWH|0
+ZHES|Enshi Xujiaping|30.320812|109.48565||ZHWH|0
+ZHHH|Wuhan Tianhe|30.785399|114.210629||ZHWH|0
+ZHJZ|Jingzhou Shashi|30.293012|112.447524||ZHWH|0
+ZHLY|Luoyang|34.741131|112.388898||ZHWH|0
+ZHNY|Nanyang Jiangying|32.980059|112.616091||ZHWH|0
+ZHQQ|Anyang Hongqiqu|35.870833|114.461944||ZHWH|0
+ZHSN|Shennongjia Hongping|31.625522|110.339973||ZHWH|0
+ZHSY|Shiyan Wudangshan|32.594162|110.907064||ZHWH|0
+ZHXF|Xiangyang Liuji|32.151495|112.290592||ZHWH|0
+ZHXY|Xinyang Minggang|32.540312|114.078247||ZHWH|0
+ZHYC|Yichang Sanxia|30.55664|111.480109||ZHWH|0
+ZJHK|Haikou Meilan|19.934412|110.458038||ZJSA|0
+ZJQH|Qionghai Bo'ao|19.138169|110.454289||ZJSA|0
+ZJSY|Sanya Phoenix|18.302678|109.412519||ZJSA|0
+ZJYX|Sansha Yongxing|16.834267|112.345254||ZJSA|0
+ZLAK|Ankang Fuqiang|32.756452|108.873016||ZLHW|0
+ZLDH|Dunhuang Mogao|40.160859|94.808284||ZLHW|0
+ZLDL|Haixi Delingha|37.125342|97.268683||ZLHW|0
+ZLGL|Golog Maqin|34.418944|100.300907||ZLHW|0
+ZLGM|Golmud|36.399291|94.785314||ZLHW|0
+ZLGY|Guyuan Liupanshan|36.078831|106.216771||ZLHW|0
+ZLHB|Haibei Qilian|38.009244|100.645514||ZLHW|0
+ZLHX|Haixi Mangya|38.198612|90.840403||ZLHW|0
+ZLHZ|Hanzhong Chenggu|33.133347|107.204095||ZLHW|0
+ZLIC|Yinchuan Hedong|38.320703|106.391976||ZLHW|0
+ZLJC|Jinchang Jinchuan|38.541677|102.347558||ZLHW|0
+ZLJQ|Jiayuguan Jiuquan|39.767403|98.482203||ZLHW|0
+ZLLL|Lanzhou Zhongchuan|36.515621|103.620045||ZLHW|0
+ZLLN|Longnan Chengxian|33.790843|105.788208||ZLHW|0
+ZLQY|Qingyang Xifeng|35.802861|107.599837||ZLHW|0
+ZLTS|Tianshui Maijishan|34.559612|105.859447||ZLHW|0
+ZLXH|Gannan Xiahe|34.819653|102.622455||ZLHW|0
+ZLXN|Xining Caojiapu|36.529974|102.040398||ZLHW|0
+ZLXY|Xi'an Xianyang|34.446715|108.752252||ZLHW|0
+ZLYA|Yan'An Nanniwan|36.479061|109.465063||ZLHW|0
+ZLYL|Yulin Yuyang|38.357265|109.592483||ZLHW|0
+ZLYS|Yushu Batang|32.824508|97.124047||ZLHW|0
+ZLZW|Zhongwei Shapotou|37.572381|105.154998||ZLHW|0
+ZLZY|Zhangye Ganzhou|38.808473|100.660692||ZLHW|0
+ZPBS|Baoshan Yunrui|25.051137|99.167322||ZPKM|0
+ZPCW|Cangyuan Washan|23.277076|99.374001||ZPKM|0
+ZPDL|Dali Fengyi|25.650323|100.319907||ZPKM|0
+ZPDQ|Diqing Shangrila|27.79274|99.677209||ZPKM|0
+ZPJH|Xishuangbanna Gasa|21.974448|100.759071||ZPKM|0
+ZPJM|Lancang Jingmai|22.417467|99.785148||ZPKM|0
+ZPLC|Lincang Boshang|23.739582|100.024088||ZPKM|0
+ZPLJ|Lijiang Sanyi|26.679824|100.245738||ZPKM|0
+ZPMS|Dehong Mangshi|24.401106|98.531706||ZPKM|0
+ZPNL|Ninglang Luguhu|27.541023|100.760239||ZPKM|0
+ZPPP|Kunming Changshui|25.10123|102.929247||ZPKM|0
+ZPSM|Pu'er Simao|22.792678|100.959645||ZPKM|0
+ZPTC|Tengchong Tuofeng|24.938991|98.486587||ZPKM|0
+ZPWS|Wenshan Yanshan|23.558069|104.324957||ZPKM|0
+ZPZT|Zhaotong|27.328585|103.757055||ZPKM|0
+ZSAM|Xiamen Gaoqi|24.542761|118.124364||ZSHA|0
+ZSAQ|Anqing|30.583338|117.051157||ZSHA|0
+ZSBA|Bengbu Tenghu|33.163756|117.059578||ZSHA|0
+ZSBO|Bozhou|33.561658|115.911089||ZSHA|0
+ZSCG|Changzhou Benniu|31.918874|119.770633||ZSHA|0
+ZSCN|Nanchang Changbei|28.862813|115.901443||ZSHA|0
+ZSDY|Dongying Shengli|37.50846|118.789134||ZSHA|0
+ZSFY|Fuyang|32.882169|115.734224||ZSHA|0
+ZSFZ|Fuzhou Changle|25.9341|119.662432||ZSHA|0
+ZSGS|Jinggangshan|26.857715|114.737993||ZSHA|0
+ZSGZ|Ganzhou Huangjin|25.848389|114.779597||ZSHA|0
+ZSHC|Hangzhou Xiaoshan|30.228632|120.432376||ZSHA|0
+ZSHZ|Heze Mudan|35.214354|115.736845||ZSHA|0
+ZSJD|Jingdezhen Luojia|29.338084|117.175486||ZSHA|0
+ZSJG|Jining Da'an|35.647222|116.742222||ZSHA|0
+ZSJH|Chizhou Jiuhuashan|30.739751|117.688418||ZSHA|0
+ZSJJ|Jiujiang Lushan|29.477139|115.801354||ZSHA|0
+ZSJN|Jinan Yaoqiang|36.857213|117.216384||ZSHA|0
+ZSJU|Quzhou|28.966316|118.898365||ZSHA|0
+ZSJX|Jiaxing Nanhu|30.699358|120.66365||ZSHA|0
+ZSLG|Lianyungang Huaguoshan|34.413691|119.178221||ZSHA|0
+ZSLI|Lishui|28.370833|119.835278||ZSHA|0
+ZSLO|Liancheng Guanzhaishan|25.675845|116.746189||ZSHA|0
+ZSLQ|Taizhou Luqiao|28.56301|121.429503||ZSHA|0
+ZSLY|Linyi Qiyang|35.045523|118.412483||ZSHA|0
+ZSNB|Ningbo Lishe|29.826424|121.461039||ZSHA|0
+ZSNJ|Nanjing Lukou|31.740106|118.860779||ZSHA|0
+ZSNT|Nantong Xingdong|32.071513|120.974957||ZSHA|0
+ZSOF|Hefei Xinqiao|31.987384|116.976634||ZSHA|0
+ZSPD|Shanghai Pudong|31.142333|121.790844||ZSHA|0
+ZSQD|Qingdao Jiaodong|36.366526|120.098729||ZSHA|0
+ZSQZ|Quanzhou Jinjiang|24.799411|118.591113||ZSHA|0
+ZSRJ|Ganzhou Ruijin|25.96|116.08||ZSHA|0
+ZSRZ|Rizhao Shanzihe|35.404764|119.323218||ZSHA|0
+ZSSH|Huai'an Lianshui|33.777701|119.147299||ZSHA|0
+ZSSL|Shanghai Longhua|31.167222|121.459722||ZSHA|0
+ZSSM|Sanming Shaxian|26.427323|117.834513||ZSHA|0
+ZSSR|Shangrao Sanqingshan|28.378986|117.964941||ZSHA|0
+ZSSS|Shanghai Hongqiao|31.198609|121.335754||ZSHA|0
+ZSTX|Huangshan Tunxi|29.733965|118.254883||ZSHA|0
+ZSWA|Wuhu Xuanzhou|31.103844|118.6661||ZSHA|0
+ZSWF|Weifang|36.64756|119.117708||ZSHA|0
+ZSWH|Weihai Dashuipo|37.186769|122.229636||ZSHA|0
+ZSWX|Wuxi Shuofang|31.494545|120.430034||ZSHA|0
+ZSWY|Wuyishan|27.702564|118.001284||ZSHA|0
+ZSWZ|Wenzhou Longwan|27.911669|120.852564||ZSHA|0
+ZSXZ|Xuzhou Guanyin|34.058989|117.556774||ZSHA|0
+ZSYA|Yangzhou Taizhou|32.563414|119.720582||ZSHA|0
+ZSYC|Yichun Mingyueshan|27.802472|114.30653||ZSHA|0
+ZSYN|Yancheng Nanyang|33.425875|120.202074||ZSHA|0
+ZSYT|Yantai Penglai|37.660803|120.978319||ZSHA|0
+ZSYW|Yiwu|29.344877|120.032007||ZSHA|0
+ZSZS|Zhoushan Putuoshan|29.933783|122.361562||ZSHA|0
+ZUAL|Ali Kunsha|32.109406|80.05338||ZPKM|0
+ZUAS|Anshun Huangguoshu|26.26134|105.87379||ZPKM|0
+ZUBC|Beichuan|31.581794|104.459163||ZPKM|0
+ZUBD|Changdu Bangda|30.553751|97.107461||ZPKM|0
+ZUBJ|Bijie Feixiong|27.266908|105.472241||ZPKM|0
+ZUBZ|Bazhong Enyang|31.73761|106.643283||ZPKM|0
+ZUCK|Chongqing Jiangbei|29.717113|106.639012||ZPKM|0
+ZUDA|Dazhou Jinya|31.047611|107.437111||ZPKM|0
+ZUDC|Daocheng Yading|29.323175|100.052875||ZPKM|0
+ZUDG|Daguo|30.197222|104.080277||ZPKM|0
+ZUDJ|Tongren Dejiang|28.138314|108.1615||ZPKM|0
+ZUDR|Rikaze Dingri|28.6025|86.8103||ZPKM|0
+ZUFM|Zigong Fengming|29.37593|104.625425||ZPKM|0
+ZUGH|Guanghan|30.948446|104.32987||ZPKM|0
+ZUGU|Guangyuan Panlong|32.38935|105.693709||ZPKM|0
+ZUGY|Guiyang Longdongbao|26.537507|106.799047||ZPKM|0
+ZUGZ|Ganzi Gesaer|31.755788|99.557675||ZPKM|0
+ZUHA|Chongzhou Haoyun|30.65785|103.647875||ZPKM|0
+ZUHY|A'Ba Hongyuan|32.531566|102.351893||ZPKM|0
+ZUHZ|Jintang Huaizhou|30.677339|104.529456||ZPKM|0
+ZUJZ|Jiuzhai Huanglong|32.85661|103.68314||ZPKM|0
+ZUKD|Kangding|30.142979|101.738668||ZPKM|0
+ZUKJ|Kaili Huangping|26.971613|107.98724||ZPKM|0
+ZULA|Langzhong Gucheng|31.50366|106.03535||ZPKM|0
+ZULB|Qiannan Libo|25.451927|107.962642||ZPKM|0
+ZULD|Luodai|30.651411|104.319586||ZPKM|0
+ZULS|Lhasa Konggar|29.297854|90.91267||ZPKM|0
+ZULZ|Luzhou Yunlong|29.029897|105.469248||ZPKM|0
+ZUMT|Zunyi Maotai|27.9626|106.434921||ZPKM|0
+ZUMY|Mianyang Nanjiao|31.42878|104.740824||ZPKM|0
+ZUNC|Nanchong Gaoping|30.797596|106.164896||ZPKM|0
+ZUNP|Liping|26.3226|109.150448||ZPKM|0
+ZUNZ|Linzhi Milin|29.303185|94.334629||ZPKM|0
+ZUPL|Ali Pulan|30.39145|81.13747||ZPKM|0
+ZUPS|Liupanshui Yuezhao|26.609063|104.978306||ZPKM|0
+ZUQC|Qingchengshan Anlong|30.844722|103.610278||ZPKM|0
+ZUQJ|Qianjiang Wulingshan|29.515665|108.832636||ZPKM|0
+ZURK|Rikaze Heping|29.351402|89.309806||ZPKM|0
+ZUSH|Shannan Lhunze|28.4315|92.351||ZPKM|0
+ZUTE|Jiezi|30.816583|103.575416||ZPKM|0
+ZUTF|Chengdu Tianfu|30.291841|104.445258||ZPKM|0
+ZUTK|Pengshan Jiangkou|30.210013|103.940486||ZPKM|0
+ZUTR|Tongren Fenghuang|27.884386|109.309443||ZPKM|0
+ZUUU|Chengdu Shuangliu|30.579437|103.947811||ZPKM|0
+ZUWL|Chongqing Xiannyushan|29.462899|107.693088||ZPKM|0
+ZUWS|Chongqing Wushan|31.067964|109.708511||ZPKM|0
+ZUWX|Wanzhou Wuqiao|30.800927|108.433727||ZPKM|0
+ZUXC|Xichang Qingshan|27.989355|102.183507||ZPKM|0
+ZUXJ|Xinjin|30.422519|103.845687||ZPKM|0
+ZUYB|Yibin Wuliangye|28.858818|104.526424||ZPKM|0
+ZUYI|Xingyi Wanfenglin|25.087464|104.959506||ZPKM|0
+ZUZH|Panzhihua Bao'anying|26.539443|101.798464||ZPKM|0
+ZUZY|Zunyi Xinzhou|27.810504|107.246047||ZPKM|0
+ZWAK|Akesu Hongqipo|41.263224|80.289491||ZWUQ|0
+ZWAL|Alae Talimu|40.435818|81.264179||ZWUQ|0
+ZWAT|Aletai Xuedu|47.750615|88.084709||ZWUQ|0
+ZWBL|Bole Alashankou|44.895052|82.30042||ZWUQ|0
+ZWCM|Qiemo Yudu|38.234302|85.463559||ZWUQ|0
+ZWFY|Fuyun Keketuohai|46.804803|89.51158||ZWUQ|0
+ZWHJ|Hejing Bayinbuluke|42.965444|83.9856667||ZWUQ|0
+ZWHM|Hami Yizhou|42.841018|93.668973||ZWUQ|0
+ZWHZ|Shihezi Huayuan|44.241603|85.89013||ZWUQ|0
+ZWKC|Kuqa Qiuci|41.677386|82.871927||ZWUQ|0
+ZWKL|Korla Licheng|41.615245|86.142151||ZWUQ|0
+ZWKM|Kelamayi Guhai|45.465683|84.953191||ZWUQ|0
+ZWKN|Bu'erjin Kanas|48.222634|86.99656||ZWUQ|0
+ZWLK|Balikun Dahe|43.756111|93.138056||ZWUQ|0
+ZWLT|Bayinguoleng Luntai|41.583308|84.281742||ZWUQ|0
+ZWNL|Xinyuan Nalati|43.432276|83.376524||ZWUQ|0
+ZWQT|Qitai Jiangbulake|44.160556|89.558333||ZWUQ|0
+ZWRQ|Ruoqiang Loulan|38.974349|88.008889||ZWUQ|0
+ZWSC|Shache Ye'erqiang|38.243812|77.056924||ZWUQ|0
+ZWSH|Kashi Laining|39.54273|76.021193||ZWUQ|0
+ZWTC|Tacheng Qianquan|46.672369|83.340693||ZWUQ|0
+ZWTK|Tashiku'ergan Hongqilafu|37.663519|75.288024||ZWUQ|0
+ZWTL|Turpan Jiaohe|43.03183|89.098922||ZWUQ|0
+ZWTN|Hetian Kungang|37.032448|79.865872||ZWUQ|0
+ZWTS|Tumushuke Tangwangcheng|39.889269|79.234757||ZWUQ|0
+ZWWW|Urumqi Tianshan|43.904836|87.47623||ZWUQ|0
+ZWYN|Yining|43.95062|81.33305||ZWUQ|0
+ZWYT|Yutian Wanfang|36.809145|81.783636||ZWUQ|0
+ZWZS|Zhaosu Tianma|43.087156|81.225104||ZWUQ|0
+ZYAS|Anshan Teng'ao|41.107035|122.852721||ZYSH|0
+ZYBA|Baicheng Chang'an|45.504546|123.02051||ZYSH|0
+ZYBS|Baishan Changbaishan|42.067865|127.601825||ZYSH|0
+ZYCC|Changchun Longjia|43.997632|125.686675||ZYSH|0
+ZYCH|Changhai|39.26552|122.666456||ZYSH|0
+ZYCY|Chaoyang|41.537634|120.43441||ZYSH|0
+ZYDD|Dandong Langtou|40.026015|124.286485||ZYSH|0
+ZYDQ|Daqing Sartu|46.586787|125.229242||ZYSH|0
+ZYDU|Wudalianchi Dedu|48.440236|126.129612||ZYSH|0
+ZYFY|Fuyuan Dongji|48.196733|134.363886||ZYSH|0
+ZYHB|Harbin Taiping|45.623947|126.250494||ZYSH|0
+ZYHE|Heihe Aihui|50.172119|127.308353||ZYSH|0
+ZYJD|Daxing'anling Oroqen|50.370563|124.117888||ZYSH|0
+ZYJM|Jiamusi|46.844202|130.464684||ZYSH|0
+ZYJS|Jiansanjiang Shidi|47.108232|132.657229||ZYSH|0
+ZYJX|Jixi Xingkaihu|45.293874|131.193757||ZYSH|0
+ZYJZ|Jinzhou Jinzhouwan|40.936636|121.276965||ZYSH|0
+ZYLD|Yichun Lindu|47.718281|128.828894||ZYSH|0
+ZYMD|Mudanjiang Hailang|44.524005|129.569319||ZYSH|0
+ZYMH|Mohe Gulian|52.920418|122.4212||ZYSH|0
+ZYQQ|Qiqihar Sanjiazi|47.227544|123.908469||ZYSH|0
+ZYSD|Suifenhe Dongning|44.456901|130.847785||ZYSH|0
+ZYSQ|Songyuan Chaganhu|44.931088|124.552536||ZYSH|0
+ZYTL|Dalian Zhoushuizi|38.959111|121.530568||ZYSH|0
+ZYTN|Tonghua Sanyuanpu|42.048312|125.73317||ZYSH|0
+ZYTX|Shenyang Taoxian|41.639256|123.485889||ZYSH|0
+ZYYJ|Yanji Chaoyangchuan|42.8835|129.451457||ZYSH|0
+ZYYK|Yingkou Lanqi|40.542243|122.359052||ZYSH|0
+
+[FIRs]
+;ICAO|NAME|CALLSIGN PREFIX|FIR BOUNDARY
+KZBW|Boston|BOS|KZBW
+ULLL|Sankt-Peterburg ACC - Peterburg|ULLL|ULLL
+ULLL-R|Sankt-Peterburg ACC, sector Peterburg - Peterburg|ULLL_R|ULLL-R
+ULLL-R1|Sankt-Peterburg ACC, sector R1 North - Peterburg|ULLL_R1|ULLL-R1
+ULLL-R2|Sankt-Peterburg ACC, sector R2|ULLL_R2|ULLL-R2
+ULLL-R3|Sankt-Peterburg ACC, sector R3|ULLL_R3|ULLL-R3
+ULLL-R4|Sankt-Peterburg ACC, sector R4|ULLL_R4|ULLL-R4
+ULLL-R5|Sankt-Peterburg ACC, sector R5|ULLL_R5|ULLL-R5
+ULLL-R6|Sankt-Peterburg ACC, sector R6|ULLL_R6|ULLL-R6
+ULLL-SW|Sankt-Peterburg ACC, sector SW (R3+R4) South-West - Peterburg|ULLL_SW|ULLL-SW
+ZBAA|Beijing ACC - Beijing FIR - Beijing|ZBAA|ZBAA
+ZBAA-BJE|Beijing ACC East Sector - Beijing FIR - Beijing|ZBAA_E|ZBAA-BJE
+ZBAA-BJE1|Beijing ACC East 1 Sector - Beijing FIR - Beijing|ZBAA_E1|ZBAA-BJE1
+ZBAA-BJE2|Beijing ACC East 2 Sector - Beijing FIR - Beijing|ZBAA_E2|ZBAA-BJE2
+ZBAA-BJN|Beijing ACC North Sector - Beijing FIR - Beijing|ZBAA_N|ZBAA-BJN
+ZBAA-BJN1|Beijing ACC North 1 Sector - Beijing FIR - Beijing|ZBAA_N1|ZBAA-BJN1
+ZBAA-BJS|Beijing ACC South Sector - Beijing FIR - Beijing|ZBAA_S|ZBAA-BJS
+ZBAA-BJS1|Beijing ACC South 1 Sector - Beijing FIR - Beijing|ZBAA_S1|ZBAA-BJS1
+ZBAA-BJW|Beijing ACC West Sector - Beijing FIR - Beijing|ZBAA_W|ZBAA-BJW
+ZBAA-BJW1|Beijing ACC West 1 Sector - Beijing FIR - Beijing|ZBAA_W1|ZBAA-BJW1
+ZBAA-BJW2|Beijing ACC West 2 Sector - Beijing FIR - Beijing|ZBAA_W2|ZBAA-BJW2
+ZBHH|Hohhot ACC - Beijing FIR - Hohhot|ZBHH|ZBHH
+ZBHH-HHW|Hohhot ACC West Sector - Beijing FIR - Hohhot|ZBHH_W|ZBHH-HHW
+ZGGG|Guangzhou ACC - Guangzhou FIR - Guangzhou|ZGGG|ZGGG
+ZGGG-GZC|Guangzhou ACC Central Sector - Guangzhou FIR - Guangzhou|ZGGG_C|ZGGG-GZC
+ZGGG-GZC1|Guangzhou ACC Central 1 Sector - Guangzhou FIR - Guangzhou|ZGGG_C1|ZGGG-GZC1
+ZGGG-GZE|Guangzhou ACC East Sector - Guangzhou FIR - Guangzhou|ZGGG_E|ZGGG-GZE
+ZGGG-GZE1|Guangzhou ACC East 1 Sector - Guangzhou FIR - Guangzhou|ZGGG_E1|ZGGG-GZE1
+ZGGG-GZN|Guangzhou ACC North Sector - Guangzhou FIR - Guangzhou|ZGGG_N|ZGGG-GZN
+ZGGG-GZN1|Guangzhou ACC North 1 Sector - Guangzhou FIR - Guangzhou|ZGGG_N1|ZGGG-GZN1
+ZGGG-GZS|Guangzhou ACC South Sector - Guangzhou FIR - Guangzhou|ZGGG_S|ZGGG-GZS
+ZGGG-GZS1|Guangzhou ACC South 1 Sector - Guangzhou FIR - Guangzhou|ZGGG_S1|ZGGG-GZS1
+ZGGG-GZW|Guangzhou ACC West Sector - Guangzhou FIR - Guangzhou|ZGGG_W|ZGGG-GZW
+ZGGG-GZW1|Guangzhou ACC West 1 Sector - Guangzhou FIR - Guangzhou|ZGGG_W1|ZGGG-GZW1
+ZGHA|Changsha ACC - Guangzhou FIR - Changsha|ZGHA|ZGHA
+ZGHA-CSW|Changsha ACC West Sector - Guangzhou FIR - Changsha|ZGHA_W|ZGHA-CSW
+ZGNN|Nanning ACC - Guangzhou FIR - Nanning|ZGNN|ZGNN
+ZGNN-NNE|Nanning ACC East Sector - Guangzhou FIR - Nanning|ZGNN_E|ZGNN-NNE
+ZGNN-NNS|Nanning ACC South Sector - Guangzhou FIR - Nanning|ZGNN_S|ZGNN-NNS
+ZGNN-NNW|Nanning ACC West Sector - Guangzhou FIR - Nanning|ZGNN_W|ZGNN-NNW
+ZHCC|Zhengzhou ACC - Wuhan FIR - Zhengzhou|ZHCC|ZHCC
+ZHCC-ZZW|Zhengzhou ACC West Sector - Wuhan FIR - Zhengzhou|ZHCC_W|ZHCC-ZZW
+ZHHH|Wuhan ACC - Wuhan FIR - Wuhan|ZHHH|ZHHH
+ZHHH-WHW|Wuhan ACC West Sector - Wuhan FIR - Wuhan|ZHHH_W|ZHHH-WHW
+ZJSY|Sanya ACC - Sanya FIR - Sanya|ZJSY|ZJSY
+ZJSY-SAL|Sanya ACC Land Sector - Sanya FIR - Sanya|ZJSY_L|ZJSY-SAL
+ZJSY-SAN|Sanya ACC North Sector - Sanya FIR - Sanya|ZJSY_N|ZJSY-SAN
+ZJSY-SAO|Sanya ACC Oceanic Sector - Sanya FIR - Sanya|ZJSY_O|ZJSY-SAO
+ZLLL|Lanzhou ACC - Lanzhou FIR - Lanzhou|ZLLL|ZLLL
+ZLLL-LZC|Lanzhou ACC Central Sector - Lanzhou FIR - Lanzhou|ZLLL_C|ZLLL-LZC
+ZLLL-LZN|Lanzhou ACC North Sector - Lanzhou FIR - Lanzhou|ZLLL_N|ZLLL-LZN
+ZLLL-LZN1|Lanzhou ACC North 1 Sector - Lanzhou FIR - Lanzhou|ZLLL_N1|ZLLL-LZN1
+ZLLL-LZS|Lanzhou ACC South Sector - Lanzhou FIR - Lanzhou|ZLLL_S|ZLLL-LZS
+ZLLL-LZS1|Lanzhou ACC South 1 Sector - Lanzhou FIR - Lanzhou|ZLLL_S1|ZLLL-LZS1
+ZLLL-LZS2|Lanzhou ACC South 2 Sector - Lanzhou FIR - Lanzhou|ZLLL_S2|ZLLL-LZS2
+ZLXY|Xi'an ACC - Lanzhou FIR - Xi'an|ZLXY|ZLXY
+ZLXY-XAS|Xi'an ACC South Sector - Lanzhou FIR - Xi'an|ZLXY_S|ZLXY-XAS
+ZPPP|Kunming ACC - Kunming FIR - Kunming|ZPPP|ZPPP
+ZPPP-KME|Kunming ACC East Sector - Kunming FIR - Kunming|ZPPP_E|ZPPP-KME
+ZPPP-KME1|Kunming ACC East 1 Sector - Kunming FIR - Kunming|ZPPP_E1|ZPPP-KME1
+ZPPP-KME2|Kunming ACC East 2 Sector - Kunming FIR - Kunming|ZPPP_E2|ZPPP-KME2
+ZPPP-KMW|Kunming ACC West Sector - Kunming FIR - Kunming|ZPPP_W|ZPPP-KMW
+ZPPP-KMW1|Kunming ACC West 1 Sector - Kunming FIR - Kunming|ZPPP_W1|ZPPP-KMW1
+ZSAM|Xiamen ACC - Shanghai FIR - Xiamen|ZSAM|ZSAM
+ZSAM-XMS|Xiamen ACC South Sector - Shanghai FIR - Xiamen|ZSAM_S|ZSAM-XMS
+ZSCN|Nanchang ACC - Shanghai FIR - Nanchang|ZSCN|ZSCN
+ZSCN-NCE|Nanchang ACC East Sector - Shanghai FIR - Nanchang|ZSCN_E|ZSCN-NCE
+ZSJN|Jinan ACC - Shanghai FIR - Jinan|ZSJN|ZSJN
+ZSJN-JNE|Jinan ACC East Sector - Shanghai FIR - Jinan|ZSJN_E|ZSJN-JNE
+ZSOF|Hefei ACC - Shanghai FIR - Hefei|ZSOF|ZSOF
+ZSOF-HFN|Hefei ACC North Sector - Shanghai FIR - Hefei|ZSOF_N|ZSOF-HFN
+ZSQD|Qingdao ACC - Shanghai FIR - Qingdao|ZSQD|ZSQD
+ZSQD-QDH|Qingdao ACC High Sector - Shanghai FIR - Qingdao|ZSQD_H|ZSQD-QDH
+ZSSS|Shanghai ACC - Shanghai FIR - Shanghai|ZSSS|ZSSS
+ZSSS-SHC|Shanghai ACC Central Sector - Shanghai FIR - Shanghai|ZSSS_C|ZSSS-SHC
+ZSSS-SHC1|Shanghai ACC Central 1 Sector - Shanghai FIR - Shanghai|ZSSS_C1|ZSSS-SHC1
+ZSSS-SHE|Shanghai ACC East Sector - Shanghai FIR - Shanghai|ZSSS_E|ZSSS-SHE
+ZSSS-SHE1|Shanghai ACC East 1 Sector - Shanghai FIR - Shanghai|ZSSS_E1|ZSSS-SHE1
+ZSSS-SHS|Shanghai ACC South Sector - Shanghai FIR - Shanghai|ZSSS_S|ZSSS-SHS
+ZSSS-SHS1|Shanghai ACC South 1 Sector - Shanghai FIR - Shanghai|ZSSS_S1|ZSSS-SHS1
+ZSSS-SHS2|Shanghai ACC South 2 Sector - Shanghai FIR - Shanghai|ZSSS_S2|ZSSS-SHS2
+ZSSS-SHW|Shanghai ACC West Sector - Shanghai FIR - Shanghai|ZSSS_W|ZSSS-SHW
+ZSSS-SHW1|Shanghai ACC West 1 Sector - Shanghai FIR - Shanghai|ZSSS_W1|ZSSS-SHW1
+ZSSS-SHW2|Shanghai ACC West 2 Sector - Shanghai FIR - Shanghai|ZSSS_W2|ZSSS-SHW2
+ZUGY|Guiyang ACC - Kunming FIR - Guiyang|ZUGY|ZUGY
+ZUGY-GYE|Guiyang ACC East Sector - Kunming FIR - Guiyang|ZUGY_E|ZUGY-GYE
+ZULS|Lhasa ACC - Kunming FIR - Lhasa|ZULS|ZULS
+ZULS-LSE|Lhasa ACC East Sector - Kunming FIR - Lhasa|ZULS_E|ZULS-LSE
+ZUUU|Chengdu ACC - Kunming FIR - Chengdu|ZUUU|ZUUU
+ZUUU-CDE|Chengdu ACC East Sector - Kunming FIR - Chengdu|ZUUU_E|ZUUU-CDE
+ZUUU-CDG|Chengdu ACC Guiyang Sector - Kunming FIR - Chengdu|ZUUU_G|ZUUU-CDG
+ZUUU-CDN|Chengdu ACC North Sector - Kunming FIR - Chengdu|ZUUU_N|ZUUU-CDN
+ZUUU-CDN1|Chengdu ACC North 1 Sector - Kunming FIR - Chengdu|ZUUU_N1|ZUUU-CDN1
+ZUUU-CDS|Chengdu ACC South Sector - Kunming FIR - Chengdu|ZUUU_S|ZUUU-CDS
+ZUUU-CDW|Chengdu ACC West Sector - Kunming FIR - Chengdu|ZUUU_W|ZUUU-CDW
+ZWWW|Urumqi ACC - Urumqi FIR - Urumqi|ZWWW|ZWWW
+ZWWW-WUE|Urumqi ACC East Sector - Urumqi FIR - Urumqi|ZWWW_E|ZWWW-WUE
+ZWWW-WUS|Urumqi ACC South Sector - Urumqi FIR - Urumqi|ZWWW_S|ZWWW-WUS
+ZWWW-WUS1|Urumqi ACC South 1 Sector - Urumqi FIR - Urumqi|ZWWW_S1|ZWWW-WUS1
+ZWWW-WUW|Urumqi ACC West Sector - Urumqi FIR - Urumqi|ZWWW_W|ZWWW-WUW
+ZWWW-WUW1|Urumqi ACC West 1 Sector - Urumqi FIR - Urumqi|ZWWW_W1|ZWWW-WUW1
+ZYHB|Harbin ACC - Shenyang FIR - Harbin|ZYHB|ZYHB
+ZYHB-HBE|Harbin ACC East Sector - Shenyang FIR - Harbin|ZYHB_E|ZYHB-HBE
+ZYHB-HBE1|Harbin ACC East 1 Sector - Shenyang FIR - Harbin|ZYHB_E1|ZYHB-HBE1
+ZYHB-HBE2|Harbin ACC East 2 Sector - Shenyang FIR - Harbin|ZYHB_E2|ZYHB-HBE2
+ZYHB-HBW|Harbin ACC West Sector - Shenyang FIR - Harbin|ZYHB_W|ZYHB-HBW
+ZYTL|Dalian ACC - Shenyang FIR - Dalian|ZYTL|ZYTL
+ZYTL-DLE|Dalian ACC East Sector - Shenyang FIR - Dalian|ZYTL_E|ZYTL-DLE
+ZYTL-DLN|Dalian ACC North Sector - Shenyang FIR - Dalian|ZYTL_N|ZYTL-DLN
+ZYTL-DLS|Dalian ACC South Sector - Shenyang FIR - Dalian|ZYTL_S|ZYTL-DLS
+ZYTL-DLW|Dalian ACC West Sector - Shenyang FIR - Dalian|ZYTL_W|ZYTL-DLW
+ZYTX|Shenyang ACC - Shenyang FIR - Shenyang|ZYTX|ZYTX
+ZYTX-SYN|Shenyang ACC North Sector - Shenyang FIR - Shenyang|ZYTX_N|ZYTX-SYN
+ZYTX-SYN1|Shenyang ACC North 1 Sector - Shenyang FIR - Shenyang|ZYTX_N1|ZYTX-SYN1
+ZYTX-SYS|Shenyang ACC South Sector - Shenyang FIR - Shenyang|ZYTX_S|ZYTX-SYS
+ZYTX-SYW|Shenyang ACC West Sector - Shenyang FIR - Shenyang|ZYTX_W|ZYTX-SYW
+
+[UIRs]
+;ICAO|NAME|FIRs
+RU-NWC|North Western Russia Control|ULLL
+
+[IDL]
+90.0|-180.0
+75.0|-180.0
+67.5|-169.0
+65.5|-169.0
+52.0|-192.5
+48.0|-180.0
+5.0|-180.0
+0.0|-178.0
+0.0|-169.0
+-1.5|-169.0
+-1.5|-159.0
+1.0|-159.0
+1.0|-162.0
+5.0|-162.0
+5.0|-155.0
+-9.0|-148.0
+-12.0|-148.0
+-12.0|-157.5
+-7.0|-157.5
+-7.0|-179.0
+-15.0|-172.5
+-45.0|-172.5
+-52.0|-180.0
+-90.0|-180.0

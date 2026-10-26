@@ -1,0 +1,66 @@
+{
+  "ZPJH-APP": {
+    "volumes": [
+      "ZPJH-APP"
+    ],
+    "positions": [
+      "ZPJH-APP"
+    ]
+  },
+  "ZPLJ-APP": {
+    "volumes": [
+      "ZPLJ-APP"
+    ],
+    "positions": [
+      "ZPLJ-APP"
+    ]
+  },
+  "ZPPP-APP": {
+    "volumes": [
+      "ZPPP-APP"
+    ],
+    "positions": [
+      "ZPPP-APP"
+    ]
+  },
+  "ZUCK-APP": {
+    "volumes": [
+      "ZUCK-APP"
+    ],
+    "positions": [
+      "ZUCK-APP"
+    ]
+  },
+  "ZUGY-APP": {
+    "volumes": [
+      "ZUGY-APP"
+    ],
+    "positions": [
+      "ZUGY-APP"
+    ]
+  },
+  "ZULS-APP": {
+    "volumes": [
+      "ZULS-APP"
+    ],
+    "positions": [
+      "ZULS-APP"
+    ]
+  },
+  "ZULZ-APP": {
+    "volumes": [
+      "ZULZ-APP"
+    ],
+    "positions": [
+      "ZULZ-APP"
+    ]
+  },
+  "ZUUU-APP": {
+    "volumes": [
+      "ZUUU-APP"
+    ],
+    "positions": [
+      "ZUUU-APP"
+    ]
+  }
+}

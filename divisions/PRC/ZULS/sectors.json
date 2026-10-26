@@ -1,0 +1,18 @@
+{
+  "ZULS": {
+    "volumes": [
+      "ZULS"
+    ],
+    "positions": [
+      "ZULS"
+    ]
+  },
+  "ZULS-LSE": {
+    "volumes": [
+      "ZULS-LSE"
+    ],
+    "positions": [
+      "ZULS-LSE"
+    ]
+  }
+}

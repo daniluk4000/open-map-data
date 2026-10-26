@@ -1,6 +1,14 @@
 {
-  "$schema": "../../schema/divisions.json",
   "code": "RUS",
   "name": "Russia",
-  "region": "EMEA"
+  "region": "EMEA",
+  "countries": [{
+    "name": "Russia",
+    "prefixes": ["UL"]
+  }],
+  "callsigns": [{
+    "prefixes": ["UL"],
+    "suffixes": ["CTR"],
+    "callsign": "Control"
+  }]
 }

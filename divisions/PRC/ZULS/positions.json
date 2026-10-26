@@ -1,0 +1,28 @@
+{
+  "ZULS": {
+    "name": "Lhasa ACC - Kunming FIR - Lhasa",
+    "prefixes": [
+      "ZULS"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      88.498721,
+      31.135477
+    ]
+  },
+  "ZULS-LSE": {
+    "name": "Lhasa ACC East Sector - Kunming FIR - Lhasa",
+    "prefixes": [
+      "ZULS_E"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      95.579185,
+      31.269215
+    ]
+  }
+}

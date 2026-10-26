@@ -1,0 +1,18 @@
+{
+  "ZWAK-APP": {
+    "volumes": [
+      "ZWAK-APP"
+    ],
+    "positions": [
+      "ZWAK-APP"
+    ]
+  },
+  "ZWWW-APP": {
+    "volumes": [
+      "ZWWW-APP"
+    ],
+    "positions": [
+      "ZWWW-APP"
+    ]
+  }
+}

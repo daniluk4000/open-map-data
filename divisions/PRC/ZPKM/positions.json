@@ -1,0 +1,74 @@
+{
+  "ZPJH-APP": {
+    "name": "Banna Approach",
+    "prefixes": [
+      "ZPJH"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZPLJ-APP": {
+    "name": "Lijiang Approach",
+    "prefixes": [
+      "ZPLJ"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZPPP-APP": {
+    "name": "Kunming Approach",
+    "prefixes": [
+      "ZPPP"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZUCK-APP": {
+    "name": "Chongqing Approach",
+    "prefixes": [
+      "ZUCK"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZUGY-APP": {
+    "name": "Guiyang Approach",
+    "prefixes": [
+      "ZUGY"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZULS-APP": {
+    "name": "Lhasa Approach",
+    "prefixes": [
+      "ZULS"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZULZ-APP": {
+    "name": "Chuannan Approach",
+    "prefixes": [
+      "ZULZ"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZUUU-APP": {
+    "name": "Chengdu Approach",
+    "prefixes": [
+      "ZUUU"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  }
+}

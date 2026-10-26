@@ -1,0 +1,30 @@
+{
+  "ZJHK": {
+    "name": "Haikou Meilan",
+    "coordinate": [
+      110.458038,
+      19.934412
+    ]
+  },
+  "ZJQH": {
+    "name": "Qionghai Bo'ao",
+    "coordinate": [
+      110.454289,
+      19.138169
+    ]
+  },
+  "ZJSY": {
+    "name": "Sanya Phoenix",
+    "coordinate": [
+      109.412519,
+      18.302678
+    ]
+  },
+  "ZJYX": {
+    "name": "Sansha Yongxing",
+    "coordinate": [
+      112.345254,
+      16.834267
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "ZYAS": {
+    "name": "Anshan Teng'ao",
+    "coordinate": [
+      122.852721,
+      41.107035
+    ]
+  },
+  "ZYBA": {
+    "name": "Baicheng Chang'an",
+    "coordinate": [
+      123.02051,
+      45.504546
+    ]
+  },
+  "ZYBS": {
+    "name": "Baishan Changbaishan",
+    "coordinate": [
+      127.601825,
+      42.067865
+    ]
+  },
+  "ZYCC": {
+    "name": "Changchun Longjia",
+    "coordinate": [
+      125.686675,
+      43.997632
+    ]
+  },
+  "ZYCH": {
+    "name": "Changhai",
+    "coordinate": [
+      122.666456,
+      39.26552
+    ]
+  },
+  "ZYCY": {
+    "name": "Chaoyang",
+    "coordinate": [
+      120.43441,
+      41.537634
+    ]
+  },
+  "ZYDD": {
+    "name": "Dandong Langtou",
+    "coordinate": [
+      124.286485,
+      40.026015
+    ]
+  },
+  "ZYDQ": {
+    "name": "Daqing Sartu",
+    "coordinate": [
+      125.229242,
+      46.586787
+    ]
+  },
+  "ZYDU": {
+    "name": "Wudalianchi Dedu",
+    "coordinate": [
+      126.129612,
+      48.440236
+    ]
+  },
+  "ZYFY": {
+    "name": "Fuyuan Dongji",
+    "coordinate": [
+      134.363886,
+      48.196733
+    ]
+  },
+  "ZYHB": {
+    "name": "Harbin Taiping",
+    "coordinate": [
+      126.250494,
+      45.623947
+    ]
+  },
+  "ZYHE": {
+    "name": "Heihe Aihui",
+    "coordinate": [
+      127.308353,
+      50.172119
+    ]
+  },
+  "ZYJD": {
+    "name": "Daxing'anling Oroqen",
+    "coordinate": [
+      124.117888,
+      50.370563
+    ]
+  },
+  "ZYJM": {
+    "name": "Jiamusi",
+    "coordinate": [
+      130.464684,
+      46.844202
+    ]
+  },
+  "ZYJS": {
+    "name": "Jiansanjiang Shidi",
+    "coordinate": [
+      132.657229,
+      47.108232
+    ]
+  },
+  "ZYJX": {
+    "name": "Jixi Xingkaihu",
+    "coordinate": [
+      131.193757,
+      45.293874
+    ]
+  },
+  "ZYJZ": {
+    "name": "Jinzhou Jinzhouwan",
+    "coordinate": [
+      121.276965,
+      40.936636
+    ]
+  },
+  "ZYLD": {
+    "name": "Yichun Lindu",
+    "coordinate": [
+      128.828894,
+      47.718281
+    ]
+  },
+  "ZYMD": {
+    "name": "Mudanjiang Hailang",
+    "coordinate": [
+      129.569319,
+      44.524005
+    ]
+  },
+  "ZYMH": {
+    "name": "Mohe Gulian",
+    "coordinate": [
+      122.4212,
+      52.920418
+    ]
+  },
+  "ZYQQ": {
+    "name": "Qiqihar Sanjiazi",
+    "coordinate": [
+      123.908469,
+      47.227544
+    ]
+  },
+  "ZYSD": {
+    "name": "Suifenhe Dongning",
+    "coordinate": [
+      130.847785,
+      44.456901
+    ]
+  },
+  "ZYSQ": {
+    "name": "Songyuan Chaganhu",
+    "coordinate": [
+      124.552536,
+      44.931088
+    ]
+  },
+  "ZYTL": {
+    "name": "Dalian Zhoushuizi",
+    "coordinate": [
+      121.530568,
+      38.959111
+    ]
+  },
+  "ZYTN": {
+    "name": "Tonghua Sanyuanpu",
+    "coordinate": [
+      125.73317,
+      42.048312
+    ]
+  },
+  "ZYTX": {
+    "name": "Shenyang Taoxian",
+    "coordinate": [
+      123.485889,
+      41.639256
+    ]
+  },
+  "ZYYJ": {
+    "name": "Yanji Chaoyangchuan",
+    "coordinate": [
+      129.451457,
+      42.8835
+    ]
+  },
+  "ZYYK": {
+    "name": "Yingkou Lanqi",
+    "coordinate": [
+      122.359052,
+      40.542243
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "ZHCC": {
+    "name": "Zhengzhou ACC - Wuhan FIR - Zhengzhou",
+    "prefixes": [
+      "ZHCC"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      114.531994,
+      34.309964
+    ]
+  },
+  "ZHCC-ZZW": {
+    "name": "Zhengzhou ACC West Sector - Wuhan FIR - Zhengzhou",
+    "prefixes": [
+      "ZHCC_W"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      112.532796,
+      33.914624
+    ]
+  }
+}

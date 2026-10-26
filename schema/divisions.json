@@ -18,8 +18,16 @@
               "type": "string"
             }
           },
-          "suffix": {
-            "type": "string"
+          "suffixes": {
+            "type": "array",
+            "examples": [
+              "APP",
+              "DEP"
+            ],
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
           },
           "callsign": {
             "type": "string",
@@ -41,7 +49,7 @@
           },
           {
             "required": [
-              "suffix"
+              "suffixes"
             ]
           }
         ]

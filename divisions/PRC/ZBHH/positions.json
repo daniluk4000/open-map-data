@@ -1,0 +1,28 @@
+{
+  "ZBHH": {
+    "name": "Hohhot ACC - Beijing FIR - Hohhot",
+    "prefixes": [
+      "ZBHH"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      113.953371,
+      43.10609
+    ]
+  },
+  "ZBHH-HHW": {
+    "name": "Hohhot ACC West Sector - Beijing FIR - Hohhot",
+    "prefixes": [
+      "ZBHH_W"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      109.089494,
+      40.793561
+    ]
+  }
+}

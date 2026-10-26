@@ -1,0 +1,50 @@
+{
+  "ZGGG-APP": {
+    "volumes": [
+      "ZGGG-APP"
+    ],
+    "positions": [
+      "ZGGG-APP"
+    ]
+  },
+  "ZGHA-APP": {
+    "volumes": [
+      "ZGHA-APP"
+    ],
+    "positions": [
+      "ZGHA-APP"
+    ]
+  },
+  "ZGKL-APP": {
+    "volumes": [
+      "ZGKL-APP"
+    ],
+    "positions": [
+      "ZGKL-APP"
+    ]
+  },
+  "ZGNN-APP": {
+    "volumes": [
+      "ZGNN-APP"
+    ],
+    "positions": [
+      "ZGNN-APP"
+    ]
+  },
+  "ZGOW-APP": {
+    "volumes": [
+      "ZGOW-APP"
+    ],
+    "positions": [
+      "ZGOW-APP"
+    ]
+  },
+  "ZGZJ-APP": {
+    "volumes": [
+      "ZGZJ-APP"
+    ],
+    "positions": [
+      "ZGZJ-APP"
+    ]
+  }
+}

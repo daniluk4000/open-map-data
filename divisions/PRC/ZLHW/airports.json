@@ -1,0 +1,170 @@
+{
+  "ZLAK": {
+    "name": "Ankang Fuqiang",
+    "coordinate": [
+      108.873016,
+      32.756452
+    ]
+  },
+  "ZLDH": {
+    "name": "Dunhuang Mogao",
+    "coordinate": [
+      94.808284,
+      40.160859
+    ]
+  },
+  "ZLDL": {
+    "name": "Haixi Delingha",
+    "coordinate": [
+      97.268683,
+      37.125342
+    ]
+  },
+  "ZLGL": {
+    "name": "Golog Maqin",
+    "coordinate": [
+      100.300907,
+      34.418944
+    ]
+  },
+  "ZLGM": {
+    "name": "Golmud",
+    "coordinate": [
+      94.785314,
+      36.399291
+    ]
+  },
+  "ZLGY": {
+    "name": "Guyuan Liupanshan",
+    "coordinate": [
+      106.216771,
+      36.078831
+    ]
+  },
+  "ZLHB": {
+    "name": "Haibei Qilian",
+    "coordinate": [
+      100.645514,
+      38.009244
+    ]
+  },
+  "ZLHX": {
+    "name": "Haixi Mangya",
+    "coordinate": [
+      90.840403,
+      38.198612
+    ]
+  },
+  "ZLHZ": {
+    "name": "Hanzhong Chenggu",
+    "coordinate": [
+      107.204095,
+      33.133347
+    ]
+  },
+  "ZLIC": {
+    "name": "Yinchuan Hedong",
+    "coordinate": [
+      106.391976,
+      38.320703
+    ]
+  },
+  "ZLJC": {
+    "name": "Jinchang Jinchuan",
+    "coordinate": [
+      102.347558,
+      38.541677
+    ]
+  },
+  "ZLJQ": {
+    "name": "Jiayuguan Jiuquan",
+    "coordinate": [
+      98.482203,
+      39.767403
+    ]
+  },
+  "ZLLL": {
+    "name": "Lanzhou Zhongchuan",
+    "coordinate": [
+      103.620045,
+      36.515621
+    ]
+  },
+  "ZLLN": {
+    "name": "Longnan Chengxian",
+    "coordinate": [
+      105.788208,
+      33.790843
+    ]
+  },
+  "ZLQY": {
+    "name": "Qingyang Xifeng",
+    "coordinate": [
+      107.599837,
+      35.802861
+    ]
+  },
+  "ZLTS": {
+    "name": "Tianshui Maijishan",
+    "coordinate": [
+      105.859447,
+      34.559612
+    ]
+  },
+  "ZLXH": {
+    "name": "Gannan Xiahe",
+    "coordinate": [
+      102.622455,
+      34.819653
+    ]
+  },
+  "ZLXN": {
+    "name": "Xining Caojiapu",
+    "coordinate": [
+      102.040398,
+      36.529974
+    ]
+  },
+  "ZLXY": {
+    "name": "Xi'an Xianyang",
+    "coordinate": [
+      108.752252,
+      34.446715
+    ]
+  },
+  "ZLYA": {
+    "name": "Yan'An Nanniwan",
+    "coordinate": [
+      109.465063,
+      36.479061
+    ]
+  },
+  "ZLYL": {
+    "name": "Yulin Yuyang",
+    "coordinate": [
+      109.592483,
+      38.357265
+    ]
+  },
+  "ZLYS": {
+    "name": "Yushu Batang",
+    "coordinate": [
+      97.124047,
+      32.824508
+    ]
+  },
+  "ZLZW": {
+    "name": "Zhongwei Shapotou",
+    "coordinate": [
+      105.154998,
+      37.572381
+    ]
+  },
+  "ZLZY": {
+    "name": "Zhangye Ganzhou",
+    "coordinate": [
+      100.660692,
+      38.808473
+    ]
+  }
+}

@@ -1,0 +1,5852 @@
+{
+  "ZBAA": {
+    "name": "Beijing Capital",
+    "coordinate": [
+      116.5908,
+      40.074069
+    ],
+    "iata": "PEK",
+    "icao": "ZBAA",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBAD": {
+    "name": "Beijing Daxing",
+    "coordinate": [
+      116.398586,
+      39.500895
+    ],
+    "icao": "ZBAD",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBAL": {
+    "name": "Alxa Left Banner Bayanhot",
+    "coordinate": [
+      105.583644,
+      38.748871
+    ],
+    "icao": "ZBAL",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBAR": {
+    "name": "Alxa Right Banner Badain Jaran",
+    "coordinate": [
+      101.549451,
+      39.225828
+    ],
+    "icao": "ZBAR",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBCD": {
+    "name": "Chengde Puning",
+    "coordinate": [
+      118.076224,
+      41.121105
+    ],
+    "icao": "ZBCD",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBCF": {
+    "name": "Chifeng Yulong",
+    "coordinate": [
+      118.839868,
+      42.160613
+    ],
+    "icao": "ZBCF",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBCZ": {
+    "name": "Changzhi Wangcun",
+    "coordinate": [
+      113.12634,
+      36.246642
+    ],
+    "icao": "ZBCZ",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBDH": {
+    "name": "Qinhuangdao Beidaihe",
+    "coordinate": [
+      119.061484,
+      39.666382
+    ],
+    "icao": "ZBDH",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBDS": {
+    "name": "Ordos Ejinhoro",
+    "coordinate": [
+      109.862978,
+      39.492435
+    ],
+    "icao": "ZBDS",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBDT": {
+    "name": "Datong Yungang",
+    "coordinate": [
+      113.48313,
+      40.060176
+    ],
+    "icao": "ZBDT",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBEN": {
+    "name": "Ejinaqi Taolai",
+    "coordinate": [
+      101.001439,
+      42.015035
+    ],
+    "icao": "ZBEN",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBER": {
+    "name": "Erenhot Saiwusu",
+    "coordinate": [
+      112.092534,
+      43.42351
+    ],
+    "icao": "ZBER",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBES": {
+    "name": "Arxan Yirshi",
+    "coordinate": [
+      119.912265,
+      47.311371
+    ],
+    "icao": "ZBES",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBHD": {
+    "name": "Handan",
+    "coordinate": [
+      114.429592,
+      36.523759
+    ],
+    "icao": "ZBHD",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBHH": {
+    "name": "Hohhot Baita",
+    "coordinate": [
+      111.824071,
+      40.849706
+    ],
+    "icao": "ZBHH",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBHZ": {
+    "name": "Holingol Huolinhe",
+    "coordinate": [
+      119.406808,
+      45.487297
+    ],
+    "icao": "ZBHZ",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBLA": {
+    "name": "Hulunbuir Hailar",
+    "coordinate": [
+      119.825537,
+      49.205281
+    ],
+    "icao": "ZBLA",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBLF": {
+    "name": "Linfen Yaodu",
+    "coordinate": [
+      111.641645,
+      36.134085
+    ],
+    "icao": "ZBLF",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBLL": {
+    "name": "Lyuliang Dawu",
+    "coordinate": [
+      111.142345,
+      37.682588
+    ],
+    "icao": "ZBLL",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBMZ": {
+    "name": "Manzhouli Xijiao",
+    "coordinate": [
+      117.329042,
+      49.567614
+    ],
+    "icao": "ZBMZ",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBOW": {
+    "name": "Baotou Donghe",
+    "coordinate": [
+      109.996548,
+      40.55988
+    ],
+    "icao": "ZBOW",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBSG": {
+    "name": "Shuozhou Zirun",
+    "coordinate": [
+      112.596944,
+      39.474722
+    ],
+    "icao": "ZBSG",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBSJ": {
+    "name": "Shijiazhuang Zhengding",
+    "coordinate": [
+      114.697105,
+      38.281594
+    ],
+    "icao": "ZBSJ",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBSN": {
+    "name": "Tangshan Sannyuhe",
+    "coordinate": [
+      118.003397,
+      39.717489
+    ],
+    "icao": "ZBSN",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBTJ": {
+    "name": "Tianjin Binhai",
+    "coordinate": [
+      117.350487,
+      39.116923
+    ],
+    "icao": "ZBTJ",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBTL": {
+    "name": "Tongliao",
+    "coordinate": [
+      122.198849,
+      43.556151
+    ],
+    "icao": "ZBTL",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBUC": {
+    "name": "Ulanqab Jining",
+    "coordinate": [
+      113.107413,
+      41.130837
+    ],
+    "icao": "ZBUC",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBUH": {
+    "name": "Wuhai",
+    "coordinate": [
+      106.798528,
+      39.793867
+    ],
+    "icao": "ZBUH",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBUL": {
+    "name": "Ulanhot Yilelite",
+    "coordinate": [
+      122.007778,
+      46.193682
+    ],
+    "icao": "ZBUL",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBXH": {
+    "name": "Xilinhot",
+    "coordinate": [
+      115.963831,
+      43.914985
+    ],
+    "icao": "ZBXH",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBXT": {
+    "name": "Xingtai Dalian",
+    "coordinate": [
+      114.429167,
+      36.882778
+    ],
+    "icao": "ZBXT",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBXZ": {
+    "name": "Xinzhou Wutaishan",
+    "coordinate": [
+      112.96866,
+      38.596337
+    ],
+    "icao": "ZBXZ",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBYC": {
+    "name": "Yuncheng Yanhu",
+    "coordinate": [
+      111.034386,
+      35.118001
+    ],
+    "icao": "ZBYC",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBYN": {
+    "name": "Taiyuan Wusu",
+    "coordinate": [
+      112.629125,
+      37.748422
+    ],
+    "icao": "ZBYN",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBYZ": {
+    "name": "Bayannur Tianjitai",
+    "coordinate": [
+      107.73913,
+      40.9264
+    ],
+    "icao": "ZBYZ",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBZJ": {
+    "name": "Zhangjiakou Ningyuan",
+    "coordinate": [
+      114.931071,
+      40.739298
+    ],
+    "icao": "ZBZJ",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZBZL": {
+    "name": "Zhalantun Genghiskhan",
+    "coordinate": [
+      122.768587,
+      47.865845
+    ],
+    "icao": "ZBZL",
+    "division": "PRC",
+    "fir": "ZBPE",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGBH": {
+    "name": "Beihai Fucheng",
+    "coordinate": [
+      109.294584,
+      21.539938
+    ],
+    "icao": "ZGBH",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGBS": {
+    "name": "Baise Bama",
+    "coordinate": [
+      106.959725,
+      23.720054
+    ],
+    "icao": "ZGBS",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGCD": {
+    "name": "Changde Taohuayuan",
+    "coordinate": [
+      111.639759,
+      28.919624
+    ],
+    "icao": "ZGCD",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGCJ": {
+    "name": "Huaihua Zhijiang",
+    "coordinate": [
+      109.699764,
+      27.442357
+    ],
+    "icao": "ZGCJ",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGCZ": {
+    "name": "Chenzhou Beihu",
+    "coordinate": [
+      112.845555,
+      25.754255
+    ],
+    "icao": "ZGCZ",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGDY": {
+    "name": "Zhangjiajie Hehua",
+    "coordinate": [
+      110.443932,
+      29.101879
+    ],
+    "icao": "ZGDY",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGFS": {
+    "name": "Foshan Shadi",
+    "coordinate": [
+      113.071541,
+      23.083455
+    ],
+    "icao": "ZGFS",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGGG": {
+    "name": "Guangzhou Baiyun",
+    "coordinate": [
+      113.298764,
+      23.393217
+    ],
+    "icao": "ZGGG",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGHA": {
+    "name": "Changsha Huanghua",
+    "coordinate": [
+      113.221163,
+      28.197546
+    ],
+    "icao": "ZGHA",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGHC": {
+    "name": "Hechi Jinchengjiang",
+    "coordinate": [
+      107.710966,
+      24.80586
+    ],
+    "icao": "ZGHC",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGHY": {
+    "name": "Hengyang Nanyue",
+    "coordinate": [
+      112.618634,
+      26.722411
+    ],
+    "icao": "ZGHY",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGHZ": {
+    "name": "Huizhou Pingtan",
+    "coordinate": [
+      114.601026,
+      23.049379
+    ],
+    "icao": "ZGHZ",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGKL": {
+    "name": "Guilin Liangjiang",
+    "coordinate": [
+      110.03982,
+      25.216865
+    ],
+    "icao": "ZGKL",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGLD": {
+    "name": "Luoding",
+    "coordinate": [
+      111.600645,
+      22.71144
+    ],
+    "icao": "ZGLD",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGLG": {
+    "name": "Yongzhou Lingling",
+    "coordinate": [
+      111.609798,
+      26.339321
+    ],
+    "icao": "ZGLG",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGMX": {
+    "name": "Meizhou Meixian",
+    "coordinate": [
+      116.099079,
+      24.264718
+    ],
+    "icao": "ZGMX",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGNN": {
+    "name": "Nanning Wuxu",
+    "coordinate": [
+      108.183823,
+      22.616451
+    ],
+    "icao": "ZGNN",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGNT": {
+    "name": "Shenzhen Nantou",
+    "coordinate": [
+      113.957107,
+      22.594091
+    ],
+    "icao": "ZGNT",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGOW": {
+    "name": "Jieyang Chaoshan",
+    "coordinate": [
+      116.500703,
+      23.552376
+    ],
+    "icao": "ZGOW",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGSD": {
+    "name": "Zhuhai Jinwan",
+    "coordinate": [
+      113.377799,
+      22.039409
+    ],
+    "icao": "ZGSD",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGSG": {
+    "name": "Shaoguan Danxia",
+    "coordinate": [
+      113.420989,
+      24.975256
+    ],
+    "icao": "ZGSG",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGSY": {
+    "name": "Shaoyang Wugang",
+    "coordinate": [
+      110.641026,
+      26.805287
+    ],
+    "icao": "ZGSY",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGSZ": {
+    "name": "Shenzhen Bao'an",
+    "coordinate": [
+      113.81199,
+      22.638927
+    ],
+    "iata": "ZGJD",
+    "icao": "ZGSZ",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGUH": {
+    "name": "Zhuhai Jiuzhou",
+    "coordinate": [
+      113.590535,
+      22.252097
+    ],
+    "icao": "ZGUH",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGWZ": {
+    "name": "Wuzhou Xijiang",
+    "coordinate": [
+      111.099351,
+      23.402656
+    ],
+    "icao": "ZGWZ",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGXX": {
+    "name": "Xiangxi Biancheng",
+    "coordinate": [
+      109.519722,
+      28.495278
+    ],
+    "icao": "ZGXX",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGYJ": {
+    "name": "Yangjiang Heshan",
+    "coordinate": [
+      112.102364,
+      21.960816
+    ],
+    "icao": "ZGYJ",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGYL": {
+    "name": "Yulin Fumian",
+    "coordinate": [
+      110.119638,
+      22.433647
+    ],
+    "icao": "ZGYL",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGYY": {
+    "name": "Yueyang Sanhe",
+    "coordinate": [
+      113.281633,
+      29.313677
+    ],
+    "icao": "ZGYY",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGZH": {
+    "name": "Liuzhou Bailian",
+    "coordinate": [
+      109.391927,
+      24.208303
+    ],
+    "icao": "ZGZH",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZGZJ": {
+    "name": "Zhanjiang Wuchuan",
+    "coordinate": [
+      110.59375,
+      21.483525
+    ],
+    "icao": "ZGZJ",
+    "division": "PRC",
+    "fir": "ZGZU",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZHCC": {
+    "name": "Zhengzhou Xinzheng",
+    "coordinate": [
+      113.841712,
+      34.517497
+    ],
+    "icao": "ZHCC",
+    "division": "PRC",
+    "fir": "ZHWH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZHEC": {
+    "name": "Ezhou Huahu",
+    "coordinate": [
+      115.0296884,
+      30.342675
+    ],
+    "icao": "ZHEC",
+    "division": "PRC",
+    "fir": "ZHWH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZHES": {
+    "name": "Enshi Xujiaping",
+    "coordinate": [
+      109.48565,
+      30.320812
+    ],
+    "icao": "ZHES",
+    "division": "PRC",
+    "fir": "ZHWH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZHHH": {
+    "name": "Wuhan Tianhe",
+    "coordinate": [
+      114.210629,
+      30.785399
+    ],
+    "icao": "ZHHH",
+    "division": "PRC",
+    "fir": "ZHWH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZHJZ": {
+    "name": "Jingzhou Shashi",
+    "coordinate": [
+      112.447524,
+      30.293012
+    ],
+    "icao": "ZHJZ",
+    "division": "PRC",
+    "fir": "ZHWH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZHLY": {
+    "name": "Luoyang",
+    "coordinate": [
+      112.388898,
+      34.741131
+    ],
+    "icao": "ZHLY",
+    "division": "PRC",
+    "fir": "ZHWH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZHNY": {
+    "name": "Nanyang Jiangying",
+    "coordinate": [
+      112.616091,
+      32.980059
+    ],
+    "icao": "ZHNY",
+    "division": "PRC",
+    "fir": "ZHWH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZHQQ": {
+    "name": "Anyang Hongqiqu",
+    "coordinate": [
+      114.461944,
+      35.870833
+    ],
+    "icao": "ZHQQ",
+    "division": "PRC",
+    "fir": "ZHWH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZHSN": {
+    "name": "Shennongjia Hongping",
+    "coordinate": [
+      110.339973,
+      31.625522
+    ],
+    "icao": "ZHSN",
+    "division": "PRC",
+    "fir": "ZHWH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZHSY": {
+    "name": "Shiyan Wudangshan",
+    "coordinate": [
+      110.907064,
+      32.594162
+    ],
+    "icao": "ZHSY",
+    "division": "PRC",
+    "fir": "ZHWH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZHXF": {
+    "name": "Xiangyang Liuji",
+    "coordinate": [
+      112.290592,
+      32.151495
+    ],
+    "icao": "ZHXF",
+    "division": "PRC",
+    "fir": "ZHWH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZHXY": {
+    "name": "Xinyang Minggang",
+    "coordinate": [
+      114.078247,
+      32.540312
+    ],
+    "icao": "ZHXY",
+    "division": "PRC",
+    "fir": "ZHWH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZHYC": {
+    "name": "Yichang Sanxia",
+    "coordinate": [
+      111.480109,
+      30.55664
+    ],
+    "icao": "ZHYC",
+    "division": "PRC",
+    "fir": "ZHWH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZJHK": {
+    "name": "Haikou Meilan",
+    "coordinate": [
+      110.458038,
+      19.934412
+    ],
+    "icao": "ZJHK",
+    "division": "PRC",
+    "fir": "ZJSA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZJQH": {
+    "name": "Qionghai Bo'ao",
+    "coordinate": [
+      110.454289,
+      19.138169
+    ],
+    "icao": "ZJQH",
+    "division": "PRC",
+    "fir": "ZJSA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZJSY": {
+    "name": "Sanya Phoenix",
+    "coordinate": [
+      109.412519,
+      18.302678
+    ],
+    "icao": "ZJSY",
+    "division": "PRC",
+    "fir": "ZJSA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZJYX": {
+    "name": "Sansha Yongxing",
+    "coordinate": [
+      112.345254,
+      16.834267
+    ],
+    "icao": "ZJYX",
+    "division": "PRC",
+    "fir": "ZJSA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLAK": {
+    "name": "Ankang Fuqiang",
+    "coordinate": [
+      108.873016,
+      32.756452
+    ],
+    "icao": "ZLAK",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLDH": {
+    "name": "Dunhuang Mogao",
+    "coordinate": [
+      94.808284,
+      40.160859
+    ],
+    "icao": "ZLDH",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLDL": {
+    "name": "Haixi Delingha",
+    "coordinate": [
+      97.268683,
+      37.125342
+    ],
+    "icao": "ZLDL",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLGL": {
+    "name": "Golog Maqin",
+    "coordinate": [
+      100.300907,
+      34.418944
+    ],
+    "icao": "ZLGL",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLGM": {
+    "name": "Golmud",
+    "coordinate": [
+      94.785314,
+      36.399291
+    ],
+    "icao": "ZLGM",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLGY": {
+    "name": "Guyuan Liupanshan",
+    "coordinate": [
+      106.216771,
+      36.078831
+    ],
+    "icao": "ZLGY",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLHB": {
+    "name": "Haibei Qilian",
+    "coordinate": [
+      100.645514,
+      38.009244
+    ],
+    "icao": "ZLHB",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLHX": {
+    "name": "Haixi Mangya",
+    "coordinate": [
+      90.840403,
+      38.198612
+    ],
+    "icao": "ZLHX",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLHZ": {
+    "name": "Hanzhong Chenggu",
+    "coordinate": [
+      107.204095,
+      33.133347
+    ],
+    "icao": "ZLHZ",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLIC": {
+    "name": "Yinchuan Hedong",
+    "coordinate": [
+      106.391976,
+      38.320703
+    ],
+    "icao": "ZLIC",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLJC": {
+    "name": "Jinchang Jinchuan",
+    "coordinate": [
+      102.347558,
+      38.541677
+    ],
+    "icao": "ZLJC",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLJQ": {
+    "name": "Jiayuguan Jiuquan",
+    "coordinate": [
+      98.482203,
+      39.767403
+    ],
+    "icao": "ZLJQ",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLLL": {
+    "name": "Lanzhou Zhongchuan",
+    "coordinate": [
+      103.620045,
+      36.515621
+    ],
+    "icao": "ZLLL",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLLN": {
+    "name": "Longnan Chengxian",
+    "coordinate": [
+      105.788208,
+      33.790843
+    ],
+    "icao": "ZLLN",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLQY": {
+    "name": "Qingyang Xifeng",
+    "coordinate": [
+      107.599837,
+      35.802861
+    ],
+    "icao": "ZLQY",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLTS": {
+    "name": "Tianshui Maijishan",
+    "coordinate": [
+      105.859447,
+      34.559612
+    ],
+    "icao": "ZLTS",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLXH": {
+    "name": "Gannan Xiahe",
+    "coordinate": [
+      102.622455,
+      34.819653
+    ],
+    "icao": "ZLXH",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLXN": {
+    "name": "Xining Caojiapu",
+    "coordinate": [
+      102.040398,
+      36.529974
+    ],
+    "icao": "ZLXN",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLXY": {
+    "name": "Xi'an Xianyang",
+    "coordinate": [
+      108.752252,
+      34.446715
+    ],
+    "icao": "ZLXY",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLYA": {
+    "name": "Yan'An Nanniwan",
+    "coordinate": [
+      109.465063,
+      36.479061
+    ],
+    "icao": "ZLYA",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLYL": {
+    "name": "Yulin Yuyang",
+    "coordinate": [
+      109.592483,
+      38.357265
+    ],
+    "icao": "ZLYL",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLYS": {
+    "name": "Yushu Batang",
+    "coordinate": [
+      97.124047,
+      32.824508
+    ],
+    "icao": "ZLYS",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLZW": {
+    "name": "Zhongwei Shapotou",
+    "coordinate": [
+      105.154998,
+      37.572381
+    ],
+    "icao": "ZLZW",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZLZY": {
+    "name": "Zhangye Ganzhou",
+    "coordinate": [
+      100.660692,
+      38.808473
+    ],
+    "icao": "ZLZY",
+    "division": "PRC",
+    "fir": "ZLHW",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZPBS": {
+    "name": "Baoshan Yunrui",
+    "coordinate": [
+      99.167322,
+      25.051137
+    ],
+    "icao": "ZPBS",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZPCW": {
+    "name": "Cangyuan Washan",
+    "coordinate": [
+      99.374001,
+      23.277076
+    ],
+    "icao": "ZPCW",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZPDL": {
+    "name": "Dali Fengyi",
+    "coordinate": [
+      100.319907,
+      25.650323
+    ],
+    "icao": "ZPDL",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZPDQ": {
+    "name": "Diqing Shangrila",
+    "coordinate": [
+      99.677209,
+      27.79274
+    ],
+    "icao": "ZPDQ",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZPJH": {
+    "name": "Xishuangbanna Gasa",
+    "coordinate": [
+      100.759071,
+      21.974448
+    ],
+    "icao": "ZPJH",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZPJM": {
+    "name": "Lancang Jingmai",
+    "coordinate": [
+      99.785148,
+      22.417467
+    ],
+    "icao": "ZPJM",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZPLC": {
+    "name": "Lincang Boshang",
+    "coordinate": [
+      100.024088,
+      23.739582
+    ],
+    "icao": "ZPLC",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZPLJ": {
+    "name": "Lijiang Sanyi",
+    "coordinate": [
+      100.245738,
+      26.679824
+    ],
+    "icao": "ZPLJ",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZPMS": {
+    "name": "Dehong Mangshi",
+    "coordinate": [
+      98.531706,
+      24.401106
+    ],
+    "icao": "ZPMS",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZPNL": {
+    "name": "Ninglang Luguhu",
+    "coordinate": [
+      100.760239,
+      27.541023
+    ],
+    "icao": "ZPNL",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZPPP": {
+    "name": "Kunming Changshui",
+    "coordinate": [
+      102.929247,
+      25.10123
+    ],
+    "icao": "ZPPP",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZPSM": {
+    "name": "Pu'er Simao",
+    "coordinate": [
+      100.959645,
+      22.792678
+    ],
+    "icao": "ZPSM",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZPTC": {
+    "name": "Tengchong Tuofeng",
+    "coordinate": [
+      98.486587,
+      24.938991
+    ],
+    "icao": "ZPTC",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZPWS": {
+    "name": "Wenshan Yanshan",
+    "coordinate": [
+      104.324957,
+      23.558069
+    ],
+    "icao": "ZPWS",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZPZT": {
+    "name": "Zhaotong",
+    "coordinate": [
+      103.757055,
+      27.328585
+    ],
+    "icao": "ZPZT",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUAL": {
+    "name": "Ali Kunsha",
+    "coordinate": [
+      80.05338,
+      32.109406
+    ],
+    "icao": "ZUAL",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUAS": {
+    "name": "Anshun Huangguoshu",
+    "coordinate": [
+      105.87379,
+      26.26134
+    ],
+    "icao": "ZUAS",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUBC": {
+    "name": "Beichuan",
+    "coordinate": [
+      104.459163,
+      31.581794
+    ],
+    "icao": "ZUBC",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUBD": {
+    "name": "Changdu Bangda",
+    "coordinate": [
+      97.107461,
+      30.553751
+    ],
+    "icao": "ZUBD",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUBJ": {
+    "name": "Bijie Feixiong",
+    "coordinate": [
+      105.472241,
+      27.266908
+    ],
+    "icao": "ZUBJ",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUBZ": {
+    "name": "Bazhong Enyang",
+    "coordinate": [
+      106.643283,
+      31.73761
+    ],
+    "icao": "ZUBZ",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUCK": {
+    "name": "Chongqing Jiangbei",
+    "coordinate": [
+      106.639012,
+      29.717113
+    ],
+    "icao": "ZUCK",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUDA": {
+    "name": "Dazhou Jinya",
+    "coordinate": [
+      107.437111,
+      31.047611
+    ],
+    "icao": "ZUDA",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUDC": {
+    "name": "Daocheng Yading",
+    "coordinate": [
+      100.052875,
+      29.323175
+    ],
+    "icao": "ZUDC",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUDG": {
+    "name": "Daguo",
+    "coordinate": [
+      104.080277,
+      30.197222
+    ],
+    "icao": "ZUDG",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUDJ": {
+    "name": "Tongren Dejiang",
+    "coordinate": [
+      108.1615,
+      28.138314
+    ],
+    "icao": "ZUDJ",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUDR": {
+    "name": "Rikaze Dingri",
+    "coordinate": [
+      86.8103,
+      28.6025
+    ],
+    "icao": "ZUDR",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUFM": {
+    "name": "Zigong Fengming",
+    "coordinate": [
+      104.625425,
+      29.37593
+    ],
+    "icao": "ZUFM",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUGH": {
+    "name": "Guanghan",
+    "coordinate": [
+      104.32987,
+      30.948446
+    ],
+    "icao": "ZUGH",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUGU": {
+    "name": "Guangyuan Panlong",
+    "coordinate": [
+      105.693709,
+      32.38935
+    ],
+    "icao": "ZUGU",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUGY": {
+    "name": "Guiyang Longdongbao",
+    "coordinate": [
+      106.799047,
+      26.537507
+    ],
+    "icao": "ZUGY",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUGZ": {
+    "name": "Ganzi Gesaer",
+    "coordinate": [
+      99.557675,
+      31.755788
+    ],
+    "icao": "ZUGZ",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUHA": {
+    "name": "Chongzhou Haoyun",
+    "coordinate": [
+      103.647875,
+      30.65785
+    ],
+    "icao": "ZUHA",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUHY": {
+    "name": "A'Ba Hongyuan",
+    "coordinate": [
+      102.351893,
+      32.531566
+    ],
+    "icao": "ZUHY",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUHZ": {
+    "name": "Jintang Huaizhou",
+    "coordinate": [
+      104.529456,
+      30.677339
+    ],
+    "icao": "ZUHZ",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUJZ": {
+    "name": "Jiuzhai Huanglong",
+    "coordinate": [
+      103.68314,
+      32.85661
+    ],
+    "icao": "ZUJZ",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUKD": {
+    "name": "Kangding",
+    "coordinate": [
+      101.738668,
+      30.142979
+    ],
+    "icao": "ZUKD",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUKJ": {
+    "name": "Kaili Huangping",
+    "coordinate": [
+      107.98724,
+      26.971613
+    ],
+    "icao": "ZUKJ",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZULA": {
+    "name": "Langzhong Gucheng",
+    "coordinate": [
+      106.03535,
+      31.50366
+    ],
+    "icao": "ZULA",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZULB": {
+    "name": "Qiannan Libo",
+    "coordinate": [
+      107.962642,
+      25.451927
+    ],
+    "icao": "ZULB",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZULD": {
+    "name": "Luodai",
+    "coordinate": [
+      104.319586,
+      30.651411
+    ],
+    "icao": "ZULD",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZULS": {
+    "name": "Lhasa Konggar",
+    "coordinate": [
+      90.91267,
+      29.297854
+    ],
+    "icao": "ZULS",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZULZ": {
+    "name": "Luzhou Yunlong",
+    "coordinate": [
+      105.469248,
+      29.029897
+    ],
+    "icao": "ZULZ",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUMT": {
+    "name": "Zunyi Maotai",
+    "coordinate": [
+      106.434921,
+      27.9626
+    ],
+    "icao": "ZUMT",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUMY": {
+    "name": "Mianyang Nanjiao",
+    "coordinate": [
+      104.740824,
+      31.42878
+    ],
+    "icao": "ZUMY",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUNC": {
+    "name": "Nanchong Gaoping",
+    "coordinate": [
+      106.164896,
+      30.797596
+    ],
+    "icao": "ZUNC",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUNP": {
+    "name": "Liping",
+    "coordinate": [
+      109.150448,
+      26.3226
+    ],
+    "icao": "ZUNP",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUNZ": {
+    "name": "Linzhi Milin",
+    "coordinate": [
+      94.334629,
+      29.303185
+    ],
+    "icao": "ZUNZ",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUPL": {
+    "name": "Ali Pulan",
+    "coordinate": [
+      81.13747,
+      30.39145
+    ],
+    "icao": "ZUPL",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUPS": {
+    "name": "Liupanshui Yuezhao",
+    "coordinate": [
+      104.978306,
+      26.609063
+    ],
+    "icao": "ZUPS",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUQC": {
+    "name": "Qingchengshan Anlong",
+    "coordinate": [
+      103.610278,
+      30.844722
+    ],
+    "icao": "ZUQC",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUQJ": {
+    "name": "Qianjiang Wulingshan",
+    "coordinate": [
+      108.832636,
+      29.515665
+    ],
+    "icao": "ZUQJ",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZURK": {
+    "name": "Rikaze Heping",
+    "coordinate": [
+      89.309806,
+      29.351402
+    ],
+    "icao": "ZURK",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUSH": {
+    "name": "Shannan Lhunze",
+    "coordinate": [
+      92.351,
+      28.4315
+    ],
+    "icao": "ZUSH",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUTE": {
+    "name": "Jiezi",
+    "coordinate": [
+      103.575416,
+      30.816583
+    ],
+    "icao": "ZUTE",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUTF": {
+    "name": "Chengdu Tianfu",
+    "coordinate": [
+      104.445258,
+      30.291841
+    ],
+    "icao": "ZUTF",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUTK": {
+    "name": "Pengshan Jiangkou",
+    "coordinate": [
+      103.940486,
+      30.210013
+    ],
+    "icao": "ZUTK",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUTR": {
+    "name": "Tongren Fenghuang",
+    "coordinate": [
+      109.309443,
+      27.884386
+    ],
+    "icao": "ZUTR",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUUU": {
+    "name": "Chengdu Shuangliu",
+    "coordinate": [
+      103.947811,
+      30.579437
+    ],
+    "icao": "ZUUU",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUWL": {
+    "name": "Chongqing Xiannyushan",
+    "coordinate": [
+      107.693088,
+      29.462899
+    ],
+    "icao": "ZUWL",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUWS": {
+    "name": "Chongqing Wushan",
+    "coordinate": [
+      109.708511,
+      31.067964
+    ],
+    "icao": "ZUWS",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUWX": {
+    "name": "Wanzhou Wuqiao",
+    "coordinate": [
+      108.433727,
+      30.800927
+    ],
+    "icao": "ZUWX",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUXC": {
+    "name": "Xichang Qingshan",
+    "coordinate": [
+      102.183507,
+      27.989355
+    ],
+    "icao": "ZUXC",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUXJ": {
+    "name": "Xinjin",
+    "coordinate": [
+      103.845687,
+      30.422519
+    ],
+    "icao": "ZUXJ",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUYB": {
+    "name": "Yibin Wuliangye",
+    "coordinate": [
+      104.526424,
+      28.858818
+    ],
+    "icao": "ZUYB",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUYI": {
+    "name": "Xingyi Wanfenglin",
+    "coordinate": [
+      104.959506,
+      25.087464
+    ],
+    "icao": "ZUYI",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUZH": {
+    "name": "Panzhihua Bao'anying",
+    "coordinate": [
+      101.798464,
+      26.539443
+    ],
+    "icao": "ZUZH",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZUZY": {
+    "name": "Zunyi Xinzhou",
+    "coordinate": [
+      107.246047,
+      27.810504
+    ],
+    "icao": "ZUZY",
+    "division": "PRC",
+    "fir": "ZPKM",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSAM": {
+    "name": "Xiamen Gaoqi",
+    "coordinate": [
+      118.124364,
+      24.542761
+    ],
+    "icao": "ZSAM",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSAQ": {
+    "name": "Anqing",
+    "coordinate": [
+      117.051157,
+      30.583338
+    ],
+    "icao": "ZSAQ",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSBA": {
+    "name": "Bengbu Tenghu",
+    "coordinate": [
+      117.059578,
+      33.163756
+    ],
+    "icao": "ZSBA",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSBO": {
+    "name": "Bozhou",
+    "coordinate": [
+      115.911089,
+      33.561658
+    ],
+    "icao": "ZSBO",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSCG": {
+    "name": "Changzhou Benniu",
+    "coordinate": [
+      119.770633,
+      31.918874
+    ],
+    "icao": "ZSCG",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSCN": {
+    "name": "Nanchang Changbei",
+    "coordinate": [
+      115.901443,
+      28.862813
+    ],
+    "icao": "ZSCN",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSDY": {
+    "name": "Dongying Shengli",
+    "coordinate": [
+      118.789134,
+      37.50846
+    ],
+    "icao": "ZSDY",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSFY": {
+    "name": "Fuyang",
+    "coordinate": [
+      115.734224,
+      32.882169
+    ],
+    "icao": "ZSFY",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSFZ": {
+    "name": "Fuzhou Changle",
+    "coordinate": [
+      119.662432,
+      25.9341
+    ],
+    "icao": "ZSFZ",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSGS": {
+    "name": "Jinggangshan",
+    "coordinate": [
+      114.737993,
+      26.857715
+    ],
+    "icao": "ZSGS",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSGZ": {
+    "name": "Ganzhou Huangjin",
+    "coordinate": [
+      114.779597,
+      25.848389
+    ],
+    "icao": "ZSGZ",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSHC": {
+    "name": "Hangzhou Xiaoshan",
+    "coordinate": [
+      120.432376,
+      30.228632
+    ],
+    "icao": "ZSHC",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSHZ": {
+    "name": "Heze Mudan",
+    "coordinate": [
+      115.736845,
+      35.214354
+    ],
+    "icao": "ZSHZ",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSJD": {
+    "name": "Jingdezhen Luojia",
+    "coordinate": [
+      117.175486,
+      29.338084
+    ],
+    "icao": "ZSJD",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSJG": {
+    "name": "Jining Da'an",
+    "coordinate": [
+      116.742222,
+      35.647222
+    ],
+    "icao": "ZSJG",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSJH": {
+    "name": "Chizhou Jiuhuashan",
+    "coordinate": [
+      117.688418,
+      30.739751
+    ],
+    "icao": "ZSJH",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSJJ": {
+    "name": "Jiujiang Lushan",
+    "coordinate": [
+      115.801354,
+      29.477139
+    ],
+    "icao": "ZSJJ",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSJN": {
+    "name": "Jinan Yaoqiang",
+    "coordinate": [
+      117.216384,
+      36.857213
+    ],
+    "icao": "ZSJN",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSJU": {
+    "name": "Quzhou",
+    "coordinate": [
+      118.898365,
+      28.966316
+    ],
+    "icao": "ZSJU",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSJX": {
+    "name": "Jiaxing Nanhu",
+    "coordinate": [
+      120.66365,
+      30.699358
+    ],
+    "icao": "ZSJX",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSLG": {
+    "name": "Lianyungang Huaguoshan",
+    "coordinate": [
+      119.178221,
+      34.413691
+    ],
+    "icao": "ZSLG",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSLI": {
+    "name": "Lishui",
+    "coordinate": [
+      119.835278,
+      28.370833
+    ],
+    "icao": "ZSLI",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSLO": {
+    "name": "Liancheng Guanzhaishan",
+    "coordinate": [
+      116.746189,
+      25.675845
+    ],
+    "icao": "ZSLO",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSLQ": {
+    "name": "Taizhou Luqiao",
+    "coordinate": [
+      121.429503,
+      28.56301
+    ],
+    "icao": "ZSLQ",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSLY": {
+    "name": "Linyi Qiyang",
+    "coordinate": [
+      118.412483,
+      35.045523
+    ],
+    "icao": "ZSLY",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSNB": {
+    "name": "Ningbo Lishe",
+    "coordinate": [
+      121.461039,
+      29.826424
+    ],
+    "icao": "ZSNB",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSNJ": {
+    "name": "Nanjing Lukou",
+    "coordinate": [
+      118.860779,
+      31.740106
+    ],
+    "icao": "ZSNJ",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSNT": {
+    "name": "Nantong Xingdong",
+    "coordinate": [
+      120.974957,
+      32.071513
+    ],
+    "icao": "ZSNT",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSOF": {
+    "name": "Hefei Xinqiao",
+    "coordinate": [
+      116.976634,
+      31.987384
+    ],
+    "icao": "ZSOF",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSPD": {
+    "name": "Shanghai Pudong",
+    "coordinate": [
+      121.790844,
+      31.142333
+    ],
+    "icao": "ZSPD",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSQD": {
+    "name": "Qingdao Jiaodong",
+    "coordinate": [
+      120.098729,
+      36.366526
+    ],
+    "icao": "ZSQD",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSQZ": {
+    "name": "Quanzhou Jinjiang",
+    "coordinate": [
+      118.591113,
+      24.799411
+    ],
+    "icao": "ZSQZ",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSRJ": {
+    "name": "Ganzhou Ruijin",
+    "coordinate": [
+      116.08,
+      25.96
+    ],
+    "icao": "ZSRJ",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSRZ": {
+    "name": "Rizhao Shanzihe",
+    "coordinate": [
+      119.323218,
+      35.404764
+    ],
+    "icao": "ZSRZ",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSSH": {
+    "name": "Huai'an Lianshui",
+    "coordinate": [
+      119.147299,
+      33.777701
+    ],
+    "icao": "ZSSH",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSSL": {
+    "name": "Shanghai Longhua",
+    "coordinate": [
+      121.459722,
+      31.167222
+    ],
+    "icao": "ZSSL",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSSM": {
+    "name": "Sanming Shaxian",
+    "coordinate": [
+      117.834513,
+      26.427323
+    ],
+    "icao": "ZSSM",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSSR": {
+    "name": "Shangrao Sanqingshan",
+    "coordinate": [
+      117.964941,
+      28.378986
+    ],
+    "icao": "ZSSR",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSSS": {
+    "name": "Shanghai Hongqiao",
+    "coordinate": [
+      121.335754,
+      31.198609
+    ],
+    "icao": "ZSSS",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSTX": {
+    "name": "Huangshan Tunxi",
+    "coordinate": [
+      118.254883,
+      29.733965
+    ],
+    "icao": "ZSTX",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSWA": {
+    "name": "Wuhu Xuanzhou",
+    "coordinate": [
+      118.6661,
+      31.103844
+    ],
+    "icao": "ZSWA",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSWF": {
+    "name": "Weifang",
+    "coordinate": [
+      119.117708,
+      36.64756
+    ],
+    "icao": "ZSWF",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSWH": {
+    "name": "Weihai Dashuipo",
+    "coordinate": [
+      122.229636,
+      37.186769
+    ],
+    "icao": "ZSWH",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSWX": {
+    "name": "Wuxi Shuofang",
+    "coordinate": [
+      120.430034,
+      31.494545
+    ],
+    "icao": "ZSWX",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSWY": {
+    "name": "Wuyishan",
+    "coordinate": [
+      118.001284,
+      27.702564
+    ],
+    "icao": "ZSWY",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSWZ": {
+    "name": "Wenzhou Longwan",
+    "coordinate": [
+      120.852564,
+      27.911669
+    ],
+    "icao": "ZSWZ",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSXZ": {
+    "name": "Xuzhou Guanyin",
+    "coordinate": [
+      117.556774,
+      34.058989
+    ],
+    "icao": "ZSXZ",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSYA": {
+    "name": "Yangzhou Taizhou",
+    "coordinate": [
+      119.720582,
+      32.563414
+    ],
+    "icao": "ZSYA",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSYC": {
+    "name": "Yichun Mingyueshan",
+    "coordinate": [
+      114.30653,
+      27.802472
+    ],
+    "icao": "ZSYC",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSYN": {
+    "name": "Yancheng Nanyang",
+    "coordinate": [
+      120.202074,
+      33.425875
+    ],
+    "icao": "ZSYN",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSYT": {
+    "name": "Yantai Penglai",
+    "coordinate": [
+      120.978319,
+      37.660803
+    ],
+    "icao": "ZSYT",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSYW": {
+    "name": "Yiwu",
+    "coordinate": [
+      120.032007,
+      29.344877
+    ],
+    "icao": "ZSYW",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZSZS": {
+    "name": "Zhoushan Putuoshan",
+    "coordinate": [
+      122.361562,
+      29.933783
+    ],
+    "icao": "ZSZS",
+    "division": "PRC",
+    "fir": "ZSHA",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWAK": {
+    "name": "Akesu Hongqipo",
+    "coordinate": [
+      80.289491,
+      41.263224
+    ],
+    "icao": "ZWAK",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWAL": {
+    "name": "Alae Talimu",
+    "coordinate": [
+      81.264179,
+      40.435818
+    ],
+    "icao": "ZWAL",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWAT": {
+    "name": "Aletai Xuedu",
+    "coordinate": [
+      88.084709,
+      47.750615
+    ],
+    "icao": "ZWAT",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWBL": {
+    "name": "Bole Alashankou",
+    "coordinate": [
+      82.30042,
+      44.895052
+    ],
+    "icao": "ZWBL",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWCM": {
+    "name": "Qiemo Yudu",
+    "coordinate": [
+      85.463559,
+      38.234302
+    ],
+    "icao": "ZWCM",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWFY": {
+    "name": "Fuyun Keketuohai",
+    "coordinate": [
+      89.51158,
+      46.804803
+    ],
+    "icao": "ZWFY",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWHJ": {
+    "name": "Hejing Bayinbuluke",
+    "coordinate": [
+      83.9856667,
+      42.965444
+    ],
+    "icao": "ZWHJ",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWHM": {
+    "name": "Hami Yizhou",
+    "coordinate": [
+      93.668973,
+      42.841018
+    ],
+    "icao": "ZWHM",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWHZ": {
+    "name": "Shihezi Huayuan",
+    "coordinate": [
+      85.89013,
+      44.241603
+    ],
+    "icao": "ZWHZ",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWKC": {
+    "name": "Kuqa Qiuci",
+    "coordinate": [
+      82.871927,
+      41.677386
+    ],
+    "icao": "ZWKC",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWKL": {
+    "name": "Korla Licheng",
+    "coordinate": [
+      86.142151,
+      41.615245
+    ],
+    "icao": "ZWKL",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWKM": {
+    "name": "Kelamayi Guhai",
+    "coordinate": [
+      84.953191,
+      45.465683
+    ],
+    "icao": "ZWKM",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWKN": {
+    "name": "Bu'erjin Kanas",
+    "coordinate": [
+      86.99656,
+      48.222634
+    ],
+    "icao": "ZWKN",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWLK": {
+    "name": "Balikun Dahe",
+    "coordinate": [
+      93.138056,
+      43.756111
+    ],
+    "icao": "ZWLK",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWLT": {
+    "name": "Bayinguoleng Luntai",
+    "coordinate": [
+      84.281742,
+      41.583308
+    ],
+    "icao": "ZWLT",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWNL": {
+    "name": "Xinyuan Nalati",
+    "coordinate": [
+      83.376524,
+      43.432276
+    ],
+    "icao": "ZWNL",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWQT": {
+    "name": "Qitai Jiangbulake",
+    "coordinate": [
+      89.558333,
+      44.160556
+    ],
+    "icao": "ZWQT",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWRQ": {
+    "name": "Ruoqiang Loulan",
+    "coordinate": [
+      88.008889,
+      38.974349
+    ],
+    "icao": "ZWRQ",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWSC": {
+    "name": "Shache Ye'erqiang",
+    "coordinate": [
+      77.056924,
+      38.243812
+    ],
+    "icao": "ZWSC",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWSH": {
+    "name": "Kashi Laining",
+    "coordinate": [
+      76.021193,
+      39.54273
+    ],
+    "icao": "ZWSH",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWTC": {
+    "name": "Tacheng Qianquan",
+    "coordinate": [
+      83.340693,
+      46.672369
+    ],
+    "icao": "ZWTC",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWTK": {
+    "name": "Tashiku'ergan Hongqilafu",
+    "coordinate": [
+      75.288024,
+      37.663519
+    ],
+    "icao": "ZWTK",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWTL": {
+    "name": "Turpan Jiaohe",
+    "coordinate": [
+      89.098922,
+      43.03183
+    ],
+    "icao": "ZWTL",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWTN": {
+    "name": "Hetian Kungang",
+    "coordinate": [
+      79.865872,
+      37.032448
+    ],
+    "icao": "ZWTN",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWTS": {
+    "name": "Tumushuke Tangwangcheng",
+    "coordinate": [
+      79.234757,
+      39.889269
+    ],
+    "icao": "ZWTS",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWWW": {
+    "name": "Urumqi Tianshan",
+    "coordinate": [
+      87.47623,
+      43.904836
+    ],
+    "icao": "ZWWW",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWYN": {
+    "name": "Yining",
+    "coordinate": [
+      81.33305,
+      43.95062
+    ],
+    "icao": "ZWYN",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWYT": {
+    "name": "Yutian Wanfang",
+    "coordinate": [
+      81.783636,
+      36.809145
+    ],
+    "icao": "ZWYT",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZWZS": {
+    "name": "Zhaosu Tianma",
+    "coordinate": [
+      81.225104,
+      43.087156
+    ],
+    "icao": "ZWZS",
+    "division": "PRC",
+    "fir": "ZWUQ",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYAS": {
+    "name": "Anshan Teng'ao",
+    "coordinate": [
+      122.852721,
+      41.107035
+    ],
+    "icao": "ZYAS",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYBA": {
+    "name": "Baicheng Chang'an",
+    "coordinate": [
+      123.02051,
+      45.504546
+    ],
+    "icao": "ZYBA",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYBS": {
+    "name": "Baishan Changbaishan",
+    "coordinate": [
+      127.601825,
+      42.067865
+    ],
+    "icao": "ZYBS",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYCC": {
+    "name": "Changchun Longjia",
+    "coordinate": [
+      125.686675,
+      43.997632
+    ],
+    "icao": "ZYCC",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYCH": {
+    "name": "Changhai",
+    "coordinate": [
+      122.666456,
+      39.26552
+    ],
+    "icao": "ZYCH",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYCY": {
+    "name": "Chaoyang",
+    "coordinate": [
+      120.43441,
+      41.537634
+    ],
+    "icao": "ZYCY",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYDD": {
+    "name": "Dandong Langtou",
+    "coordinate": [
+      124.286485,
+      40.026015
+    ],
+    "icao": "ZYDD",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYDQ": {
+    "name": "Daqing Sartu",
+    "coordinate": [
+      125.229242,
+      46.586787
+    ],
+    "icao": "ZYDQ",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYDU": {
+    "name": "Wudalianchi Dedu",
+    "coordinate": [
+      126.129612,
+      48.440236
+    ],
+    "icao": "ZYDU",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYFY": {
+    "name": "Fuyuan Dongji",
+    "coordinate": [
+      134.363886,
+      48.196733
+    ],
+    "icao": "ZYFY",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYHB": {
+    "name": "Harbin Taiping",
+    "coordinate": [
+      126.250494,
+      45.623947
+    ],
+    "icao": "ZYHB",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYHE": {
+    "name": "Heihe Aihui",
+    "coordinate": [
+      127.308353,
+      50.172119
+    ],
+    "icao": "ZYHE",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYJD": {
+    "name": "Daxing'anling Oroqen",
+    "coordinate": [
+      124.117888,
+      50.370563
+    ],
+    "icao": "ZYJD",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYJM": {
+    "name": "Jiamusi",
+    "coordinate": [
+      130.464684,
+      46.844202
+    ],
+    "icao": "ZYJM",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYJS": {
+    "name": "Jiansanjiang Shidi",
+    "coordinate": [
+      132.657229,
+      47.108232
+    ],
+    "icao": "ZYJS",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYJX": {
+    "name": "Jixi Xingkaihu",
+    "coordinate": [
+      131.193757,
+      45.293874
+    ],
+    "icao": "ZYJX",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYJZ": {
+    "name": "Jinzhou Jinzhouwan",
+    "coordinate": [
+      121.276965,
+      40.936636
+    ],
+    "icao": "ZYJZ",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYLD": {
+    "name": "Yichun Lindu",
+    "coordinate": [
+      128.828894,
+      47.718281
+    ],
+    "icao": "ZYLD",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYMD": {
+    "name": "Mudanjiang Hailang",
+    "coordinate": [
+      129.569319,
+      44.524005
+    ],
+    "icao": "ZYMD",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYMH": {
+    "name": "Mohe Gulian",
+    "coordinate": [
+      122.4212,
+      52.920418
+    ],
+    "icao": "ZYMH",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYQQ": {
+    "name": "Qiqihar Sanjiazi",
+    "coordinate": [
+      123.908469,
+      47.227544
+    ],
+    "icao": "ZYQQ",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYSD": {
+    "name": "Suifenhe Dongning",
+    "coordinate": [
+      130.847785,
+      44.456901
+    ],
+    "icao": "ZYSD",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYSQ": {
+    "name": "Songyuan Chaganhu",
+    "coordinate": [
+      124.552536,
+      44.931088
+    ],
+    "icao": "ZYSQ",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYTL": {
+    "name": "Dalian Zhoushuizi",
+    "coordinate": [
+      121.530568,
+      38.959111
+    ],
+    "icao": "ZYTL",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYTN": {
+    "name": "Tonghua Sanyuanpu",
+    "coordinate": [
+      125.73317,
+      42.048312
+    ],
+    "icao": "ZYTN",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYTX": {
+    "name": "Shenyang Taoxian",
+    "coordinate": [
+      123.485889,
+      41.639256
+    ],
+    "icao": "ZYTX",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYYJ": {
+    "name": "Yanji Chaoyangchuan",
+    "coordinate": [
+      129.451457,
+      42.8835
+    ],
+    "icao": "ZYYJ",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ZYYK": {
+    "name": "Yingkou Lanqi",
+    "coordinate": [
+      122.359052,
+      40.542243
+    ],
+    "icao": "ZYYK",
+    "division": "PRC",
+    "fir": "ZYSH",
+    "positions": [],
+    "resolvedPositions": [],
+    "callsigns": [
+      {
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "ULLI": {
+    "name": "Pulkovo",
+    "iata": "LED",
+    "city": "St. Petersburg",
+    "coordinate": [
+      30.265,
+      59.8
+    ],
+    "elevationFt": 79,
+    "briefing": "https://vatsim-petersburg.com",
+    "runways": [
+      {
+        "name": "10L",
+        "course": 95,
+        "widthMeters": 60,
+        "lengthMeters": 3397,
+        "similar": "28R",
+        "approach": "ILS_CAT_IIIA",
+        "approachFrequency": 110500000
+      },
+      {
+        "name": "28R",
+        "course": 275,
+        "similar": "10L",
+        "approach": "ILS_CAT_IIIA",
+        "approachFrequency": 111300000
+      },
+      {
+        "name": "10R",
+        "course": 95,
+        "widthMeters": 60,
+        "lengthMeters": 3780,
+        "similar": "28L",
+        "approach": "ILS_CAT_II",
+        "approachFrequency": 111900000
+      },
+      {
+        "name": "28L",
+        "course": 275,
+        "similar": "10R",
+        "approach": "ILS_CAT_I",
+        "approachFrequency": 108900000
+      }
+    ],
+    "positions": [
+      {
+        "id": "position:ULLL/ULLI-APP"
+      }
+    ],
+    "icao": "ULLI",
+    "division": "RUS",
+    "fir": "ULLL",
+    "resolvedPositions": [
+      {
+        "id": "position:ULLL/ULLI-APP"
+      },
+      {
+        "id": "position:ULLL/ULLL-APP"
+      },
+      {
+        "id": "position:ULLL/ULLL-R3"
+      },
+      {
+        "id": "position:ULLL/ULLL-SW"
+      },
+      {
+        "id": "position:ULLL/ULLL-R"
+      },
+      {
+        "id": "position:ULLL/ULLL"
+      },
+      {
+        "id": "position:NWC"
+      }
+    ],
+    "callsigns": [
+      {
+        "prefixes": [
+          "UL"
+        ],
+        "suffixes": [
+          "CTR"
+        ],
+        "callsign": "Control"
+      }
+    ]
+  },
+  "KBOS": {
+    "name": "Boston Logan Intl MA",
+    "iata": "BOS",
+    "coordinate": [
+      -71.005189,
+      42.364347
+    ],
+    "positions": [
+      {
+        "id": "position:KZBW/KZBW"
+      }
+    ],
+    "icao": "KBOS",
+    "division": "VATUSA",
+    "fir": "KZBW",
+    "resolvedPositions": [
+      {
+        "id": "position:KZBW/KZBW"
+      }
+    ]
+  }
+}

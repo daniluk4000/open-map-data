@@ -1,0 +1,56 @@
+{
+  "ZGGG-APP": {
+    "name": "Guangzhou Approach",
+    "prefixes": [
+      "ZGGG"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZGHA-APP": {
+    "name": "Changsha Approach",
+    "prefixes": [
+      "ZGHA"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZGKL-APP": {
+    "name": "Guilin Approach",
+    "prefixes": [
+      "ZGKL"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZGNN-APP": {
+    "name": "Nanning Approach",
+    "prefixes": [
+      "ZGNN"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZGOW-APP": {
+    "name": "Shantou Approach",
+    "prefixes": [
+      "ZGOW"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  },
+  "ZGZJ-APP": {
+    "name": "Zhanjiang Approach",
+    "prefixes": [
+      "ZGZJ"
+    ],
+    "suffixes": [
+      "APP"
+    ]
+  }
+}

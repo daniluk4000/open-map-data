@@ -1,0 +1,80 @@
+{
+  "ZWWW": {
+    "name": "Urumqi ACC - Urumqi FIR - Urumqi",
+    "prefixes": [
+      "ZWWW"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      84.611535,
+      40.171251
+    ]
+  },
+  "ZWWW-WUE": {
+    "name": "Urumqi ACC East Sector - Urumqi FIR - Urumqi",
+    "prefixes": [
+      "ZWWW_E"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      91.166638,
+      42.841105
+    ]
+  },
+  "ZWWW-WUS": {
+    "name": "Urumqi ACC South Sector - Urumqi FIR - Urumqi",
+    "prefixes": [
+      "ZWWW_S"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      82.233877,
+      37.088978
+    ]
+  },
+  "ZWWW-WUS1": {
+    "name": "Urumqi ACC South 1 Sector - Urumqi FIR - Urumqi",
+    "prefixes": [
+      "ZWWW_S1"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      86.249138,
+      38.611923
+    ]
+  },
+  "ZWWW-WUW": {
+    "name": "Urumqi ACC West Sector - Urumqi FIR - Urumqi",
+    "prefixes": [
+      "ZWWW_W"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      84.660069,
+      44.390165
+    ]
+  },
+  "ZWWW-WUW1": {
+    "name": "Urumqi ACC West 1 Sector - Urumqi FIR - Urumqi",
+    "prefixes": [
+      "ZWWW_W1"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      85.923718,
+      46.022818
+    ]
+  }
+}

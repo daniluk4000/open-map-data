@@ -1,0 +1,28 @@
+{
+  "ZLXY": {
+    "name": "Xi'an ACC - Lanzhou FIR - Xi'an",
+    "prefixes": [
+      "ZLXY"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      110.009582,
+      36.896665
+    ]
+  },
+  "ZLXY-XAS": {
+    "name": "Xi'an ACC South Sector - Lanzhou FIR - Xi'an",
+    "prefixes": [
+      "ZLXY_S"
+    ],
+    "suffixes": [
+      "CTR"
+    ],
+    "labelCoordinate": [
+      108.346829,
+      33.999409
+    ]
+  }
+}

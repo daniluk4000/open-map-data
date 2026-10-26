@@ -1,0 +1,8 @@
+{
+  "KBOS": {
+    "name": "Boston Logan Intl MA",
+    "iata": "BOS",
+    "coordinate": [-71.005189, 42.364347],
+    "positions": ["KZBW"]
+  }
+}

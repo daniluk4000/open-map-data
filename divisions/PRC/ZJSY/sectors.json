@@ -1,0 +1,34 @@
+{
+  "ZJSY": {
+    "volumes": [
+      "ZJSY"
+    ],
+    "positions": [
+      "ZJSY"
+    ]
+  },
+  "ZJSY-SAL": {
+    "volumes": [
+      "ZJSY-SAL"
+    ],
+    "positions": [
+      "ZJSY-SAL"
+    ]
+  },
+  "ZJSY-SAN": {
+    "volumes": [
+      "ZJSY-SAN"
+    ],
+    "positions": [
+      "ZJSY-SAN"
+    ]
+  },
+  "ZJSY-SAO": {
+    "volumes": [
+      "ZJSY-SAO"
+    ],
+    "positions": [
+      "ZJSY-SAO"
+    ]
+  }
+}

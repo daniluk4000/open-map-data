@@ -1,0 +1,82 @@
+{
+  "ZBAA-APP": {
+    "volumes": [
+      "ZBAA-APP"
+    ],
+    "positions": [
+      "ZBAA-APP"
+    ]
+  },
+  "ZBAA_AA-APP": {
+    "volumes": [
+      "ZBAA_AA-APP"
+    ],
+    "positions": [
+      "ZBAA_AA-APP"
+    ]
+  },
+  "ZBAA_AD-APP": {
+    "volumes": [
+      "ZBAA_AD-APP"
+    ],
+    "positions": [
+      "ZBAA_AD-APP"
+    ]
+  },
+  "ZBAA_S-APP": {
+    "volumes": [
+      "ZBAA_S-APP"
+    ],
+    "positions": [
+      "ZBAA_S-APP"
+    ]
+  },
+  "ZBAA_W-APP": {
+    "volumes": [
+      "ZBAA_W-APP"
+    ],
+    "positions": [
+      "ZBAA_W-APP"
+    ]
+  },
+  "ZBHH-APP": {
+    "volumes": [
+      "ZBHH-APP"
+    ],
+    "positions": [
+      "ZBHH-APP"
+    ]
+  },
+  "ZBLA-APP": {
+    "volumes": [
+      "ZBLA-APP"
+    ],
+    "positions": [
+      "ZBLA-APP"
+    ]
+  },
+  "ZBSJ-APP": {
+    "volumes": [
+      "ZBSJ-APP"
+    ],
+    "positions": [
+      "ZBSJ-APP"
+    ]
+  },
+  "ZBTJ-APP": {
+    "volumes": [
+      "ZBTJ-APP"
+    ],
+    "positions": [
+      "ZBTJ-APP"
+    ]
+  },
+  "ZBYN-APP": {
+    "volumes": [
+      "ZBYN-APP"
+    ],
+    "positions": [
+      "ZBYN-APP"
+    ]
+  }
+}
