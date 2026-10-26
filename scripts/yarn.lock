@@ -1755,6 +1755,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^26.6.5":
+  version: 26.6.5
+  resolution: "@types/node@npm:26.6.5"
+  dependencies:
+    undici-types: "npm:~8.9.0"
+  checksum: 10c0/4f791f69466ace7842c09e7bef96cb1ddbb65cf3db916ef7e84f0e2b2a17220b6b816dc7539d01520cadfb17ed7169b8214910900493e0a83be8bc7d124ec20a
+  languageName: node
+  linkType: hard
+
 "@typescript/typescript-aix-ppc64@npm:7.0.2":
   version: 7.0.2
   resolution: "@typescript/typescript-aix-ppc64@npm:7.0.2"
@@ -2050,6 +2059,8 @@ __metadata:
 "open-map-data@workspace:.":
   version: 0.0.0-use.local
   resolution: "open-map-data@workspace:."
+  dependencies:
+    "@types/node": "npm:^26.6.5"
   languageName: unknown
   linkType: soft
 

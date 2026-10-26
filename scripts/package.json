@@ -6,6 +6,9 @@
     "compile": "yarn workspace internal compile",
     "migration": "yarn workspace internal migration"
   },
+  "devDependencies": {
+    "@types/node": "^26.6.5"
+  },
   "workspaces": [
     "packages/*"
   ],
